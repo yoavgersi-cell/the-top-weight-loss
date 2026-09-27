@@ -140,8 +140,8 @@ export const weightLossConfig: SiteConfig = {
       name: "Ro",
       tagline:
         "Brand-name, FDA-approved GLP-1s only - Wegovy, Zepbound, Ozempic and Foundaya - with an insurance concierge",
-      logo: "/logos/ro.svg",
-      smallLogo: "/logos/ro-icon.svg",
+      logo: "/logos/roweightlosslogo.png",
+      smallLogo: "/logos/roweightlosslogo.png",
       highlights: [
         "FDA-approved brand-name medication only",
         "Insurance checks & prior authorizations handled",
