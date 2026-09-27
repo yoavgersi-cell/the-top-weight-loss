@@ -276,7 +276,7 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         roughly 16-17 months, but individual results vary widely and nothing is guaranteed.
       </p>
 
-      <h3 className="mb-2 text-[18px] font-bold text-[#191919]">Does insurance cover GLP-1s for weight loss?</h3>
+      <h3 className="mb-2 text-[18px] font-bold text-[#191919]">Will my insurance pay for a GLP-1?</h3>
       <p className="mb-4">
         Sometimes, for brand-name drugs - coverage depends on your plan and often needs prior
         authorization. Compounded GLP-1s are almost always cash-pay, though HSA/FSA funds can often be

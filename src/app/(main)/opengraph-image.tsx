@@ -61,7 +61,7 @@ export default function OGImage() {
             marginBottom: "24px",
           }}
         >
-          Best GLP-1 Weight Loss Providers 2026
+          The Top GLP-1 Weight Loss Programs of 2026
         </div>
         <div
           style={{

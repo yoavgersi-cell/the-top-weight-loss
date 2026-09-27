@@ -157,7 +157,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "AltRx's parent, Trinity HealthCare Supply, LLC (dba AltRx), received an FDA warning letter dated June 8, 2026 over false or misleading claims about its compounded semaglutide and tirzepatide, including labeling that implied FDA approval. TrimRx has no comparable action on record; it holds a 3.7/5 Trustpilot score from 5,670 reviews.",
+          "AltRx's parent, Trinity HealthCare Supply, LLC (dba AltRx), received an FDA warning letter dated June 8, 2026 - the regulator took issue with claims and labels that made AltRx's compounded semaglutide and tirzepatide appear FDA-approved. TrimRx has no comparable action on record; it holds a 3.7/5 Trustpilot score from 5,670 reviews.",
         supportingPoints: ["AltRx: June 2026 FDA warning letter", "TrimRx: 3.7/5 on Trustpilot (5,670 reviews)"],
       },
     ],

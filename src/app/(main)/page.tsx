@@ -15,13 +15,13 @@ const SITE_URL = "https://www.thetopweightloss.com";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Best GLP-1 Weight Loss Providers (2026) - Top Online Programs Compared",
+    absolute: "Top GLP-1 Weight Loss Programs (2026): Online Providers Ranked by Real Price",
   },
   description:
     "Compare the best online GLP-1 weight loss providers of 2026. embody, Ro, AltRx, TrimRx, WellMedr and MEDVi ranked by verified price, semaglutide and tirzepatide access, clinical support and transparency.",
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: "Best GLP-1 Weight Loss Providers (2026) - Top Online Programs Compared",
+    title: "Top GLP-1 Weight Loss Programs (2026): Online Providers Ranked by Real Price",
     description:
       "The top online GLP-1 weight loss programs of 2026 - ranked by verified price, medication, support and value.",
     url: SITE_URL,
@@ -90,7 +90,7 @@ export default async function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Best GLP-1 Weight Loss Providers (2026) - Top Online Programs Compared",
+    name: "Top GLP-1 Weight Loss Programs (2026): Online Providers Ranked by Real Price",
     description:
       "Compare verified pricing, medication options, clinical support and overall value across the top online GLP-1 weight loss providers of 2026.",
     url: SITE_URL,

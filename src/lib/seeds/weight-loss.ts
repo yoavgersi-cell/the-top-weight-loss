@@ -79,7 +79,7 @@ export const weightLossConfig: SiteConfig = {
     backgroundImageUrl: "",
     imageAlt: "GLP-1 weight loss injection pen",
     updatedLabel: "Last Updated: September 2026",
-    h1: "Best GLP-1 Weight Loss Providers of 2026",
+    h1: "The Top GLP-1 Weight Loss Programs of 2026",
     h2: "Top online GLP-1 programs, ranked & reviewed",
     description:
       "Licensed GLP-1 clinics ranked by verified price - compounded semaglutide from $49/mo and brand-name Wegovy and Zepbound.",
@@ -419,7 +419,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A flat-price compounded GLP-1 program - semaglutide $89/month and tirzepatide $149/month on promo, the same at every dose - with a brand-name shelf, but it received an FDA warning letter in June 2026.",
       reviewIntro:
-        "AltRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy at self-pay list prices in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to AltRx's parent company, Trinity HealthCare Supply, LLC (dba AltRx), over false or misleading claims about its compounded semaglutide and tirzepatide, including labeling that implied FDA approval. Compounded GLP-1s are not FDA-approved. This review covers AltRx's pricing, how it works and how to weigh that letter.",
+        "AltRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy at self-pay list prices in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to AltRx's parent company, Trinity HealthCare Supply, LLC (dba AltRx), because, in the agency's view, its marketing and labels made its compounded semaglutide and tirzepatide look FDA-approved. Compounded GLP-1s are not FDA-approved. This review covers AltRx's pricing, how it works and how to weigh that letter.",
       keyFeatures: [
         "Compounded semaglutide $89/month and tirzepatide $149/month (promo rates)",
         "Flat price at every dose - no increase as you titrate up",
@@ -443,7 +443,7 @@ export const weightLossConfig: SiteConfig = {
         "No commitment, plus Buy Now, Pay Later",
       ],
       cons: [
-        "FDA warning letter (June 8, 2026) to its parent company over false or misleading claims about its compounded GLP-1s, including labeling that implied FDA approval",
+        "FDA warning letter (June 8, 2026) to its parent company saying its marketing overstated its compounded GLP-1s and its labels suggested FDA approval",
         "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
         "Promo prices are time-limited; regular prices ($199 / $299) are among the highest on our list",
         "Slower delivery than rivals - 5-7 days",
@@ -455,7 +455,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if an FDA warning letter is a deal-breaker for you, or if you need medication fast - embody ships in 1-2 days",
       ],
       finalVerdict:
-        "AltRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba AltRx), citing false or misleading claims about its compounded semaglutide and tirzepatide, including labeling that implied FDA approval. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and Ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
+        "AltRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba AltRx), objecting to website claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved drugs. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and Ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -806,7 +806,7 @@ export const weightLossConfig: SiteConfig = {
         "At current advertised rates among the providers we rank, compounded semaglutide ranges from $49/month (WellMedr, on a 12-month plan) to $149/month (TrimRx), and compounded tirzepatide from $89/month to $259/month. Brand-name medication without insurance typically costs over $1,000/month at self-pay list prices, although insurance can bring it far lower. Always check whether a price is promotional, requires a long commitment, or rises with your dose.",
     },
     {
-      question: "Does insurance cover GLP-1s for weight loss?",
+      question: "Will insurance pay for semaglutide or tirzepatide?",
       answer:
         "Sometimes. Some commercial plans cover Wegovy or Zepbound for weight management, usually with a prior authorization, while many plans exclude weight-loss drugs. Compounded GLP-1s are almost always cash-pay, though HSA/FSA funds can often be used. If you think you may be covered, a provider with an insurance concierge, such as Ro, can check and handle the prior authorization for you.",
     },

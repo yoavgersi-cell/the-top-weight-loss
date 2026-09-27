@@ -426,7 +426,7 @@ export interface SiteConfig {
 // page. The blob merge in config-store applies this over any CMS-saved hero.
 export const WEIGHT_LOSS_HERO_TEXT = {
   updatedLabel: "Last Updated: September 2026",
-  h1: "Best GLP-1 Weight Loss Providers of 2026",
+  h1: "The Top GLP-1 Weight Loss Programs of 2026",
   h2: "The top online GLP-1 weight loss programs, ranked and verified",
   description:
     "Licensed GLP-1 clinics ranked by verified price - from $59/mo semaglutide and $99/mo tirzepatide.",
