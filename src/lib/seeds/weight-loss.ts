@@ -5,13 +5,14 @@ import { weightLossArticles } from "./weight-loss-articles";
 // GLP-1 weight-loss vertical content - thetopweightloss.com
 //
 // Launch content for "The Top Weight Loss", an independent comparison site for
-// online (telehealth) GLP-1 weight-loss providers in the US. Five providers:
+// online (telehealth) GLP-1 weight-loss providers in the US. Six providers:
 // embody (the anchor - lowest no-commitment compounded price, 1-2 day
 // shipping), Ro (brand-name, FDA-approved medication only, with an insurance
 // concierge), AltRx (flat price at every dose plus a brand-name shelf - carries
 // a June 2026 FDA warning letter, disclosed in its review), TrimRx (custom
-// dosing, unlimited provider check-ins) and WellMedr (lowest long-run price on
-// a 12-month plan). Editorial is original and compliance-minded (YMYL): no
+// dosing, unlimited provider check-ins), WellMedr (lowest long-run price on
+// a 12-month plan) and MEDVi (all-inclusive price with clinician visits,
+// dietitian access and coaching bundled in). Editorial is original and compliance-minded (YMYL): no
 // guaranteed-results claims, compounded GLP-1s are never called FDA-approved,
 // trial figures are cited as averages ("results vary"), and every review is
 // clear that a licensed clinician decides whether treatment is appropriate.
@@ -42,13 +43,20 @@ import { weightLossArticles } from "./weight-loss-articles";
 //    every 4 weeks, same price at every dose; GLP-1 + NAD+/B12 microdose
 //    option; brand shelf Ozempic $1,399, Zepbound $1,599 per month; ships in
 //    3-5 business days; all 50 states; Trustpilot 4.6 / 5 from 1,919 reviews.
+//  - MEDVi: compounded semaglutide $99/mo promo (reg. $199), tirzepatide
+//    $166/mo promo (reg. $299); all-inclusive - clinician visits, dietitian
+//    access and coaching included; free shipping; no membership or hidden
+//    fees; no commitment; HSA/FSA accepted; licensed US clinicians; brand-name
+//    options via the clinician; Trustpilot 4.3 / 5 from 14,836 reviews.
 //
 // PLACEHOLDERS / OPERATOR TO VERIFY:
-//  - Promo prices (embody, AltRx, TrimRx discount code) are time-limited -
+//  - Promo prices (embody, AltRx, TrimRx discount code, MEDVi) are time-limited -
 //    re-check each checkout before relying on them.
 //  - WellMedr's month-to-month semaglutide price is "advertised around $88/mo"
 //    and its tirzepatide $89/mo commitment term was not confirmed - copy says
 //    so.
+//  - MEDVi: brand-name prices, delivery times and state coverage were not
+//    provided - none are asserted.
 //  - Ro's medication prices are not asserted (insurance / manufacturer
 //    self-pay pricing varies). No Ro or AltRx Trustpilot figures are set.
 //  - State coverage (`excludedStates`) is not set for any provider; TrimRx is
@@ -96,13 +104,14 @@ export const weightLossConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr"],
+    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr", "medvi"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
       { score: 9.3, starRating: 5, label: "Excellent" },
       { score: 9.1, starRating: 4, label: "Excellent" },
       { score: 8.9, starRating: 4, label: "Very Good" },
+      { score: 8.7, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -155,7 +164,7 @@ export const weightLossConfig: SiteConfig = {
         "No commitment - Buy Now, Pay Later",
       ],
       affiliateUrl:
-        "https://altrx.com/glp1/offer-v9?sub1=&sub2=&sub3=&sub4=&sub5=&_ef_transaction_id=&utm_source=partners&utm_campaign=id_21&utm_affiliate=21&ef=n&ef_oid=108&ef_aid=21&uid=95&oid=108&affid=21&uid=1910&oid2=5043&affid2=1952",
+        "https://altrx.com/glp1/offer-v9?sub1=1952&utm_source=partners&utm_campaign=id_21&utm_affiliate=21&uid=95&oid=108&affid=21&pub=1952&oid2=5043&affid2=1952",
       ctaText: "Visit Site",
     },
     {
@@ -194,6 +203,24 @@ export const weightLossConfig: SiteConfig = {
       ctaText: "Visit Site",
       trustpilotRating: "4.6",
       trustpilotReviewCount: "1,919",
+    },
+    {
+      id: "medvi",
+      name: "MEDVi",
+      tagline:
+        "All-inclusive compounded GLP-1 care - clinician visits, dietitian access and coaching bundled into one monthly price",
+      logo: "/logos/medvi.svg",
+      smallLogo: "/logos/medvi-icon.svg",
+      highlights: [
+        "Semaglutide $99/mo, tirzepatide $166/mo (promo)",
+        "Clinician visits, dietitian & coaching included",
+        "No membership or hidden fees",
+        "No commitment, HSA/FSA accepted",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1265&aff_id=12904",
+      ctaText: "Visit Site",
+      trustpilotRating: "4.3",
+      trustpilotReviewCount: "14,836",
     },
   ],
 
@@ -660,6 +687,98 @@ export const weightLossConfig: SiteConfig = {
         },
       ],
       trustBadges: ["Board-certified clinicians", "All 50 states", "Same price at every dose"],
+      updatedAt: UPDATED,
+    {
+      slug: "medvi",
+      providerId: "medvi",
+      shortSummary:
+        "An all-inclusive compounded GLP-1 program - semaglutide $99/month and tirzepatide $166/month on promo - with clinician visits, dietitian access and coaching included, no membership fees and no commitment.",
+      reviewIntro:
+        "MEDVi takes a different approach to pricing from most GLP-1 telehealth brands: instead of a low medication price with add-ons, it bundles everything into one monthly figure. Clinician visits, access to a dietitian and coaching are all included, shipping is free, and there is no separate membership or hidden fee. Plans carry no commitment and HSA/FSA funds are accepted. Licensed US clinicians handle prescribing, and brand-name options are available through your clinician if compounded medication is not the right fit. It also has one of the largest review bases on our list - 4.3 / 5 from 14,836 Trustpilot reviews. As with every compounded program, the medication is not FDA-approved. This review covers what MEDVi costs, what the bundle includes and who it suits.",
+      keyFeatures: [
+        "Compounded semaglutide $99/month and tirzepatide $166/month (promo rates)",
+        "All-inclusive: clinician visits, dietitian access and coaching in the price",
+        "No membership fee and no hidden fees",
+        "No commitment; HSA/FSA accepted",
+        "Licensed US clinicians; brand-name options via your clinician",
+        "Free shipping",
+      ],
+      pricingSummary:
+        "MEDVi charges one all-inclusive monthly price: compounded semaglutide is $99/month on promo (regular $199) and compounded tirzepatide is $166/month on promo (regular $299). Clinician visits, dietitian access, coaching and shipping are included, with no membership or hidden fees and no commitment. HSA/FSA funds are accepted. The promo rates are time-limited - after the promotion the regular prices are among the highest on our list, so confirm which rate applies at checkout. Brand-name options are available through your clinician at separate pricing. Compounded GLP-1s are not FDA-approved.",
+      treatmentOptions: [
+        "Compounded semaglutide",
+        "Compounded tirzepatide",
+        "Brand-name GLP-1 options via your clinician",
+        "Dietitian access and coaching included",
+      ],
+      pros: [
+        "Genuinely all-inclusive - clinician visits, dietitian access and coaching in one price",
+        "No membership or hidden fees, and no commitment",
+        "Strong customer feedback at scale (4.3 / 5 from 14,836 Trustpilot reviews)",
+        "Brand-name options available through the same clinician",
+        "HSA/FSA accepted, free shipping",
+      ],
+      cons: [
+        "Higher promo prices than embody or WellMedr - $99 semaglutide and $166 tirzepatide",
+        "Regular prices ($199 / $299) are steep once the promotion ends",
+        "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
+        "If you do not need coaching or a dietitian, you are paying for support you will not use",
+      ],
+      bestFor: [
+        "People who want nutrition and coaching support bundled with their medication",
+        "Anyone who wants one predictable price with no membership or add-on fees",
+        "Those who value a large, well-rated customer base",
+        "Skip it if you only want the medication at the lowest price - embody and WellMedr cost less",
+      ],
+      finalVerdict:
+        "MEDVi is the best fit on our list for people who want more than a prescription: clinician visits, dietitian access and coaching all come in one price, with no membership, no hidden fees and no commitment. Its Trustpilot record - 4.3 / 5 across more than 14,000 reviews - is reassuring. It ranks sixth because it costs more than leaner programs for the medication alone, and its regular prices after the promotion are high. If you value structured support around diet and habits - which matters for keeping weight off - MEDVi is worth the premium; if you just want the medication, choose embody or WellMedr. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+      pricingPlans: [
+        {
+          name: "Semaglutide",
+          medication: "Compounded semaglutide",
+          price: "$99",
+          regularPrice: "$199",
+          unit: "/mo",
+          cadence: "Promo rate - no commitment",
+          highlights: ["Clinician visits included", "Dietitian access & coaching", "No membership or hidden fees"],
+        },
+        {
+          name: "Tirzepatide",
+          medication: "Compounded tirzepatide",
+          price: "$166",
+          regularPrice: "$299",
+          unit: "/mo",
+          cadence: "Promo rate - no commitment",
+          highlights: ["All-inclusive price", "Free shipping", "HSA/FSA accepted"],
+        },
+      ],
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Online intake",
+          detail:
+            "Complete a health questionnaire covering your weight, history, goals and current medications.",
+        },
+        {
+          timing: "Step 2",
+          title: "Clinician visit",
+          detail:
+            "A licensed US clinician reviews your history and decides whether a GLP-1 is appropriate - compounded or brand-name - and at what dose.",
+        },
+        {
+          timing: "Step 3",
+          title: "Delivery",
+          detail:
+            "If prescribed, medication ships free, with no membership or hidden fees on top of your monthly price.",
+        },
+        {
+          timing: "Ongoing",
+          title: "Dietitian and coaching support",
+          detail:
+            "Use the included dietitian access and coaching alongside clinician follow-ups as your dose is adjusted.",
+        },
+      ],
+      trustBadges: ["Licensed US clinicians", "Dietitian & coaching included", "No hidden fees"],
       updatedAt: UPDATED,
     },
   ],
