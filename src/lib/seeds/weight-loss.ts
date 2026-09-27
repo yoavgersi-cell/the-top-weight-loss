@@ -210,8 +210,8 @@ export const weightLossConfig: SiteConfig = {
       name: "MEDVi",
       tagline:
         "All-inclusive compounded GLP-1 care - clinician visits, dietitian access and coaching bundled into one monthly price",
-      logo: "/logos/medvi.svg",
-      smallLogo: "/logos/medvi-icon.svg",
+      logo: "/logos/medviweightlosslogo.webp",
+      smallLogo: "/logos/medviweightlosslogo.webp",
       highlights: [
         "Semaglutide $99/mo, tirzepatide $166/mo (promo)",
         "Clinician visits, dietitian & coaching included",
