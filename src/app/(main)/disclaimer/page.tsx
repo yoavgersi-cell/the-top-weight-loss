@@ -18,7 +18,7 @@ export default function DisclaimerPage() {
           FTC Disclosure
         </h2>
         <p>
-          In accordance with the Federal Trade Commission guidelines, HRT Women
+          In accordance with the Federal Trade Commission guidelines, The Top Weight Loss
           discloses that this website contains affiliate links. When you click
           on a link and make a purchase or sign up for a service, we may receive
           a commission at no additional cost to you.
@@ -28,8 +28,8 @@ export default function DisclaimerPage() {
           Affiliate Relationships
         </h2>
         <p>
-          HRT Women participates in affiliate programs with various menopause and hormone
-          therapy providers and telehealth platforms. This means we may earn
+          The Top Weight Loss participates in affiliate programs with various online weight loss
+          providers and telehealth platforms. This means we may earn
           referral fees when visitors click through our links and complete
           qualifying actions. These relationships help support the operation of
           this website.
@@ -40,8 +40,8 @@ export default function DisclaimerPage() {
         </h2>
         <p>
           Our affiliate relationships do not influence our rankings or reviews.
-          Providers are evaluated based on objective criteria including clinician
-          expertise, treatment range, pricing transparency, and user feedback. We are committed to
+          Providers are evaluated based on objective criteria including clinical
+          oversight, medication access, transparency about compounded vs brand-name medication, pricing transparency, and user feedback. We are committed to
           providing honest, independent assessments regardless of compensation.
         </p>
 
@@ -49,10 +49,11 @@ export default function DisclaimerPage() {
           Medical Disclaimer
         </h2>
         <p>
-          The content on HRT Women is for general information purposes only and is not
-          intended as medical advice. Hormone replacement therapy is a prescription
-          treatment that carries potential risks and side effects, including an increased
-          risk of blood clots, stroke, and certain cancers for some women. Whether HRT is
+          The content on The Top Weight Loss is for general information purposes only and is not
+          intended as medical advice. GLP-1 medications such as semaglutide and
+          tirzepatide are prescription treatments that carry potential risks and side effects,
+          including gastrointestinal effects, pancreatitis, and gallbladder disease. Compounded
+          GLP-1 medications are not FDA-approved, and individual results vary. Whether treatment is
           appropriate for you is a decision for a licensed healthcare professional -
           always consult one before starting, stopping, or changing any medication.
         </p>
@@ -61,7 +62,7 @@ export default function DisclaimerPage() {
           Revenue Model
         </h2>
         <p>
-          HRT Women generates revenue primarily through affiliate commissions.
+          The Top Weight Loss generates revenue primarily through affiliate commissions.
           When you use our links to visit a provider&apos;s website and take a
           qualifying action (such as scheduling a consultation or making a
           purchase), we may receive compensation. This model allows us to

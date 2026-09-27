@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How HRT Women (thetopweightloss.com) collects, uses, and protects your information, including analytics, cookies, and affiliate tracking.",
+    "How The Top Weight Loss (thetopweightloss.com) collects, uses, and protects your information, including analytics, cookies, and affiliate tracking.",
   alternates: { canonical: "https://www.thetopweightloss.com/privacy" },
 };
 
@@ -17,10 +17,10 @@ export default function PrivacyPage() {
       <p className="mb-6 text-sm text-gray-400">Last updated: {UPDATED}</p>
       <div className="space-y-4 text-gray-600 leading-relaxed">
         <p>
-          This Privacy Policy explains how HRT Women (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;),
+          This Privacy Policy explains how The Top Weight Loss (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;),
           operating the website thetopweightloss.com, collects, uses, and shares information when you
-          visit our site. HRT Women is an independent publisher that compares online
-          menopause HRT providers; we are not a medical provider and do not sell
+          visit our site. The Top Weight Loss is an independent publisher that compares online
+          GLP-1 weight loss providers; we are not a medical provider and do not sell
           medication.
         </p>
 

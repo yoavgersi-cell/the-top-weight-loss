@@ -90,8 +90,9 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <Link href="/reviews/embody" className={linkCls}>embody</Link>,{" "}
         <Link href="/reviews/ro" className={linkCls}>Ro</Link>,{" "}
         <Link href="/reviews/altrx" className={linkCls}>AltRx</Link>,{" "}
-        <Link href="/reviews/trimrx" className={linkCls}>TrimRx</Link> and{" "}
-        <Link href="/reviews/wellmedr" className={linkCls}>WellMedr</Link>.
+        <Link href="/reviews/trimrx" className={linkCls}>TrimRx</Link>,{" "}
+        <Link href="/reviews/wellmedr" className={linkCls}>WellMedr</Link> and{" "}
+        <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>.
       </p>
 
       <hr className="mb-8 border-gray-200" />
@@ -192,6 +193,7 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <li><strong>If you want the lowest price with no commitment</strong> - <Link href="/reviews/embody" className={linkCls}>embody</Link> lists compounded semaglutide at $69/mo month-to-month.</li>
         <li><strong>If you will commit for a year</strong> - <Link href="/reviews/wellmedr" className={linkCls}>WellMedr</Link>&apos;s 12-month plan is the cheapest long-run price we found ($49/mo semaglutide).</li>
         <li><strong>If you want custom dosing and frequent check-ins</strong> - <Link href="/reviews/trimrx" className={linkCls}>TrimRx</Link> offers unlimited provider check-ins.</li>
+        <li><strong>If you want a dietitian and coaching in one price</strong> - <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link> bundles them with no membership fee ($99/mo semaglutide promo, $199 regular).</li>
         <li><strong>If you want one flat price at every dose</strong> - <Link href="/reviews/altrx" className={linkCls}>AltRx</Link> does, but read our review first: its parent company received an FDA warning letter in June 2026.</li>
       </ul>
       <p className="mb-8">

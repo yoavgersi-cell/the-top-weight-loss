@@ -5,7 +5,7 @@ import { Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with the HRT Women editorial team - corrections, feedback, provider and partnership inquiries for thetopweightloss.com.",
+    "Get in touch with the The Top Weight Loss editorial team - corrections, feedback, provider and partnership inquiries for thetopweightloss.com.",
   alternates: { canonical: "https://www.thetopweightloss.com/contact" },
 };
 
@@ -16,7 +16,7 @@ export default function ContactPage() {
       <div className="space-y-4 text-gray-600 leading-relaxed">
         <p>
           We&apos;re an independent editorial team that researches and compares online
-          menopause HRT providers. We&apos;d love to hear from you - whether you have
+          GLP-1 weight loss providers. We&apos;d love to hear from you - whether you have
           feedback, spotted something that needs correcting, or want to reach us about a partnership.
         </p>
 

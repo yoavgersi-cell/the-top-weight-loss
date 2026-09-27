@@ -12,26 +12,26 @@ export const revalidate = 60;
 const CANONICAL = "https://www.thetopweightloss.com/how-we-rank";
 
 export const metadata: Metadata = {
-  title: "How We Rank & Review HRT Providers - Our Methodology",
+  title: "How We Rank & Review GLP-1 Weight Loss Providers - Our Methodology",
   description:
-    "Our full methodology for ranking and reviewing online menopause and HRT providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners in head-to-head comparisons.",
+    "Our full methodology for ranking and reviewing online GLP-1 weight loss providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners in head-to-head comparisons.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "How We Rank & Review HRT Providers - Our Methodology",
+    title: "How We Rank & Review GLP-1 Weight Loss Providers - Our Methodology",
     description:
-      "The factors we score, where our data comes from, how we verify accuracy, and how we pick winners in our HRT provider comparisons.",
+      "The factors we score, where our data comes from, how we verify accuracy, and how we pick winners in our GLP-1 provider comparisons.",
     url: CANONICAL,
     type: "article",
   },
 };
 
 const FACTORS = [
-  { category: "Medical Credibility", weight: "25%", desc: "Licensed, menopause-trained clinicians, quality of the intake and risk screening, ongoing monitoring, pharmacy standards, and any relevant certifications." },
-  { category: "Treatment Access", weight: "20%", desc: "Range of treatments offered - estradiol patches, pills, gels and sprays, progesterone, vaginal estrogen, and non-hormonal options - plus dosing flexibility and state availability." },
-  { category: "Pricing & Value", weight: "20%", desc: "Total cost including membership, medication, visits, and delivery - plus pricing transparency, insurance options, and the absence of hidden fees." },
-  { category: "Patient Experience", weight: "15%", desc: "Intake ease, time to first visit, platform quality, support responsiveness, delivery reliability, and recent verified customer feedback." },
-  { category: "Clinical Support", weight: "10%", desc: "Ongoing follow-up visits, dose and formulation adjustments, side-effect management, and clinician messaging through treatment." },
-  { category: "Flexibility", weight: "10%", desc: "Membership terms, cancellation and pause policies, ability to switch treatments, and payment options including HSA/FSA." },
+  { category: "Medical Credibility", weight: "25%", desc: "US-licensed clinicians reviewing every intake, real eligibility and contraindication screening, ongoing monitoring, state-licensed pharmacies, certifications such as LegitScript, and any FDA warning letters or regulatory actions." },
+  { category: "Treatment Access", weight: "20%", desc: "Semaglutide and tirzepatide options, brand-name vs compounded access and how clearly the difference is disclosed, oral options, insurance and prior-authorization help, dosing flexibility, and state availability." },
+  { category: "Pricing & Value", weight: "20%", desc: "Total monthly cost including membership, medication, and delivery - the regular rate behind every promo, whether the price rises as your dose goes up, and the absence of hidden fees." },
+  { category: "Patient Experience", weight: "15%", desc: "Intake ease, time to first shipment, cold-chain delivery reliability, support responsiveness, and recent verified customer feedback." },
+  { category: "Clinical Support", weight: "10%", desc: "Titration check-ins, dose adjustments, side-effect management, clinician messaging between visits, and support on nutrition, muscle preservation, and maintenance." },
+  { category: "Flexibility", weight: "10%", desc: "Month-to-month vs prepaid plans, cancellation and pause policies, ability to switch medications, and payment options including HSA/FSA." },
 ];
 
 const METHOD_FAQS = [
@@ -61,7 +61,7 @@ const SOURCES = [
   { icon: Database, title: "The providers' own materials", desc: "We pull pricing, treatments, shipping, and the medical model directly from each provider's official website and landing pages - so what you read here matches what you'll see when you enroll." },
   { icon: ClipboardCheck, title: "Recent verified customer reviews", desc: "We read current customer reviews to gauge real-world experience - communication, clinician expertise, delivery, and support - not just marketing claims." },
   { icon: Scale, title: "In-house research", desc: "Our editors independently walk enrollment flows, compare pricing side by side, and track how each provider's offering changes over time." },
-  { icon: ShieldCheck, title: "Clinical literature", desc: "Medical claims reference published menopause research, professional society guidelines, and FDA prescribing information - not opinion." },
+  { icon: ShieldCheck, title: "Clinical literature", desc: "Medical claims reference published GLP-1 trials (STEP, SURMOUNT), FDA prescribing information and FDA guidance on compounded drugs - not opinion." },
 ];
 
 export default async function HowWeRankPage() {
@@ -71,11 +71,11 @@ export default async function HowWeRankPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "How We Rank & Review HRT Providers - Our Methodology",
+    name: "How We Rank & Review GLP-1 Weight Loss Providers - Our Methodology",
     description:
-      "Our full methodology for ranking and reviewing online menopause and HRT providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners.",
+      "Our full methodology for ranking and reviewing online GLP-1 weight loss providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners.",
     url: CANONICAL,
-    publisher: { "@type": "Organization", name: "thetopweightloss.com", url: "https://www.thetopweightloss.com" },
+    publisher: { "@type": "Organization", name: "The Top Weight Loss", url: "https://www.thetopweightloss.com" },
   };
 
   const breadcrumbSchema = {
@@ -113,7 +113,7 @@ export default async function HowWeRankPage() {
           <p className="mt-3 max-w-[640px] text-[16px] leading-relaxed text-gray-500">
             Every review and head-to-head comparison on this site is built on the same
             repeatable, evidence-first process. Here&rsquo;s exactly how we evaluate each
-            HRT provider, where our information comes from, and how we keep it accurate.
+            GLP-1 weight loss provider, where our information comes from, and how we keep it accurate.
           </p>
           <LastUpdated date={CONTENT_LAST_UPDATED} className="mt-4" />
         </div>
@@ -125,7 +125,7 @@ export default async function HowWeRankPage() {
           <h2 className="mb-4 text-[22px] font-bold text-[#191919]">The 6 factors we score</h2>
           <p className="mb-6 text-[16px] leading-[1.75] text-gray-600">
             We rate every provider on a weighted evaluation across six core categories. The
-            weighting reflects what matters most for safe, affordable, and effective menopause care.
+            weighting reflects what matters most for safe, affordable, and effective weight loss care.
           </p>
           <div className="space-y-4">
             {FACTORS.map(({ category, weight, desc }) => (
@@ -171,9 +171,9 @@ export default async function HowWeRankPage() {
               <ul className="space-y-2 text-[14px] leading-relaxed text-gray-800">
                 <li>Clear, flat pricing with no surprise increases</li>
                 <li>A large, public customer record (review volume + score)</li>
-                <li>Menopause-trained clinicians and named, state-licensed pharmacies</li>
-                <li>Real guarantees in writing - refunds and satisfaction promises</li>
-                <li>Regular follow-up visits and dose adjustments included</li>
+                <li>Licensed clinicians and named, state-licensed pharmacies</li>
+                <li>Honest labeling - compounded medication never presented as FDA-approved</li>
+                <li>Titration check-ins and dose adjustments included</li>
                 <li>Clean exit terms: month-to-month, pause or cancel anytime</li>
               </ul>
             </div>
@@ -185,8 +185,8 @@ export default async function HowWeRankPage() {
                 <li>Teaser rates that jump after month one - we publish the regular rate next to every promo</li>
                 <li>No published review aggregate - noted plainly in the review</li>
                 <li>Prepaid commitments a shopper could miss at checkout</li>
-                <li>Undisclosed membership fees stacked on medication costs</li>
-                <li>Thin public detail on plan terms, cancellation or pharmacy standards</li>
+                <li>Undisclosed membership fees stacked on medication costs, or prices that climb with each dose increase</li>
+                <li>FDA warning letters, misleading claims, or thin detail on pharmacy sourcing</li>
                 <li>A weak or mixed published review record - we cite the real number even for partners</li>
               </ul>
             </div>
@@ -201,7 +201,7 @@ export default async function HowWeRankPage() {
               <p className="p-5"><strong className="text-[#191919]">No invented ratings, ever.</strong> If a provider has no published customer-rating aggregate, our pages say exactly that - we never estimate or fabricate a score. Partner status doesn&rsquo;t change this: we openly discuss a partner&rsquo;s mixed reviews when that&rsquo;s the record.</p>
               <p className="p-5"><strong className="text-[#191919]">Every promo carries its regular rate.</strong> Promotional prices are always published alongside the regular rate and the condition (&ldquo;first month only&rdquo;, &ldquo;annual plan&rdquo;, &ldquo;medication billed separately&rdquo;), so a discounted headline never hides what you&rsquo;ll actually pay.</p>
               <p className="p-5"><strong className="text-[#191919]">Community feedback is verified, not scraped.</strong> The &ldquo;What Reddit says&rdquo; sections on our reviews are built only from real public threads we&rsquo;ve independently verified - quotes lightly trimmed, vote counts shown only as captured, gripes included alongside praise.</p>
-              <p className="p-5"><strong className="text-[#191919]">Medical claims cite primary sources.</strong> Clinical figures reference published research on menopause and hormone therapy, professional society guidelines, and FDA prescribing information, cited on our medical pages - never blog folklore.</p>
+              <p className="p-5"><strong className="text-[#191919]">Medical claims cite primary sources.</strong> Clinical figures reference published GLP-1 trials, FDA prescribing information, and FDA guidance on compounded drugs, cited on our medical pages - never blog folklore.</p>
               <p className="p-5"><strong className="text-[#191919]">We don&rsquo;t republish what we can&rsquo;t verify.</strong> Claims circulating about providers - regulatory actions, corporate relationships - appear on our pages only after independent verification, no matter who they help or hurt.</p>
             </div>
           </div>
@@ -325,12 +325,13 @@ export default async function HowWeRankPage() {
           <h2 className="mb-4 text-[22px] font-bold text-[#191919]">Medical disclaimer</h2>
           <div className="rounded-xl border border-gray-200 bg-white p-6">
             <p className="text-[15px] leading-[1.75] text-gray-600">
-              thetopweightloss.com is not a medical provider and does not prescribe medications. The
+              The Top Weight Loss is not a medical provider and does not prescribe medications. The
               information on this site is for general information and comparison purposes only and should
-              not replace professional medical advice. Hormone therapy is a prescription treatment that
-              requires evaluation and supervision by a licensed healthcare provider and carries risks,
-              including blood clots, stroke, and certain cancers, that depend on your health history.
-              Whether HRT is right for you is a decision for a licensed clinician. Individual results vary.
+              not replace professional medical advice. GLP-1 medications are prescription treatments that
+              require evaluation and supervision by a licensed healthcare provider and carry risks,
+              including gastrointestinal side effects, pancreatitis, and gallbladder disease. Compounded
+              GLP-1s are not FDA-approved. Whether treatment is right for you is a decision for a licensed
+              clinician. Individual results vary.
             </p>
           </div>
         </section>

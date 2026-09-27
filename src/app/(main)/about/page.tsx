@@ -7,9 +7,9 @@ import { ExpertTeam } from "@/components/expert-team";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "About HRT Women - Our Mission, Team & Review Methodology",
+  title: "About The Top Weight Loss - Our Mission, Team & Review Methodology",
   description:
-    "Learn how thetopweightloss.com independently ranks and reviews online menopause and HRT providers. Our editorial methodology, review process, medical advisory approach, and commitment to unbiased comparisons.",
+    "Learn how thetopweightloss.com independently ranks and reviews online GLP-1 weight loss providers. Our editorial methodology, review process, medical advisory approach, and commitment to unbiased comparisons.",
   alternates: {
     canonical: "https://www.thetopweightloss.com/about",
   },
@@ -22,7 +22,7 @@ export default async function AboutPage() {
   const teamSchema = experts.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "thetopweightloss.com",
+    name: "The Top Weight Loss",
     url: "https://www.thetopweightloss.com",
     employee: experts.map((e) => ({
       "@type": "Person",
@@ -39,12 +39,12 @@ export default async function AboutPage() {
       <div className="border-b border-gray-200 bg-white">
         <div className="mx-auto max-w-[900px] px-4 py-12 sm:px-6 sm:py-16">
           <h1 className="text-[28px] font-extrabold text-[#191919] sm:text-[36px]">
-            About HRT Women
+            About The Top Weight Loss
           </h1>
           <p className="mt-3 max-w-[600px] text-[16px] leading-relaxed text-gray-500">
-            We help women make informed decisions about menopause and perimenopause
-            hormone therapy by independently comparing telehealth providers on pricing,
-            clinical support, and treatment options.
+            We help people make informed decisions about GLP-1 weight loss treatment by
+            independently comparing telehealth providers on pricing, medication access,
+            clinical support, and transparency.
           </p>
         </div>
       </div>
@@ -54,13 +54,13 @@ export default async function AboutPage() {
         <section className="mb-12">
           <h2 className="mb-4 text-[22px] font-bold text-[#191919]">Our Mission</h2>
           <p className="mb-4 text-[16px] leading-[1.75] text-gray-600">
-            Online menopause care has grown rapidly, with a growing number of telehealth providers
-            now offering prescription hormone therapy like estradiol and progesterone online. For women,
-            this creates a confusing landscape of options with varying pricing, treatment range,
-            clinician expertise, and follow-up support.
+            Online weight loss care has exploded, with dozens of telehealth providers now prescribing
+            semaglutide and tirzepatide - some brand-name, many compounded. The result is a confusing
+            landscape of intro prices that change after a few months, long commitment plans, and very
+            different levels of clinical follow-up.
           </p>
           <p className="text-[16px] leading-[1.75] text-gray-600">
-            HRT Women exists to simplify this decision. We independently research,
+            The Top Weight Loss exists to simplify this decision. We independently research,
             compare, and review every major provider so you can find the right fit for your
             needs, budget, and privacy - without spending hours doing the research yourself.
           </p>
@@ -71,9 +71,9 @@ export default async function AboutPage() {
           <h2 className="mb-6 text-[22px] font-bold text-[#191919]">What We Do</h2>
           <div className="grid gap-6 sm:grid-cols-3">
             {[
-              { icon: Search, title: "Research Providers", desc: "We evaluate every major telehealth HRT provider on pricing, treatment options, medical oversight, and patient experience." },
+              { icon: Search, title: "Research Providers", desc: "We evaluate major telehealth GLP-1 providers on pricing, medication sourcing, medical oversight, and patient experience." },
               { icon: BarChart3, title: "Compare Side by Side", desc: "Our comparison tools let you see exactly how providers differ on the factors that matter most to you." },
-              { icon: BookOpen, title: "Educate Patients", desc: "Our articles and guides help you understand menopause symptoms, HRT options, risks, costs, and what to expect from care." },
+              { icon: BookOpen, title: "Educate Patients", desc: "Our articles and guides explain compounded vs brand-name GLP-1s, side effects, real costs, and what to expect from care." },
             ].map(({ icon: Icon, title, desc }) => (
               <div key={title} className="rounded-xl border border-gray-200 bg-white p-5">
                 <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0EA5E9]/5">
@@ -99,12 +99,12 @@ export default async function AboutPage() {
           </p>
           <div className="space-y-4">
             {[
-              { category: "Medical Credibility", weight: "25%", desc: "Licensed, menopause-trained clinicians, thorough intake and health history review, risk screening, and evidence-based prescribing protocols." },
-              { category: "Treatment Access", weight: "20%", desc: "Range of treatments offered (estradiol patches, pills, gels and creams, progesterone, vaginal estrogen, and non-hormonal options), plus state availability." },
-              { category: "Pricing & Value", weight: "20%", desc: "Total cost including membership, medication, consultations, and delivery. Pricing transparency, insurance options, and absence of hidden fees." },
-              { category: "Patient Experience", weight: "15%", desc: "Intake process ease, time to first visit, platform quality, customer support responsiveness, and delivery reliability." },
-              { category: "Clinical Support", weight: "10%", desc: "Ongoing follow-up visits, dose and formulation adjustments, side-effect management, and clinician messaging between visits." },
-              { category: "Flexibility", weight: "10%", desc: "Membership terms, cancellation policy, ability to pause or switch treatments, and HSA/FSA acceptance." },
+              { category: "Medical Credibility", weight: "25%", desc: "US-licensed clinicians review every intake, screen for contraindications, and follow evidence-based eligibility and titration protocols; licensed pharmacies and a clean regulatory record." },
+              { category: "Treatment Access", weight: "20%", desc: "Semaglutide and tirzepatide options, brand-name vs compounded access, honest labeling of compounded products (never implied FDA-approved), oral options, insurance help, and state availability." },
+              { category: "Pricing & Value", weight: "20%", desc: "Total monthly cost including membership and medication, the regular price after any promo, whether price rises with dose, and absence of hidden fees." },
+              { category: "Patient Experience", weight: "15%", desc: "Intake speed, time to first shipment, cold-chain delivery reliability, customer support responsiveness, and verified customer reviews." },
+              { category: "Clinical Support", weight: "10%", desc: "Dose titration check-ins, side-effect management, clinician messaging between visits, and guidance on nutrition, muscle preservation, and maintenance." },
+              { category: "Flexibility", weight: "10%", desc: "Month-to-month vs prepaid plans, cancellation and pause policies, ability to switch medications, and HSA/FSA acceptance." },
             ].map(({ category, weight, desc }) => (
               <div key={category} className="flex gap-4 rounded-lg border border-gray-200 bg-white p-4">
                 <span className="shrink-0 rounded bg-[#0EA5E9] px-2.5 py-1 text-[12px] font-bold text-white">{weight}</span>
@@ -141,7 +141,7 @@ export default async function AboutPage() {
             <p>
               <strong className="text-[#191919]">Evidence-based.</strong> Our medical content references
               published clinical research, FDA information, and established medical guidelines when
-              discussing hormone therapy options, their benefits, and their risks.
+              discussing GLP-1 medications, their benefits, and their risks.
             </p>
             <p>
               <strong className="text-[#191919]">Regular updates.</strong> We continuously review and
@@ -164,14 +164,14 @@ export default async function AboutPage() {
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
               <Award className="h-8 w-8 shrink-0 text-[#0369A1]" strokeWidth={1.5} />
               <div>
-                <p className="text-[18px] font-extrabold text-[#191919]">3</p>
+                <p className="text-[18px] font-extrabold text-[#191919]">5</p>
                 <p className="text-[12px] text-gray-500">Providers independently reviewed</p>
               </div>
             </div>
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
               <Shield className="h-8 w-8 shrink-0 text-[#0369A1]" strokeWidth={1.5} />
               <div>
-                <p className="text-[18px] font-extrabold text-[#191919]">6+</p>
+                <p className="text-[18px] font-extrabold text-[#191919]">5+</p>
                 <p className="text-[12px] text-gray-500">Expert articles and guides published</p>
               </div>
             </div>
@@ -183,13 +183,13 @@ export default async function AboutPage() {
           <h2 className="mb-4 text-[22px] font-bold text-[#191919]">Medical Disclaimer</h2>
           <div className="rounded-xl border border-gray-200 bg-white p-6">
             <p className="text-[15px] leading-[1.75] text-gray-600">
-              HRT Women is not a medical provider and does not prescribe medications.
+              The Top Weight Loss is not a medical provider and does not prescribe medications.
               The information on this site is for general information and comparison purposes only and
-              should not replace professional medical advice. Hormone therapy is a prescription
-              treatment that requires evaluation and supervision by a licensed healthcare provider, and
-              it carries risks (such as blood clots, stroke, and certain cancers) that vary by individual.
-              Whether HRT is appropriate for you is a decision for a licensed clinician. Individual
-              results vary. Side effects may occur.
+              should not replace professional medical advice. GLP-1 medications are prescription
+              treatments that require evaluation and supervision by a licensed healthcare provider, and
+              they carry risks (such as gastrointestinal side effects, pancreatitis, and gallbladder
+              disease). Compounded GLP-1s are not FDA-approved. Whether treatment is appropriate for you
+              is a decision for a licensed clinician. Individual results vary. Side effects may occur.
             </p>
           </div>
         </section>

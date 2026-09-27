@@ -13,6 +13,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "AltRx", href: "/reviews/altrx" },
       { label: "TrimRx", href: "/reviews/trimrx" },
       { label: "WellMedr", href: "/reviews/wellmedr" },
+      { label: "MEDVi", href: "/reviews/medvi" },
       { label: "All Reviews", href: "/reviews" },
     ],
   },

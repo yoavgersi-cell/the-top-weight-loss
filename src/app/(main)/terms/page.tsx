@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms governing your use of HRT Women (thetopweightloss.com), including our informational-only nature, affiliate disclosure, and limitation of liability.",
+    "The terms governing your use of The Top Weight Loss (thetopweightloss.com), including our informational-only nature, affiliate disclosure, and limitation of liability.",
   alternates: { canonical: "https://www.thetopweightloss.com/terms" },
 };
 
@@ -18,17 +18,17 @@ export default function TermsPage() {
       <div className="space-y-4 text-gray-600 leading-relaxed">
         <p>
           These Terms of Service (&quot;Terms&quot;) govern your access to and use of thetopweightloss.com
-          (the &quot;Site&quot;), operated by HRT Women (&quot;we,&quot; &quot;us,&quot; or
+          (the &quot;Site&quot;), operated by The Top Weight Loss (&quot;we,&quot; &quot;us,&quot; or
           &quot;our&quot;). By using the Site, you agree to these Terms. If you do not agree, please do
           not use the Site.
         </p>
 
         <h2 className="pt-4 text-xl font-semibold text-[#191919]">Informational Purpose Only - Not Medical Advice</h2>
         <p>
-          HRT Women is an independent comparison and information publisher. All content is provided
+          The Top Weight Loss is an independent comparison and information publisher. All content is provided
           for general informational purposes only and is <strong>not medical advice</strong>. We are not
           a doctor, pharmacy, or telehealth provider, and using the Site does not create a
-          doctor-patient relationship. Menopause hormone therapy is a prescription treatment with
+          doctor-patient relationship. GLP-1 weight loss medication is a prescription treatment with
           risks and potential side effects, and whether it is appropriate for you is a decision for a
           licensed clinician. Always consult a licensed healthcare professional before
           making any medical decision or starting, stopping, or changing a treatment.
@@ -54,7 +54,7 @@ export default function TermsPage() {
 
         <h2 className="pt-4 text-xl font-semibold text-[#191919]">Intellectual Property</h2>
         <p>
-          The content, design, and branding on this Site are owned by HRT Women or its licensors and
+          The content, design, and branding on this Site are owned by The Top Weight Loss or its licensors and
           are protected by applicable intellectual-property laws. You may not copy, reproduce, or
           redistribute our content without permission. Third-party names and logos are the property of
           their respective owners and are used for identification only.
@@ -69,7 +69,7 @@ export default function TermsPage() {
 
         <h2 className="pt-4 text-xl font-semibold text-[#191919]">Limitation of Liability</h2>
         <p>
-          To the fullest extent permitted by law, HRT Women and its operators will not be liable for
+          To the fullest extent permitted by law, The Top Weight Loss and its operators will not be liable for
           any indirect, incidental, or consequential damages arising from your use of the Site or
           reliance on its content, including decisions made about treatments or providers. Your use of
           the Site is at your own risk.
