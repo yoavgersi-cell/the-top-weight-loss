@@ -125,7 +125,7 @@ function ThreadCard({
             {thread.commentCount}
           </span>
         )}
-        <Link href={reviewHref} className="ml-auto font-semibold text-[#0369A1] hover:underline">
+        <Link href={reviewHref} className="ml-auto font-semibold text-[#1A5DB8] hover:underline">
           Full thread in review
         </Link>
       </div>

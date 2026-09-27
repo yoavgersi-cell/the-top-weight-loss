@@ -164,9 +164,9 @@ export default async function StatePage({
       {/* Breadcrumb */}
       <section className="mx-auto max-w-[1200px] px-4 pt-4">
         <nav className="text-[13px] text-gray-500">
-          <Link href="/" className="hover:text-[#0369A1] hover:underline">Home</Link>
+          <Link href="/" className="hover:text-[#1A5DB8] hover:underline">Home</Link>
           <span className="px-1.5">/</span>
-          <Link href="/online-weight-loss" className="hover:text-[#0369A1] hover:underline">By State</Link>
+          <Link href="/online-weight-loss" className="hover:text-[#1A5DB8] hover:underline">By State</Link>
           <span className="px-1.5">/</span>
           <span className="text-[#191919]">{s.name}</span>
         </nav>
@@ -206,16 +206,16 @@ export default async function StatePage({
         <p className="mb-4">
           Not sure where to start? {topName} is our current top pick - read our{" "}
           {topSlug ? (
-            <Link href={`/reviews/${topSlug}`} className="font-semibold text-[#0369A1] hover:underline">
+            <Link href={`/reviews/${topSlug}`} className="font-semibold text-[#1A5DB8] hover:underline">
               full {topName} review
             </Link>
           ) : (
-            <Link href="/reviews" className="font-semibold text-[#0369A1] hover:underline">in-depth reviews</Link>
+            <Link href="/reviews" className="font-semibold text-[#1A5DB8] hover:underline">in-depth reviews</Link>
           )}
           , see the full{" "}
-          <Link href="/" className="font-semibold text-[#0369A1] hover:underline">provider comparison</Link>, or
+          <Link href="/" className="font-semibold text-[#1A5DB8] hover:underline">provider comparison</Link>, or
           read{" "}
-          <Link href="/articles/semaglutide-vs-tirzepatide" className="font-semibold text-[#0369A1] hover:underline">
+          <Link href="/articles/semaglutide-vs-tirzepatide" className="font-semibold text-[#1A5DB8] hover:underline">
             semaglutide vs tirzepatide
           </Link>.
         </p>
@@ -250,11 +250,11 @@ export default async function StatePage({
           Searching &quot;semaglutide near me&quot; in {s.name} will surface local med spas and weight-loss clinics.
           In-person care can suit complex medical histories or people who want hands-on support. Online care is
           often cheaper and faster, but it works best alongside your regular doctor. Before you choose, read{" "}
-          <Link href="/articles/compounded-vs-brand-name-glp1" className="font-semibold text-[#0369A1] hover:underline">
+          <Link href="/articles/compounded-vs-brand-name-glp1" className="font-semibold text-[#1A5DB8] hover:underline">
             compounded vs brand-name GLP-1s
           </Link>{" "}
           and{" "}
-          <Link href="/articles/real-cost-of-glp1-weight-loss" className="font-semibold text-[#0369A1] hover:underline">
+          <Link href="/articles/real-cost-of-glp1-weight-loss" className="font-semibold text-[#1A5DB8] hover:underline">
             the real cost of GLP-1 weight loss
           </Link>.
         </p>

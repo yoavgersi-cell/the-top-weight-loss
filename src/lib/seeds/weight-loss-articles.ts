@@ -15,7 +15,7 @@ export const weightLossArticles: ArticleData[] = [
     readTime: "6 min read",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
-    heroColor: "#E0F2FE",
+    heroColor: "#E8F1FD",
     image: "/editorial-injection.png",
     imageAlt:
       "Woman holding a GLP-1 injection syringe at her abdomen before a weekly semaglutide or tirzepatide dose",
@@ -58,7 +58,7 @@ export const weightLossArticles: ArticleData[] = [
     readTime: "6 min read",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
-    heroColor: "#DBEFFC",
+    heroColor: "#DEEAFB",
     author: "The Top Weight Loss Editorial Team",
     keyTakeaways: [
       "Semaglutide (Wegovy, Ozempic) mimics one gut hormone, GLP-1; tirzepatide (Zepbound, Mounjaro) acts on two, GIP and GLP-1.",
@@ -98,7 +98,7 @@ export const weightLossArticles: ArticleData[] = [
     readTime: "7 min read",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
-    heroColor: "#E6F4FD",
+    heroColor: "#E9F2FD",
     author: "The Top Weight Loss Editorial Team",
     keyTakeaways: [
       "AltRx's $89/mo semaglutide and $149/mo tirzepatide are time-limited promo rates; regular prices are $199 and $299 a month.",
@@ -138,7 +138,7 @@ export const weightLossArticles: ArticleData[] = [
     readTime: "7 min read",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
-    heroColor: "#EAF6FE",
+    heroColor: "#EDF4FD",
     author: "The Top Weight Loss Editorial Team",
     keyTakeaways: [
       "Common GLP-1 side effects include nausea, vomiting, diarrhea, constipation, reduced appetite, reflux and fatigue - usually worst during dose escalation.",
@@ -177,7 +177,7 @@ export const weightLossArticles: ArticleData[] = [
     readTime: "6 min read",
     publishedAt: "2026-09-27",
     updatedAt: "2026-09-27",
-    heroColor: "#D6EEFC",
+    heroColor: "#DCE9FB",
     author: "The Top Weight Loss Editorial Team",
     keyTakeaways: [
       "In the STEP-1 extension, people who stopped semaglutide regained about two-thirds of their lost weight within a year.",

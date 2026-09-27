@@ -24,8 +24,8 @@ export function Sidebar({ config, providers, linkPrefix = "" }: { config: Sideba
         return (
           <SidebarCard key="socialProof">
             <div className="flex items-center gap-4">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#0EA5E9]/8">
-                <Users className="h-6 w-6 text-[#0369A1]" strokeWidth={1.5} />
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#2F80ED]/8">
+                <Users className="h-6 w-6 text-[#1A5DB8]" strokeWidth={1.5} />
               </div>
               <div>
                 <p className="text-[22px] font-extrabold text-[#191919] leading-tight">{config.socialProofNumber}</p>
@@ -79,13 +79,13 @@ export function Sidebar({ config, providers, linkPrefix = "" }: { config: Sideba
                     <img src={p.smallLogo || p.logo} alt={p.name} className="max-h-full max-w-full object-contain" />
                   </div>
                   <div>
-                    <p className="text-[15px] font-bold text-[#191919] group-hover:text-[#0369A1] transition-colors">{p.name}</p>
+                    <p className="text-[15px] font-bold text-[#191919] group-hover:text-[#1A5DB8] transition-colors">{p.name}</p>
                     <p className="text-[13px] text-gray-500">Read Review</p>
                   </div>
                 </Link>
               ))}
             </div>
-            <Link href={`${linkPrefix}/reviews`} className="mt-8 block text-[14px] font-semibold text-[#0369A1] hover:underline">
+            <Link href={`${linkPrefix}/reviews`} className="mt-8 block text-[14px] font-semibold text-[#1A5DB8] hover:underline">
               Read All Reviews
             </Link>
           </SidebarCard>

@@ -155,7 +155,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                   decoding="async"
                 />
               ) : (
-                <span className="text-[40px] font-extrabold text-[#0369A1]/35 select-none">
+                <span className="text-[40px] font-extrabold text-[#1A5DB8]/35 select-none">
                   01
                 </span>
               )}
@@ -172,13 +172,13 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                   {articles[0].readTime}
                 </span>
               </div>
-              <h2 className="text-[20px] font-bold leading-tight text-[#191919] group-hover:text-[#0369A1] transition-colors sm:text-[22px]">
+              <h2 className="text-[20px] font-bold leading-tight text-[#191919] group-hover:text-[#1A5DB8] transition-colors sm:text-[22px]">
                 {articles[0].title}
               </h2>
               <p className="mt-2 text-[14px] leading-relaxed text-gray-500 line-clamp-2">
                 {articles[0].description}
               </p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#0369A1]">
+              <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#1A5DB8]">
                 Read article
                 <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
               </span>
@@ -208,7 +208,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                     decoding="async"
                   />
                 ) : (
-                  <span className="text-[36px] font-extrabold text-[#0369A1]/35 select-none">
+                  <span className="text-[36px] font-extrabold text-[#1A5DB8]/35 select-none">
                     {String(i + 2).padStart(2, "0")}
                   </span>
                 )}
@@ -225,13 +225,13 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                     {article.readTime}
                   </span>
                 </div>
-                <h2 className="text-[16px] font-bold leading-snug text-[#191919] group-hover:text-[#0369A1] transition-colors">
+                <h2 className="text-[16px] font-bold leading-snug text-[#191919] group-hover:text-[#1A5DB8] transition-colors">
                   {article.title}
                 </h2>
                 <p className="mt-2 flex-1 text-[13px] leading-relaxed text-gray-500 line-clamp-3">
                   {article.description}
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#0369A1]">
+                <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#1A5DB8]">
                   Read article
                   <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
                 </span>
@@ -264,13 +264,13 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                   >
                     {g.category}
                   </span>
-                  <h3 className="text-[16px] font-bold leading-snug text-[#191919] transition-colors group-hover:text-[#0369A1]">
+                  <h3 className="text-[16px] font-bold leading-snug text-[#191919] transition-colors group-hover:text-[#1A5DB8]">
                     {g.title}
                   </h3>
                   <p className="mt-2 flex-1 text-[13px] leading-relaxed text-gray-500 line-clamp-3">
                     {g.description}
                   </p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#0369A1]">
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#1A5DB8]">
                     Read guide
                     <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
                   </span>
@@ -310,7 +310,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                         className="max-h-full max-w-[110px] object-contain"
                       />
                     </div>
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-[#0EA5E9]/20 bg-white text-[11px] font-extrabold text-[#0369A1]">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-[#2F80ED]/20 bg-white text-[11px] font-extrabold text-[#1A5DB8]">
                       VS
                     </span>
                     <div className="flex h-[36px] flex-1 items-center justify-center">
@@ -323,7 +323,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                     </div>
                   </div>
 
-                  <h3 className="text-center text-[16px] font-bold leading-snug text-[#191919] group-hover:text-[#0369A1] transition-colors">
+                  <h3 className="text-center text-[16px] font-bold leading-snug text-[#191919] group-hover:text-[#1A5DB8] transition-colors">
                     {p1.name} vs {p2.name}
                   </h3>
 
@@ -342,7 +342,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
                         Close call
                       </span>
                     )}
-                    <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#0369A1]">
+                    <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#1A5DB8]">
                       Compare
                       <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
                     </span>

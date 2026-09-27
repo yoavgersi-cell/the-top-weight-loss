@@ -68,7 +68,7 @@ function DrugTable({ rows }: { rows: [string, string, string, string][] }) {
   );
 }
 
-const linkCls = "font-semibold text-[#0369A1] hover:underline";
+const linkCls = "font-semibold text-[#1A5DB8] hover:underline";
 
 export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
   return (

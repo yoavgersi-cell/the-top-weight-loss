@@ -130,7 +130,7 @@ export default async function HowWeRankPage() {
           <div className="space-y-4">
             {FACTORS.map(({ category, weight, desc }) => (
               <div key={category} className="flex gap-4 rounded-lg border border-gray-200 bg-white p-4">
-                <span className="shrink-0 rounded bg-[#0EA5E9] px-2.5 py-1 text-[12px] font-bold text-white">{weight}</span>
+                <span className="shrink-0 rounded bg-[#2F80ED] px-2.5 py-1 text-[12px] font-bold text-white">{weight}</span>
                 <div>
                   <p className="text-[14px] font-bold text-[#191919]">{category}</p>
                   <p className="mt-0.5 text-[13px] text-gray-500">{desc}</p>
@@ -217,8 +217,8 @@ export default async function HowWeRankPage() {
           <div className="grid gap-4 sm:grid-cols-2">
             {SOURCES.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="rounded-xl border border-gray-200 bg-white p-5">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0EA5E9]/5">
-                  <Icon className="h-5 w-5 text-[#0369A1]" strokeWidth={1.5} />
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#2F80ED]/5">
+                  <Icon className="h-5 w-5 text-[#1A5DB8]" strokeWidth={1.5} />
                 </div>
                 <h3 className="mb-1 text-[15px] font-bold text-[#191919]">{title}</h3>
                 <p className="text-[13px] leading-relaxed text-gray-500">{desc}</p>
@@ -286,7 +286,7 @@ export default async function HowWeRankPage() {
         {/* Freshness */}
         <section className="mb-12">
           <div className="flex items-start gap-4 rounded-xl border border-gray-200 bg-white p-6">
-            <RefreshCw className="mt-0.5 h-6 w-6 shrink-0 text-[#0369A1]" strokeWidth={2} />
+            <RefreshCw className="mt-0.5 h-6 w-6 shrink-0 text-[#1A5DB8]" strokeWidth={2} />
             <div>
               <h2 className="mb-2 text-[22px] font-bold text-[#191919]">Keeping reviews current</h2>
               <p className="text-[15px] leading-[1.75] text-gray-600">
@@ -312,7 +312,7 @@ export default async function HowWeRankPage() {
               compensate us through affiliate partnerships when you click through and sign up. This may
               affect how providers are displayed, but it does not influence our scores or the content of
               our reviews. See our{" "}
-              <Link href="/disclaimer" className="font-semibold text-[#0369A1] hover:underline">full disclaimer</Link>.
+              <Link href="/disclaimer" className="font-semibold text-[#1A5DB8] hover:underline">full disclaimer</Link>.
             </p>
           </div>
         </section>
@@ -355,7 +355,7 @@ export default async function HowWeRankPage() {
           <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Link
               href="/"
-              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#0EA5E9] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#2F80ED] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
             >
               Compare Providers
             </Link>

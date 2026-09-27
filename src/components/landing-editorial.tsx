@@ -15,7 +15,7 @@ export function LandingEditorial({ sections }: LandingEditorialProps) {
             {section.heading}
           </h2>
           <p
-            className="mb-4 [&_a]:font-semibold [&_a]:text-[#0369A1] hover:[&_a]:underline"
+            className="mb-4 [&_a]:font-semibold [&_a]:text-[#1A5DB8] hover:[&_a]:underline"
             dangerouslySetInnerHTML={{ __html: section.body }}
           />
           {section.bullets && section.bullets.length > 0 && (
@@ -34,7 +34,7 @@ export function LandingEditorial({ sections }: LandingEditorialProps) {
         We continuously review and update our recommendations. Browse all{" "}
         <Link
           href="/articles"
-          className="font-semibold text-[#0369A1] hover:underline"
+          className="font-semibold text-[#1A5DB8] hover:underline"
         >
           GLP-1 weight loss articles
         </Link>{" "}

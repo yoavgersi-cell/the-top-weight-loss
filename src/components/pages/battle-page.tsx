@@ -172,7 +172,7 @@ function ReadMoreProse({ text, label, visibleSentences = 2 }: { text: string; la
         <BoldKeyFacts text={visible} />
       </p>
       <details className="group mt-1.5">
-        <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[14px] font-semibold text-[#0369A1] hover:underline [&::-webkit-details-marker]:hidden">
+        <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[14px] font-semibold text-[#1A5DB8] hover:underline [&::-webkit-details-marker]:hidden">
           {label}
           <span className="text-[11px] transition-transform group-open:rotate-180">▾</span>
         </summary>
@@ -468,7 +468,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
         {/* ───── HERO ───── */}
         <section className="relative overflow-hidden border-b border-gray-200 bg-white">
           {/* Subtle gradient accent */}
-          <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#0EA5E9] via-[#7DD3FC] to-[#0EA5E9]" />
+          <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2F80ED] via-[#A7C9F7] to-[#2F80ED]" />
           {/* Mobile-tight hero: less padding, a smaller subtitle, and a single
               wrapping byline row - the fold should reach real content, not
               spend itself on credits. Desktop keeps its previous scale. */}
@@ -494,7 +494,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               {config.experts && config.experts.length > 0 && (
                 <span>
                   By{" "}
-                  <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#0369A1] hover:underline">
+                  <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#1A5DB8] hover:underline">
                     {ctx.brandTeam.replace(/\s+Team$/i, "").replace(/^(?!The )/, "The ")} Research Team
                   </Link>
                 </span>
@@ -507,7 +507,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   <span className="text-gray-300">·</span>
                   <span>
                     Reviewed by{" "}
-                    <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#0369A1] hover:underline">
+                    <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#1A5DB8] hover:underline">
                       {config.experts[1].credentials
                         ? `${config.experts[1].name}, ${config.experts[1].credentials}`
                         : config.experts[1].name}
@@ -530,13 +530,13 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               anchor it; the score pill shows only when our rubric agrees with the
               named winner. Renders only when a winner is named. */}
           {verdictWinner && verdictRunnerUp && shortAnswerReason && (
-            <div className="mb-8 max-w-[820px] overflow-hidden rounded-2xl border border-[#0EA5E9]/20 bg-white shadow-sm">
-              <div className="flex items-center justify-between gap-3 border-b border-gray-100 bg-[#EFF8FF] px-5 py-3 sm:px-6">
-                <p className="text-[12px] font-bold uppercase tracking-[0.08em] text-[#0369A1]">
+            <div className="mb-8 max-w-[820px] overflow-hidden rounded-2xl border border-[#2F80ED]/20 bg-white shadow-sm">
+              <div className="flex items-center justify-between gap-3 border-b border-gray-100 bg-[#F1F6FE] px-5 py-3 sm:px-6">
+                <p className="text-[12px] font-bold uppercase tracking-[0.08em] text-[#1A5DB8]">
                   The verdict
                 </p>
                 {showShortAnswerScores && (
-                  <span className="flex items-center gap-1.5 whitespace-nowrap rounded-full bg-white px-2.5 py-1 text-[11.5px] font-bold text-[#0369A1] shadow-sm ring-1 ring-[#0EA5E9]/15">
+                  <span className="flex items-center gap-1.5 whitespace-nowrap rounded-full bg-white px-2.5 py-1 text-[11.5px] font-bold text-[#1A5DB8] shadow-sm ring-1 ring-[#2F80ED]/15">
                     <Star className="h-3.5 w-3.5 fill-[#FDB515] text-[#FDB515]" strokeWidth={0} />
                     {winnerScore}/10 vs {runnerUpScore}/10
                   </span>
@@ -575,7 +575,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
           {ctx.vertical === "weight-loss" &&
             [p1, p2].some((p) => REDDIT_COMMUNITY_FEEDBACK[p.id]?.themes) && (
               <div className="mb-14 max-w-[820px] rounded-2xl border border-gray-200 bg-gray-50/60 p-5 sm:p-6">
-                <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.07em] text-[#0369A1]">
+                <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">
                   What we found
                 </p>
                 <div className="space-y-3 text-[14px] leading-[1.7] text-gray-600">
@@ -625,7 +625,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               <p className="border-t border-gray-100 px-4 py-2.5 text-[11.5px] text-gray-400">
                 Prices are the providers&rsquo; published rates at our last verification - confirm the
                 final figure at checkout, as offers change.{" "}
-                <Link href={hubLink(ctx, "/how-we-rank")} className="font-medium text-gray-500 underline underline-offset-2 hover:text-[#0369A1]">
+                <Link href={hubLink(ctx, "/how-we-rank")} className="font-medium text-gray-500 underline underline-offset-2 hover:text-[#1A5DB8]">
                   How we verify prices
                 </Link>
               </p>
@@ -636,7 +636,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
           <div className="relative mb-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
             {/* VS badge - desktop: absolute-centered between the two columns */}
             <div className="absolute left-1/2 top-1/2 z-10 hidden -translate-x-1/2 -translate-y-1/2 sm:flex">
-              <div className="flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#0EA5E9]/20 bg-white text-[13px] font-extrabold text-[#0369A1] shadow-sm">
+              <div className="flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#2F80ED]/20 bg-white text-[13px] font-extrabold text-[#1A5DB8] shadow-sm">
                 VS
               </div>
             </div>
@@ -647,7 +647,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                 {/* VS badge - mobile: sits in the gap BETWEEN the two stacked cards */}
                 {idx === 1 && (
                   <div className="flex items-center justify-center sm:hidden -my-1">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#0EA5E9]/20 bg-white text-[12px] font-extrabold text-[#0369A1]">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#2F80ED]/20 bg-white text-[12px] font-extrabold text-[#1A5DB8]">
                       VS
                     </div>
                   </div>
@@ -690,7 +690,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   providerSlug={provider.id}
                   pageType="battle"
                   sourceFlow="battle_page"
-                  className="mt-auto flex h-[44px] w-full items-center justify-center gap-1.5 rounded-xl bg-[#0EA5E9] text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+                  className="mt-auto flex h-[44px] w-full items-center justify-center gap-1.5 rounded-xl bg-[#2F80ED] text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
                 >
                   Visit {provider.name}
                   <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />
@@ -704,7 +704,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
           {/* ───── PER-PROVIDER DEEP DIVES ───── */}
           <div className="mb-14">
             <div className="mb-8 max-w-[760px]">
-              <p className="mb-2.5 text-[12px] font-bold uppercase tracking-[0.07em] text-[#0369A1]">
+              <p className="mb-2.5 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">
                 The full breakdown
               </p>
               <h2 className="text-[24px] font-bold text-[#191919]">
@@ -737,7 +737,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                     className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"
                   >
                     {/* Accent bar */}
-                    <div className="h-1 bg-gradient-to-r from-[#0EA5E9] via-[#7DD3FC] to-[#0EA5E9]" />
+                    <div className="h-1 bg-gradient-to-r from-[#2F80ED] via-[#A7C9F7] to-[#2F80ED]" />
 
                     <div className="p-6 sm:p-8">
                       {/* Header: logo + Trustpilot rating + quick CTA */}
@@ -768,7 +768,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                           providerSlug={provider.id}
                           pageType="battle"
                           sourceFlow="battle_page"
-                          className="inline-flex h-[42px] items-center justify-center gap-1.5 rounded-xl bg-[#0EA5E9] px-5 text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+                          className="inline-flex h-[42px] items-center justify-center gap-1.5 rounded-xl bg-[#2F80ED] px-5 text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
                         >
                           Visit {provider.name}
                           <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />
@@ -815,13 +815,13 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                         {bestFor.length > 0 && (
                           <div>
                             <h4 className="mb-3 flex items-center gap-2 text-[15px] font-bold text-[#191919]">
-                              <Sparkles className="h-4 w-4 text-[#0369A1]" strokeWidth={2} />
+                              <Sparkles className="h-4 w-4 text-[#1A5DB8]" strokeWidth={2} />
                               Who {provider.name} is best for
                             </h4>
                             <ul className="space-y-2">
                               {bestFor.map((f, i) => (
                                 <li key={i} className="flex items-start gap-2 text-[14px] leading-[1.6] text-gray-600">
-                                  <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[#0369A1]" strokeWidth={2} />
+                                  <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[#1A5DB8]" strokeWidth={2} />
                                   {f}
                                 </li>
                               ))}
@@ -851,7 +851,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                                 <p className="text-[13px] font-bold text-[#191919]">{plan.name}</p>
                                 <p className="mb-2 text-[12px] text-gray-500">{plan.medication}</p>
                                 <div className="flex items-baseline gap-1.5">
-                                  <span className="text-[22px] font-extrabold text-[#0369A1]">{plan.price}</span>
+                                  <span className="text-[22px] font-extrabold text-[#1A5DB8]">{plan.price}</span>
                                   {plan.regularPrice && (
                                     <span className="text-[13px] text-gray-400 line-through">{plan.regularPrice}</span>
                                   )}
@@ -946,7 +946,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                         providerSlug={provider.id}
                         pageType="battle"
                         sourceFlow="battle_page"
-                        className="flex h-[48px] w-full items-center justify-center gap-2 rounded-xl bg-[#0EA5E9] text-[15px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+                        className="flex h-[48px] w-full items-center justify-center gap-2 rounded-xl bg-[#2F80ED] text-[15px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
                       >
                         Get started with {provider.name}
                         <ArrowRight className="h-4 w-4" strokeWidth={2.5} />
@@ -1088,7 +1088,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                     <span className="text-[13.5px] leading-snug text-gray-600 sm:text-[14px]">
                       <BoldKeyFacts text={need} />
                     </span>
-                    <span className="shrink-0 text-[13.5px] font-bold text-[#0369A1] sm:text-[14px]">{pick}</span>
+                    <span className="shrink-0 text-[13.5px] font-bold text-[#1A5DB8] sm:text-[14px]">{pick}</span>
                   </div>
                 ))}
               </div>
@@ -1097,7 +1097,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
 
           {/* ───── EXPERT INTRO ───── */}
           <div className="mb-8 max-w-[760px]">
-            <p className="mb-2.5 text-[12px] font-bold uppercase tracking-[0.07em] text-[#0369A1]">
+            <p className="mb-2.5 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">
               Here&rsquo;s the short version
             </p>
             <ReadableProse text={battle.intro} paragraphClassName="text-[16px] leading-[1.85] text-gray-600" />
@@ -1109,7 +1109,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               only when a battle actually names a winner with points. */}
           {battle.winnerId && verdictWinner && verdictRunnerUp && winnerPts.length > 0 && runnerUpPts.length > 0 && (
             <div className="mb-12 max-w-[820px] rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
-              <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.07em] text-[#0369A1]">
+              <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">
                 The quick answer
               </p>
               <div className="grid gap-5 sm:grid-cols-2">
@@ -1129,7 +1129,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   <ul className="space-y-2">
                     {runnerUpPts.slice(0, 3).map((pt, i) => (
                       <li key={i} className="flex items-start gap-2 text-[14px] leading-[1.65] text-gray-600">
-                        <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[#0369A1]" strokeWidth={2.5} />
+                        <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[#1A5DB8]" strokeWidth={2.5} />
                         <span><BoldKeyFacts text={pt} /></span>
                       </li>
                     ))}
@@ -1150,8 +1150,8 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
           {/* ───── BOTTOM CTAs ───── */}
           <div className="mb-6 grid grid-cols-2 gap-4">
             {[
-              { provider: p1, color: "from-gray-50 to-gray-50/50", hoverColor: "hover:border-[#0EA5E9]/30", textColor: "text-[#191919]" },
-              { provider: p2, color: "from-gray-50 to-gray-50/50", hoverColor: "hover:border-[#0EA5E9]/30", textColor: "text-[#191919]" },
+              { provider: p1, color: "from-gray-50 to-gray-50/50", hoverColor: "hover:border-[#2F80ED]/30", textColor: "text-[#191919]" },
+              { provider: p2, color: "from-gray-50 to-gray-50/50", hoverColor: "hover:border-[#2F80ED]/30", textColor: "text-[#191919]" },
             ].map(({ provider, color, hoverColor, textColor }) => (
               <ProviderCta
                 key={provider.id}
@@ -1208,7 +1208,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                     <Link
                       key={t.slug}
                       href={hubLink(ctx, `/${t.slug}`)}
-                      className="group flex items-center gap-3 rounded-xl border border-[#0EA5E9]/20 bg-[#0EA5E9]/[0.03] px-4 py-3.5 transition-colors hover:border-[#0EA5E9]/40 hover:bg-[#0EA5E9]/[0.06]"
+                      className="group flex items-center gap-3 rounded-xl border border-[#2F80ED]/20 bg-[#2F80ED]/[0.03] px-4 py-3.5 transition-colors hover:border-[#2F80ED]/40 hover:bg-[#2F80ED]/[0.06]"
                     >
                       <div className="flex flex-wrap items-center gap-2 text-[13px] font-bold text-[#191919]">
                         {t.names.map((name, ni) => (
@@ -1218,7 +1218,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                           </Fragment>
                         ))}
                       </div>
-                      <span className="ml-auto inline-flex shrink-0 items-center gap-1 text-[13px] font-semibold text-[#0369A1] group-hover:underline">
+                      <span className="ml-auto inline-flex shrink-0 items-center gap-1 text-[13px] font-semibold text-[#1A5DB8] group-hover:underline">
                         Compare all three
                         <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />
                       </span>
@@ -1231,14 +1231,14 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   <Link
                     key={relSlug}
                     href={hubLink(ctx, `/${relSlug}`)}
-                    className="group flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3.5 transition-colors hover:border-[#0EA5E9]/30 hover:bg-[#0EA5E9]/[0.02]"
+                    className="group flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3.5 transition-colors hover:border-[#2F80ED]/30 hover:bg-[#2F80ED]/[0.02]"
                   >
                     <div className="flex items-center gap-2 text-[13px] font-bold text-[#191919]">
                       <span>{bp1.name}</span>
                       <span className="text-[11px] font-extrabold text-gray-300">VS</span>
                       <span>{bp2.name}</span>
                     </div>
-                    <span className="ml-auto inline-flex items-center gap-1 text-[13px] font-semibold text-[#0369A1] group-hover:underline">
+                    <span className="ml-auto inline-flex items-center gap-1 text-[13px] font-semibold text-[#1A5DB8] group-hover:underline">
                       Compare
                       <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />
                     </span>
@@ -1250,15 +1250,15 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
 
           {/* Related links */}
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 py-4 text-[13px]">
-            <Link href={hubLink(ctx, `/reviews/${p1.id}`)} className="font-semibold text-[#0369A1] hover:underline">
+            <Link href={hubLink(ctx, `/reviews/${p1.id}`)} className="font-semibold text-[#1A5DB8] hover:underline">
               {p1.name} Review
             </Link>
             <span className="text-gray-300">|</span>
-            <Link href={hubLink(ctx, `/reviews/${p2.id}`)} className="font-semibold text-[#0369A1] hover:underline">
+            <Link href={hubLink(ctx, `/reviews/${p2.id}`)} className="font-semibold text-[#1A5DB8] hover:underline">
               {p2.name} Review
             </Link>
             <span className="text-gray-300">|</span>
-            <Link href={hubLink(ctx, "/")} className="font-semibold text-[#0369A1] hover:underline">
+            <Link href={hubLink(ctx, "/")} className="font-semibold text-[#1A5DB8] hover:underline">
               Compare All Providers
             </Link>
           </div>

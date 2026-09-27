@@ -31,9 +31,9 @@ export default function OnlineWeightLossIndex() {
       </p>
       <p className="mb-8 max-w-2xl text-[15px] leading-[1.7] text-gray-600">
         Prefer to jump straight in? See our{" "}
-        <Link href="/" className="font-semibold text-[#0369A1] hover:underline">full provider comparison</Link>{" "}
+        <Link href="/" className="font-semibold text-[#1A5DB8] hover:underline">full provider comparison</Link>{" "}
         or read{" "}
-        <Link href="/articles/compounded-vs-brand-name-glp1" className="font-semibold text-[#0369A1] hover:underline">
+        <Link href="/articles/compounded-vs-brand-name-glp1" className="font-semibold text-[#1A5DB8] hover:underline">
           compounded vs brand-name GLP-1s
         </Link>.
       </p>
@@ -43,7 +43,7 @@ export default function OnlineWeightLossIndex() {
           <Link
             key={s.slug}
             href={`/online-weight-loss/${s.slug}`}
-            className="block rounded-md px-3 py-2 text-[15px] text-gray-700 hover:bg-gray-50 hover:text-[#0369A1]"
+            className="block rounded-md px-3 py-2 text-[15px] text-gray-700 hover:bg-gray-50 hover:text-[#1A5DB8]"
           >
             {s.name}
           </Link>

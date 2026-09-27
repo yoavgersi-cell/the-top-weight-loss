@@ -76,8 +76,8 @@ export default async function AboutPage() {
               { icon: BookOpen, title: "Educate Patients", desc: "Our articles and guides explain compounded vs brand-name GLP-1s, side effects, real costs, and what to expect from care." },
             ].map(({ icon: Icon, title, desc }) => (
               <div key={title} className="rounded-xl border border-gray-200 bg-white p-5">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0EA5E9]/5">
-                  <Icon className="h-5 w-5 text-[#0369A1]" strokeWidth={1.5} />
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#2F80ED]/5">
+                  <Icon className="h-5 w-5 text-[#1A5DB8]" strokeWidth={1.5} />
                 </div>
                 <h3 className="mb-1 text-[15px] font-bold text-[#191919]">{title}</h3>
                 <p className="text-[13px] leading-relaxed text-gray-500">{desc}</p>
@@ -107,7 +107,7 @@ export default async function AboutPage() {
               { category: "Flexibility", weight: "10%", desc: "Month-to-month vs prepaid plans, cancellation and pause policies, ability to switch medications, and HSA/FSA acceptance." },
             ].map(({ category, weight, desc }) => (
               <div key={category} className="flex gap-4 rounded-lg border border-gray-200 bg-white p-4">
-                <span className="shrink-0 rounded bg-[#0EA5E9] px-2.5 py-1 text-[12px] font-bold text-white">{weight}</span>
+                <span className="shrink-0 rounded bg-[#2F80ED] px-2.5 py-1 text-[12px] font-bold text-white">{weight}</span>
                 <div>
                   <p className="text-[14px] font-bold text-[#191919]">{category}</p>
                   <p className="mt-0.5 text-[13px] text-gray-500">{desc}</p>
@@ -117,7 +117,7 @@ export default async function AboutPage() {
           </div>
           <p className="mt-6 text-[15px] leading-[1.75] text-gray-600">
             Want the full picture? Read our detailed{" "}
-            <Link href="/how-we-rank" className="font-semibold text-[#0369A1] hover:underline">
+            <Link href="/how-we-rank" className="font-semibold text-[#1A5DB8] hover:underline">
               ranking &amp; review methodology
             </Link>{" "}
             - the factors we score, where our data comes from, and how we pick winners.
@@ -155,21 +155,21 @@ export default async function AboutPage() {
         <section className="mb-12">
           <div className="grid gap-4 sm:grid-cols-3">
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
-              <Users className="h-8 w-8 shrink-0 text-[#0369A1]" strokeWidth={1.5} />
+              <Users className="h-8 w-8 shrink-0 text-[#1A5DB8]" strokeWidth={1.5} />
               <div>
                 <p className="text-[18px] font-extrabold text-[#191919]">6</p>
                 <p className="text-[12px] text-gray-500">Weighted ranking categories</p>
               </div>
             </div>
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
-              <Award className="h-8 w-8 shrink-0 text-[#0369A1]" strokeWidth={1.5} />
+              <Award className="h-8 w-8 shrink-0 text-[#1A5DB8]" strokeWidth={1.5} />
               <div>
                 <p className="text-[18px] font-extrabold text-[#191919]">6</p>
                 <p className="text-[12px] text-gray-500">Providers independently reviewed</p>
               </div>
             </div>
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
-              <Shield className="h-8 w-8 shrink-0 text-[#0369A1]" strokeWidth={1.5} />
+              <Shield className="h-8 w-8 shrink-0 text-[#1A5DB8]" strokeWidth={1.5} />
               <div>
                 <p className="text-[18px] font-extrabold text-[#191919]">5+</p>
                 <p className="text-[12px] text-gray-500">Expert articles and guides published</p>
@@ -200,7 +200,7 @@ export default async function AboutPage() {
           <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Link
               href="/"
-              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#0EA5E9] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#2F80ED] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
             >
               Compare Providers
             </Link>

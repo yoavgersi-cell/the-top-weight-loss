@@ -12,7 +12,7 @@ export function DisclosureBar() {
         Some providers featured on this site may compensate us. This may affect the order and placement of listings but does not influence our editorial ratings or reviews.{" "}
         <button
           onClick={() => setIsOpen(true)}
-          className="font-bold text-[#191919] underline underline-offset-2 hover:text-[#0369A1]"
+          className="font-bold text-[#191919] underline underline-offset-2 hover:text-[#1A5DB8]"
         >
           Advertising Disclosure
         </button>

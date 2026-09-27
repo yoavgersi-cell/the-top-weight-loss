@@ -77,7 +77,7 @@ function ProductCard({
         </div>
 
         <div className="flex flex-1 flex-col p-3.5">
-          <p className="text-[13px] font-semibold leading-snug text-[#0369A1] line-clamp-2">
+          <p className="text-[13px] font-semibold leading-snug text-[#1A5DB8] line-clamp-2">
             {product.name}
           </p>
           <div className="mt-2 flex items-baseline gap-1.5">

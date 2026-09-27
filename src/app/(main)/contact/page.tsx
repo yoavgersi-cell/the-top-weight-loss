@@ -21,12 +21,12 @@ export default function ContactPage() {
         </p>
 
         <div className="my-6 flex items-center gap-3 rounded-xl border border-[#EAEAEA] bg-white p-5">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0EA5E9]/8">
-            <Mail className="h-5 w-5 text-[#0369A1]" strokeWidth={1.5} />
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#2F80ED]/8">
+            <Mail className="h-5 w-5 text-[#1A5DB8]" strokeWidth={1.5} />
           </div>
           <div>
             <p className="text-sm font-semibold text-[#191919]">Email us</p>
-            <a href="mailto:hello@thetopweightloss.com" className="text-[15px] font-semibold text-[#0369A1] hover:underline">
+            <a href="mailto:hello@thetopweightloss.com" className="text-[15px] font-semibold text-[#1A5DB8] hover:underline">
               hello@thetopweightloss.com
             </a>
           </div>
@@ -36,7 +36,7 @@ export default function ContactPage() {
         <ul className="ml-5 list-disc space-y-1">
           <li><strong>Corrections &amp; feedback</strong> - see something inaccurate or out of date? Let us know and we&apos;ll review it.</li>
           <li><strong>Editorial questions</strong> - how we research, score, and rank providers (see our{" "}
-            <Link href="/how-we-rank" className="font-semibold text-[#0369A1] hover:underline">methodology</Link>).</li>
+            <Link href="/how-we-rank" className="font-semibold text-[#1A5DB8] hover:underline">methodology</Link>).</li>
           <li><strong>Provider &amp; partnership inquiries</strong> - if you represent a provider and want to reach us.</li>
         </ul>
 

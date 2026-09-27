@@ -69,7 +69,7 @@ export async function Footer() {
           {/* Brand blurb */}
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <p className="text-[13px] leading-relaxed text-gray-500">
-              <span className="font-bold text-[#0369A1]">The Top Weight Loss</span> is an independent comparison
+              <span className="font-bold text-[#1A5DB8]">The Top Weight Loss</span> is an independent comparison
               publisher for online GLP-1 weight-loss programs.
             </p>
           </div>
@@ -79,7 +79,7 @@ export async function Footer() {
               <h4 className="mb-2.5 text-[12px] font-bold uppercase tracking-wider text-[#191919]">{col.title}</h4>
               <nav className="space-y-1.5">
                 {col.links.map((l) => (
-                  <Link key={l.label} href={l.href} className="block text-[13px] text-gray-500 hover:text-[#0369A1]">
+                  <Link key={l.label} href={l.href} className="block text-[13px] text-gray-500 hover:text-[#1A5DB8]">
                     {l.label}
                   </Link>
                 ))}

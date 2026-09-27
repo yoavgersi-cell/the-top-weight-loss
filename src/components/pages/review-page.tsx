@@ -259,7 +259,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
               providerSlug={provider.id}
               pageType="review"
               sourceFlow="provider_review"
-              className="flex h-[44px] items-center justify-center gap-2 rounded-lg bg-[#0EA5E9] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7] sm:shrink-0"
+              className="flex h-[44px] items-center justify-center gap-2 rounded-lg bg-[#2F80ED] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1] sm:shrink-0"
             >
               Visit {provider.name}
               <ArrowRight className="h-4 w-4" strokeWidth={2.5} />
@@ -282,15 +282,15 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
           ) : (
             <>
               <div className="flex items-center gap-2 text-[13px] text-gray-600">
-                <Shield className="h-4 w-4 text-[#0369A1]" strokeWidth={1.5} />
+                <Shield className="h-4 w-4 text-[#1A5DB8]" strokeWidth={1.5} />
                 Licensed Providers
               </div>
               <div className="flex items-center gap-2 text-[13px] text-gray-600">
-                <Clock className="h-4 w-4 text-[#0369A1]" strokeWidth={1.5} />
+                <Clock className="h-4 w-4 text-[#1A5DB8]" strokeWidth={1.5} />
                 Fast Home Delivery
               </div>
               <div className="flex items-center gap-2 text-[13px] text-gray-600">
-                <Users className="h-4 w-4 text-[#0369A1]" strokeWidth={1.5} />
+                <Users className="h-4 w-4 text-[#1A5DB8]" strokeWidth={1.5} />
                 Ongoing Support
               </div>
             </>
@@ -300,8 +300,8 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
         {/* The Bottom Line - the verdict up top, so the answer to "is it worth
             it" doesn't hide at the bottom of the page. */}
         {review.finalVerdict && (
-          <div className="mb-8 rounded-2xl border border-[#0EA5E9]/20 bg-white p-5 shadow-sm sm:p-6">
-            <p className="mb-2 text-[12px] font-bold uppercase tracking-[0.07em] text-[#0369A1]">The bottom line</p>
+          <div className="mb-8 rounded-2xl border border-[#2F80ED]/20 bg-white p-5 shadow-sm sm:p-6">
+            <p className="mb-2 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">The bottom line</p>
             <ReadableProse text={review.finalVerdict} paragraphClassName="text-[15px] leading-[1.8] text-gray-800" />
           </div>
         )}
@@ -386,7 +386,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
             <ul className="space-y-2.5">
               {review.treatmentOptions.map((option) => (
                 <li key={option} className="flex items-start gap-2.5 text-[14px] text-gray-800">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0EA5E9]" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#2F80ED]" />
                   {option}
                 </li>
               ))}
@@ -403,7 +403,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   <div className="flex items-center justify-between gap-2">
                     <h4 className="text-[15px] font-bold text-[#191919]">{plan.name}</h4>
                     {plan.cadence && (
-                      <span className="rounded-full bg-[#0EA5E9]/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-[#0369A1]">
+                      <span className="rounded-full bg-[#2F80ED]/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-[#1A5DB8]">
                         {plan.cadence}
                       </span>
                     )}
@@ -448,12 +448,12 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
             <ol className="space-y-4">
               {review.howItWorks.map((step, i) => (
                 <li key={i} className="flex gap-4">
-                  <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0EA5E9] text-[13px] font-bold text-white">
+                  <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#2F80ED] text-[13px] font-bold text-white">
                     {i + 1}
                   </div>
                   <div>
                     {step.timing && (
-                      <span className="text-[11px] font-semibold uppercase tracking-wide text-[#0369A1]">
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-[#1A5DB8]">
                         {step.timing}
                       </span>
                     )}
@@ -507,7 +507,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
         </div>
 
         {/* Mid-page CTA */}
-        <div className="mb-6 rounded-xl border border-[#0EA5E9]/10 bg-[#0EA5E9]/[0.03] p-5 text-center sm:p-6">
+        <div className="mb-6 rounded-xl border border-[#2F80ED]/10 bg-[#2F80ED]/[0.03] p-5 text-center sm:p-6">
           <p className="mb-3 text-[16px] font-bold text-[#191919]">
             Interested in {provider.name}?
           </p>
@@ -520,7 +520,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
             providerSlug={provider.id}
             pageType="review"
             sourceFlow="provider_review"
-            className="inline-flex h-[44px] items-center justify-center gap-2 rounded-lg bg-[#0EA5E9] px-8 text-[14px] font-bold text-white transition-colors hover:bg-[#0284C7]"
+            className="inline-flex h-[44px] items-center justify-center gap-2 rounded-lg bg-[#2F80ED] px-8 text-[14px] font-bold text-white transition-colors hover:bg-[#1F6BD1]"
           >
             Visit {provider.name}
             <ArrowRight className="h-4 w-4" strokeWidth={2.5} />
@@ -532,7 +532,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
           <ul className="space-y-2.5">
             {review.bestFor.map((item) => (
               <li key={item} className="flex items-start gap-2.5 text-[14px] text-gray-800">
-                <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-[#0369A1]" strokeWidth={2} />
+                <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-[#1A5DB8]" strokeWidth={2} />
                 {item}
               </li>
             ))}
@@ -675,7 +675,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
               providerSlug={provider.id}
               pageType="review"
               sourceFlow="provider_review"
-              className="mt-5 flex h-[48px] w-full items-center justify-center gap-2 rounded-lg bg-[#0EA5E9] text-[15px] font-bold text-white transition-colors hover:bg-[#0284C7] sm:w-auto sm:px-8"
+              className="mt-5 flex h-[48px] w-full items-center justify-center gap-2 rounded-lg bg-[#2F80ED] text-[15px] font-bold text-white transition-colors hover:bg-[#1F6BD1] sm:w-auto sm:px-8"
             >
               Visit {provider.name}
               <ArrowRight className="h-4 w-4" strokeWidth={2.5} />
@@ -716,9 +716,9 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   <Link
                     key={battle.slug}
                     href={hubLink(ctx, `/${battle.slug}`)}
-                    className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-medium text-[#191919] transition-colors hover:border-[#0EA5E9]/30 hover:bg-[#0EA5E9]/[0.02]"
+                    className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-medium text-[#191919] transition-colors hover:border-[#2F80ED]/30 hover:bg-[#2F80ED]/[0.02]"
                   >
-                    <span className="text-[#0369A1]">{provider.name} vs {otherProvider?.name}</span>
+                    <span className="text-[#1A5DB8]">{provider.name} vs {otherProvider?.name}</span>
                     <span className="ml-auto text-[12px] text-gray-400">Compare</span>
                   </Link>
                 );
@@ -727,7 +727,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
                 <Link
                   key={article.slug}
                   href={hubLink(ctx, `/articles/${article.slug}`)}
-                  className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-medium text-[#191919] transition-colors hover:border-[#0EA5E9]/30 hover:bg-[#0EA5E9]/[0.02]"
+                  className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-medium text-[#191919] transition-colors hover:border-[#2F80ED]/30 hover:bg-[#2F80ED]/[0.02]"
                 >
                   <span className="truncate">{article.title}</span>
                   <span className="ml-auto shrink-0 text-[12px] text-gray-400">{article.readTime}</span>
@@ -751,7 +751,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
                 <Link
                   key={c.slug}
                   href={hubLink(ctx, `/articles/${c.slug}`)}
-                  className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-semibold text-[#0369A1] transition-colors hover:border-[#0EA5E9]/30 hover:bg-[#0EA5E9]/[0.02]"
+                  className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-semibold text-[#1A5DB8] transition-colors hover:border-[#2F80ED]/30 hover:bg-[#2F80ED]/[0.02]"
                 >
                   <span className="truncate">{c.label}</span>
                   <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0" strokeWidth={2} />

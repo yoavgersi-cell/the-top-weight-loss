@@ -29,7 +29,7 @@ function TestimonialCard({ t }: { t: Testimonial }) {
         &ldquo;{t.text}&rdquo;
       </p>
       <div className="flex items-center gap-2">
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#0EA5E9]/10 text-[12px] font-bold text-[#0369A1]">
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2F80ED]/10 text-[12px] font-bold text-[#1A5DB8]">
           {t.name.charAt(0)}
         </div>
         <div>
@@ -101,7 +101,7 @@ export function TestimonialsCarousel({ testimonials }: { testimonials: Testimoni
                 key={i}
                 onClick={() => setCurrent(i)}
                 className={`h-1.5 rounded-full transition-all ${
-                  i === current ? "w-5 bg-[#0EA5E9]" : "w-1.5 bg-gray-200"
+                  i === current ? "w-5 bg-[#2F80ED]" : "w-1.5 bg-gray-200"
                 }`}
               />
             ))}
