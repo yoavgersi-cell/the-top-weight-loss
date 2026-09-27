@@ -76,7 +76,7 @@ export const weightLossConfig: SiteConfig = {
     "Some providers featured on this site may compensate us. This may affect the order and placement of listings but does not influence our editorial ratings or reviews.",
 
   hero: {
-    backgroundImageUrl: "/hero.png",
+    backgroundImageUrl: "",
     imageAlt: "GLP-1 weight loss injection pen",
     updatedLabel: "Last Updated: September 2026",
     h1: "Best GLP-1 Weight Loss Providers of 2026",
