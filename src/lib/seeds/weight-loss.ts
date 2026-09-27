@@ -1,5 +1,6 @@
 import type { SiteConfig } from "@/lib/config";
 import { weightLossArticles } from "./weight-loss-articles";
+import { weightLossBattles } from "./weight-loss-battles";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // GLP-1 weight-loss vertical content - thetopweightloss.com
@@ -64,7 +65,7 @@ import { weightLossArticles } from "./weight-loss-articles";
 //  - The compounding legal landscape is evolving; copy tells readers to check
 //    with their provider rather than making definitive legal claims.
 //  - No trustpilotReviews arrays - add only real, attributable reviews.
-//  - battles [] - the operator will choose head-to-head comparisons later.
+//  - battles live in ./weight-loss-battles (operator-chosen matchups).
 // ─────────────────────────────────────────────────────────────────────────────
 
 const UPDATED = "2026-09-27";
@@ -688,6 +689,7 @@ export const weightLossConfig: SiteConfig = {
       ],
       trustBadges: ["Board-certified clinicians", "All 50 states", "Same price at every dose"],
       updatedAt: UPDATED,
+    },
     {
       slug: "medvi",
       providerId: "medvi",
@@ -783,7 +785,7 @@ export const weightLossConfig: SiteConfig = {
     },
   ],
 
-  battles: [],
+  battles: weightLossBattles,
 
   articles: weightLossArticles,
 
