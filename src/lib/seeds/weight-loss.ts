@@ -8,7 +8,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 // Launch content for "The Top Weight Loss", an independent comparison site for
 // online (telehealth) GLP-1 weight-loss providers in the US. Six providers:
 // embody (the anchor - lowest no-commitment compounded price, 1-2 day
-// shipping), Ro (brand-name, FDA-approved medication only, with an insurance
+// shipping), ro (brand-name, FDA-approved medication only, with an insurance
 // concierge), altRx (flat price at every dose plus a brand-name shelf - carries
 // a June 2026 FDA warning letter, disclosed in its review), trimrx (custom
 // dosing, unlimited provider check-ins), wellmedr (lowest long-run price on
@@ -24,7 +24,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    oral (compounded) option; ships in 1-2 days, cold-chain, free shipping;
 //    cash-pay (HSA/FSA usable); LegitScript-certified; 503A pharmacies;
 //    Trustpilot 3.8 / 5 from 8,398 reviews.
-//  - Ro: brand-name only (Wegovy, Zepbound, Ozempic, Foundaya); membership
+//  - ro: brand-name only (Wegovy, Zepbound, Ozempic, Foundaya); membership
 //    $39 first month then $149/mo, or up to 50% off annually (~$74/mo);
 //    medication billed separately (insurance or manufacturer self-pay price);
 //    insurance concierge + prior authorizations; founded 2017.
@@ -58,8 +58,8 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    so.
 //  - MEDVi: brand-name prices, delivery times and state coverage were not
 //    provided - none are asserted.
-//  - Ro's medication prices are not asserted (insurance / manufacturer
-//    self-pay pricing varies). No Ro or altRx Trustpilot figures are set.
+//  - ro's medication prices are not asserted (insurance / manufacturer
+//    self-pay pricing varies). No ro or altRx Trustpilot figures are set.
 //  - State coverage (`excludedStates`) is not set for any provider; trimrx is
 //    "most US states" - fill in once confirmed.
 //  - The compounding legal landscape is evolving; copy tells readers to check
@@ -137,7 +137,7 @@ export const weightLossConfig: SiteConfig = {
     },
     {
       id: "ro",
-      name: "Ro",
+      name: "ro",
       tagline:
         "Brand-name, FDA-approved GLP-1s only - Wegovy, Zepbound, Ozempic and Foundaya - with an insurance concierge",
       logo: "/logos/roweightlosslogo.png",
@@ -266,10 +266,10 @@ export const weightLossConfig: SiteConfig = {
         "People paying cash who want the lowest price without a long commitment",
         "Anyone who wants to start quickly - medication in 1-2 days",
         "Those who want an oral option as well as injections",
-        "Skip it if you have insurance that covers Wegovy or Zepbound, or you only want FDA-approved medication - look at Ro instead",
+        "Skip it if you have insurance that covers Wegovy or Zepbound, or you only want FDA-approved medication - look at ro instead",
       ],
       finalVerdict:
-        "embody is our top pick because it combines the two things that matter most for cash-pay GLP-1 patients - a low, flat price and no lock-in - with the fastest delivery we found. $69/month semaglutide and $119/month tirzepatide on a month-to-month basis is hard to beat, and LegitScript certification plus licensed clinicians on every intake gives it a solid compliance footing. The trade-offs are real: compounded GLP-1s are not FDA-approved, support reviews are mixed, and it will not help you use insurance. If you want brand-name medication or have coverage, choose Ro; if you are cash-pay and want to start this week, embody is the one to beat. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
+        "embody is our top pick because it combines the two things that matter most for cash-pay GLP-1 patients - a low, flat price and no lock-in - with the fastest delivery we found. $69/month semaglutide and $119/month tirzepatide on a month-to-month basis is hard to beat, and LegitScript certification plus licensed clinicians on every intake gives it a solid compliance footing. The trade-offs are real: compounded GLP-1s are not FDA-approved, support reviews are mixed, and it will not help you use insurance. If you want brand-name medication or have coverage, choose ro; if you are cash-pay and want to start this week, embody is the one to beat. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -323,9 +323,9 @@ export const weightLossConfig: SiteConfig = {
       slug: "ro",
       providerId: "ro",
       shortSummary:
-        "The best choice for brand-name, FDA-approved GLP-1s: Ro prescribes only Wegovy, Zepbound, Ozempic and Foundaya, checks your insurance and handles prior authorizations for you.",
+        "The best choice for brand-name, FDA-approved GLP-1s: ro prescribes only Wegovy, Zepbound, Ozempic and Foundaya, checks your insurance and handles prior authorizations for you.",
       reviewIntro:
-        "Ro is one of the largest and most established direct-to-consumer telehealth brands in the US, founded in 2017, and its weight-loss program takes a deliberately different path from most GLP-1 sites: it prescribes only brand-name, FDA-approved medications - Wegovy, Zepbound, Ozempic and Foundaya - and does not sell compounded GLP-1s at all. Its standout feature is an insurance concierge that checks your coverage and handles prior authorizations, which can be the difference between paying hundreds of dollars a month and paying a copay. The trade-off is pricing that is harder to predict: you pay a membership fee, and the medication is billed separately. This review covers how Ro works, what it really costs, and who it fits.",
+        "ro is one of the largest and most established direct-to-consumer telehealth brands in the US, founded in 2017, and its weight-loss program takes a deliberately different path from most GLP-1 sites: it prescribes only brand-name, FDA-approved medications - Wegovy, Zepbound, Ozempic and Foundaya - and does not sell compounded GLP-1s at all. Its standout feature is an insurance concierge that checks your coverage and handles prior authorizations, which can be the difference between paying hundreds of dollars a month and paying a copay. The trade-off is pricing that is harder to predict: you pay a membership fee, and the medication is billed separately. This review covers how ro works, what it really costs, and who it fits.",
       keyFeatures: [
         "Brand-name, FDA-approved medication only: Wegovy, Zepbound, Ozempic, Foundaya",
         "Oral pill or injection pen options",
@@ -335,7 +335,7 @@ export const weightLossConfig: SiteConfig = {
         "Available nationwide",
       ],
       pricingSummary:
-        "Ro bills a membership and your medication separately. The membership is $39 for the first month, then $149/month, or you can save up to 50% with an annual plan (about $74/month). Medication is not included: its cost depends on whether your insurance covers it, or on the manufacturer's self-pay price if it does not. If you are insured and approved, total cost can be far lower than any cash-pay program; if you are not, brand-name medication plus membership will usually cost more than compounded options. Confirm the current membership price at checkout.",
+        "ro bills a membership and your medication separately. The membership is $39 for the first month, then $149/month, or you can save up to 50% with an annual plan (about $74/month). Medication is not included: its cost depends on whether your insurance covers it, or on the manufacturer's self-pay price if it does not. If you are insured and approved, total cost can be far lower than any cash-pay program; if you are not, brand-name medication plus membership will usually cost more than compounded options. Confirm the current membership price at checkout.",
       treatmentOptions: [
         "Wegovy (semaglutide) - FDA-approved for chronic weight management",
         "Zepbound (tirzepatide) - FDA-approved for chronic weight management",
@@ -363,7 +363,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if you are uninsured and price is your main concern - a compounded program like embody costs much less",
       ],
       finalVerdict:
-        "Ro is the best option on our list if you want FDA-approved, brand-name GLP-1s or have insurance that might cover them. Its insurance concierge takes on the most frustrating part of getting Wegovy or Zepbound - coverage checks and prior authorizations - and it avoids the regulatory questions that surround compounded medication entirely. It ranks second, not first, because pricing is split between a membership and separately billed medication, which makes it expensive for uninsured patients. If you have coverage or want brand-name only, start here; if you are paying cash, compare embody. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
+        "ro is the best option on our list if you want FDA-approved, brand-name GLP-1s or have insurance that might cover them. Its insurance concierge takes on the most frustrating part of getting Wegovy or Zepbound - coverage checks and prior authorizations - and it avoids the regulatory questions that surround compounded medication entirely. It ranks second, not first, because pricing is split between a membership and separately billed medication, which makes it expensive for uninsured patients. If you have coverage or want brand-name only, start here; if you are paying cash, compare embody. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Monthly membership",
@@ -389,7 +389,7 @@ export const weightLossConfig: SiteConfig = {
           timing: "Step 1",
           title: "Online intake and insurance check",
           detail:
-            "Complete an async health intake and add your insurance details. Ro's concierge checks whether your plan covers a GLP-1.",
+            "Complete an async health intake and add your insurance details. ro's concierge checks whether your plan covers a GLP-1.",
         },
         {
           timing: "Step 2",
@@ -401,7 +401,7 @@ export const weightLossConfig: SiteConfig = {
           timing: "Step 3",
           title: "Prior authorization and prescription",
           detail:
-            "Ro handles the prior authorization with your insurer; if coverage is denied, you can pay the manufacturer's self-pay price instead.",
+            "ro handles the prior authorization with your insurer; if coverage is denied, you can pay the manufacturer's self-pay price instead.",
         },
         {
           timing: "Ongoing",
@@ -455,7 +455,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if an FDA warning letter is a deal-breaker for you, or if you need medication fast - embody ships in 1-2 days",
       ],
       finalVerdict:
-        "altRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba altRx), objecting to website claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved drugs. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and Ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
+        "altRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba altRx), objecting to website claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved drugs. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -808,7 +808,7 @@ export const weightLossConfig: SiteConfig = {
     {
       question: "Will insurance pay for semaglutide or tirzepatide?",
       answer:
-        "Sometimes. Some commercial plans cover Wegovy or Zepbound for weight management, usually with a prior authorization, while many plans exclude weight-loss drugs. Compounded GLP-1s are almost always cash-pay, though HSA/FSA funds can often be used. If you think you may be covered, a provider with an insurance concierge, such as Ro, can check and handle the prior authorization for you.",
+        "Sometimes. Some commercial plans cover Wegovy or Zepbound for weight management, usually with a prior authorization, while many plans exclude weight-loss drugs. Compounded GLP-1s are almost always cash-pay, though HSA/FSA funds can often be used. If you think you may be covered, a provider with an insurance concierge, such as ro, can check and handle the prior authorization for you.",
     },
     {
       question: "Am I eligible for a GLP-1 prescription?",
@@ -838,7 +838,7 @@ export const weightLossConfig: SiteConfig = {
     {
       question: "Are there oral GLP-1 options instead of injections?",
       answer:
-        "Yes. There are brand-name oral GLP-1 options - Ro, for example, offers Foundaya as an oral pill - and some compounded programs, such as embody, offer a daily oral option. Oral and injectable forms differ in dosing and how consistently they are absorbed, so ask your clinician which suits you. Remember that compounded oral products, like compounded injections, are not FDA-approved.",
+        "Yes. There are brand-name oral GLP-1 options - ro, for example, offers Foundaya as an oral pill - and some compounded programs, such as embody, offer a daily oral option. Oral and injectable forms differ in dosing and how consistently they are absorbed, so ask your clinician which suits you. Remember that compounded oral products, like compounded injections, are not FDA-approved.",
     },
   ],
 

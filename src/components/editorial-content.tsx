@@ -4,7 +4,7 @@ const treatmentRows: [string, string, string][] = [
   ["Brand-name, FDA-approved GLP-1", "Wegovy (semaglutide), Zepbound (tirzepatide); Ozempic and Mounjaro are the diabetes versions", "Reviewed by the FDA for safety, effectiveness and manufacturing quality. Wegovy and Zepbound are approved for chronic weight management. Self-pay list prices often exceed $1,000/mo, but insurance or manufacturer programs can lower that a lot."],
   ["Compounded semaglutide", "Made by a state-licensed 503A compounding pharmacy for an individual patient", "Not FDA-approved - the FDA does not review compounded drugs for safety, effectiveness or quality. Online programs advertise roughly $49-$199/mo. Rules on compounding have tightened since the shortages ended, so ask your provider how their prescription is justified."],
   ["Compounded tirzepatide", "Made by a state-licensed 503A compounding pharmacy for an individual patient", "Same caveats as compounded semaglutide. Online programs advertise roughly $89-$299/mo, usually more than compounded semaglutide."],
-  ["Oral options", "Brand-name oral GLP-1s (e.g. Foundaya at Ro); some compounded daily oral formulations", "Useful if you dislike injections. Brand-name pills are FDA-approved; compounded oral versions are not, and have less evidence behind them."],
+  ["Oral options", "Brand-name oral GLP-1s (e.g. Foundaya at ro); some compounded daily oral formulations", "Useful if you dislike injections. Brand-name pills are FDA-approved; compounded oral versions are not, and have less evidence behind them."],
   ["Lifestyle foundation", "Protein-forward eating, resistance training, sleep, alcohol limits", "Not an alternative for most people with obesity, but it matters on medication: protein and strength training help preserve lean muscle while you lose weight."],
 ];
 
@@ -88,12 +88,12 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         like and what it really costs. Prefer to go straight to the providers? Read our in-depth
         reviews of{" "}
         <Link href="/reviews/embody" className={linkCls}>embody</Link>,{" "}
-        <Link href="/reviews/ro" className={linkCls}>Ro</Link>,{" "}
+        <Link href="/reviews/ro" className={linkCls}>ro</Link>,{" "}
         <Link href="/reviews/altrx" className={linkCls}>altRx</Link>,{" "}
         <Link href="/reviews/trimrx" className={linkCls}>trimrx</Link>,{" "}
         <Link href="/reviews/wellmedr" className={linkCls}>wellmedr</Link> and{" "}
         <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>, or see them head to head in{" "}
-        <Link href="/embody-vs-ro" className={linkCls}>embody vs Ro</Link> and{" "}
+        <Link href="/embody-vs-ro" className={linkCls}>embody vs ro</Link> and{" "}
         <Link href="/altrx-vs-trimrx" className={linkCls}>altRx vs trimrx</Link>.
       </p>
 
@@ -191,7 +191,7 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         How to Choose an Online GLP-1 Provider
       </h2>
       <ul className="mb-4 list-disc space-y-1 pl-6">
-        <li><strong>If you have insurance or want only FDA-approved medication</strong> - look at a brand-name specialist like <Link href="/reviews/ro" className={linkCls}>Ro</Link>, which checks coverage and handles prior authorizations.</li>
+        <li><strong>If you have insurance or want only FDA-approved medication</strong> - look at a brand-name specialist like <Link href="/reviews/ro" className={linkCls}>ro</Link>, which checks coverage and handles prior authorizations.</li>
         <li><strong>If you want the lowest price with no commitment</strong> - <Link href="/reviews/embody" className={linkCls}>embody</Link> lists compounded semaglutide at $69/mo month-to-month.</li>
         <li><strong>If you will commit for a year</strong> - <Link href="/reviews/wellmedr" className={linkCls}>wellmedr</Link>&apos;s 12-month plan is the cheapest long-run price we found ($49/mo semaglutide).</li>
         <li><strong>If you want custom dosing and frequent check-ins</strong> - <Link href="/reviews/trimrx" className={linkCls}>trimrx</Link> offers unlimited provider check-ins.</li>
@@ -215,7 +215,7 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <li><strong>Compounded semaglutide</strong> - about $49-$199/mo among the providers we rank, depending on plan length and whether a promo applies.</li>
         <li><strong>Compounded tirzepatide</strong> - about $89-$299/mo.</li>
         <li><strong>Brand-name, self-pay</strong> - often $1,000+/mo at list price; far less if your insurance covers it or you qualify for a manufacturer program.</li>
-        <li><strong>Membership fees</strong> - some providers bill care separately from medication (Ro: $39 first month, then $149/mo, or less on an annual plan).</li>
+        <li><strong>Membership fees</strong> - some providers bill care separately from medication (ro: $39 first month, then $149/mo, or less on an annual plan).</li>
       </ul>
       <p className="mb-8">
         Watch for intro prices that jump after a few months, dose-based pricing that rises as you

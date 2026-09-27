@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     absolute: "Top GLP-1 Weight Loss Programs (2026): Online Providers Ranked by Real Price",
   },
   description:
-    "Compare the best online GLP-1 weight loss providers of 2026. embody, Ro, altRx, trimrx, wellmedr and MEDVi ranked by verified price, semaglutide and tirzepatide access, clinical support and transparency.",
+    "Compare the best online GLP-1 weight loss providers of 2026. embody, ro, altRx, trimrx, wellmedr and MEDVi ranked by verified price, semaglutide and tirzepatide access, clinical support and transparency.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: "Top GLP-1 Weight Loss Programs (2026): Online Providers Ranked by Real Price",

@@ -3,7 +3,7 @@ import type { BattleData } from "@/lib/config";
 // ─────────────────────────────────────────────────────────────────────────────
 // Head-to-head comparisons (battle pages) for thetopweightloss.com, served at
 // the domain root (/<slug>). Operator-chosen matchups (Sep 2026):
-//   - embody vs Ro       - cheapest compounded month-to-month vs brand-name +
+//   - embody vs ro       - cheapest compounded month-to-month vs brand-name +
 //                          insurance concierge
 //   - altRx vs trimrx    - flat-price compounded vs custom-dosed compounded
 // Every figure comes from the provider-published prices in the seed's facts
@@ -18,15 +18,15 @@ export const weightLossBattles: BattleData[] = [
     slug: "embody-vs-ro",
     provider1Id: "embody",
     provider2Id: "ro",
-    title: "embody vs Ro: Compounded GLP-1 for $69 or Brand-Name Through Ro?",
-    matchupLabel: "embody vs Ro",
+    title: "embody vs ro: Compounded GLP-1 for $69 or Brand-Name Through ro?",
+    matchupLabel: "embody vs ro",
     subtitle: "The cheapest no-commitment compounded GLP-1 vs the biggest brand-name telehealth program",
     description:
-      "embody vs Ro compared: compounded semaglutide from $69/mo and tirzepatide from $119/mo vs Ro's Wegovy, Zepbound and insurance concierge. Price, medications, support and who each fits.",
+      "embody vs ro compared: compounded semaglutide from $69/mo and tirzepatide from $119/mo vs ro's Wegovy, Zepbound and insurance concierge. Price, medications, support and who each fits.",
     intro:
-      "These two programs solve the same problem in opposite ways. embody sells compounded semaglutide and tirzepatide at one flat, all-in monthly price with no commitment and 1-2 day shipping. Ro sells only FDA-approved brand-name medication - Wegovy, Zepbound, Ozempic and the Foundaya pill - and charges a membership on top, but it will check your insurance and handle the prior authorization. Which one wins depends almost entirely on one question: will your insurance cover a brand-name GLP-1?",
+      "These two programs solve the same problem in opposite ways. embody sells compounded semaglutide and tirzepatide at one flat, all-in monthly price with no commitment and 1-2 day shipping. ro sells only FDA-approved brand-name medication - Wegovy, Zepbound, Ozempic and the Foundaya pill - and charges a membership on top, but it will check your insurance and handle the prior authorization. Which one wins depends almost entirely on one question: will your insurance cover a brand-name GLP-1?",
     verdict:
-      "embody wins for most people paying cash: $69/mo semaglutide or $119/mo tirzepatide, medication included, month-to-month and delivered in 1-2 days - a fraction of the brand-name self-pay price. Ro is the better choice if your insurance may cover Wegovy or Zepbound, or if you only want an FDA-approved brand-name medication; its membership ($39 the first month, then $149/mo or about $74/mo annually) buys a coverage check, prior-authorization help and one of the most established telehealth operations in the US. Remember that compounded medications are not FDA-approved, and a licensed clinician decides what is appropriate for you.",
+      "embody wins for most people paying cash: $69/mo semaglutide or $119/mo tirzepatide, medication included, month-to-month and delivered in 1-2 days - a fraction of the brand-name self-pay price. ro is the better choice if your insurance may cover Wegovy or Zepbound, or if you only want an FDA-approved brand-name medication; its membership ($39 the first month, then $149/mo or about $74/mo annually) buys a coverage check, prior-authorization help and one of the most established telehealth operations in the US. Remember that compounded medications are not FDA-approved, and a licensed clinician decides what is appropriate for you.",
     verdictWinnerPoints: [
       "$69/mo semaglutide, $119/mo tirzepatide - medication included",
       "Month-to-month, cancel anytime",
@@ -43,44 +43,44 @@ export const weightLossBattles: BattleData[] = [
         name: "Price & value",
         winner: "provider1",
         explanation:
-          "Paying cash, embody is far cheaper: $69/mo for compounded semaglutide or $119/mo for tirzepatide, all-in. At Ro the $149/mo membership (or about $74/mo on an annual plan) comes before medication, and brand-name medication without coverage costs far more. With good insurance coverage, Ro's total can come out lower.",
+          "Paying cash, embody is far cheaper: $69/mo for compounded semaglutide or $119/mo for tirzepatide, all-in. At ro the $149/mo membership (or about $74/mo on an annual plan) comes before medication, and brand-name medication without coverage costs far more. With good insurance coverage, ro's total can come out lower.",
         supportingPoints: [
           "embody: $69 semaglutide / $119 tirzepatide per month",
-          "Ro: $39 first month, then $149/mo membership + medication",
-          "Insurance can flip the math in Ro's favor",
+          "ro: $39 first month, then $149/mo membership + medication",
+          "Insurance can flip the math in ro's favor",
         ],
       },
       {
         name: "Medication options",
         winner: "provider2",
         explanation:
-          "Ro offers the full FDA-approved lineup - Wegovy, Zepbound, Ozempic and the Foundaya pill. embody offers compounded semaglutide and tirzepatide as a weekly injection, plus a compounded daily oral option. Compounded drugs are not FDA-approved or reviewed for safety, effectiveness or quality.",
+          "ro offers the full FDA-approved lineup - Wegovy, Zepbound, Ozempic and the Foundaya pill. embody offers compounded semaglutide and tirzepatide as a weekly injection, plus a compounded daily oral option. Compounded drugs are not FDA-approved or reviewed for safety, effectiveness or quality.",
         supportingPoints: [
-          "Ro: Wegovy, Zepbound, Ozempic, Foundaya",
+          "ro: Wegovy, Zepbound, Ozempic, Foundaya",
           "embody: compounded semaglutide and tirzepatide, injection or oral",
-          "Only Ro offers FDA-approved products",
+          "Only ro offers FDA-approved products",
         ],
       },
       {
         name: "Shipping speed",
         winner: "provider1",
         explanation:
-          "embody ships in 1-2 days, cold-chain packed. Ro's timing depends on the pharmacy and, with insurance, on how long the prior authorization takes - which can add days or weeks.",
-        supportingPoints: ["embody: 1-2 day shipping", "Ro: depends on pharmacy and insurance approval"],
+          "embody ships in 1-2 days, cold-chain packed. ro's timing depends on the pharmacy and, with insurance, on how long the prior authorization takes - which can add days or weeks.",
+        supportingPoints: ["embody: 1-2 day shipping", "ro: depends on pharmacy and insurance approval"],
       },
       {
         name: "Medical support",
         winner: "tie",
         explanation:
-          "Both have licensed US clinicians review your intake and offer ongoing messaging. Ro adds an optional video visit and labs when clinically indicated; embody keeps it simple with async care and care-team messaging between check-ins.",
-        supportingPoints: ["Licensed clinicians at both", "Ro: optional video and labs when indicated"],
+          "Both have licensed US clinicians review your intake and offer ongoing messaging. ro adds an optional video visit and labs when clinically indicated; embody keeps it simple with async care and care-team messaging between check-ins.",
+        supportingPoints: ["Licensed clinicians at both", "ro: optional video and labs when indicated"],
       },
       {
         name: "Brand track record",
         winner: "provider2",
         explanation:
-          "Ro, founded in 2017, is one of the largest direct-to-consumer telehealth companies in the US. embody is newer; it is LegitScript-certified and uses state-licensed 503A pharmacies, but its 3.8/5 Trustpilot score (8,398 reviews) shows mixed experiences, mostly about shipping and support response.",
-        supportingPoints: ["Ro: established national brand", "embody: 3.8/5 on Trustpilot from 8,398 reviews"],
+          "ro, founded in 2017, is one of the largest direct-to-consumer telehealth companies in the US. embody is newer; it is LegitScript-certified and uses state-licensed 503A pharmacies, but its 3.8/5 Trustpilot score (8,398 reviews) shows mixed experiences, mostly about shipping and support response.",
+        supportingPoints: ["ro: established national brand", "embody: 3.8/5 on Trustpilot from 8,398 reviews"],
       },
     ],
     features: [

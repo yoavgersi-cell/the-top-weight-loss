@@ -9,7 +9,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
     title: "Reviews",
     links: [
       { label: "embody", href: "/reviews/embody" },
-      { label: "Ro", href: "/reviews/ro" },
+      { label: "ro", href: "/reviews/ro" },
       { label: "altRx", href: "/reviews/altrx" },
       { label: "trimrx", href: "/reviews/trimrx" },
       { label: "wellmedr", href: "/reviews/wellmedr" },

@@ -51,7 +51,7 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
   // a shared provider id on another vertical (e.g. directmeds on another vertical) falls back to
   // the generic template instead of inheriting weight-loss claims.
   const override = REVIEW_SEO_OVERRIDES[slug];
-  // Providers reviewed in more than one vertical (Ro, Maximus, PeterMD, Hims)
+  // Providers reviewed in more than one vertical (ro, Maximus, PeterMD, Hims)
   // would otherwise emit identical <title>s on two URLs - a duplicate-title
   // signal. Their titles carry the vertical name to differentiate.
   const SHARED_REVIEW_PROVIDER_IDS = ["ro", "maximus", "petermd", "hims"];
