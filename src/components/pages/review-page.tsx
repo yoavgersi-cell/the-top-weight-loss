@@ -28,7 +28,7 @@ import { ProviderAudit } from "@/components/provider-audit";
 // Per-provider SEO overrides, "is X legit?" trust blocks, and extra FAQs were a
 // weight-loss-vertical feature (all keyed by WL provider slugs and, where used,
 // gated to ctx.vertical === "weight-loss"). This single-vertical weight-loss build keeps
-// the maps empty and renders reviews from the weight-loss config (src/lib/seeds/hrt.ts):
+// the maps empty and renders reviews from the weight-loss config (src/lib/seeds/weight-loss.ts):
 // the "is X legit?" answer falls back to the review's own intro, and the FAQ
 // list is built entirely from the review's researched content. Add an entry
 // here only with real, verified figures.

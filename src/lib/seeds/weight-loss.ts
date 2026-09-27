@@ -80,7 +80,7 @@ export const weightLossConfig: SiteConfig = {
     imageAlt: "GLP-1 weight loss injection pen",
     updatedLabel: "Last Updated: September 2026",
     h1: "Best GLP-1 Weight Loss Providers of 2026",
-    h2: "The top online GLP-1 weight loss programs, ranked and reviewed",
+    h2: "Top online GLP-1 programs, ranked & reviewed",
     description:
       "Licensed GLP-1 clinics ranked by verified price - compounded semaglutide from $49/mo and brand-name Wegovy and Zepbound.",
   },
@@ -128,7 +128,7 @@ export const weightLossConfig: SiteConfig = {
         "Semaglutide $69/mo, tirzepatide $119/mo",
         "Month-to-month - cancel anytime",
         "Ships in 1-2 days, cold-chain packed",
-        "Licensed US clinicians, LegitScript-certified",
+        "LegitScript-certified clinicians",
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1548&aff_id=12904",
       ctaText: "Visit Site",
@@ -162,7 +162,7 @@ export const weightLossConfig: SiteConfig = {
         "Semaglutide $89/mo, tirzepatide $149/mo (promo)",
         "Same price at every dose",
         "Brand-name Wegovy, Zepbound & Ozempic available",
-        "No commitment - Buy Now, Pay Later",
+        "Buy Now, Pay Later available",
       ],
       affiliateUrl:
         "https://altrx.com/glp1/offer-v9?sub1=1952&utm_source=partners&utm_campaign=id_21&utm_affiliate=21&uid=95&oid=108&affid=21&pub=1952&oid2=5043&affid2=1952",
@@ -179,7 +179,7 @@ export const weightLossConfig: SiteConfig = {
         "Semaglutide $149/mo at every dose",
         "Custom dosing by your provider",
         "Unlimited provider check-ins",
-        "Free tracked delivery, often next-day",
+        "Delivery often next-day",
       ],
       affiliateUrl:
         "https://trimrx.com/glp1/offer-v4-meta?catalog=winter&discount=winter140&offer_url_id=29&oid=1&affid=40&oid2=4461&affid2=1952",
@@ -519,7 +519,7 @@ export const weightLossConfig: SiteConfig = {
         "Custom dosing tailored by your provider",
         "Unlimited provider check-ins",
         "Async questionnaire - no appointment needed",
-        "Free tracked delivery, often next-day",
+        "Delivery often next-day",
         "Month-to-month, no commitment; HSA/FSA eligible",
       ],
       pricingSummary:

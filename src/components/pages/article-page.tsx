@@ -19,7 +19,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 // Code-side CTR overrides and quick-answer boxes for high-impression articles
 // were a weight-loss-vertical feature (applied only when ctx.vertical ===
 // "weight-loss"). This single-vertical weight-loss build keeps the maps empty so the
-// article pages render purely from the weight-loss config (src/lib/seeds/hrt.ts); add an
+// article pages render purely from the weight-loss config (src/lib/seeds/weight-loss.ts); add an
 // entry here only with real, verified figures if CTR tuning is ever needed.
 const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
 

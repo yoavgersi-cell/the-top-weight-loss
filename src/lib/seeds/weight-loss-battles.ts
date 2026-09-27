@@ -84,9 +84,11 @@ export const weightLossBattles: BattleData[] = [
       },
     ],
     features: [
+      { feature: "Starting price", provider1Value: "$69/mo, medication included", provider2Value: "$39 first month + medication", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded semaglutide & tirzepatide", provider2Value: "Wegovy, Zepbound, Ozempic, Foundaya", highlight: "none" },
       { feature: "Semaglutide", provider1Value: "$69/mo compounded (reg. $79)", provider2Value: "Wegovy / Ozempic - insurance or self-pay", highlight: "provider1" },
       { feature: "Tirzepatide", provider1Value: "$119/mo compounded (reg. $129)", provider2Value: "Zepbound - insurance or self-pay", highlight: "provider1" },
-      { feature: "FDA-approved medication", provider1Value: "No - compounded", provider2Value: "Yes - brand-name only", highlight: "provider2" },
+      { feature: "FDA-approved", provider1Value: "No - compounded", provider2Value: "Yes - brand-name only", highlight: "provider2" },
       { feature: "Oral option", provider1Value: "Compounded daily oral", provider2Value: "Foundaya pill", highlight: "both" },
       { feature: "Program fee", provider1Value: "None - medication included", provider2Value: "$39 first month, then $149/mo (~$74/mo annual)", highlight: "provider1" },
       { feature: "Insurance help", provider1Value: "Cash-pay (HSA/FSA)", provider2Value: "Insurance concierge + prior authorization", highlight: "provider2" },
@@ -160,6 +162,8 @@ export const weightLossBattles: BattleData[] = [
       },
     ],
     features: [
+      { feature: "Starting price", provider1Value: "$89/mo (promo)", provider2Value: "$149/mo", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + brand-name", provider2Value: "Compounded sema & tirz + branded", highlight: "both" },
       { feature: "Semaglutide", provider1Value: "$89/mo promo (reg. $199)", provider2Value: "$149/mo", highlight: "provider1" },
       { feature: "Tirzepatide", provider1Value: "$149/mo promo (reg. $299)", provider2Value: "$259/mo", highlight: "provider1" },
       { feature: "Same price at every dose", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },

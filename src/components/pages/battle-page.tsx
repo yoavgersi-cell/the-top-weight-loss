@@ -29,7 +29,7 @@ import { ThreeWayPageView, threeWayMetadata } from "@/components/pages/three-way
 // Per-battle 12-month cost math and code-side CTR overrides were a weight-loss-
 // vertical feature (all keyed by WL matchup slugs and gated to ctx.vertical ===
 // "weight-loss"). This single-vertical weight-loss build keeps the maps empty and renders
-// battles from the weight-loss config (src/lib/seeds/hrt.ts). Seed a battle here only with
+// battles from the weight-loss config (src/lib/seeds/weight-loss.ts). Seed a battle here only with
 // real, current published rates.
 const BATTLE_COST_MATH: Record<
   string,
@@ -495,7 +495,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                 <span>
                   By{" "}
                   <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#0369A1] hover:underline">
-                    The {ctx.brandTeam.replace(/\s+Team$/i, "")} Research Team
+                    {ctx.brandTeam.replace(/\s+Team$/i, "").replace(/^(?!The )/, "The ")} Research Team
                   </Link>
                 </span>
               )}

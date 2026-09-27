@@ -92,7 +92,9 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <Link href="/reviews/altrx" className={linkCls}>AltRx</Link>,{" "}
         <Link href="/reviews/trimrx" className={linkCls}>TrimRx</Link>,{" "}
         <Link href="/reviews/wellmedr" className={linkCls}>WellMedr</Link> and{" "}
-        <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>.
+        <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>, or see them head to head in{" "}
+        <Link href="/embody-vs-ro" className={linkCls}>embody vs Ro</Link> and{" "}
+        <Link href="/altrx-vs-trimrx" className={linkCls}>AltRx vs TrimRx</Link>.
       </p>
 
       <hr className="mb-8 border-gray-200" />
