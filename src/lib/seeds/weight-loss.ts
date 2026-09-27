@@ -9,9 +9,9 @@ import { weightLossBattles } from "./weight-loss-battles";
 // online (telehealth) GLP-1 weight-loss providers in the US. Six providers:
 // embody (the anchor - lowest no-commitment compounded price, 1-2 day
 // shipping), Ro (brand-name, FDA-approved medication only, with an insurance
-// concierge), AltRx (flat price at every dose plus a brand-name shelf - carries
-// a June 2026 FDA warning letter, disclosed in its review), TrimRx (custom
-// dosing, unlimited provider check-ins), WellMedr (lowest long-run price on
+// concierge), altRx (flat price at every dose plus a brand-name shelf - carries
+// a June 2026 FDA warning letter, disclosed in its review), trimrx (custom
+// dosing, unlimited provider check-ins), wellmedr (lowest long-run price on
 // a 12-month plan) and MEDVi (all-inclusive price with clinician visits,
 // dietitian access and coaching bundled in). Editorial is original and compliance-minded (YMYL): no
 // guaranteed-results claims, compounded GLP-1s are never called FDA-approved,
@@ -28,18 +28,18 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    $39 first month then $149/mo, or up to 50% off annually (~$74/mo);
 //    medication billed separately (insurance or manufacturer self-pay price);
 //    insurance concierge + prior authorizations; founded 2017.
-//  - AltRx: compounded semaglutide $89/mo promo (reg. $199), tirzepatide
+//  - altRx: compounded semaglutide $89/mo promo (reg. $199), tirzepatide
 //    $149/mo promo (reg. $299), flat at every dose; brand shelf Ozempic
 //    $1,149, Zepbound $1,249, Wegovy $1,579 per month (self-pay list); ships
 //    in 5-7 days; no commitment; Buy Now, Pay Later. FDA warning letter to
-//    Trinity HealthCare Supply, LLC (dba AltRx) dated June 8, 2026 over false
+//    Trinity HealthCare Supply, LLC (dba altRx) dated June 8, 2026 over false
 //    or misleading claims about its compounded semaglutide and tirzepatide,
 //    including labeling that implied FDA approval.
-//  - TrimRx: compounded semaglutide $149/mo at every dose ($140 discount
+//  - trimrx: compounded semaglutide $149/mo at every dose ($140 discount
 //    applied), tirzepatide $259/mo; custom dosing; unlimited provider
 //    check-ins; free tracked delivery (often next-day); month-to-month;
 //    HSA/FSA eligible; most US states; Trustpilot 3.7 / 5 from 5,670 reviews.
-//  - WellMedr: compounded semaglutide $49/mo on the 12-month plan
+//  - wellmedr: compounded semaglutide $49/mo on the 12-month plan
 //    (month-to-month advertised around $88/mo), tirzepatide $89/mo shipped
 //    every 4 weeks, same price at every dose; GLP-1 + NAD+/B12 microdose
 //    option; brand shelf Ozempic $1,399, Zepbound $1,599 per month; ships in
@@ -51,16 +51,16 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    options via the clinician; Trustpilot 4.3 / 5 from 14,836 reviews.
 //
 // PLACEHOLDERS / OPERATOR TO VERIFY:
-//  - Promo prices (embody, AltRx, TrimRx discount code, MEDVi) are time-limited -
+//  - Promo prices (embody, altRx, trimrx discount code, MEDVi) are time-limited -
 //    re-check each checkout before relying on them.
-//  - WellMedr's month-to-month semaglutide price is "advertised around $88/mo"
+//  - wellmedr's month-to-month semaglutide price is "advertised around $88/mo"
 //    and its tirzepatide $89/mo commitment term was not confirmed - copy says
 //    so.
 //  - MEDVi: brand-name prices, delivery times and state coverage were not
 //    provided - none are asserted.
 //  - Ro's medication prices are not asserted (insurance / manufacturer
-//    self-pay pricing varies). No Ro or AltRx Trustpilot figures are set.
-//  - State coverage (`excludedStates`) is not set for any provider; TrimRx is
+//    self-pay pricing varies). No Ro or altRx Trustpilot figures are set.
+//  - State coverage (`excludedStates`) is not set for any provider; trimrx is
 //    "most US states" - fill in once confirmed.
 //  - The compounding legal landscape is evolving; copy tells readers to check
 //    with their provider rather than making definitive legal claims.
@@ -153,7 +153,7 @@ export const weightLossConfig: SiteConfig = {
     },
     {
       id: "altrx",
-      name: "AltRx",
+      name: "altRx",
       tagline:
         "One flat price at every dose for compounded GLP-1s, plus a brand-name shelf in the same account",
       logo: "/logos/altrx.svg",
@@ -170,7 +170,7 @@ export const weightLossConfig: SiteConfig = {
     },
     {
       id: "trimrx",
-      name: "TrimRx",
+      name: "trimrx",
       tagline:
         "Custom-dosed compounded GLP-1s with unlimited provider check-ins and fast, free tracked delivery",
       logo: "/logos/trimrx.svg",
@@ -189,7 +189,7 @@ export const weightLossConfig: SiteConfig = {
     },
     {
       id: "wellmedr",
-      name: "WellMedr",
+      name: "wellmedr",
       tagline:
         "The lowest long-run compounded GLP-1 price we found - semaglutide from $49/mo on a 12-month plan",
       logo: "/logos/wellmedr.svg",
@@ -419,7 +419,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A flat-price compounded GLP-1 program - semaglutide $89/month and tirzepatide $149/month on promo, the same at every dose - with a brand-name shelf, but it received an FDA warning letter in June 2026.",
       reviewIntro:
-        "AltRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy at self-pay list prices in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to AltRx's parent company, Trinity HealthCare Supply, LLC (dba AltRx), because, in the agency's view, its marketing and labels made its compounded semaglutide and tirzepatide look FDA-approved. Compounded GLP-1s are not FDA-approved. This review covers AltRx's pricing, how it works and how to weigh that letter.",
+        "altRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy at self-pay list prices in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to altRx's parent company, Trinity HealthCare Supply, LLC (dba altRx), because, in the agency's view, its marketing and labels made its compounded semaglutide and tirzepatide look FDA-approved. Compounded GLP-1s are not FDA-approved. This review covers altRx's pricing, how it works and how to weigh that letter.",
       keyFeatures: [
         "Compounded semaglutide $89/month and tirzepatide $149/month (promo rates)",
         "Flat price at every dose - no increase as you titrate up",
@@ -429,7 +429,7 @@ export const weightLossConfig: SiteConfig = {
         "Free shipping, arrives in 5-7 days",
       ],
       pricingSummary:
-        "AltRx charges one flat price at every dose: compounded semaglutide is $89/month on promo (regular $199) and compounded tirzepatide is $149/month on promo (regular $299). Promo rates are time-limited - after the promotion you pay the regular price, which is well above most competitors, so check which rate applies to you. Brand-name medication is also available at self-pay list prices: Ozempic $1,149/month, Zepbound $1,249/month and Wegovy $1,579/month. Shipping is free and there is no commitment. Note that AltRx received an FDA warning letter dated June 8, 2026 about how it marketed its compounded products, and compounded GLP-1s are not FDA-approved.",
+        "altRx charges one flat price at every dose: compounded semaglutide is $89/month on promo (regular $199) and compounded tirzepatide is $149/month on promo (regular $299). Promo rates are time-limited - after the promotion you pay the regular price, which is well above most competitors, so check which rate applies to you. Brand-name medication is also available at self-pay list prices: Ozempic $1,149/month, Zepbound $1,249/month and Wegovy $1,579/month. Shipping is free and there is no commitment. Note that altRx received an FDA warning letter dated June 8, 2026 about how it marketed its compounded products, and compounded GLP-1s are not FDA-approved.",
       treatmentOptions: [
         "Compounded semaglutide (flat price at every dose)",
         "Compounded tirzepatide (flat price at every dose)",
@@ -455,7 +455,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if an FDA warning letter is a deal-breaker for you, or if you need medication fast - embody ships in 1-2 days",
       ],
       finalVerdict:
-        "AltRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba AltRx), objecting to website claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved drugs. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and Ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
+        "altRx has a genuinely useful pricing model - one flat price at every dose - and a brand-name shelf that makes switching easy, which is why it ranks third. But you should weigh it with eyes open: on June 8, 2026 the FDA issued a warning letter to its parent company, Trinity HealthCare Supply, LLC (dba altRx), objecting to website claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved drugs. A warning letter is not a product recall or a finding that the medication harmed anyone, but it is a formal regulatory action worth factoring in, and you can read it on the FDA's website. Also watch the promo expiry - regular prices are high. If the letter concerns you, embody offers a similar cash-pay model at a lower no-commitment price, and Ro offers FDA-approved medication only. Results vary, and a licensed clinician decides whether a GLP-1 is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -513,7 +513,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A compounded GLP-1 program built around custom dosing and unlimited provider check-ins - semaglutide $149/month at every dose, tirzepatide $259/month - with free tracked delivery, often next-day.",
       reviewIntro:
-        "TrimRx is aimed at people who want more control over their dose and more contact with a provider. Instead of a fixed titration schedule, its providers offer custom dosing - including smaller step-ups for people who struggle with side effects - and you get unlimited provider check-ins to adjust along the way. Getting started is simple: an asynchronous questionnaire, no appointment needed. Delivery is free and tracked, often next-day, and plans are month-to-month. The trade-offs are price (it sits at the higher end of compounded programs) and a program that is light on lifestyle coaching. As with every compounded program, the medication is not FDA-approved. This review covers what TrimRx costs and who it suits.",
+        "trimrx is aimed at people who want more control over their dose and more contact with a provider. Instead of a fixed titration schedule, its providers offer custom dosing - including smaller step-ups for people who struggle with side effects - and you get unlimited provider check-ins to adjust along the way. Getting started is simple: an asynchronous questionnaire, no appointment needed. Delivery is free and tracked, often next-day, and plans are month-to-month. The trade-offs are price (it sits at the higher end of compounded programs) and a program that is light on lifestyle coaching. As with every compounded program, the medication is not FDA-approved. This review covers what trimrx costs and who it suits.",
       keyFeatures: [
         "Compounded semaglutide $149/month at every dose; tirzepatide $259/month",
         "Custom dosing tailored by your provider",
@@ -523,7 +523,7 @@ export const weightLossConfig: SiteConfig = {
         "Month-to-month, no commitment; HSA/FSA eligible",
       ],
       pricingSummary:
-        "TrimRx charges $149/month for compounded semaglutide at every dose (with a $140 discount applied) and $259/month for compounded tirzepatide. Branded options are also available at much higher prices. Plans are month-to-month with no commitment, delivery is free and tracked, and HSA/FSA funds can be used. The discount is promotional, so confirm the current price at checkout. Compounded GLP-1s are not FDA-approved.",
+        "trimrx charges $149/month for compounded semaglutide at every dose (with a $140 discount applied) and $259/month for compounded tirzepatide. Branded options are also available at much higher prices. Plans are month-to-month with no commitment, delivery is free and tracked, and HSA/FSA funds can be used. The discount is promotional, so confirm the current price at checkout. Compounded GLP-1s are not FDA-approved.",
       treatmentOptions: [
         "Compounded semaglutide (custom dosing)",
         "Compounded tirzepatide (custom dosing)",
@@ -537,7 +537,7 @@ export const weightLossConfig: SiteConfig = {
         "No appointment needed, month-to-month and HSA/FSA eligible",
       ],
       cons: [
-        "Higher price than embody, AltRx's promo or WellMedr - $149 semaglutide and $259 tirzepatide",
+        "Higher price than embody, altRx's promo or wellmedr - $149 semaglutide and $259 tirzepatide",
         "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
         "Light on coaching - little nutrition or lifestyle support",
         "Mixed Trustpilot rating (3.7 / 5 from 5,670 reviews); available in most, not all, US states",
@@ -546,10 +546,10 @@ export const weightLossConfig: SiteConfig = {
         "People who want custom or micro dosing to manage side effects",
         "Anyone who values frequent provider touchpoints",
         "Those who want fast delivery without a long commitment",
-        "Skip it if price is your priority - embody and WellMedr cost considerably less",
+        "Skip it if price is your priority - embody and wellmedr cost considerably less",
       ],
       finalVerdict:
-        "TrimRx is the right pick for a specific kind of patient: someone who wants a provider to fine-tune their dose and wants to be able to check in as often as they need. Custom dosing and unlimited check-ins are genuinely valuable if nausea or other side effects make standard titration hard, and next-day tracked delivery is a plus. It ranks fourth because it costs more than most compounded rivals and offers little coaching. If you want the lowest price, choose embody or WellMedr; if you want hands-on dose management, TrimRx earns its premium. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+        "trimrx is the right pick for a specific kind of patient: someone who wants a provider to fine-tune their dose and wants to be able to check in as often as they need. Custom dosing and unlimited check-ins are genuinely valuable if nausea or other side effects make standard titration hard, and next-day tracked delivery is a plus. It ranks fourth because it costs more than most compounded rivals and offers little coaching. If you want the lowest price, choose embody or wellmedr; if you want hands-on dose management, trimrx earns its premium. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -603,7 +603,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "The lowest long-run compounded GLP-1 price we found - semaglutide $49/month on a 12-month plan and tirzepatide $89/month, the same at every dose - available in all 50 states.",
       reviewIntro:
-        "WellMedr is a broad telehealth platform - it also covers TRT, NAD+, hair and sexual health - with a GLP-1 program priced to win on long-term cost. Its headline rate is compounded semaglutide at $49/month, but that price is locked in only on a 12-month plan; month-to-month is advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks, and both are the same price at every dose. Board-certified clinicians review your intake, with video or messaging follow-up, and it is available in all 50 states. It also has the strongest Trustpilot score of the providers we rank that publish one. As with every compounded program, these medications are not FDA-approved. This review covers what WellMedr costs, what the 12-month plan means for you, and who it suits.",
+        "wellmedr is a broad telehealth platform - it also covers TRT, NAD+, hair and sexual health - with a GLP-1 program priced to win on long-term cost. Its headline rate is compounded semaglutide at $49/month, but that price is locked in only on a 12-month plan; month-to-month is advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks, and both are the same price at every dose. Board-certified clinicians review your intake, with video or messaging follow-up, and it is available in all 50 states. It also has the strongest Trustpilot score of the providers we rank that publish one. As with every compounded program, these medications are not FDA-approved. This review covers what wellmedr costs, what the 12-month plan means for you, and who it suits.",
       keyFeatures: [
         "Compounded semaglutide $49/month on a 12-month plan (rate locked)",
         "Compounded tirzepatide $89/month, shipped every 4 weeks",
@@ -613,7 +613,7 @@ export const weightLossConfig: SiteConfig = {
         "Available in all 50 states; ships in 3-5 business days",
       ],
       pricingSummary:
-        "WellMedr's compounded semaglutide is $49/month on its 12-month plan, with the rate locked for the year; month-to-month is higher, advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks. Prices are the same at every dose. Brand-name medication is available at self-pay prices: Ozempic $1,399/month and Zepbound $1,599/month. The $49 rate is the lowest long-run price on our list, but it assumes you are comfortable committing to 12 months - check the plan terms, including cancellation, before you sign up. Compounded GLP-1s are not FDA-approved.",
+        "wellmedr's compounded semaglutide is $49/month on its 12-month plan, with the rate locked for the year; month-to-month is higher, advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks. Prices are the same at every dose. Brand-name medication is available at self-pay prices: Ozempic $1,399/month and Zepbound $1,599/month. The $49 rate is the lowest long-run price on our list, but it assumes you are comfortable committing to 12 months - check the plan terms, including cancellation, before you sign up. Compounded GLP-1s are not FDA-approved.",
       treatmentOptions: [
         "Compounded semaglutide (same price at every dose)",
         "Compounded tirzepatide (shipped every 4 weeks)",
@@ -630,7 +630,7 @@ export const weightLossConfig: SiteConfig = {
       cons: [
         "The $49 price requires a 12-month commitment; month-to-month is around $88/month",
         "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
-        "Slower shipping than embody or TrimRx - 3-5 business days",
+        "Slower shipping than embody or trimrx - 3-5 business days",
         "A broad multi-category platform rather than a weight-loss specialist",
       ],
       bestFor: [
@@ -640,7 +640,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if you want flexibility to stop in a month or two - embody is cheaper month-to-month",
       ],
       finalVerdict:
-        "WellMedr has the lowest long-run price on our list: $49/month semaglutide locked for 12 months, and $89/month tirzepatide, with no price increase as your dose rises. Its customer reviews are also the strongest we could verify. It ranks fifth rather than higher because that headline price depends on a 12-month commitment - a big decision when many people change medication or stop within the first year - and because month-to-month pricing is less competitive than embody's. If you are sure you want a year of treatment, WellMedr is excellent value; if you want to keep your options open, choose a no-commitment program. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+        "wellmedr has the lowest long-run price on our list: $49/month semaglutide locked for 12 months, and $89/month tirzepatide, with no price increase as your dose rises. Its customer reviews are also the strongest we could verify. It ranks fifth rather than higher because that headline price depends on a 12-month commitment - a big decision when many people change medication or stop within the first year - and because month-to-month pricing is less competitive than embody's. If you are sure you want a year of treatment, wellmedr is excellent value; if you want to keep your options open, choose a no-commitment program. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide - 12-month plan",
@@ -721,7 +721,7 @@ export const weightLossConfig: SiteConfig = {
         "HSA/FSA accepted, free shipping",
       ],
       cons: [
-        "Higher promo prices than embody or WellMedr - $99 semaglutide and $166 tirzepatide",
+        "Higher promo prices than embody or wellmedr - $99 semaglutide and $166 tirzepatide",
         "Regular prices ($199 / $299) are steep once the promotion ends",
         "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
         "If you do not need coaching or a dietitian, you are paying for support you will not use",
@@ -730,10 +730,10 @@ export const weightLossConfig: SiteConfig = {
         "People who want nutrition and coaching support bundled with their medication",
         "Anyone who wants one predictable price with no membership or add-on fees",
         "Those who value a large, well-rated customer base",
-        "Skip it if you only want the medication at the lowest price - embody and WellMedr cost less",
+        "Skip it if you only want the medication at the lowest price - embody and wellmedr cost less",
       ],
       finalVerdict:
-        "MEDVi is the best fit on our list for people who want more than a prescription: clinician visits, dietitian access and coaching all come in one price, with no membership, no hidden fees and no commitment. Its Trustpilot record - 4.3 / 5 across more than 14,000 reviews - is reassuring. It ranks sixth because it costs more than leaner programs for the medication alone, and its regular prices after the promotion are high. If you value structured support around diet and habits - which matters for keeping weight off - MEDVi is worth the premium; if you just want the medication, choose embody or WellMedr. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+        "MEDVi is the best fit on our list for people who want more than a prescription: clinician visits, dietitian access and coaching all come in one price, with no membership, no hidden fees and no commitment. Its Trustpilot record - 4.3 / 5 across more than 14,000 reviews - is reassuring. It ranks sixth because it costs more than leaner programs for the medication alone, and its regular prices after the promotion are high. If you value structured support around diet and habits - which matters for keeping weight off - MEDVi is worth the premium; if you just want the medication, choose embody or wellmedr. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
@@ -803,7 +803,7 @@ export const weightLossConfig: SiteConfig = {
     {
       question: "How much do online GLP-1 programs cost?",
       answer:
-        "At current advertised rates among the providers we rank, compounded semaglutide ranges from $49/month (WellMedr, on a 12-month plan) to $149/month (TrimRx), and compounded tirzepatide from $89/month to $259/month. Brand-name medication without insurance typically costs over $1,000/month at self-pay list prices, although insurance can bring it far lower. Always check whether a price is promotional, requires a long commitment, or rises with your dose.",
+        "At current advertised rates among the providers we rank, compounded semaglutide ranges from $49/month (wellmedr, on a 12-month plan) to $149/month (trimrx), and compounded tirzepatide from $89/month to $259/month. Brand-name medication without insurance typically costs over $1,000/month at self-pay list prices, although insurance can bring it far lower. Always check whether a price is promotional, requires a long commitment, or rises with your dose.",
     },
     {
       question: "Will insurance pay for semaglutide or tirzepatide?",

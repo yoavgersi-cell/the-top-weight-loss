@@ -5,7 +5,7 @@ import type { BattleData } from "@/lib/config";
 // the domain root (/<slug>). Operator-chosen matchups (Sep 2026):
 //   - embody vs Ro       - cheapest compounded month-to-month vs brand-name +
 //                          insurance concierge
-//   - AltRx vs TrimRx    - flat-price compounded vs custom-dosed compounded
+//   - altRx vs trimrx    - flat-price compounded vs custom-dosed compounded
 // Every figure comes from the provider-published prices in the seed's facts
 // (checked Sep 2026). Promo prices are labeled as promos. Compounded GLP-1s are
 // not FDA-approved - the copy says so wherever they are compared to brands.
@@ -101,15 +101,15 @@ export const weightLossBattles: BattleData[] = [
     slug: "altrx-vs-trimrx",
     provider1Id: "altrx",
     provider2Id: "trimrx",
-    title: "AltRx vs TrimRx: Which Compounded GLP-1 Program Is Worth It?",
-    matchupLabel: "AltRx vs TrimRx",
+    title: "altRx vs trimrx: Which Compounded GLP-1 Program Is Worth It?",
+    matchupLabel: "altRx vs trimrx",
     subtitle: "A flat-price program with a brand-name shelf vs custom dosing with unlimited check-ins",
     description:
-      "AltRx vs TrimRx compared: $89 vs $149/mo semaglutide, $149 vs $259/mo tirzepatide, dosing, shipping, support and AltRx's 2026 FDA warning letter. Which compounded GLP-1 program fits you?",
+      "altRx vs trimrx compared: $89 vs $149/mo semaglutide, $149 vs $259/mo tirzepatide, dosing, shipping, support and altRx's 2026 FDA warning letter. Which compounded GLP-1 program fits you?",
     intro:
-      "AltRx and TrimRx are both cash-pay compounded GLP-1 programs with no long commitment, and both keep their price flat as your dose rises. The differences are in the details: AltRx is cheaper right now thanks to promo pricing and also sells brand-name medication, while TrimRx costs more but builds in custom dosing and unlimited provider check-ins - and ships faster. There is also a trust question to weigh: AltRx's parent company received an FDA warning letter in June 2026.",
+      "altRx and trimrx are both cash-pay compounded GLP-1 programs with no long commitment, and both keep their price flat as your dose rises. The differences are in the details: altRx is cheaper right now thanks to promo pricing and also sells brand-name medication, while trimrx costs more but builds in custom dosing and unlimited provider check-ins - and ships faster. There is also a trust question to weigh: altRx's parent company received an FDA warning letter in June 2026.",
     verdict:
-      "AltRx wins on price: $89/mo semaglutide and $149/mo tirzepatide at every dose (promo rates; regular $199 and $299), plus a brand-name shelf if you ever want to switch. TrimRx is the better pick if you want custom or slower dose adjustments, unlimited check-ins with a provider and faster delivery, or if AltRx's June 2026 FDA warning letter over misleading marketing claims gives you pause. Ask AltRx how long the promo lasts before you sign up. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "altRx wins on price: $89/mo semaglutide and $149/mo tirzepatide at every dose (promo rates; regular $199 and $299), plus a brand-name shelf if you ever want to switch. trimrx is the better pick if you want custom or slower dose adjustments, unlimited check-ins with a provider and faster delivery, or if altRx's June 2026 FDA warning letter over misleading marketing claims gives you pause. Ask altRx how long the promo lasts before you sign up. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$89/mo semaglutide, $149/mo tirzepatide (promo)",
       "Same price at every dose",
@@ -126,10 +126,10 @@ export const weightLossBattles: BattleData[] = [
         name: "Price & value",
         winner: "provider1",
         explanation:
-          "At current promo pricing AltRx is $60/mo cheaper on semaglutide ($89 vs $149) and $110/mo cheaper on tirzepatide ($149 vs $259). AltRx's regular prices are $199 and $299, so if the promo ends the gap narrows or reverses - ask how long the promo lasts.",
+          "At current promo pricing altRx is $60/mo cheaper on semaglutide ($89 vs $149) and $110/mo cheaper on tirzepatide ($149 vs $259). altRx's regular prices are $199 and $299, so if the promo ends the gap narrows or reverses - ask how long the promo lasts.",
         supportingPoints: [
-          "AltRx: $89 / $149 per month (promo)",
-          "TrimRx: $149 / $259 per month",
+          "altRx: $89 / $149 per month (promo)",
+          "trimrx: $149 / $259 per month",
           "Both flat at every dose",
         ],
       },
@@ -137,28 +137,28 @@ export const weightLossBattles: BattleData[] = [
         name: "Medical support",
         winner: "provider2",
         explanation:
-          "TrimRx includes custom dosing and unlimited provider check-ins, which helps if you are sensitive to side effects and want to step up slowly. AltRx runs a fast async intake with video when needed and a tracking app, but its support is leaner.",
-        supportingPoints: ["TrimRx: custom dosing, unlimited check-ins", "AltRx: async, video when needed"],
+          "trimrx includes custom dosing and unlimited provider check-ins, which helps if you are sensitive to side effects and want to step up slowly. altRx runs a fast async intake with video when needed and a tracking app, but its support is leaner.",
+        supportingPoints: ["trimrx: custom dosing, unlimited check-ins", "altRx: async, video when needed"],
       },
       {
         name: "Shipping speed",
         winner: "provider2",
-        explanation: "TrimRx offers free tracked delivery, often next-day. AltRx ships free but takes 5-7 days.",
-        supportingPoints: ["TrimRx: often next-day", "AltRx: 5-7 days"],
+        explanation: "trimrx offers free tracked delivery, often next-day. altRx ships free but takes 5-7 days.",
+        supportingPoints: ["trimrx: often next-day", "altRx: 5-7 days"],
       },
       {
         name: "Medication options",
         winner: "provider1",
         explanation:
-          "Both offer compounded semaglutide and tirzepatide and branded options. AltRx publishes its brand-name prices (Ozempic $1,149, Zepbound $1,249, Wegovy $1,579 per month self-pay), which makes switching easy to plan.",
-        supportingPoints: ["Compounded sema + tirz at both", "AltRx lists brand-name prices openly"],
+          "Both offer compounded semaglutide and tirzepatide and branded options. altRx publishes its brand-name prices (Ozempic $1,149, Zepbound $1,249, Wegovy $1,579 per month self-pay), which makes switching easy to plan.",
+        supportingPoints: ["Compounded sema + tirz at both", "altRx lists brand-name prices openly"],
       },
       {
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "AltRx's parent, Trinity HealthCare Supply, LLC (dba AltRx), received an FDA warning letter dated June 8, 2026 - the regulator took issue with claims and labels that made AltRx's compounded semaglutide and tirzepatide appear FDA-approved. TrimRx has no comparable action on record; it holds a 3.7/5 Trustpilot score from 5,670 reviews.",
-        supportingPoints: ["AltRx: June 2026 FDA warning letter", "TrimRx: 3.7/5 on Trustpilot (5,670 reviews)"],
+          "altRx's parent, Trinity HealthCare Supply, LLC (dba altRx), received an FDA warning letter dated June 8, 2026 - the regulator took issue with claims and labels that made altRx's compounded semaglutide and tirzepatide appear FDA-approved. trimrx has no comparable action on record; it holds a 3.7/5 Trustpilot score from 5,670 reviews.",
+        supportingPoints: ["altRx: June 2026 FDA warning letter", "trimrx: 3.7/5 on Trustpilot (5,670 reviews)"],
       },
     ],
     features: [

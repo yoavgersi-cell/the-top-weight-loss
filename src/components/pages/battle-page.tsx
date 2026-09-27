@@ -45,7 +45,7 @@ const BATTLE_CATEGORY_BY_VERTICAL: Record<string, string> = {
 };
 
 // Title-case a "{a} vs {b}" matchup so no SERP title starts lowercase, while
-// preserving any internal brand capitals (altRx -> AltRx, TrimRX -> TrimRX).
+// preserving any internal brand capitals (altRx -> altRx, trimrx -> trimrx).
 function titleCaseMatchup(label: string): string {
   return label
     .split(/\s+vs\s+/i)
@@ -1279,8 +1279,8 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
       />
 
       {/* Mobile-only promo popup - the highest-priority featured provider that
-          has a creative (e.g. Embody outranks TrimRx on an Embody-vs-TrimRx
-          page, so TrimRx shows on all its other comparisons but not that one) */}
+          has a creative (e.g. Embody outranks trimrx on an Embody-vs-trimrx
+          page, so trimrx shows on all its other comparisons but not that one) */}
       {promoPopup && (
         <PromoPopup
           spec={promoPopup}

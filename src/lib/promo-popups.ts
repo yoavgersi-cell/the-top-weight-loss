@@ -5,8 +5,8 @@
 // that decides which popup wins when a page features more than one.
 //
 // `priority` breaks ties: when two featured providers both have a popup (e.g.
-// TrimRx vs. Embody), the higher priority shows and the other is suppressed -
-// so TrimRx's popup appears on every TrimRx comparison EXCEPT against Embody.
+// trimrx vs. Embody), the higher priority shows and the other is suppressed -
+// so trimrx's popup appears on every trimrx comparison EXCEPT against Embody.
 export interface PromoPopupTimer {
   // Evergreen countdown seconds at load; ticks down live from here each session.
   startSeconds: number;
