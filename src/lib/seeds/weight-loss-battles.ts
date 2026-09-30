@@ -6,12 +6,16 @@ import type { BattleData } from "@/lib/config";
 //   - embody vs ro       - cheapest compounded month-to-month vs brand-name +
 //                          insurance concierge
 //   - altRx vs trimrx    - flat-price compounded vs custom-dosed compounded
+//   - embody vs wellmedr - no-commitment $69 vs 12-month $49
+//   - ro vs MEDVi        - brand-name + insurance vs all-inclusive compounded
+//   - altRx vs MEDVi     - lean promo price vs dietitian + coaching bundled
 // Every figure comes from the provider-published prices in the seed's facts
 // (checked Sep 2026). Promo prices are labeled as promos. Compounded GLP-1s are
 // not FDA-approved - the copy says so wherever they are compared to brands.
 // ─────────────────────────────────────────────────────────────────────────────
 
 const UPDATED = "2026-09-27";
+const ADDED_SEP_30 = "2026-09-30";
 
 export const weightLossBattles: BattleData[] = [
   {
@@ -175,5 +179,233 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA eligible", highlight: "none" },
     ],
     updatedAt: UPDATED,
+  },
+  {
+    slug: "embody-vs-wellmedr",
+    provider1Id: "embody",
+    provider2Id: "wellmedr",
+    title: "embody vs wellmedr: $69 With No Strings or $49 With a Year's Commitment?",
+    matchupLabel: "embody vs wellmedr",
+    subtitle: "The two cheapest compounded GLP-1 programs we track - and the one trade-off that separates them",
+    description:
+      "embody vs wellmedr: $69/mo month-to-month semaglutide vs $49/mo on a 12-month plan. Tirzepatide, shipping speed, reviews and first-year cost compared.",
+    intro:
+      "If price is your first filter, you end up here. embody and wellmedr are the two lowest-priced compounded GLP-1 programs on our list, and both keep the price flat as your dose climbs. The difference is how they earn that price. embody asks for nothing up front: $69/mo semaglutide, cancel whenever. wellmedr goes lower - $49/mo - but only if you sign up for 12 months. On tirzepatide the picture flips, and wellmedr is cheaper with no plan needed. So the real question is not which is cheaper, but which kind of cheap fits you.",
+    verdict:
+      "embody takes this one for most first-time GLP-1 patients. Nobody knows in week one whether they will tolerate the medication, and $69/mo with no lock-in and 1-2 day delivery is the lower-risk way to start. wellmedr is the smarter buy if you already know a GLP-1 works for you: $49/mo semaglutide on the 12-month plan is the lowest ongoing price we track, its $89/mo tirzepatide undercuts embody's $119, and its 4.6/5 Trustpilot score (1,919 reviews) beats embody's 3.8 (8,398). Read wellmedr's refund and cancellation terms before committing. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$69/mo semaglutide with no commitment",
+      "Ships in 1-2 days, cold-chain packed",
+      "Daily oral option alongside injections",
+    ],
+    verdictLoserPoints: [
+      "$49/mo semaglutide on the 12-month plan",
+      "$89/mo tirzepatide - $30 less than embody",
+      "4.6/5 on Trustpilot from 1,919 reviews",
+    ],
+    winnerId: "embody",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "tie",
+        explanation:
+          "It depends on the drug and your appetite for commitment. Semaglutide: wellmedr is $49/mo on a 12-month plan (around $88 month-to-month) vs embody's $69/mo with no plan - so embody is cheaper unless you commit. Tirzepatide: wellmedr's $89/mo beats embody's $119/mo outright.",
+        supportingPoints: [
+          "Semaglutide: embody $69 flexible vs wellmedr $49 committed",
+          "Tirzepatide: wellmedr $89 vs embody $119",
+          "Both flat at every dose",
+        ],
+      },
+      {
+        name: "Flexibility",
+        winner: "provider1",
+        explanation:
+          "embody is month-to-month from day one. wellmedr's headline semaglutide price needs a 12-month plan, which is a real risk if you stop early because of side effects or reach your goal sooner than expected.",
+        supportingPoints: ["embody: cancel anytime", "wellmedr: 12 months for the $49 rate"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider1",
+        explanation: "embody ships in 1-2 days, cold-chain packed. wellmedr ships in 3-5 business days.",
+        supportingPoints: ["embody: 1-2 days", "wellmedr: 3-5 business days"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider2",
+        explanation:
+          "wellmedr holds a 4.6/5 Trustpilot score from 1,919 reviews. embody sits at 3.8/5 from 8,398, with complaints clustering around shipping hiccups and slow support replies.",
+        supportingPoints: ["wellmedr: 4.6/5 (1,919)", "embody: 3.8/5 (8,398)"],
+      },
+      {
+        name: "Range beyond weight loss",
+        winner: "provider2",
+        explanation:
+          "wellmedr also runs TRT, NAD+, hair and sexual-health programs and a GLP-1 + NAD+/B12 option. embody stays focused on GLP-1 weight loss, with a compounded daily oral as its extra.",
+        supportingPoints: ["wellmedr: broader platform", "embody: oral option"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$69/mo, no commitment", provider2Value: "$49/mo on 12-month plan", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Compounded semaglutide & tirzepatide", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "both" },
+      { feature: "Semaglutide", provider1Value: "$69/mo (reg. $79)", provider2Value: "$49/mo (12-mo) / ~$88 month-to-month", highlight: "none" },
+      { feature: "Tirzepatide", provider1Value: "$119/mo (reg. $129)", provider2Value: "$89/mo", highlight: "provider2" },
+      { feature: "Same price at every dose", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
+      { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "12 months for lowest rate", highlight: "provider1" },
+      { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "3-5 business days", highlight: "provider1" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (8,398)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
+      { feature: "Oral option", provider1Value: "Compounded daily oral", provider2Value: "GLP-1 + NAD+/B12 microdose", highlight: "none" },
+    ],
+    updatedAt: ADDED_SEP_30,
+  },
+  {
+    slug: "ro-vs-medvi",
+    provider1Id: "ro",
+    provider2Id: "medvi",
+    title: "ro vs MEDVi: Brand-Name GLP-1s With Insurance Help or All-In Compounded Care?",
+    matchupLabel: "MEDVi vs ro",
+    subtitle: "One program sells the real Wegovy and Zepbound. The other bundles a dietitian and coaching into $99",
+    description:
+      "MEDVi vs ro compared: all-inclusive compounded semaglutide at $99/mo (promo) with dietitian and coaching vs ro's Wegovy, Zepbound and insurance concierge. Cost, care and who each fits.",
+    intro:
+      "MEDVi and ro are both big names in online weight loss, but they are selling different things. ro is a brand-name shop: FDA-approved Wegovy, Zepbound, Ozempic and the Foundaya pill, plus a team that fights your insurer for coverage. MEDVi is an all-inclusive compounded program: semaglutide or tirzepatide, clinician visits, a dietitian and coaching for one monthly price. If you have coverage, this comparison is short. If you are paying cash, it gets interesting.",
+    verdict:
+      "ro wins if there is any chance your insurance covers a GLP-1 for weight loss: its concierge checks your benefits and handles prior authorization, and you get an FDA-approved medication. MEDVi is the better value for cash payers who want more than a prescription - $99/mo semaglutide or $166/mo tirzepatide (promo prices; regular $199 and $299) with a dietitian and coaching included and no membership fee. Ask MEDVi how long the promo lasts. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "FDA-approved Wegovy, Zepbound, Ozempic and Foundaya",
+      "Insurance concierge and prior-authorization help",
+      "Established national telehealth brand",
+    ],
+    verdictLoserPoints: [
+      "$99/mo semaglutide, medication included (promo)",
+      "Dietitian access and coaching in the price",
+      "No membership fee, no commitment",
+    ],
+    winnerId: "ro",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider2",
+        explanation:
+          "Paying cash, MEDVi is far cheaper: $99/mo semaglutide or $166/mo tirzepatide at promo prices with medication, visits and coaching included. ro's membership alone is $149/mo after a $39 first month (about $74/mo on the annual plan), and brand-name medication without coverage costs well over $1,000 a month. With good insurance, ro can come out cheaper.",
+        supportingPoints: [
+          "MEDVi: all-in $99 / $166 (promo)",
+          "ro: membership + medication billed separately",
+          "Insurance can flip the math",
+        ],
+      },
+      {
+        name: "Medication options",
+        winner: "provider1",
+        explanation:
+          "ro offers only FDA-approved brand-name GLP-1s, in injection or pill form. MEDVi's core program is compounded semaglutide and tirzepatide, which are not FDA-approved or reviewed for safety, effectiveness or quality.",
+        supportingPoints: ["ro: Wegovy, Zepbound, Ozempic, Foundaya", "MEDVi: compounded sema & tirz"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider2",
+        explanation:
+          "MEDVi bundles clinician visits, dietitian access and coaching into the monthly price. ro offers unlimited provider messaging and optional video, but no built-in nutrition coaching.",
+        supportingPoints: ["MEDVi: dietitian + coaching included", "ro: messaging, optional video"],
+      },
+      {
+        name: "Insurance help",
+        winner: "provider1",
+        explanation:
+          "ro's insurance concierge checks coverage and handles prior authorizations. MEDVi is cash-pay (HSA/FSA accepted) and does not bill insurance.",
+        supportingPoints: ["ro: coverage checks + PA", "MEDVi: HSA/FSA only"],
+      },
+      {
+        name: "Brand track record",
+        winner: "provider1",
+        explanation:
+          "ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies. MEDVi is newer but has built a large review base - 4.3/5 on Trustpilot from 14,836 reviews.",
+        supportingPoints: ["ro: since 2017", "MEDVi: 4.3/5 (14,836 reviews)"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$39 first month + medication", provider2Value: "$99/mo all-in (promo)", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Wegovy, Zepbound, Ozempic, Foundaya", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "none" },
+      { feature: "FDA-approved", provider1Value: "Yes - brand-name only", provider2Value: "No - compounded", highlight: "provider1" },
+      { feature: "Program fee", provider1Value: "$149/mo (~$74/mo annual)", provider2Value: "None - included", highlight: "provider2" },
+      { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
+      { feature: "Insurance", provider1Value: "Concierge + prior authorization", provider2Value: "Cash-pay, HSA/FSA", highlight: "provider1" },
+      { feature: "Commitment", provider1Value: "Monthly or annual membership", provider2Value: "None", highlight: "provider2" },
+      { feature: "Shipping", provider1Value: "Varies by pharmacy", provider2Value: "Free", highlight: "none" },
+    ],
+    updatedAt: ADDED_SEP_30,
+  },
+  {
+    slug: "altrx-vs-medvi",
+    provider1Id: "altrx",
+    provider2Id: "medvi",
+    title: "altRx vs MEDVi: The Lower Price or the Fuller Program?",
+    matchupLabel: "MEDVi vs altRx",
+    subtitle: "Both run promo pricing on compounded GLP-1s - one strips it back, the other adds a dietitian and coaching",
+    description:
+      "MEDVi vs altRx: $99 vs $89/mo semaglutide, $166 vs $149/mo tirzepatide at promo prices. Support, regular prices, trust and who each program fits.",
+    intro:
+      "altRx and MEDVi sit close together on price, and both lean on promotional rates, so the headline numbers only tell part of the story. altRx is the lean option: flat pricing at every dose, a brand-name shelf and Buy Now, Pay Later. MEDVi charges about $10-$17 a month more at promo prices and spends it on people - clinician visits, a dietitian and coaching are in the price. There is also a trust gap to weigh: altRx's parent company received an FDA warning letter in June 2026.",
+    verdict:
+      "altRx edges it on price: $89/mo semaglutide and $149/mo tirzepatide at every dose (promo; regular $199 and $299), with brand-name medication on the same shelf if you switch later. MEDVi is the better program if you want support that goes beyond the prescription - its dietitian and coaching are included for $99 or $166 a month (promo; regular $199 and $299) - and it has a clean regulatory record and a 4.3/5 Trustpilot score from 14,836 reviews. At regular prices the two cost the same, which makes MEDVi's extras free. Ask both how long their promos last. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$89/mo semaglutide, $149/mo tirzepatide (promo)",
+      "Flat price at every dose",
+      "Brand-name shelf and Buy Now, Pay Later",
+    ],
+    verdictLoserPoints: [
+      "Dietitian access and coaching included",
+      "4.3/5 on Trustpilot from 14,836 reviews",
+      "No FDA warning letter",
+    ],
+    winnerId: "altrx",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider1",
+        explanation:
+          "At promo prices altRx is $10/mo cheaper on semaglutide ($89 vs $99) and $17/mo cheaper on tirzepatide ($149 vs $166). At regular prices they match exactly - $199 and $299 - so the gap only exists while the promos run.",
+        supportingPoints: ["altRx: $89 / $149 promo", "MEDVi: $99 / $166 promo", "Regular: $199 / $299 at both"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider2",
+        explanation:
+          "MEDVi includes clinician visits, a dietitian and coaching in the monthly price. altRx runs a fast async intake with video when needed and a tracking app, but no nutrition coaching.",
+        supportingPoints: ["MEDVi: dietitian + coaching", "altRx: async + tracking app"],
+      },
+      {
+        name: "Medication options",
+        winner: "provider1",
+        explanation:
+          "Both prescribe compounded semaglutide and tirzepatide. altRx also publishes a brand-name shelf - Ozempic $1,149, Zepbound $1,249 and Wegovy $1,579 a month, self-pay - so switching to an FDA-approved drug is one click away.",
+        supportingPoints: ["Compounded at both", "altRx: published brand-name prices"],
+      },
+      {
+        name: "Transparency & trust",
+        winner: "provider2",
+        explanation:
+          "In June 2026 the FDA sent altRx's parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded GLP-1s look FDA-approved. MEDVi has no comparable action on record and a 4.3/5 Trustpilot score from 14,836 reviews; altRx publishes no Trustpilot score.",
+        supportingPoints: ["altRx: June 2026 FDA warning letter", "MEDVi: 4.3/5 (14,836)"],
+      },
+      {
+        name: "Flexibility",
+        winner: "tie",
+        explanation:
+          "Neither requires a commitment. altRx lets you pause and offers Buy Now, Pay Later; MEDVi has no membership fee and accepts HSA/FSA.",
+        supportingPoints: ["altRx: pause anytime, BNPL", "MEDVi: no membership, HSA/FSA"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$89/mo (promo)", provider2Value: "$99/mo (promo)", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + brand-name", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "provider1" },
+      { feature: "Semaglutide", provider1Value: "$89/mo promo (reg. $199)", provider2Value: "$99/mo promo (reg. $199)", highlight: "provider1" },
+      { feature: "Tirzepatide", provider1Value: "$149/mo promo (reg. $299)", provider2Value: "$166/mo promo (reg. $299)", highlight: "provider1" },
+      { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
+      { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "Free", highlight: "both" },
+      { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "None - no membership", highlight: "both" },
+      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA accepted", highlight: "none" },
+    ],
+    updatedAt: ADDED_SEP_30,
   },
 ];
