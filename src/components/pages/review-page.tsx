@@ -25,18 +25,106 @@ import { YoutubeReviewSection } from "@/components/youtube-review";
 import { ReadableProse } from "@/components/prose";
 import { ProviderAudit } from "@/components/provider-audit";
 
-// Per-provider SEO overrides, "is X legit?" trust blocks, and extra FAQs were a
-// weight-loss-vertical feature (all keyed by WL provider slugs and, where used,
-// gated to ctx.vertical === "weight-loss"). This single-vertical weight-loss build keeps
-// the maps empty and renders reviews from the weight-loss config (src/lib/seeds/weight-loss.ts):
-// the "is X legit?" answer falls back to the review's own intro, and the FAQ
-// list is built entirely from the review's researched content. Add an entry
-// here only with real, verified figures.
-const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+// Per-provider SEO overrides, "is X legit?" trust blocks and extra FAQs for
+// this site's six providers. Every figure below must match the seed
+// (src/lib/seeds/weight-loss.ts) - update both together when prices change.
+// Query-matched titles (Oct 2026): Search Console shows these reviews earning
+// impressions for "<brand> reviews", "is <brand> legit", "<brand> cost per
+// month" - titles and descriptions mirror that phrasing. Figures are the
+// provider-published prices in the seed (checked Sep 2026).
+const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
+  embody: {
+    title: "embody Reviews 2026: Is It Legit? $69/mo GLP-1, Fine Print",
+    description:
+      "Is embody legit? Our embody review: compounded semaglutide $69/mo, tirzepatide $119/mo, no commitment, 1-2 day shipping - plus what its 8,398 Trustpilot reviews say.",
+  },
+  ro: {
+    title: "ro Weight Loss Reviews 2026: Cost, Insurance & Is It Legit?",
+    description:
+      "ro weight loss review: Wegovy, Zepbound, Ozempic and Foundaya with an insurance concierge. Membership $39 first month, then $149/mo - what it really costs and who it fits.",
+  },
+  altrx: {
+    title: "altRx Reviews 2026: Is altRx Legit for GLP-1? Cost & FDA Letter",
+    description:
+      "Is altRx legit? altRx review: compounded semaglutide $89/mo and tirzepatide $149/mo (promo), regular prices, brand-name shelf - and the June 2026 FDA warning letter explained.",
+  },
+  trimrx: {
+    title: "trimrx Reviews 2026: Is It Legit? Cost, Dosing & Ratings",
+    description:
+      "trimrx review: semaglutide $149/mo at every dose, tirzepatide $259/mo, custom dosing and unlimited check-ins. What 5,670 Trustpilot reviews say and who should skip it.",
+  },
+  wellmedr: {
+    title: "wellmedr Reviews 2026: Is It Legit? The $49/mo GLP-1 Catch",
+    description:
+      "Is wellmedr legit? wellmedr review: semaglutide $49/mo on a 12-month plan, tirzepatide $89/mo, 4.6/5 from 1,919 Trustpilot reviews - and what the low price requires.",
+  },
+  medvi: {
+    title: "MEDVi Reviews 2026: Is MEDVi Good? Cost Per Month & Tirzepatide",
+    description:
+      "Is MEDVi good? MEDVi review: compounded semaglutide $99/mo and tirzepatide $166/mo (promo), dietitian and coaching included, 4.3/5 from 14,836 Trustpilot reviews.",
+  },
+};
 
-const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {};
+const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
+  embody: {
+    verdict:
+      "Yes. embody is a real telehealth program: a licensed US clinician reviews every intake before anything is prescribed, it is LegitScript-certified, and medication comes from state-licensed 503A compounding pharmacies. Its reviews are mixed rather than suspicious - most complaints are about shipping hiccups and slow support replies, not about whether people received their medication. Remember that compounded GLP-1s are not FDA-approved.",
+    signals: ["Licensed US clinician reviews every intake", "LegitScript-certified", "State-licensed 503A pharmacies", "Clear month-to-month pricing"],
+  },
+  ro: {
+    verdict:
+      "Yes. ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies in the US. For weight loss it prescribes only FDA-approved brand-name medications - Wegovy, Zepbound, Ozempic and Foundaya - after a clinician review, and its insurance concierge works directly with your plan.",
+    signals: ["Operating since 2017", "FDA-approved brand-name medication only", "Insurance concierge and prior authorization help", "Licensed clinicians, nationwide"],
+  },
+  altrx: {
+    verdict:
+      "altRx is a functioning telehealth program - clinicians review your intake and prescriptions ship from a pharmacy - but there is a caveat worth knowing. On June 8, 2026 the FDA sent its parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded semaglutide and tirzepatide look FDA-approved. A warning letter is not a recall or a shutdown, but it is a reason to read altRx's claims carefully. altRx does not publish a Trustpilot score.",
+    signals: ["Clinician review before prescribing", "Published flat prices at every dose", "No commitment - pause or cancel", "Caution: June 2026 FDA warning letter"],
+  },
+  trimrx: {
+    verdict:
+      "Yes. trimrx prescribes through licensed providers after an online questionnaire, ships with tracking, and lets you contact your provider as often as you need. Its 3.7/5 Trustpilot score from 5,670 reviews is middling - praise tends to focus on dosing support, complaints on price and support speed. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Licensed providers review every questionnaire", "Unlimited provider check-ins", "Free tracked delivery", "Month-to-month, HSA/FSA eligible"],
+  },
+  wellmedr: {
+    verdict:
+      "Yes. wellmedr uses board-certified clinicians, serves all 50 states and has the strongest Trustpilot score of the compounded programs we track - 4.6/5 from 1,919 reviews. The thing to understand is the pricing, not the legitimacy: the $49/mo semaglutide rate requires a 12-month plan, so read the cancellation terms before committing. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Board-certified clinicians", "Available in all 50 states", "Same price at every dose", "Clear 12-month vs monthly pricing"],
+  },
+  medvi: {
+    verdict:
+      "Yes. MEDVi is a licensed US telehealth program with one of the largest review bases in GLP-1 weight loss - 4.3/5 on Trustpilot from 14,836 reviews. Clinician visits, dietitian access and coaching are included in the monthly price, with no membership fee. Its headline prices are promotional, so confirm what you will pay after the promo. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Licensed US clinicians", "Dietitian and coaching included", "No membership or hidden fees", "HSA/FSA accepted"],
+  },
+};
 
-const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> = {};
+const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> = {
+  embody: [
+    { question: "What do embody reviews say?", answer: "embody holds a 3.8/5 Trustpilot score from 8,398 reviews. Positive reviews mostly praise the low $69/mo price and fast 1-2 day shipping; negative ones mostly mention shipping delays and slow replies from support." },
+    { question: "Does embody require a commitment?", answer: "No. embody is month-to-month: semaglutide is $69/mo and tirzepatide $119/mo with no plan length required, and you can cancel anytime." },
+  ],
+  ro: [
+    { question: "Does ro take insurance for Wegovy and Zepbound?", answer: "ro's insurance concierge checks your coverage and handles prior authorization for brand-name GLP-1s. If your plan covers the medication, you pay your plan's share plus ro's membership; if not, you pay the manufacturer's self-pay price." },
+    { question: "Does ro sell compounded semaglutide?", answer: "No. ro prescribes only FDA-approved brand-name medications for weight loss - Wegovy, Zepbound, Ozempic and Foundaya." },
+  ],
+  altrx: [
+    { question: "How much is altRx per month after the promo?", answer: "altRx's promotional prices are $89/mo for compounded semaglutide and $149/mo for tirzepatide. Its regular prices are $199/mo and $299/mo. Prices are flat at every dose, so they do not rise as your dose increases - ask how long the promo lasts before you sign up." },
+    { question: "What was the altRx FDA warning letter about?", answer: "On June 8, 2026 the FDA sent a warning letter to Trinity HealthCare Supply, LLC, which does business as altRx. The FDA objected to claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved. The letter is published on the FDA's website." },
+  ],
+  trimrx: [
+    { question: "What do trimrx reviews say?", answer: "trimrx has a 3.7/5 Trustpilot score from 5,670 reviews. Reviewers often credit the custom dosing and easy access to providers; complaints tend to focus on price and support response times." },
+    { question: "Does trimrx price change with the dose?", answer: "Not for semaglutide: trimrx charges $149/mo at every dose. Compounded tirzepatide is $259/mo." },
+  ],
+  wellmedr: [
+    { question: "What do wellmedr reviews say?", answer: "wellmedr has a 4.6/5 Trustpilot score from 1,919 reviews - the highest of the compounded GLP-1 programs we track." },
+    { question: "Is wellmedr's $49 price month-to-month?", answer: "No. The $49/mo semaglutide rate is for the 12-month plan; month-to-month is advertised at around $88/mo. Compounded tirzepatide is $89/mo, shipped every 4 weeks." },
+  ],
+  medvi: [
+    { question: "How much does MEDVi cost per month?", answer: "MEDVi's promotional prices are $99/mo for compounded semaglutide and $166/mo for compounded tirzepatide; regular prices are $199/mo and $299/mo. The price includes clinician visits, dietitian access, coaching and free shipping, with no membership fee." },
+    { question: "Does MEDVi offer compounded tirzepatide?", answer: "Yes. MEDVi offers compounded tirzepatide at $166/mo at its promotional price ($299/mo regular), alongside compounded semaglutide. Compounded medications are not FDA-approved." },
+    { question: "Is MEDVi good?", answer: "For people who want support beyond a prescription, MEDVi is one of the stronger options: dietitian access and coaching are included, there is no membership fee, and it holds a 4.3/5 Trustpilot score from 14,836 reviews. If price is your only priority, cheaper programs exist." },
+  ],
+};
 
 
 export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Metadata> {
@@ -71,7 +159,9 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
   const isThinNoindex = ctx.vertical === "weight-loss" && NOINDEX_WL_REVIEW_SLUGS.has(slug);
 
   return {
-    title: pageTitle,
+    // Override titles are already brand-led and length-tuned; skip the
+    // " | The Top Weight Loss" suffix so the query words aren't truncated.
+    title: override ? { absolute: pageTitle } : pageTitle,
     description: pageDescription,
     robots: ctx.noindex
       ? { index: false, follow: false }
@@ -155,7 +245,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
     // Extra FAQs are all researched against weight-loss offers, so they only
     // apply there - a provider id shared across verticals (e.g. directmeds on
     // vertical) must not inherit another vertical's prices and shipping claims.
-    ...(ctx.vertical === "weight-loss" ? REVIEW_EXTRA_FAQS[slug] ?? [] : []),
+    ...(REVIEW_EXTRA_FAQS[slug] ?? []),
   ].filter((f): f is { question: string; answer: string } => !!f && !!f.answer);
 
   const faqSchema = {
