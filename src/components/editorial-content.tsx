@@ -97,7 +97,12 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <Link href="/altrx-vs-trimrx" className={linkCls}>altRx vs trimrx</Link>,{" "}
         <Link href="/embody-vs-wellmedr" className={linkCls}>embody vs wellmedr</Link>,{" "}
         <Link href="/ro-vs-medvi" className={linkCls}>MEDVi vs ro</Link> and{" "}
-        <Link href="/altrx-vs-medvi" className={linkCls}>MEDVi vs altRx</Link>.
+        <Link href="/altrx-vs-medvi" className={linkCls}>MEDVi vs altRx</Link>. Weighing the budget picks?
+        Start with{" "}
+        <Link href="/altrx-vs-wellmedr" className={linkCls}>altRx vs wellmedr</Link>,{" "}
+        <Link href="/trimrx-vs-wellmedr" className={linkCls}>trimrx vs wellmedr</Link>,{" "}
+        <Link href="/trimrx-vs-medvi" className={linkCls}>MEDVi vs trimrx</Link> or{" "}
+        <Link href="/wellmedr-vs-medvi" className={linkCls}>MEDVi vs wellmedr</Link>.
       </p>
 
       <hr className="mb-8 border-gray-200" />

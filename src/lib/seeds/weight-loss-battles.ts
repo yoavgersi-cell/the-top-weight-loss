@@ -9,6 +9,9 @@ import type { BattleData } from "@/lib/config";
 //   - embody vs wellmedr - no-commitment $69 vs 12-month $49
 //   - ro vs MEDVi        - brand-name + insurance vs all-inclusive compounded
 //   - altRx vs MEDVi     - lean promo price vs dietitian + coaching bundled
+// Oct 2026 additions, chosen from Search Console brand queries (altRx, MEDVi,
+// trimrx, wellmedr) - every pairing of those four now has a page:
+//   - altRx vs wellmedr, trimrx vs wellmedr, MEDVi vs trimrx, MEDVi vs wellmedr
 // Every figure comes from the provider-published prices in the seed's facts
 // (checked Sep 2026). Promo prices are labeled as promos. Compounded GLP-1s are
 // not FDA-approved - the copy says so wherever they are compared to brands.
@@ -16,6 +19,7 @@ import type { BattleData } from "@/lib/config";
 
 const UPDATED = "2026-09-27";
 const ADDED_SEP_30 = "2026-09-30";
+const ADDED_OCT_3 = "2026-10-03";
 
 export const weightLossBattles: BattleData[] = [
   {
@@ -407,5 +411,297 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA accepted", highlight: "none" },
     ],
     updatedAt: ADDED_SEP_30,
+  },
+  {
+    slug: "altrx-vs-wellmedr",
+    provider1Id: "altrx",
+    provider2Id: "wellmedr",
+    title: "altRx vs wellmedr: Which Flat-Price GLP-1 Is Actually Cheaper?",
+    matchupLabel: "altRx vs wellmedr",
+    subtitle: "Both charge the same at every dose - but one needs a promo to look cheap and the other needs a year",
+    description:
+      "altRx vs wellmedr: $89 vs $49/mo semaglutide, $149 vs $89/mo tirzepatide, regular prices, commitment, reviews and the altRx FDA letter. Which compounded GLP-1 is the better buy?",
+    intro:
+      "altRx and wellmedr both promise the thing GLP-1 patients like most: a price that does not climb as your dose goes up. They get there differently. altRx's low numbers are promotional - $89/mo semaglutide and $149/mo tirzepatide, against regular prices of $199 and $299 - with no commitment. wellmedr's lowest semaglutide price, $49/mo, needs a 12-month plan, but its $89/mo tirzepatide is the cheapest on our list. Add a trust gap - an FDA warning letter on one side, a 4.6/5 Trustpilot score on the other - and this matchup is less close than it looks.",
+    verdict:
+      "wellmedr wins this one. It is cheaper on both drugs - $49/mo semaglutide on its 12-month plan and $89/mo tirzepatide versus altRx's $89 and $149 promo rates - and those prices are not promotions waiting to expire. It also has the stronger trust record: 4.6/5 on Trustpilot from 1,919 reviews, against no published score and a June 2026 FDA warning letter at altRx's parent company. altRx is still the better fit if you want month-to-month semaglutide without signing up for a year, faster access to brand-name medication on the same platform, or Buy Now, Pay Later. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$89/mo tirzepatide - $60 less than altRx",
+      "$49/mo semaglutide on the 12-month plan",
+      "4.6/5 on Trustpilot from 1,919 reviews",
+    ],
+    verdictLoserPoints: [
+      "$89/mo semaglutide with no commitment (promo)",
+      "Brand-name shelf: Ozempic, Zepbound, Wegovy",
+      "Buy Now, Pay Later available",
+    ],
+    winnerId: "wellmedr",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider2",
+        explanation:
+          "Tirzepatide is a clear win for wellmedr: $89/mo against altRx's $149 promo ($299 regular). Semaglutide depends on commitment - wellmedr is $49/mo on a 12-month plan (around $88 month-to-month), altRx $89/mo at promo ($199 regular) with no plan.",
+        supportingPoints: [
+          "Tirzepatide: wellmedr $89 vs altRx $149 promo",
+          "Semaglutide: wellmedr $49 (12-mo) vs altRx $89 promo",
+          "altRx regular prices: $199 / $299",
+        ],
+      },
+      {
+        name: "Flexibility",
+        winner: "provider1",
+        explanation:
+          "altRx has no commitment at all - pause or cancel anytime. wellmedr's best semaglutide rate requires 12 months, so check its cancellation terms first.",
+        supportingPoints: ["altRx: no commitment", "wellmedr: 12 months for $49"],
+      },
+      {
+        name: "Transparency & trust",
+        winner: "provider2",
+        explanation:
+          "wellmedr holds a 4.6/5 Trustpilot score from 1,919 reviews. altRx publishes no score, and its parent company received an FDA warning letter in June 2026 over marketing that made its compounded GLP-1s look FDA-approved.",
+        supportingPoints: ["wellmedr: 4.6/5 (1,919)", "altRx: June 2026 FDA warning letter"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider2",
+        explanation: "wellmedr ships in 3-5 business days. altRx ships free in 5-7 days.",
+        supportingPoints: ["wellmedr: 3-5 business days", "altRx: 5-7 days"],
+      },
+      {
+        name: "Medication options",
+        winner: "provider1",
+        explanation:
+          "Both sell compounded semaglutide and tirzepatide plus brand-name options. altRx's brand-name prices are lower where they overlap - Ozempic $1,149 vs $1,399 and Zepbound $1,249 vs $1,599 a month, self-pay - and it also lists Wegovy.",
+        supportingPoints: ["altRx: Ozempic $1,149, Zepbound $1,249", "wellmedr: Ozempic $1,399, Zepbound $1,599"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$89/mo (promo)", provider2Value: "$49/mo on 12-month plan", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + brand-name", provider2Value: "Compounded sema & tirz + brand-name", highlight: "both" },
+      { feature: "Semaglutide", provider1Value: "$89/mo promo (reg. $199)", provider2Value: "$49/mo (12-mo) / ~$88 monthly", highlight: "provider2" },
+      { feature: "Tirzepatide", provider1Value: "$149/mo promo (reg. $299)", provider2Value: "$89/mo", highlight: "provider2" },
+      { feature: "Same price at every dose", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
+      { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "12 months for lowest rate", highlight: "provider1" },
+      { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "3-5 business days", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
+    ],
+    updatedAt: ADDED_OCT_3,
+  },
+  {
+    slug: "trimrx-vs-wellmedr",
+    provider1Id: "trimrx",
+    provider2Id: "wellmedr",
+    title: "trimrx vs wellmedr: Custom Dosing or the Lowest Price Per Month?",
+    matchupLabel: "trimrx vs wellmedr",
+    subtitle: "A hands-on, custom-dosed program against the cheapest ongoing GLP-1 price we track",
+    description:
+      "trimrx vs wellmedr: $149 vs $49/mo semaglutide, $259 vs $89/mo tirzepatide, custom dosing, check-ins, delivery speed and Trustpilot ratings compared.",
+    intro:
+      "On price alone, this is not a contest: wellmedr's $49/mo semaglutide (12-month plan) and $89/mo tirzepatide sit far below trimrx's $149 and $259. So why would anyone pick trimrx? Because it sells something wellmedr does not lead on - custom dosing and unlimited check-ins with a provider, plus delivery that often arrives the next day. For people who struggle with side effects as the dose goes up, that hands-on adjustment can be what keeps them on treatment.",
+    verdict:
+      "wellmedr is the better choice for most people. The same medications cost $100/mo less for semaglutide and $170/mo less for tirzepatide, and its 4.6/5 Trustpilot score (1,919 reviews) beats trimrx's 3.7 (5,670). Pick trimrx if you want custom or slower dose steps and unlimited access to a provider, if you need medication fast, or if you will not commit to a 12-month plan - trimrx's $149/mo semaglutide is month-to-month. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$49/mo semaglutide on the 12-month plan",
+      "$89/mo tirzepatide - $170 less than trimrx",
+      "4.6/5 on Trustpilot from 1,919 reviews",
+    ],
+    verdictLoserPoints: [
+      "Custom dosing with unlimited provider check-ins",
+      "Free tracked delivery, often next-day",
+      "$149/mo semaglutide month-to-month",
+    ],
+    winnerId: "wellmedr",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider2",
+        explanation:
+          "wellmedr: $49/mo semaglutide on a 12-month plan (around $88 month-to-month) and $89/mo tirzepatide. trimrx: $149/mo semaglutide and $259/mo tirzepatide, month-to-month. Even wellmedr's month-to-month semaglutide is about $61 cheaper.",
+        supportingPoints: ["Semaglutide: $49-$88 vs $149", "Tirzepatide: $89 vs $259", "Both flat at every dose"],
+      },
+      {
+        name: "Medical support",
+        winner: "provider1",
+        explanation:
+          "trimrx builds custom dosing and unlimited provider check-ins into the price - useful if you are side-effect sensitive and want smaller steps. wellmedr uses board-certified clinicians with an async intake plus video and messaging, but dosing support is not its headline.",
+        supportingPoints: ["trimrx: custom dosing, unlimited check-ins", "wellmedr: async + video/messaging"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider1",
+        explanation: "trimrx offers free tracked delivery that often arrives the next day. wellmedr ships in 3-5 business days.",
+        supportingPoints: ["trimrx: often next-day", "wellmedr: 3-5 business days"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider2",
+        explanation: "wellmedr has 4.6/5 from 1,919 Trustpilot reviews; trimrx has 3.7/5 from 5,670.",
+        supportingPoints: ["wellmedr: 4.6/5", "trimrx: 3.7/5"],
+      },
+      {
+        name: "Flexibility",
+        winner: "provider1",
+        explanation:
+          "trimrx is month-to-month at its listed prices. wellmedr's lowest semaglutide price requires a 12-month plan.",
+        supportingPoints: ["trimrx: month-to-month", "wellmedr: 12 months for $49"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$149/mo", provider2Value: "$49/mo on 12-month plan", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + branded", provider2Value: "Compounded sema & tirz + brand-name", highlight: "both" },
+      { feature: "Semaglutide", provider1Value: "$149/mo, every dose", provider2Value: "$49/mo (12-mo) / ~$88 monthly", highlight: "provider2" },
+      { feature: "Tirzepatide", provider1Value: "$259/mo", provider2Value: "$89/mo", highlight: "provider2" },
+      { feature: "Dosing", provider1Value: "Custom dosing", provider2Value: "Standard titration", highlight: "provider1" },
+      { feature: "Provider check-ins", provider1Value: "Unlimited", provider2Value: "Async + video/messaging", highlight: "provider1" },
+      { feature: "Shipping", provider1Value: "Free, often next-day", provider2Value: "3-5 business days", highlight: "provider1" },
+      { feature: "Trustpilot", provider1Value: "3.7/5 (5,670)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
+    ],
+    updatedAt: ADDED_OCT_3,
+  },
+  {
+    slug: "trimrx-vs-medvi",
+    provider1Id: "trimrx",
+    provider2Id: "medvi",
+    title: "trimrx vs MEDVi: Unlimited Check-Ins or a Dietitian in the Price?",
+    matchupLabel: "MEDVi vs trimrx",
+    subtitle: "Two support-heavy GLP-1 programs - one built around your dose, the other around your diet",
+    description:
+      "MEDVi vs trimrx: $99 vs $149/mo semaglutide, $166 vs $259/mo tirzepatide, promo vs regular prices, coaching, dosing support and reviews compared.",
+    intro:
+      "MEDVi and trimrx are the two programs on our list that sell support, not just a prescription - but different kinds of support. trimrx centers on the medication: custom dosing and unlimited check-ins with a provider. MEDVi centers on the habits around it: clinician visits, a dietitian and coaching, all in the monthly price. MEDVi is cheaper today, but its prices are promotional, so the answer can change once the promo ends.",
+    verdict:
+      "MEDVi edges it. At current promo prices it is $50/mo cheaper on semaglutide ($99 vs $149) and $93/mo cheaper on tirzepatide ($166 vs $259), it includes a dietitian and coaching, and it rates higher on Trustpilot - 4.3/5 from 14,836 reviews against trimrx's 3.7 from 5,670. The catch: MEDVi's regular prices are $199 and $299, so once the promo ends, trimrx's $149/mo semaglutide becomes the cheaper option. Choose trimrx if you want custom dose steps, unlimited provider access or next-day delivery. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$99/mo semaglutide, $166/mo tirzepatide (promo)",
+      "Dietitian and coaching included",
+      "4.3/5 on Trustpilot from 14,836 reviews",
+    ],
+    verdictLoserPoints: [
+      "Custom dosing with unlimited check-ins",
+      "$149/mo semaglutide - not a promo price",
+      "Free tracked delivery, often next-day",
+    ],
+    winnerId: "medvi",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider2",
+        explanation:
+          "At promo prices MEDVi is cheaper on both drugs: $99 vs $149 for semaglutide and $166 vs $259 for tirzepatide. At MEDVi's regular prices ($199 and $299) trimrx becomes cheaper on both, so ask MEDVi how long its promo lasts.",
+        supportingPoints: ["Promo: MEDVi $99 / $166", "trimrx: $149 / $259", "MEDVi regular: $199 / $299"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider2",
+        explanation:
+          "MEDVi includes clinician visits, dietitian access and coaching. trimrx includes unlimited provider check-ins but describes itself as light on coaching.",
+        supportingPoints: ["MEDVi: dietitian + coaching", "trimrx: provider check-ins"],
+      },
+      {
+        name: "Medical support",
+        winner: "provider1",
+        explanation:
+          "For dose management specifically, trimrx's custom dosing and unlimited check-ins give you more control over how fast you step up.",
+        supportingPoints: ["trimrx: custom dosing", "trimrx: unlimited check-ins"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider1",
+        explanation: "trimrx's free tracked delivery often arrives the next day. MEDVi ships free; it does not publish a delivery window.",
+        supportingPoints: ["trimrx: often next-day", "MEDVi: free shipping"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider2",
+        explanation: "MEDVi has 4.3/5 from 14,836 Trustpilot reviews; trimrx has 3.7/5 from 5,670.",
+        supportingPoints: ["MEDVi: 4.3/5", "trimrx: 3.7/5"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$149/mo", provider2Value: "$99/mo (promo)", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + branded", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "none" },
+      { feature: "Semaglutide", provider1Value: "$149/mo, every dose", provider2Value: "$99/mo promo (reg. $199)", highlight: "provider2" },
+      { feature: "Tirzepatide", provider1Value: "$259/mo", provider2Value: "$166/mo promo (reg. $299)", highlight: "provider2" },
+      { feature: "Dietitian & coaching", provider1Value: "Light coaching", provider2Value: "Included", highlight: "provider2" },
+      { feature: "Dosing", provider1Value: "Custom dosing, unlimited check-ins", provider2Value: "Clinician visits", highlight: "provider1" },
+      { feature: "Shipping", provider1Value: "Free, often next-day", provider2Value: "Free", highlight: "provider1" },
+      { feature: "Trustpilot", provider1Value: "3.7/5 (5,670)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
+    ],
+    updatedAt: ADDED_OCT_3,
+  },
+  {
+    slug: "wellmedr-vs-medvi",
+    provider1Id: "wellmedr",
+    provider2Id: "medvi",
+    title: "wellmedr vs MEDVi: $49 a Month or Coaching Included?",
+    matchupLabel: "MEDVi vs wellmedr",
+    subtitle: "The best-rated budget GLP-1 against the most reviewed all-inclusive program",
+    description:
+      "MEDVi vs wellmedr: $99 vs $49/mo semaglutide, $166 vs $89/mo tirzepatide, 12-month plan vs no membership, dietitian and coaching, and Trustpilot ratings compared.",
+    intro:
+      "wellmedr and MEDVi are both well-reviewed compounded GLP-1 programs, and both include a licensed clinician. The split is what else you pay for. wellmedr is built to be cheap over time: $49/mo semaglutide on a 12-month plan and $89/mo tirzepatide. MEDVi charges more - $99 and $166 a month at promo prices - but puts a dietitian and coaching in the price and asks for no commitment.",
+    verdict:
+      "wellmedr wins on value. It is $50/mo cheaper on semaglutide (with the 12-month plan) and $77/mo cheaper on tirzepatide, its prices are not promotional, and it has the higher Trustpilot score - 4.6/5 from 1,919 reviews against MEDVi's 4.3 from 14,836. MEDVi is the better choice if you want nutrition coaching built in, or you want to start without signing up for a year: its promo prices need no commitment. Check what MEDVi charges after the promo ($199 and $299 regular). Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$49/mo semaglutide on the 12-month plan",
+      "$89/mo tirzepatide - not a promo price",
+      "4.6/5 on Trustpilot from 1,919 reviews",
+    ],
+    verdictLoserPoints: [
+      "Dietitian access and coaching included",
+      "No membership, no commitment",
+      "4.3/5 from 14,836 Trustpilot reviews",
+    ],
+    winnerId: "wellmedr",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider1",
+        explanation:
+          "wellmedr: $49/mo semaglutide on a 12-month plan (around $88 month-to-month) and $89/mo tirzepatide. MEDVi: $99/mo and $166/mo at promo prices, $199 and $299 regular. wellmedr is cheaper on both drugs even month-to-month.",
+        supportingPoints: ["Semaglutide: $49-$88 vs $99", "Tirzepatide: $89 vs $166", "MEDVi prices are promotional"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider2",
+        explanation:
+          "MEDVi includes clinician visits, dietitian access and coaching. wellmedr offers board-certified clinicians via async intake, video and messaging, without bundled nutrition coaching.",
+        supportingPoints: ["MEDVi: dietitian + coaching", "wellmedr: clinician care"],
+      },
+      {
+        name: "Flexibility",
+        winner: "provider2",
+        explanation:
+          "MEDVi has no membership or commitment. wellmedr's lowest semaglutide price requires 12 months, though its tirzepatide price does not.",
+        supportingPoints: ["MEDVi: no commitment", "wellmedr: 12 months for $49"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider1",
+        explanation:
+          "wellmedr rates 4.6/5 from 1,919 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,836. Both are strong for this category.",
+        supportingPoints: ["wellmedr: 4.6/5", "MEDVi: 4.3/5, larger sample"],
+      },
+      {
+        name: "Range beyond weight loss",
+        winner: "provider1",
+        explanation:
+          "wellmedr also offers TRT, NAD+, hair and sexual-health care, plus a GLP-1 + NAD+/B12 option. MEDVi's program is focused on weight loss support.",
+        supportingPoints: ["wellmedr: broader platform", "MEDVi: weight-loss focused"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$49/mo on 12-month plan", provider2Value: "$99/mo (promo)", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz + brand-name", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "provider1" },
+      { feature: "Semaglutide", provider1Value: "$49/mo (12-mo) / ~$88 monthly", provider2Value: "$99/mo promo (reg. $199)", highlight: "provider1" },
+      { feature: "Tirzepatide", provider1Value: "$89/mo", provider2Value: "$166/mo promo (reg. $299)", highlight: "provider1" },
+      { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
+      { feature: "Commitment", provider1Value: "12 months for lowest rate", provider2Value: "None - no membership", highlight: "provider2" },
+      { feature: "Shipping", provider1Value: "3-5 business days", provider2Value: "Free", highlight: "none" },
+      { feature: "Trustpilot", provider1Value: "4.6/5 (1,919)", provider2Value: "4.3/5 (14,836)", highlight: "provider1" },
+    ],
+    updatedAt: ADDED_OCT_3,
   },
 ];
