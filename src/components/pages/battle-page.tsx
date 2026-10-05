@@ -36,7 +36,21 @@ const BATTLE_COST_MATH: Record<
   { rows: [string, string, string][]; note: string }
 > = {};
 
-const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+// Search titles per comparison (Oct 2026): short (<= ~62 chars) so Google
+// doesn't truncate them, brand casing kept exactly (altRx, trimrx, wellmedr,
+// ro, embody, MEDVi), and a click hook (price or the key difference). The
+// higher-demand brand leads where it differs from the ranking order.
+const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description?: string }> = {
+  "embody-vs-ro": { title: "embody vs ro (2026): $69 Compounded GLP-1 or Brand-Name?" },
+  "altrx-vs-trimrx": { title: "altRx vs trimrx (2026): $89 vs $149 GLP-1 - Which Is Worth It?" },
+  "embody-vs-wellmedr": { title: "embody vs wellmedr (2026): $69 No Commitment or $49 a Month?" },
+  "ro-vs-medvi": { title: "MEDVi vs ro (2026): $99 All-In Care or Brand-Name GLP-1s?" },
+  "altrx-vs-medvi": { title: "MEDVi vs altRx (2026): $99 With Coaching or $89 Bare-Bones?" },
+  "altrx-vs-wellmedr": { title: "altRx vs wellmedr (2026): Which Flat-Price GLP-1 Is Cheaper?" },
+  "trimrx-vs-wellmedr": { title: "trimrx vs wellmedr (2026): Custom Dosing or $49 a Month?" },
+  "trimrx-vs-medvi": { title: "MEDVi vs trimrx (2026): Coaching Included or Custom Dosing?" },
+  "wellmedr-vs-medvi": { title: "MEDVi vs wellmedr (2026): Coaching Included or $49 a Month?" },
+};
 
 // Category word used in the uniform battle SERP title, per vertical. Verticals
 // not listed fall back to a category-free title.
@@ -51,15 +65,6 @@ function titleCaseMatchup(label: string): string {
     .split(/\s+vs\s+/i)
     .map((side) => (side ? side.charAt(0).toUpperCase() + side.slice(1) : side))
     .join(" vs ");
-}
-
-// Title-case only the leading matchup of a curated override title (the part
-// before the first ":"), so a hand-written title keeps its tested hook/price
-// tail verbatim while never starting lowercase - matching the uniform titles.
-function titleCaseOverrideTitle(title: string): string {
-  const idx = title.indexOf(":");
-  if (idx === -1) return title.charAt(0).toUpperCase() + title.slice(1);
-  return `${titleCaseMatchup(title.slice(0, idx))}${title.slice(idx)}`;
 }
 
 // Desc-only meta overrides for CMS landing pages were a weight-loss-vertical
@@ -122,12 +127,16 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
   // an override fall back to the uniform, competitor-style neutral pattern
   // "{A} vs {B} (2026): {Category} Cost, Plans & Meds Compared". DESCRIPTIONS
   // are always the bespoke override (real prices) when present.
-  const override = ctx.vertical === "weight-loss" ? BATTLE_SEO_OVERRIDES[slug] : undefined;
+  const override = BATTLE_SEO_OVERRIDES[slug];
   const baseLabel = (battle.matchupLabel ?? battle.title.split(":")[0]).trim();
   const battleCategory = BATTLE_CATEGORY_BY_VERTICAL[ctx.vertical];
-  const metaTitle = override?.title
-    ? titleCaseOverrideTitle(override.title)
-    : `${titleCaseMatchup(baseLabel)} (2026): ${battleCategory ? `${battleCategory} ` : ""}Cost, Plans & Meds Compared`;
+  // This site's brands are deliberately lowercase (altRx, trimrx, wellmedr,
+  // ro, embody), so curated titles are used verbatim - no title-casing. A
+  // battle without a curated title falls back to its own written headline.
+  const metaTitle =
+    override?.title ??
+    battle.title ??
+    `${titleCaseMatchup(baseLabel)} (2026): ${battleCategory ? `${battleCategory} ` : ""}Cost, Plans & Meds Compared`;
   const metaDescription = override?.description ?? battle.description;
 
   // Thin, low-demand matchups (Tier-2-brand pairs) are noindex,follow so crawl
@@ -135,7 +144,8 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
   const isThinNoindex = ctx.vertical === "weight-loss" && NOINDEX_WL_BATTLE_SLUGS.has(slug);
 
   return {
-    title: metaTitle,
+    // Absolute: skip the " | The Top Weight Loss" suffix so titles fit the SERP.
+    title: { absolute: metaTitle },
     description: metaDescription,
     robots: ctx.noindex
       ? { index: false, follow: false }

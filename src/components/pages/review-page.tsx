@@ -117,11 +117,14 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
   ],
   wellmedr: [
     { question: "What do wellmedr reviews say?", answer: "wellmedr has a 4.6/5 Trustpilot score from 1,919 reviews - the highest of the compounded GLP-1 programs we track." },
+    { question: "How much is wellmedr tirzepatide?", answer: "wellmedr lists compounded tirzepatide at $89/mo, shipped every 4 weeks, at the same price for every dose." },
     { question: "Is wellmedr's $49 price month-to-month?", answer: "No. The $49/mo semaglutide rate is for the 12-month plan; month-to-month is advertised at around $88/mo. Compounded tirzepatide is $89/mo, shipped every 4 weeks." },
   ],
   medvi: [
     { question: "How much does MEDVi cost per month?", answer: "MEDVi's promotional prices are $99/mo for compounded semaglutide and $166/mo for compounded tirzepatide; regular prices are $199/mo and $299/mo. The price includes clinician visits, dietitian access, coaching and free shipping, with no membership fee." },
     { question: "Does MEDVi offer compounded tirzepatide?", answer: "Yes. MEDVi offers compounded tirzepatide at $166/mo at its promotional price ($299/mo regular), alongside compounded semaglutide. Compounded medications are not FDA-approved." },
+    { question: "Is MEDVi FDA approved?", answer: "MEDVi is a telehealth company, not a drug, so it is not something the FDA approves. Its core program uses compounded semaglutide and tirzepatide, which are not FDA-approved - the FDA does not review compounded drugs for safety, effectiveness or quality. FDA-approved GLP-1s are brand-name drugs such as Wegovy and Zepbound." },
+    { question: "Is MEDVi safe?", answer: "A licensed US clinician reviews your health history before anything is prescribed, which is the key safety step. GLP-1 medications commonly cause nausea, diarrhea or constipation, especially while the dose is being increased, and are not suitable for everyone - including people with a personal or family history of medullary thyroid cancer or MEN2, or who are pregnant. Compounded versions are not FDA-approved." },
     { question: "Is MEDVi good?", answer: "For people who want support beyond a prescription, MEDVi is one of the stronger options: dietitian access and coaching are included, there is no membership fee, and it holds a 4.3/5 Trustpilot score from 14,836 reviews. If price is your only priority, cheaper programs exist." },
   ],
 };
