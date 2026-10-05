@@ -12,6 +12,7 @@ import type { BattleData } from "@/lib/config";
 // Oct 2026 additions, chosen from Search Console brand queries (altRx, MEDVi,
 // trimrx, wellmedr) - every pairing of those four now has a page:
 //   - altRx vs wellmedr, trimrx vs wellmedr, MEDVi vs trimrx, MEDVi vs wellmedr
+//   - MEDVi vs embody (completes MEDVi vs every provider on the site)
 // Every figure comes from the provider-published prices in the seed's facts
 // (checked Sep 2026). Promo prices are labeled as promos. Compounded GLP-1s are
 // not FDA-approved - the copy says so wherever they are compared to brands.
@@ -20,6 +21,7 @@ import type { BattleData } from "@/lib/config";
 const UPDATED = "2026-09-27";
 const ADDED_SEP_30 = "2026-09-30";
 const ADDED_OCT_3 = "2026-10-03";
+const ADDED_OCT_5 = "2026-10-05";
 
 export const weightLossBattles: BattleData[] = [
   {
@@ -703,5 +705,77 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Trustpilot", provider1Value: "4.6/5 (1,919)", provider2Value: "4.3/5 (14,836)", highlight: "provider1" },
     ],
     updatedAt: ADDED_OCT_3,
+  },
+  {
+    slug: "embody-vs-medvi",
+    provider1Id: "embody",
+    provider2Id: "medvi",
+    title: "embody vs MEDVi: The Cheapest Start or the Most Support?",
+    matchupLabel: "MEDVi vs embody",
+    subtitle: "$69 a month and medication at your door in two days, or $99 with a dietitian and coaching built in",
+    description:
+      "MEDVi vs embody: $99 vs $69/mo semaglutide, $166 vs $119/mo tirzepatide, promo vs regular prices, coaching, shipping speed and Trustpilot ratings compared.",
+    intro:
+      "MEDVi and embody are two of the most searched compounded GLP-1 programs, and they make opposite bets about what you want. embody bets on price and speed: $69/mo semaglutide, $119/mo tirzepatide, no commitment and delivery in 1-2 days. MEDVi bets on support: $99/mo semaglutide or $166/mo tirzepatide at promo prices, with clinician visits, a dietitian and coaching included. Neither asks you to sign up for a year, so the choice comes down to whether you want a prescription or a program.",
+    verdict:
+      "embody wins for most people: it is $30/mo cheaper on semaglutide and $47/mo cheaper on tirzepatide, its low prices are close to its regular ones ($79 and $129), and it ships in 1-2 days. MEDVi is the better choice if you want help with the habits that make GLP-1 results last - a dietitian and coaching are included - and its 4.3/5 Trustpilot score from 14,836 reviews beats embody's 3.8 from 8,398. Check what MEDVi charges after its promo ends: its regular prices are $199 and $299. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$69/mo semaglutide, $119/mo tirzepatide",
+      "Regular prices only $10 higher ($79 / $129)",
+      "Ships in 1-2 days, cold-chain packed",
+    ],
+    verdictLoserPoints: [
+      "Dietitian access and coaching included",
+      "4.3/5 on Trustpilot from 14,836 reviews",
+      "No membership fee, HSA/FSA accepted",
+    ],
+    winnerId: "embody",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider1",
+        explanation:
+          "embody is cheaper on both drugs today - $69 vs $99 for semaglutide and $119 vs $166 for tirzepatide - and the gap widens after promotions: embody's regular prices are $79 and $129, MEDVi's are $199 and $299.",
+        supportingPoints: ["Today: $69 / $119 vs $99 / $166", "Regular: $79 / $129 vs $199 / $299", "Both flat, no commitment"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider2",
+        explanation:
+          "MEDVi includes clinician visits, dietitian access and coaching. embody includes clinician review and messaging with its care team between check-ins, but no nutrition coaching.",
+        supportingPoints: ["MEDVi: dietitian + coaching", "embody: care-team messaging"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider1",
+        explanation: "embody ships in 1-2 days, cold-chain packed. MEDVi ships free but does not publish a delivery window.",
+        supportingPoints: ["embody: 1-2 days", "MEDVi: free shipping"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider2",
+        explanation:
+          "MEDVi rates 4.3/5 from 14,836 Trustpilot reviews. embody rates 3.8/5 from 8,398, with complaints mostly about shipping hiccups and slow support replies.",
+        supportingPoints: ["MEDVi: 4.3/5 (14,836)", "embody: 3.8/5 (8,398)"],
+      },
+      {
+        name: "Medication options",
+        winner: "provider1",
+        explanation:
+          "Both prescribe compounded semaglutide and tirzepatide. embody also offers a compounded daily oral option for people who would rather not inject.",
+        supportingPoints: ["Compounded sema & tirz at both", "embody: daily oral option"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$69/mo, medication included", provider2Value: "$99/mo all-in (promo)", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz, injection or oral", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "provider1" },
+      { feature: "Semaglutide", provider1Value: "$69/mo (reg. $79)", provider2Value: "$99/mo promo (reg. $199)", highlight: "provider1" },
+      { feature: "Tirzepatide", provider1Value: "$119/mo (reg. $129)", provider2Value: "$166/mo promo (reg. $299)", highlight: "provider1" },
+      { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
+      { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "Free", highlight: "provider1" },
+      { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (8,398)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+    ],
+    updatedAt: ADDED_OCT_5,
   },
 ];

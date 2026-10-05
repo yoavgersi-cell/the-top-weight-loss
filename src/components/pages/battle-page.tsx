@@ -50,6 +50,7 @@ const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description?: string
   "trimrx-vs-wellmedr": { title: "trimrx vs wellmedr (2026): Custom Dosing or $49 a Month?" },
   "trimrx-vs-medvi": { title: "MEDVi vs trimrx (2026): Coaching Included or Custom Dosing?" },
   "wellmedr-vs-medvi": { title: "MEDVi vs wellmedr (2026): Coaching Included or $49 a Month?" },
+  "embody-vs-medvi": { title: "MEDVi vs embody (2026): $99 With Coaching or $69 Bare-Bones?" },
 };
 
 // Category word used in the uniform battle SERP title, per vertical. Verticals
