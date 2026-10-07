@@ -7,7 +7,8 @@ import { PRODUCT_CATALOG } from "@/lib/product-catalog";
 import { enhanceArticleHtml } from "@/components/prose";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { ExpertByline } from "@/components/expert-byline";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import { MedicalSources } from "@/components/medical-sources";
 import { ProductCarousel } from "@/components/product-carousel";
 import { TrustpilotCarousel } from "@/components/trustpilot-carousel";
@@ -63,7 +64,11 @@ const categoryColors: Record<string, string> = {
   Guide: "bg-emerald-50 text-emerald-700",
   Advice: "bg-amber-50 text-amber-700",
   Wellness: "bg-purple-50 text-purple-700",
+  "Provider Guides": "bg-[#E8F1FD] text-[#1A5DB8]",
 };
+
+// Article categories that carry medical content (see the schema note below).
+const MEDICAL_CATEGORIES = new Set(["Guides", "Safety", "Treatments"]);
 
 function slugifyHeading(heading: string): string {
   return heading
@@ -208,9 +213,14 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
         url: `${ctx.origin}/logo-mark.png`,
       },
     },
+    // Medical guides are typed as a MedicalWebPage so reviewedBy /
+    // lastReviewed sit on the page entity, where schema.org defines them
+    // (they are not Article properties). Provider-business pages (cost,
+    // legitimacy, comparisons) stay a plain WebPage.
     mainEntityOfPage: {
-      "@type": "WebPage",
+      "@type": MEDICAL_CATEGORIES.has(article.category) ? "MedicalWebPage" : "WebPage",
       "@id": canonicalUrl(ctx, `/articles/${slug}`),
+      ...pageReviewSchema(`/articles/${slug}`),
     },
     keywords: [
       "GLP-1 weight loss",
@@ -326,19 +336,8 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
             <p className="mt-2.5 max-w-[640px] text-[15px] leading-[1.55] text-gray-600 sm:text-[16px]">
               {article.description}
             </p>
-            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
-              {author ? (
-                <ExpertByline
-                  expert={author}
-                  label="Written by"
-                  showRole={false}
-                  compact
-                />
-              ) : (
-                article.author && <span className="text-[12px] text-gray-500">By {article.author}</span>
-              )}
-              <span className="text-[12px] text-gray-400">Updated {formattedDate}</span>
-            </div>
+            <p className="mt-3 text-[12px] text-gray-400">Updated {formattedDate}</p>
+            <MedicalReviewBar path={`/articles/${slug}`} className="mt-4 max-w-[760px]" />
           </div>
         </div>
 

@@ -1,3 +1,5 @@
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ClipboardCheck, Database, ShieldCheck, Scale, Trophy, RefreshCw, Check, X } from "lucide-react";
@@ -75,6 +77,7 @@ export default async function HowWeRankPage() {
     description:
       "Our full methodology for ranking and reviewing online GLP-1 weight loss providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners.",
     url: CANONICAL,
+    ...pageReviewSchema("/how-we-rank"),
     publisher: { "@type": "Organization", name: "The Top Weight Loss", url: "https://www.thetopweightloss.com" },
   };
 
@@ -116,6 +119,7 @@ export default async function HowWeRankPage() {
             GLP-1 weight loss provider, where our information comes from, and how we keep it accurate.
           </p>
           <LastUpdated date={CONTENT_LAST_UPDATED} className="mt-4" />
+          <MedicalReviewBar path="/how-we-rank" className="mt-4 max-w-[760px]" />
         </div>
       </div>
 

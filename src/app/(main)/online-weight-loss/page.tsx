@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { STATES } from "@/lib/states";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 
 export const revalidate = 60;
 
@@ -20,9 +22,21 @@ export const metadata: Metadata = {
 };
 
 export default function OnlineWeightLossIndex() {
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/online-weight-loss`,
+    url: `${SITE_URL}/online-weight-loss`,
+    name: "Online GLP-1 Weight Loss by State",
+    isPartOf: { "@type": "WebSite", name: "The Top Weight Loss", url: SITE_URL },
+    ...pageReviewSchema("/online-weight-loss"),
+  };
+
   return (
     <div className="mx-auto max-w-[1000px] px-4 py-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       <h1 className="mb-4 text-3xl font-bold text-[#191919]">Online GLP-1 Weight Loss by State</h1>
+      <MedicalReviewBar path="/online-weight-loss" className="mb-5 max-w-[760px]" compact />
       <p className="mb-4 max-w-2xl text-[16px] leading-[1.7] text-gray-700">
         GLP-1 weight loss treatment - semaglutide and tirzepatide, brand-name or compounded - is widely available
         online through licensed telehealth providers: an online health intake, a review by a licensed clinician,

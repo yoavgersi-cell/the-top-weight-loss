@@ -1,3 +1,5 @@
+import { pageReviewSchema } from "@/data/reviewers";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
 import type { Metadata } from "next";
 import { Fragment } from "react";
 import Link from "next/link";
@@ -217,6 +219,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
+      ...pageReviewSchema(`/${landing.slug}`),
       name: landing.seoTitle,
       description: landing.seoDescription,
       url: canonicalUrl(ctx, `/${landing.slug}`),
@@ -441,6 +444,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Article",
+    ...pageReviewSchema(`/${battle.slug}`),
     headline: battle.title,
     description: battle.description,
     datePublished: "2026-06-01",
@@ -506,29 +510,14 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
                 <span>
                   By{" "}
                   <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#1A5DB8] hover:underline">
-                    {ctx.brandTeam.replace(/\s+Team$/i, "").replace(/^(?!The )/, "The ")} Research Team
+                    {ctx.brandTeam.replace(/\s+Team$/i, "")} Editorial Team
                   </Link>
                 </span>
-              )}
-              {/* Medical-review credit slot: renders the reviewer from the CMS
-                  Team tab. When a credentialed clinician (MD/PharmD/RD) is
-                  added there, this line carries their name sitewide. */}
-              {config.experts && config.experts.length > 1 && (
-                <>
-                  <span className="text-gray-300">·</span>
-                  <span>
-                    Reviewed by{" "}
-                    <Link href={hubLink(ctx, "/about")} className="font-medium text-gray-600 underline-offset-2 hover:text-[#1A5DB8] hover:underline">
-                      {config.experts[1].credentials
-                        ? `${config.experts[1].name}, ${config.experts[1].credentials}`
-                        : config.experts[1].name}
-                    </Link>
-                  </span>
-                </>
               )}
               <span className="text-gray-300">·</span>
               <LastUpdated date={battleUpdatedAt} />
             </div>
+            <MedicalReviewBar path={`/${battle.slug}`} className="mt-4 max-w-[760px]" />
             <TrustDisclosure disclaimerHref={hubLink(ctx, "/disclaimer")} />
           </div>
         </section>
