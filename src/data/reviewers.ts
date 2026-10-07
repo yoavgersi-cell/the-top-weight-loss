@@ -182,11 +182,101 @@ export interface PageReview {
   reviewedAt: string; // YYYY-MM-DD
 }
 
-// Empty at launch on this site (Oct 2026): no page has been confirmed as
-// reviewed yet. Add entries like
-//   "/reviews/medvi": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-08" },
-// once the operator confirms the review.
-export const REVIEW_LOG: Record<string, PageReview> = {};
+// 2026-10-07: full-site review by Francheska Capistrano - every content page
+// that carried the review bar on that date (operator-confirmed): homepage,
+// reviews and articles indexes, /online-weight-loss and its 51 state pages,
+// How We Rank, the 6 provider reviews, 10 comparisons and 5 articles. Pages
+// created after this date are NOT covered; add them below when reviewed.
+const REVIEWED_2026_10_07: string[] = [
+  "/",
+  "/reviews",
+  "/articles",
+  "/online-weight-loss",
+  "/how-we-rank",
+  "/reviews/embody",
+  "/reviews/ro",
+  "/reviews/altrx",
+  "/reviews/trimrx",
+  "/reviews/wellmedr",
+  "/reviews/medvi",
+  "/embody-vs-ro",
+  "/altrx-vs-trimrx",
+  "/embody-vs-wellmedr",
+  "/ro-vs-medvi",
+  "/altrx-vs-medvi",
+  "/altrx-vs-wellmedr",
+  "/trimrx-vs-wellmedr",
+  "/trimrx-vs-medvi",
+  "/wellmedr-vs-medvi",
+  "/embody-vs-medvi",
+  "/articles/compounded-vs-brand-name-glp1",
+  "/articles/semaglutide-vs-tirzepatide",
+  "/articles/real-cost-of-glp1-weight-loss",
+  "/articles/glp1-side-effects-first-12-weeks",
+  "/articles/stopping-glp1-maintenance",
+  "/online-weight-loss/alabama",
+  "/online-weight-loss/alaska",
+  "/online-weight-loss/arizona",
+  "/online-weight-loss/arkansas",
+  "/online-weight-loss/california",
+  "/online-weight-loss/colorado",
+  "/online-weight-loss/connecticut",
+  "/online-weight-loss/delaware",
+  "/online-weight-loss/florida",
+  "/online-weight-loss/georgia",
+  "/online-weight-loss/hawaii",
+  "/online-weight-loss/idaho",
+  "/online-weight-loss/illinois",
+  "/online-weight-loss/indiana",
+  "/online-weight-loss/iowa",
+  "/online-weight-loss/kansas",
+  "/online-weight-loss/kentucky",
+  "/online-weight-loss/louisiana",
+  "/online-weight-loss/maine",
+  "/online-weight-loss/maryland",
+  "/online-weight-loss/massachusetts",
+  "/online-weight-loss/michigan",
+  "/online-weight-loss/minnesota",
+  "/online-weight-loss/mississippi",
+  "/online-weight-loss/missouri",
+  "/online-weight-loss/montana",
+  "/online-weight-loss/nebraska",
+  "/online-weight-loss/nevada",
+  "/online-weight-loss/new-hampshire",
+  "/online-weight-loss/new-jersey",
+  "/online-weight-loss/new-mexico",
+  "/online-weight-loss/new-york",
+  "/online-weight-loss/north-carolina",
+  "/online-weight-loss/north-dakota",
+  "/online-weight-loss/ohio",
+  "/online-weight-loss/oklahoma",
+  "/online-weight-loss/oregon",
+  "/online-weight-loss/pennsylvania",
+  "/online-weight-loss/rhode-island",
+  "/online-weight-loss/south-carolina",
+  "/online-weight-loss/south-dakota",
+  "/online-weight-loss/tennessee",
+  "/online-weight-loss/texas",
+  "/online-weight-loss/utah",
+  "/online-weight-loss/vermont",
+  "/online-weight-loss/virginia",
+  "/online-weight-loss/washington",
+  "/online-weight-loss/west-virginia",
+  "/online-weight-loss/wisconsin",
+  "/online-weight-loss/wyoming",
+  "/online-weight-loss/washington-dc",
+];
+
+// Pages published and reviewed after the full-site pass, e.g.
+//   "/reviews/new-provider": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-20" },
+const REVIEWED_LATER: Record<string, PageReview> = {};
+
+export const REVIEW_LOG: Record<string, PageReview> = {
+  ...Object.fromEntries(
+    REVIEWED_2026_10_07.map((p) => [p, { reviewer: "francheska-capistrano", reviewedAt: "2026-10-07" }]),
+  ),
+  ...REVIEWED_LATER,
+};
 
 export function getReviewer(slug: string = SITE_REVIEWER_SLUG): Reviewer | undefined {
   return REVIEWERS.find((r) => r.slug === slug);
