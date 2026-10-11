@@ -47,7 +47,8 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    (month-to-month advertised around $88/mo), tirzepatide $89/mo shipped
 //    every 4 weeks, same price at every dose; GLP-1 + NAD+/B12 microdose
 //    option; brand shelf Ozempic $1,399, Zepbound $1,599 per month; ships in
-//    3-5 business days; all 50 states; Trustpilot 4.6 / 5 from 1,919 reviews.
+//    3-5 business days; all 50 states; Trustpilot 4.6 / 5 from 2,181 reviews
+//    (operator-supplied Oct 11, 2026, with 11 verbatim reviews).
 //  - MEDVi: compounded semaglutide $99/mo promo (reg. $199), tirzepatide
 //    $166/mo promo (reg. $299); all-inclusive - clinician visits, dietitian
 //    access and coaching included; free shipping; no membership or hidden
@@ -252,7 +253,20 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1593&aff_id=12905",
       ctaText: "Visit Site",
       trustpilotRating: "4.6",
-      trustpilotReviewCount: "1,919",
+      trustpilotReviewCount: "2,181",
+      trustpilotReviews: [
+        { title: "The experience is wonderful.", text: "The experience is wonderful. Their's so many companies this one is by far the best they make it so convenient for you to receive your order I've had no problems at all.", name: "Missymoo", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "I have had such a great Customer...", text: "I have had such a great Customer Service experience with Wellmdr. Ryan was awesome and helped me in every way possible. I accidentally threw away the vials when I received the order and he helped me come up with a solution to my problem. I'm very pleased with this company and excited to start taking the medication. 10 out of 10 recommendation. Thank you Wellmedr.", name: "Kari Hensley Hall", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Great customer service and affordable...", text: "Great customer service and affordable program. Everything is going really well. I can recommend WellMedr 🙂", name: "Michael D.", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "I had a wonderful Customer service rep...", text: "I had a wonderful Customer service rep named Lana.she fixed every question I had and made the experience so easy. I was so grateful that all went well. Lana was so knowledgeable and caring. She should definitely get a raise.", name: "Ann Ward", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Customer Service", text: "Paige helped me quickly by changing a delivery date. Very fast and kind service.", name: "gwenn devereaux", location: "US", rating: 5 },
+        { title: "Michael John was very kind and patient...", text: "Michael John was very kind and patient with me. He answered all of my questions and did not rush me! He made me feel very comfortable", name: "Kelly", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Honestly I’ve had a good experience", text: "Honestly I’ve had a good experience, i ordered Oct 1 got my shipment October 7th, customer service replies to me, they even moved my payment date to better accommodate my income and pay days!! I can’t thank them enough for that. I’m a single mom from Ohio, my doctors said this can help my false brain tumor symptoms plus I need to lose some weight so I’m grateful for this company making it affordable even for people on a fixed income.", name: "Savannah James", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "", text: "Ashton Jone was extremely helpful !", name: "N/A", location: "US", rating: 5 },
+        { title: "Dylan answered all my questions quickly...", text: "Dylan answered all my questions quickly and professionally", name: "Gail Rosencranz", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "My experience with Brittany was great...", text: "My experience with Brittany was great and she was professional and helpful, I left the program because my first order was messed up and I had to reach out several times to get an answer, I’m just worried if month 1 was so late, is it always going to be? But the resolution was flawless thanks to Brittany", name: "Debbie", location: "US", rating: 4, date: "Oct 10, 2026" },
+        { title: "They resolved my problem with a nice...", text: "They resolved my problem with a nice attitude she was very helpful", name: "Yesenia Valladarez", location: "US", rating: 5 },
+      ],
     },
     {
       id: "medvi",
@@ -709,7 +723,7 @@ export const weightLossConfig: SiteConfig = {
       pros: [
         "Lowest long-run price we found - semaglutide $49/month on the 12-month plan",
         "Tirzepatide at $89/month, and prices do not rise with your dose",
-        "Strongest published Trustpilot score on our list (4.6 / 5 from 1,919 reviews)",
+        "Strongest published Trustpilot score on our list (4.6 / 5 from 2,181 reviews)",
         "Board-certified clinicians, available in all 50 states",
       ],
       cons: [

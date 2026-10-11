@@ -57,7 +57,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   wellmedr: {
     title: "wellmedr Reviews 2026: Is It Legit? The $49/mo GLP-1 Catch",
     description:
-      "Is wellmedr legit? wellmedr review: semaglutide $49/mo on a 12-month plan, tirzepatide $89/mo, 4.6/5 from 1,919 Trustpilot reviews - and what the low price requires.",
+      "Is wellmedr legit? wellmedr review: semaglutide $49/mo on a 12-month plan, tirzepatide $89/mo, 4.6/5 from 2,181 Trustpilot reviews - and what the low price requires.",
   },
   directmeds: {
     title: "DirectMeds Reviews 2026: Is It Legit? $147 Flat GLP-1 & Drops",
@@ -99,7 +99,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   wellmedr: {
     verdict:
-      "Yes. wellmedr uses board-certified clinicians, serves all 50 states and has the strongest Trustpilot score of the compounded programs we track - 4.6/5 from 1,919 reviews. The thing to understand is the pricing, not the legitimacy: the $49/mo semaglutide rate requires a 12-month plan, so read the cancellation terms before committing. Compounded GLP-1s are not FDA-approved.",
+      "Yes. wellmedr uses board-certified clinicians, serves all 50 states and has the strongest Trustpilot score of the compounded programs we track - 4.6/5 from 2,181 reviews. The thing to understand is the pricing, not the legitimacy: the $49/mo semaglutide rate requires a 12-month plan, so read the cancellation terms before committing. Compounded GLP-1s are not FDA-approved.",
     signals: ["Board-certified clinicians", "Available in all 50 states", "Same price at every dose", "Clear 12-month vs monthly pricing"],
   },
   directmeds: {
@@ -138,7 +138,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
     { question: "Does trimrx price change with the dose?", answer: "Not for semaglutide: trimrx charges $149/mo at every dose. Compounded tirzepatide is $259/mo." },
   ],
   wellmedr: [
-    { question: "What do wellmedr reviews say?", answer: "wellmedr has a 4.6/5 Trustpilot score from 1,919 reviews - the highest of the compounded GLP-1 programs we track." },
+    { question: "What do wellmedr reviews say?", answer: "wellmedr has a 4.6/5 Trustpilot score from 2,181 reviews - the highest of the compounded GLP-1 programs we track." },
     { question: "How much is wellmedr tirzepatide?", answer: "wellmedr lists compounded tirzepatide at $89/mo, shipped every 4 weeks, at the same price for every dose." },
     { question: "Is wellmedr's $49 price month-to-month?", answer: "No. The $49/mo semaglutide rate is for the 12-month plan; month-to-month is advertised at around $88/mo. Compounded tirzepatide is $89/mo, shipped every 4 weeks." },
   ],
