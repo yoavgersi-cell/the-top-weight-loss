@@ -41,7 +41,8 @@ import { weightLossBattles } from "./weight-loss-battles";
 //  - trimrx: compounded semaglutide $149/mo at every dose ($140 discount
 //    applied), tirzepatide $259/mo; custom dosing; unlimited provider
 //    check-ins; free tracked delivery (often next-day); month-to-month;
-//    HSA/FSA eligible; most US states; Trustpilot 3.7 / 5 from 5,670 reviews.
+//    HSA/FSA eligible; most US states; Trustpilot 3.8 / 5 from 5,393 reviews
+//    (operator-supplied Oct 11, 2026, with 11 verbatim reviews).
 //  - wellmedr: compounded semaglutide $49/mo on the 12-month plan
 //    (month-to-month advertised around $88/mo), tirzepatide $89/mo shipped
 //    every 4 weeks, same price at every dose; GLP-1 + NAD+/B12 microdose
@@ -219,8 +220,21 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl:
         "https://trimrx.com/glp1/offer-v4-meta?catalog=winter&discount=winter140&offer_url_id=29&oid=1&affid=40&oid2=4461&affid2=1952",
       ctaText: "Visit Site",
-      trustpilotRating: "3.7",
-      trustpilotReviewCount: "5,670",
+      trustpilotRating: "3.8",
+      trustpilotReviewCount: "5,393",
+      trustpilotReviews: [
+        { title: "Signup was easy and the price beat a...", text: "Signup was easy and the price beat a few places I checked, my medication hasn't arrived yet. For now I can only rate the ordering part.", name: "Tiffany Luwe", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Down 14 lbs so far and my appetite has...", text: "Down 14 lbs so far and my appetite has dropped a lot", name: "Susan Kovi", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Approved the same day and had the...", text: "Approved the same day and had the medication two days later really quick process from start to finish.", name: "Vickie Shelton", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "I got prompt answers to my concerns", text: "I got prompt answers to my concerns, and shipping was fast.", name: "Najera Bennett", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "For the past few months", text: "For the past few months, my medication has arrived on time ,I have been happy with the care and service too.", name: "Courtney Gruppen", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "No problems getting my GLP 1 order...", text: "No problems getting my GLP 1 order through the website.", name: "Leemurphy Nino", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "My insurance denied ozempic again", text: "My insurance denied ozempic again, so with my endocrinologist on board I decided to try compounded semaglutide through trimrx. I've been on it since August and my A1C has gone from 7.2 to 6.5, plus I've been losing weight. My doctor was really happy with the change and getting started with trimrx was pretty straightforward.", name: "Leslie", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "I'm on 0.5mg semaglutide and only had a...", text: "I'm on 0.5mg semaglutide and only had a bit of nausea the first week, the biggest surprise has been having more energy and sleeping better too.", name: "Loretta Rigsby", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "The medication has been working well...", text: "The medication has been working well for me and deliveries have always shown up on time. My only issue is that I had to follow up twice before getting an answer about my dose, so I'm sticking with 4 stars for now.", name: "Elnora Watkins", location: "US", rating: 4, date: "Oct 10, 2026" },
+        { title: "Meds have been working well and...", text: "Meds have been working well and deliveries have always been on time.", name: "Robert Vaughn", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "6 weeks in and I'm down 15 lbs on...", text: "6 weeks in and I'm down 15 lbs on semaglutide", name: "Ronald Franzer", location: "US", rating: 5, date: "Oct 10, 2026" },
+      ],
     },
     {
       id: "wellmedr",
@@ -611,7 +625,7 @@ export const weightLossConfig: SiteConfig = {
         "Higher price than embody, altRx's promo or wellmedr - $149 semaglutide and $259 tirzepatide",
         "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
         "Light on coaching - little nutrition or lifestyle support",
-        "Mixed Trustpilot rating (3.7 / 5 from 5,670 reviews); available in most, not all, US states",
+        "Mixed Trustpilot rating (3.8 / 5 from 5,393 reviews); available in most, not all, US states",
       ],
       bestFor: [
         "People who want custom or micro dosing to manage side effects",

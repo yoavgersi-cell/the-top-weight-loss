@@ -169,8 +169,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "altRx's parent, Trinity HealthCare Supply, LLC (dba altRx), received an FDA warning letter dated June 8, 2026 - the regulator took issue with claims and labels that made altRx's compounded semaglutide and tirzepatide appear FDA-approved. trimrx has no comparable action on record; it holds a 3.7/5 Trustpilot score from 5,670 reviews.",
-        supportingPoints: ["altRx: June 2026 FDA warning letter", "trimrx: 3.7/5 on Trustpilot (5,670 reviews)"],
+          "altRx's parent, Trinity HealthCare Supply, LLC (dba altRx), received an FDA warning letter dated June 8, 2026 - the regulator took issue with claims and labels that made altRx's compounded semaglutide and tirzepatide appear FDA-approved. trimrx has no comparable action on record; it holds a 3.8/5 Trustpilot score from 5,393 reviews.",
+        supportingPoints: ["altRx: June 2026 FDA warning letter", "trimrx: 3.8/5 on Trustpilot (5,393 reviews)"],
       },
     ],
     features: [
@@ -504,7 +504,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "On price alone, this is not a contest: wellmedr's $49/mo semaglutide (12-month plan) and $89/mo tirzepatide sit far below trimrx's $149 and $259. So why would anyone pick trimrx? Because it sells something wellmedr does not lead on - custom dosing and unlimited check-ins with a provider, plus delivery that often arrives the next day. For people who struggle with side effects as the dose goes up, that hands-on adjustment can be what keeps them on treatment.",
     verdict:
-      "wellmedr is the better choice for most people. The same medications cost $100/mo less for semaglutide and $170/mo less for tirzepatide, and its 4.6/5 Trustpilot score (1,919 reviews) beats trimrx's 3.7 (5,670). Pick trimrx if you want custom or slower dose steps and unlimited access to a provider, if you need medication fast, or if you will not commit to a 12-month plan - trimrx's $149/mo semaglutide is month-to-month. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "wellmedr is the better choice for most people. The same medications cost $100/mo less for semaglutide and $170/mo less for tirzepatide, and its 4.6/5 Trustpilot score (1,919 reviews) beats trimrx's 3.8 (5,393). Pick trimrx if you want custom or slower dose steps and unlimited access to a provider, if you need medication fast, or if you will not commit to a 12-month plan - trimrx's $149/mo semaglutide is month-to-month. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$49/mo semaglutide on the 12-month plan",
       "$89/mo tirzepatide - $170 less than trimrx",
@@ -540,8 +540,8 @@ export const weightLossBattles: BattleData[] = [
       {
         name: "Customer experience",
         winner: "provider2",
-        explanation: "wellmedr has 4.6/5 from 1,919 Trustpilot reviews; trimrx has 3.7/5 from 5,670.",
-        supportingPoints: ["wellmedr: 4.6/5", "trimrx: 3.7/5"],
+        explanation: "wellmedr has 4.6/5 from 1,919 Trustpilot reviews; trimrx has 3.8/5 from 5,393.",
+        supportingPoints: ["wellmedr: 4.6/5", "trimrx: 3.8/5"],
       },
       {
         name: "Flexibility",
@@ -559,7 +559,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dosing", provider1Value: "Custom dosing", provider2Value: "Standard titration", highlight: "provider1" },
       { feature: "Provider check-ins", provider1Value: "Unlimited", provider2Value: "Async + video/messaging", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "Free, often next-day", provider2Value: "3-5 business days", highlight: "provider1" },
-      { feature: "Trustpilot", provider1Value: "3.7/5 (5,670)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (5,393)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_3,
   },
@@ -575,7 +575,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "MEDVi and trimrx are the two programs on our list that sell support, not just a prescription - but different kinds of support. trimrx centers on the medication: custom dosing and unlimited check-ins with a provider. MEDVi centers on the habits around it: clinician visits, a dietitian and coaching, all in the monthly price. MEDVi is cheaper today, but its prices are promotional, so the answer can change once the promo ends.",
     verdict:
-      "MEDVi edges it. At current promo prices it is $50/mo cheaper on semaglutide ($99 vs $149) and $93/mo cheaper on tirzepatide ($166 vs $259), it includes a dietitian and coaching, and it rates higher on Trustpilot - 4.3/5 from 14,836 reviews against trimrx's 3.7 from 5,670. The catch: MEDVi's regular prices are $199 and $299, so once the promo ends, trimrx's $149/mo semaglutide becomes the cheaper option. Choose trimrx if you want custom dose steps, unlimited provider access or next-day delivery. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "MEDVi edges it. At current promo prices it is $50/mo cheaper on semaglutide ($99 vs $149) and $93/mo cheaper on tirzepatide ($166 vs $259), it includes a dietitian and coaching, and it rates higher on Trustpilot - 4.3/5 from 14,836 reviews against trimrx's 3.8 from 5,393. The catch: MEDVi's regular prices are $199 and $299, so once the promo ends, trimrx's $149/mo semaglutide becomes the cheaper option. Choose trimrx if you want custom dose steps, unlimited provider access or next-day delivery. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$99/mo semaglutide, $166/mo tirzepatide (promo)",
       "Dietitian and coaching included",
@@ -618,8 +618,8 @@ export const weightLossBattles: BattleData[] = [
       {
         name: "Customer experience",
         winner: "provider2",
-        explanation: "MEDVi has 4.3/5 from 14,836 Trustpilot reviews; trimrx has 3.7/5 from 5,670.",
-        supportingPoints: ["MEDVi: 4.3/5", "trimrx: 3.7/5"],
+        explanation: "MEDVi has 4.3/5 from 14,836 Trustpilot reviews; trimrx has 3.8/5 from 5,393.",
+        supportingPoints: ["MEDVi: 4.3/5", "trimrx: 3.8/5"],
       },
     ],
     features: [
@@ -630,7 +630,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Light coaching", provider2Value: "Included", highlight: "provider2" },
       { feature: "Dosing", provider1Value: "Custom dosing, unlimited check-ins", provider2Value: "Clinician visits", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "Free, often next-day", provider2Value: "Free", highlight: "provider1" },
-      { feature: "Trustpilot", provider1Value: "3.7/5 (5,670)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (5,393)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
       { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
     ],
     updatedAt: ADDED_OCT_3,

@@ -52,7 +52,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   trimrx: {
     title: "trimrx Reviews 2026: Is It Legit? Cost, Dosing & Ratings",
     description:
-      "trimrx review: semaglutide $149/mo at every dose, tirzepatide $259/mo, custom dosing and unlimited check-ins. What 5,670 Trustpilot reviews say and who should skip it.",
+      "trimrx review: semaglutide $149/mo at every dose, tirzepatide $259/mo, custom dosing and unlimited check-ins. What 5,393 Trustpilot reviews say and who should skip it.",
   },
   wellmedr: {
     title: "wellmedr Reviews 2026: Is It Legit? The $49/mo GLP-1 Catch",
@@ -94,7 +94,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   trimrx: {
     verdict:
-      "Yes. trimrx prescribes through licensed providers after an online questionnaire, ships with tracking, and lets you contact your provider as often as you need. Its 3.7/5 Trustpilot score from 5,670 reviews is middling - praise tends to focus on dosing support, complaints on price and support speed. Compounded GLP-1s are not FDA-approved.",
+      "Yes. trimrx prescribes through licensed providers after an online questionnaire, ships with tracking, and lets you contact your provider as often as you need. Its 3.8/5 Trustpilot score from 5,393 reviews is middling - praise tends to focus on dosing support, complaints on price and support speed. Compounded GLP-1s are not FDA-approved.",
     signals: ["Licensed providers review every questionnaire", "Unlimited provider check-ins", "Free tracked delivery", "Month-to-month, HSA/FSA eligible"],
   },
   wellmedr: {
@@ -134,7 +134,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
     { question: "What was the altRx FDA warning letter about?", answer: "On June 8, 2026 the FDA sent a warning letter to Trinity HealthCare Supply, LLC, which does business as altRx. The FDA objected to claims and product labels that presented its compounded semaglutide and tirzepatide as if they were FDA-approved. The letter is published on the FDA's website." },
   ],
   trimrx: [
-    { question: "What do trimrx reviews say?", answer: "trimrx has a 3.7/5 Trustpilot score from 5,670 reviews. Reviewers often credit the custom dosing and easy access to providers; complaints tend to focus on price and support response times." },
+    { question: "What do trimrx reviews say?", answer: "trimrx has a 3.8/5 Trustpilot score from 5,393 reviews. Reviewers often credit the custom dosing and easy access to providers; complaints tend to focus on price and support response times." },
     { question: "Does trimrx price change with the dose?", answer: "Not for semaglutide: trimrx charges $149/mo at every dose. Compounded tirzepatide is $259/mo." },
   ],
   wellmedr: [
