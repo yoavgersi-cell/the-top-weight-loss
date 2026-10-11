@@ -13,6 +13,7 @@ import type { BattleData } from "@/lib/config";
 // trimrx, wellmedr) - every pairing of those four now has a page:
 //   - altRx vs wellmedr, trimrx vs wellmedr, MEDVi vs trimrx, MEDVi vs wellmedr
 //   - MEDVi vs embody (completes MEDVi vs every provider on the site)
+//   - MEDVi vs SHED, DirectMeds vs wellmedr (after adding DirectMeds and SHED)
 // Every figure comes from the provider-published prices in the seed's facts
 // (checked Sep 2026). Promo prices are labeled as promos. Compounded GLP-1s are
 // not FDA-approved - the copy says so wherever they are compared to brands.
@@ -22,6 +23,7 @@ const UPDATED = "2026-09-27";
 const ADDED_SEP_30 = "2026-09-30";
 const ADDED_OCT_3 = "2026-10-03";
 const ADDED_OCT_5 = "2026-10-05";
+const ADDED_OCT_11 = "2026-10-11";
 
 export const weightLossBattles: BattleData[] = [
   {
@@ -777,5 +779,149 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Trustpilot", provider1Value: "3.8/5 (8,398)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_5,
+  },
+  {
+    slug: "medvi-vs-shed",
+    provider1Id: "medvi",
+    provider2Id: "shed",
+    title: "MEDVi vs SHED: Which Coaching-Led GLP-1 Program Is Worth Paying For?",
+    matchupLabel: "MEDVi vs SHED",
+    subtitle: "Two programs that sell support, not just a prescription - one adds a dietitian, the other a money-back guarantee",
+    description:
+      "MEDVi vs SHED: $99 vs $199/mo semaglutide, $166 vs $299/mo tirzepatide, dietitian and coaching vs a 5%-in-120-days guarantee, and Trustpilot ratings compared.",
+    intro:
+      "If you have decided you want more than a prescription - someone keeping you on track while the medication does its work - MEDVi and SHED are the two programs on our list built for you. Both include coaching. MEDVi adds clinician visits and a dietitian to an all-inclusive monthly price. SHED adds something no one else on our list offers: your money back if you do not lose 5% of your body weight in 120 days. The catch is the price gap, which is wide today and disappears once MEDVi's promotion ends.",
+    verdict:
+      "MEDVi wins for most people right now. At its promo prices it is half the cost of SHED - $99 vs $199 for semaglutide and $166 vs $299 for tirzepatide - and it includes a dietitian as well as coaching. SHED is the better choice if a results guarantee matters to you: money back if you do not lose 5% in 120 days (conditions apply), plus a slightly higher Trustpilot score (4.6 vs 4.3). Note that the two cost exactly the same at MEDVi's regular prices ($199 and $299), so if MEDVi's promo has ended, SHED's guarantee becomes the tie-breaker. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$99/mo semaglutide, $166/mo tirzepatide (promo)",
+      "Dietitian access as well as coaching",
+      "No membership fee, no commitment",
+    ],
+    verdictLoserPoints: [
+      "Money back if you don't lose 5% in 120 days",
+      "4.6/5 on Trustpilot from 1,134 reviews",
+      "20% off the first month",
+    ],
+    winnerId: "medvi",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider1",
+        explanation:
+          "At promo prices MEDVi is $100/mo cheaper on semaglutide ($99 vs $199) and $133/mo cheaper on tirzepatide ($166 vs $299). At MEDVi's regular prices the two match exactly, and SHED takes 20% off your first month.",
+        supportingPoints: ["Promo: MEDVi $99 / $166", "SHED: from $199 / $299", "Regular prices identical"],
+      },
+      {
+        name: "Support & coaching",
+        winner: "provider1",
+        explanation:
+          "Both include coaching. MEDVi also includes clinician visits and dietitian access in its monthly price, which helps if nutrition is where you struggle.",
+        supportingPoints: ["MEDVi: dietitian + coaching", "SHED: coaching"],
+      },
+      {
+        name: "Results guarantee",
+        winner: "provider2",
+        explanation:
+          "SHED offers your money back if you do not lose 5% of your body weight within 120 days, under its terms. MEDVi has no comparable guarantee.",
+        supportingPoints: ["SHED: 5%-in-120-days guarantee", "Conditions apply - read the terms"],
+      },
+      {
+        name: "Customer experience",
+        winner: "provider2",
+        explanation:
+          "SHED rates 4.6/5 from 1,134 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,836. Both are strong.",
+        supportingPoints: ["SHED: 4.6/5", "MEDVi: 4.3/5, larger sample"],
+      },
+      {
+        name: "Flexibility",
+        winner: "tie",
+        explanation: "Neither requires a commitment, and both accept HSA/FSA funds.",
+        supportingPoints: ["No commitment at both", "HSA/FSA at both"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$99/mo (promo)", provider2Value: "$199/mo (20% off month one)", highlight: "provider1" },
+      { feature: "Medications", provider1Value: "Compounded semaglutide & tirzepatide", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "both" },
+      { feature: "Semaglutide", provider1Value: "$99/mo promo (reg. $199)", provider2Value: "From $199/mo", highlight: "provider1" },
+      { feature: "Tirzepatide", provider1Value: "$166/mo promo (reg. $299)", provider2Value: "From $299/mo", highlight: "provider1" },
+      { feature: "Coaching", provider1Value: "Included, plus dietitian", provider2Value: "Included", highlight: "provider1" },
+      { feature: "Results guarantee", provider1Value: "None", provider2Value: "5% in 120 days or money back", highlight: "provider2" },
+      { feature: "Commitment", provider1Value: "None - no membership", provider2Value: "None", highlight: "both" },
+      { feature: "Trustpilot", provider1Value: "4.3/5 (14,836)", provider2Value: "4.6/5 (1,134)", highlight: "provider2" },
+    ],
+    updatedAt: ADDED_OCT_11,
+  },
+  {
+    slug: "directmeds-vs-wellmedr",
+    provider1Id: "directmeds",
+    provider2Id: "wellmedr",
+    title: "DirectMeds vs wellmedr: $147 Flat or $49 With a Year's Plan?",
+    matchupLabel: "DirectMeds vs wellmedr",
+    subtitle: "Two flat-price GLP-1 programs with the same 4.6 rating - one wins on price, the other on flexibility",
+    description:
+      "DirectMeds vs wellmedr: $147 vs $49/mo semaglutide, $147 vs $89/mo tirzepatide, injection or drops, shipping speed, commitment and Trustpilot reviews compared.",
+    intro:
+      "DirectMeds and wellmedr agree on the most important thing: your price should not climb as your dose does. Both charge the same at every dose, and both hold a 4.6/5 Trustpilot score. They split on everything else. wellmedr is the cheapest program we track - $49/mo semaglutide on a 12-month plan and $89/mo tirzepatide. DirectMeds charges $147/mo for either drug, but asks for no commitment, ships in 1-2 days and offers sublingual drops for people who would rather not inject.",
+    verdict:
+      "wellmedr wins on price, and by a lot: $89/mo tirzepatide against DirectMeds' $147, and $49/mo semaglutide on its 12-month plan (around $88 month-to-month) against $147. DirectMeds is the better pick if you want needle-free drops, faster delivery (1-2 days vs 3-5 business days) or the same price for both drugs with no plan length - useful if you might switch medications. Both rate 4.6/5 on Trustpilot; DirectMeds' score rests on a much larger base of 15,690 reviews. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+    verdictWinnerPoints: [
+      "$89/mo tirzepatide - $58 less than DirectMeds",
+      "$49/mo semaglutide on the 12-month plan",
+      "Broader platform: TRT, NAD+, hair and sexual health",
+    ],
+    verdictLoserPoints: [
+      "Sublingual drops as well as injections",
+      "Free 1-2 day shipping",
+      "$147 for either drug, no plan length",
+    ],
+    winnerId: "wellmedr",
+    categories: [
+      {
+        name: "Price & value",
+        winner: "provider2",
+        explanation:
+          "wellmedr is cheaper on both drugs: $89/mo tirzepatide vs $147, and $49/mo semaglutide on a 12-month plan (around $88 month-to-month) vs $147. Even without committing, wellmedr's semaglutide is about $59/mo cheaper.",
+        supportingPoints: ["Tirzepatide: $89 vs $147", "Semaglutide: $49-$88 vs $147", "Both flat at every dose"],
+      },
+      {
+        name: "Medication options",
+        winner: "provider1",
+        explanation:
+          "DirectMeds offers its compounded GLP-1s as injections or sublingual drops. wellmedr offers injections plus a GLP-1 + NAD+/B12 option and a brand-name shelf.",
+        supportingPoints: ["DirectMeds: injection or drops", "wellmedr: injections, brand-name shelf"],
+      },
+      {
+        name: "Shipping speed",
+        winner: "provider1",
+        explanation: "DirectMeds ships free in 1-2 days. wellmedr ships in 3-5 business days.",
+        supportingPoints: ["DirectMeds: 1-2 days", "wellmedr: 3-5 business days"],
+      },
+      {
+        name: "Flexibility",
+        winner: "provider1",
+        explanation:
+          "DirectMeds has no membership and no plan length, and charges the same for either drug - so switching from semaglutide to tirzepatide does not change your bill. wellmedr's lowest semaglutide price needs 12 months.",
+        supportingPoints: ["DirectMeds: no commitment", "wellmedr: 12 months for $49"],
+      },
+      {
+        name: "Customer experience",
+        winner: "tie",
+        explanation:
+          "Both rate 4.6/5 on Trustpilot - DirectMeds from 15,690 reviews, wellmedr from 1,919.",
+        supportingPoints: ["DirectMeds: 4.6/5 (15,690)", "wellmedr: 4.6/5 (1,919)"],
+      },
+    ],
+    features: [
+      { feature: "Starting price", provider1Value: "$147/mo", provider2Value: "$49/mo on 12-month plan", highlight: "provider2" },
+      { feature: "Medications", provider1Value: "Compounded sema & tirz, injection or drops", provider2Value: "Compounded sema & tirz + brand-name", highlight: "none" },
+      { feature: "Semaglutide", provider1Value: "$147/mo, every dose", provider2Value: "$49/mo (12-mo) / ~$88 monthly", highlight: "provider2" },
+      { feature: "Tirzepatide", provider1Value: "$147/mo, every dose", provider2Value: "$89/mo", highlight: "provider2" },
+      { feature: "Needle-free option", provider1Value: "Sublingual drops", provider2Value: "No", highlight: "provider1" },
+      { feature: "Shipping", provider1Value: "Free, 1-2 days", provider2Value: "3-5 business days", highlight: "provider1" },
+      { feature: "Commitment", provider1Value: "None", provider2Value: "12 months for lowest rate", highlight: "provider1" },
+      { feature: "Trustpilot", provider1Value: "4.6/5 (15,690)", provider2Value: "4.6/5 (1,919)", highlight: "both" },
+    ],
+    updatedAt: ADDED_OCT_11,
   },
 ];

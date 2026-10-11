@@ -106,7 +106,10 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <Link href="/trimrx-vs-medvi" className={linkCls}>MEDVi vs trimrx</Link> and{" "}
         <Link href="/wellmedr-vs-medvi" className={linkCls}>MEDVi vs wellmedr</Link>{" "}
         - or see how MEDVi stacks up against our top pick in{" "}
-        <Link href="/embody-vs-medvi" className={linkCls}>MEDVi vs embody</Link>.
+        <Link href="/embody-vs-medvi" className={linkCls}>MEDVi vs embody</Link>. Want coaching, or the
+        lowest flat price? Compare{" "}
+        <Link href="/medvi-vs-shed" className={linkCls}>MEDVi vs SHED</Link> and{" "}
+        <Link href="/directmeds-vs-wellmedr" className={linkCls}>DirectMeds vs wellmedr</Link>.
       </p>
 
       <hr className="mb-8 border-gray-200" />
