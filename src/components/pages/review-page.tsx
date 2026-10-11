@@ -62,7 +62,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   directmeds: {
     title: "DirectMeds Reviews 2026: Is It Legit? $147 Flat GLP-1 & Drops",
     description:
-      "Is DirectMeds legit? DirectMeds review: compounded semaglutide or tirzepatide $147/mo at every dose, injection or sublingual drops, 1-2 day shipping, 4.6/5 from 15,690 Trustpilot reviews.",
+      "Is DirectMeds legit? DirectMeds review: compounded semaglutide or tirzepatide $147/mo at every dose, injection or sublingual drops, 1-2 day shipping, 4.6/5 from 16,368 Trustpilot reviews.",
   },
   shed: {
     title: "SHED Reviews 2026: Is It Legit? Cost, Coaching & 5% Guarantee",
@@ -104,7 +104,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   directmeds: {
     verdict:
-      "Yes. DirectMeds prescribes through licensed clinicians after an online intake, publishes one flat price for both medications, and ships in 1-2 days. It has one of the strongest review records in compounded GLP-1s - 4.6/5 on Trustpilot from 15,690 reviews. It is a lean program: there is no bundled coaching or dietitian. Compounded GLP-1s are not FDA-approved.",
+      "Yes. DirectMeds prescribes through licensed clinicians after an online intake, publishes one flat price for both medications, and ships in 1-2 days. It has one of the strongest review records in compounded GLP-1s - 4.6/5 on Trustpilot from 16,368 reviews. It is a lean program: there is no bundled coaching or dietitian. Compounded GLP-1s are not FDA-approved.",
     signals: ["Licensed clinicians review every intake", "One published price: $147 at every dose", "No membership, cancel anytime", "Free 1-2 day shipping"],
   },
   shed: {
@@ -145,7 +145,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
   directmeds: [
     { question: "How much does DirectMeds cost?", answer: "DirectMeds charges $147/mo for compounded semaglutide and $147/mo for compounded tirzepatide, at every dose. There is no membership fee, and shipping is free." },
     { question: "Does DirectMeds offer drops instead of injections?", answer: "Yes. DirectMeds offers its compounded GLP-1s as a weekly injection or as sublingual drops. A licensed clinician decides which form is appropriate for you." },
-    { question: "What do DirectMeds reviews say?", answer: "DirectMeds holds a 4.6/5 Trustpilot score from 15,690 reviews - one of the strongest records among compounded GLP-1 programs." },
+    { question: "What do DirectMeds reviews say?", answer: "DirectMeds holds a 4.6/5 Trustpilot score from 16,368 reviews - one of the strongest records among compounded GLP-1 programs." },
   ],
   shed: [
     { question: "How much does SHED cost?", answer: "SHED's compounded semaglutide starts at $199/mo and compounded tirzepatide at $299/mo, with 20% off the first month. Coaching and home delivery are included, and HSA/FSA funds are accepted." },

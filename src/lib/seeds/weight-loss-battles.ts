@@ -864,7 +864,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "DirectMeds and wellmedr agree on the most important thing: your price should not climb as your dose does. Both charge the same at every dose, and both hold a 4.6/5 Trustpilot score. They split on everything else. wellmedr is the cheapest program we track - $49/mo semaglutide on a 12-month plan and $89/mo tirzepatide. DirectMeds charges $147/mo for either drug, but asks for no commitment, ships in 1-2 days and offers sublingual drops for people who would rather not inject.",
     verdict:
-      "wellmedr wins on price, and by a lot: $89/mo tirzepatide against DirectMeds' $147, and $49/mo semaglutide on its 12-month plan (around $88 month-to-month) against $147. DirectMeds is the better pick if you want needle-free drops, faster delivery (1-2 days vs 3-5 business days) or the same price for both drugs with no plan length - useful if you might switch medications. Both rate 4.6/5 on Trustpilot; DirectMeds' score rests on a much larger base of 15,690 reviews. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "wellmedr wins on price, and by a lot: $89/mo tirzepatide against DirectMeds' $147, and $49/mo semaglutide on its 12-month plan (around $88 month-to-month) against $147. DirectMeds is the better pick if you want needle-free drops, faster delivery (1-2 days vs 3-5 business days) or the same price for both drugs with no plan length - useful if you might switch medications. Both rate 4.6/5 on Trustpilot; DirectMeds' score rests on a much larger base of 16,368 reviews. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$89/mo tirzepatide - $58 less than DirectMeds",
       "$49/mo semaglutide on the 12-month plan",
@@ -908,8 +908,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "tie",
         explanation:
-          "Both rate 4.6/5 on Trustpilot - DirectMeds from 15,690 reviews, wellmedr from 2,181.",
-        supportingPoints: ["DirectMeds: 4.6/5 (15,690)", "wellmedr: 4.6/5 (2,181)"],
+          "Both rate 4.6/5 on Trustpilot - DirectMeds from 16,368 reviews, wellmedr from 2,181.",
+        supportingPoints: ["DirectMeds: 4.6/5 (16,368)", "wellmedr: 4.6/5 (2,181)"],
       },
     ],
     features: [
@@ -920,7 +920,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Needle-free option", provider1Value: "Sublingual drops", provider2Value: "No", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "Free, 1-2 days", provider2Value: "3-5 business days", highlight: "provider1" },
       { feature: "Commitment", provider1Value: "None", provider2Value: "12 months for lowest rate", highlight: "provider1" },
-      { feature: "Trustpilot", provider1Value: "4.6/5 (15,690)", provider2Value: "4.6/5 (2,181)", highlight: "both" },
+      { feature: "Trustpilot", provider1Value: "4.6/5 (16,368)", provider2Value: "4.6/5 (2,181)", highlight: "both" },
     ],
     updatedAt: ADDED_OCT_11,
   },

@@ -302,7 +302,21 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1304&aff_id=12904",
       ctaText: "Visit Site",
       trustpilotRating: "4.6",
-      trustpilotReviewCount: "15,690",
+      trustpilotReviewCount: "16,368",
+      trustpilotReviews: [
+        { title: "Very happy with direct meds", text: "Very happy with direct meds", name: "joe tantillo", location: "US", rating: 5, date: "Oct 4, 2026" },
+        { title: "Caller was great very supportive and...", text: "Caller was great very supportive and listened", name: "Pat Snoddy", location: "US", rating: 5, date: "Oct 7, 2026" },
+        { title: "Portia Morgan was really quick to...", text: "Portia Morgan was really quick to answer questions I had...", name: "Melinda Martin", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "I'm frustrated because l can't access...", text: "I'm frustrated because l can't access the patient portal, other than that I've had no issues.", name: "customer", location: "US", rating: 5, date: "Oct 11, 2026" },
+        { title: "The customer service person was very...", text: "Onika Williams was very helpful and informative about my subscription and reassured me that my subscription was still active. Very pleasant to chat with.", name: "Paula", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "The person I spoke to today was...excellent", text: "The person I spoke to today was excellent.. personable, courteous. She explained the error and corrected it immediately so my order could go out.", name: "Elizabeth Cubero", location: "US", rating: 5 },
+        { title: "Person helped me with password and...", text: "Person helped me with password and getting into portal", name: "Rebekah White", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Very helpful with my recent medical...", text: "Very helpful with my recent medical intake and order.", name: "Greg Friend", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Tony took care of my issues that I was...", text: "Tony took care of my issues that I was having with the site.", name: "Craig Morse", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Marvin handled my request and was...", text: "Marvin handled my request and was polite and professional.", name: "Jeanie Brenneman", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "", text: "April was alot of help", name: "cinthia coss", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "", text: "customer’s service excellent help.", name: "Rosemary nesbitt", location: "US", rating: 5, date: "Oct 3, 2026" },
+      ],
     },
     {
       id: "shed",
@@ -888,14 +902,14 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A no-frills compounded GLP-1 program with one flat price - $147/month for semaglutide or tirzepatide at every dose - as an injection or sublingual drops, with free 1-2 day shipping and no membership.",
       reviewIntro:
-        "DirectMeds does one thing most GLP-1 programs do not: it charges the same price for both medications. Compounded semaglutide and compounded tirzepatide are each $147/month, and that price does not change as your dose goes up. You can take your medication as a weekly injection or as sublingual drops for people who would rather avoid needles. Shipping is free and fast - 1-2 days - and there is no membership fee or commitment. What you do not get is much beyond the prescription: there is no bundled coaching or dietitian. Its Trustpilot record is one of the strongest in the category - 4.6 / 5 from 15,690 reviews. As with every compounded program, the medication is not FDA-approved. This review covers what DirectMeds costs, how the drops compare and who it suits.",
+        "DirectMeds does one thing most GLP-1 programs do not: it charges the same price for both medications. Compounded semaglutide and compounded tirzepatide are each $147/month, and that price does not change as your dose goes up. You can take your medication as a weekly injection or as sublingual drops for people who would rather avoid needles. Shipping is free and fast - 1-2 days - and there is no membership fee or commitment. What you do not get is much beyond the prescription: there is no bundled coaching or dietitian. Its Trustpilot record is one of the strongest in the category - 4.6 / 5 from 16,368 reviews. As with every compounded program, the medication is not FDA-approved. This review covers what DirectMeds costs, how the drops compare and who it suits.",
       keyFeatures: [
         "Compounded semaglutide or tirzepatide - both $147/month",
         "Same price at every dose - no increase as you titrate up",
         "Weekly injection or sublingual drops",
         "Free 1-2 day shipping",
         "No membership fee; cancel anytime",
-        "4.6 / 5 from 15,690 Trustpilot reviews",
+        "4.6 / 5 from 16,368 Trustpilot reviews",
       ],
       pricingSummary:
         "DirectMeds charges one flat price: $147/month for compounded semaglutide and $147/month for compounded tirzepatide, at every dose. There is no membership fee and no commitment, and shipping is free. That makes it the cheapest tirzepatide on our list after wellmedr ($89) and embody ($119), and it never rises with your dose - though for semaglutide alone, embody ($69), wellmedr ($49 on a 12-month plan) and altRx ($89 promo) cost less. Prices change, so confirm at checkout. Compounded GLP-1s are not FDA-approved.",
@@ -908,7 +922,7 @@ export const weightLossConfig: SiteConfig = {
         "Needle-free sublingual drops as an alternative to injections",
         "Free 1-2 day shipping",
         "No membership fee or commitment",
-        "Excellent customer feedback at scale - 4.6 / 5 from 15,690 Trustpilot reviews",
+        "Excellent customer feedback at scale - 4.6 / 5 from 16,368 Trustpilot reviews",
       ],
       cons: [
         "Semaglutide costs more here than at embody, wellmedr or altRx",
@@ -923,7 +937,7 @@ export const weightLossConfig: SiteConfig = {
         "Skip it if you want semaglutide at the lowest price, or coaching included",
       ],
       finalVerdict:
-        "DirectMeds is the simplest pricing on our list: $147 a month for semaglutide or tirzepatide, at any dose, delivered in 1-2 days, with sublingual drops for people who dislike needles. Its 4.6 / 5 rating across more than 15,000 Trustpilot reviews is among the best in the category. It ranks seventh because cheaper semaglutide exists elsewhere and it offers little beyond the medication itself - no coaching, dietitian or brand-name shelf. If you want tirzepatide at a price that will not rise, or a needle-free option, it is a strong choice. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+        "DirectMeds is the simplest pricing on our list: $147 a month for semaglutide or tirzepatide, at any dose, delivered in 1-2 days, with sublingual drops for people who dislike needles. Its 4.6 / 5 rating across more than 16,000 Trustpilot reviews is among the best in the category. It ranks seventh because cheaper semaglutide exists elsewhere and it offers little beyond the medication itself - no coaching, dietitian or brand-name shelf. If you want tirzepatide at a price that will not rise, or a needle-free option, it is a strong choice. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
       pricingPlans: [
         {
           name: "Semaglutide",
