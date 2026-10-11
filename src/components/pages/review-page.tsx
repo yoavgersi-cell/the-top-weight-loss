@@ -126,6 +126,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
   ],
   ro: [
     { question: "Does ro take insurance for Wegovy and Zepbound?", answer: "ro's insurance concierge checks your coverage and handles prior authorization for brand-name GLP-1s. If your plan covers the medication, you pay your plan's share plus ro's membership; if not, you pay the manufacturer's self-pay price." },
+    { question: "What do ro reviews say?", answer: "ro holds a 3.9/5 Trustpilot score from 7,083 reviews. Recent reviewers often mention quick setup and fast delivery; the most common complaint is that the total cost - ro's membership fee plus the medication - ended up higher than they expected from its ads." },
     { question: "Does ro sell compounded semaglutide?", answer: "No. ro prescribes only FDA-approved brand-name medications for weight loss - Wegovy, Zepbound, Ozempic and Foundaya." },
   ],
   altrx: [

@@ -62,7 +62,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //  - MEDVi: brand-name prices, delivery times and state coverage were not
 //    provided - none are asserted.
 //  - ro's medication prices are not asserted (insurance / manufacturer
-//    self-pay pricing varies). No ro or altRx Trustpilot figures are set.
+//    self-pay pricing varies). ro Trustpilot 3.9 / 5 from 7,083 (operator-supplied Oct 11, 2026, with 12 verbatim reviews); no altRx Trustpilot figure is set.
 //  - State coverage (`excludedStates`) is not set for any provider; trimrx is
 //    "most US states" - fill in once confirmed.
 //  - The compounding legal landscape is evolving; copy tells readers to check
@@ -169,6 +169,22 @@ export const weightLossConfig: SiteConfig = {
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1662&aff_id=12904",
       ctaText: "Visit Site",
+      trustpilotRating: "3.9",
+      trustpilotReviewCount: "7,083",
+      trustpilotReviews: [
+        { title: "I am very happy with my experience so...", text: "I am very happy with my experience so far with ro . I look forward to my progress in weight loss journey..thank you sincerely Dawn Pollard", name: "Dawn Pollard", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "Great support", text: "Great support, doctor wanted to ensure dosage was correct to start. Pticing is less than competitor.", name: "Annette Spradling", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "The process was a little confusing", text: "The process was a little confusing. I am waiting on my prescription", name: "Leslie Flores", location: "US", rating: 4, date: "Oct 10, 2026" },
+        { title: "Quick Response and Receipt of Product", text: "Quick responses during setup and I received my package within three days. Price is very reasonable too.", name: "Carolynn Saris", location: "US", rating: 5, date: "Oct 8, 2026" },
+        { title: "Getting to have access to help with...", text: "Getting to have access to help with management always there to answer questions", name: "Karen Cready", location: "US", rating: 5, date: "Oct 1, 2026" },
+        { title: "Seamless Process", text: "The process was quick and efficient. It made the process easy and cheaper than other programs.", name: "Karen Brown", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "", text: "App was easy to use and navigate.", name: "Jennifer", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "I haven't got my pills yet so I will...", text: "I haven't got my pills yet so I will let you know how they are working", name: "Scott Cleveland", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "I ordered the RO 2 days ago and have...", text: "I ordered the RO 2 days ago and have already gotten my product. What a quick and painless process. Here’s hoping to lose some weight.", name: "Jennifer", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "I like that I am getting my Zepbound for $50 less", text: "I like that I am getting my Zepbound for less than I have been paying out of pocket, but by the time I paid the fee then got to payment I am only paying $50 less than the $499 I have been paying. The ads make it look like the price will be between $100-$200 total. I feel ad was deceptive, but went for it as it was less.", name: "Lori Vining", location: "US", rating: 3, date: "Oct 9, 2026" },
+        { title: "I’m just in the beginning stages but so...", text: "I’m just in the beginning stages but so far it’s been a smooth process. I look forward to starting my treatment!", name: "Sara Oviedo", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Process and instructions are super...", text: "Process and instructions are super easy. All my questions were answered. Delivery was quick. 1st week. So far so good.", name: "customer", location: "US", rating: 5 },
+      ],
     },
     {
       id: "altrx",
