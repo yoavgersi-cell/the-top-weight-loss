@@ -800,7 +800,7 @@ export const weightLossBattles: BattleData[] = [
     ],
     verdictLoserPoints: [
       "Money back if you don't lose 5% in 120 days",
-      "4.6/5 on Trustpilot from 1,134 reviews",
+      "4.6/5 on Trustpilot from 1,137 reviews",
       "20% off the first month",
     ],
     winnerId: "medvi",
@@ -830,7 +830,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider2",
         explanation:
-          "SHED rates 4.6/5 from 1,134 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,978. Both are strong.",
+          "SHED rates 4.6/5 from 1,137 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,978. Both are strong.",
         supportingPoints: ["SHED: 4.6/5", "MEDVi: 4.3/5, larger sample"],
       },
       {
@@ -848,7 +848,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Coaching", provider1Value: "Included, plus dietitian", provider2Value: "Included", highlight: "provider1" },
       { feature: "Results guarantee", provider1Value: "None", provider2Value: "5% in 120 days or money back", highlight: "provider2" },
       { feature: "Commitment", provider1Value: "None - no membership", provider2Value: "None", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "4.3/5 (14,978)", provider2Value: "4.6/5 (1,134)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "4.3/5 (14,978)", provider2Value: "4.6/5 (1,137)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_11,
   },

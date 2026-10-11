@@ -109,7 +109,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   shed: {
     verdict:
-      "Yes. SHED prescribes compounded GLP-1s through licensed clinicians, includes coaching, and backs its program with a money-back guarantee if you do not lose 5% of your body weight in 120 days (read the conditions). It holds a 4.6/5 Trustpilot score from 1,134 reviews. Compounded GLP-1s are not FDA-approved.",
+      "Yes. SHED prescribes compounded GLP-1s through licensed clinicians, includes coaching, and backs its program with a money-back guarantee if you do not lose 5% of your body weight in 120 days (read the conditions). It holds a 4.6/5 Trustpilot score from 1,137 reviews. Compounded GLP-1s are not FDA-approved.",
     signals: ["Licensed clinicians review every intake", "Coaching included", "5%-in-120-days money-back guarantee", "HSA/FSA accepted, no commitment"],
   },
   medvi: {

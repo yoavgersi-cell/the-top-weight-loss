@@ -348,7 +348,16 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1516&aff_id=12904",
       ctaText: "Visit Site",
       trustpilotRating: "4.6",
-      trustpilotReviewCount: "1,134",
+      trustpilotReviewCount: "1,137",
+      trustpilotReviews: [
+        { title: "Great experience with Shed!", text: "Great experience with Shed so far! The prescription is working better than expected and Shed’s customer service promptly assisted me when FedEx delivered my order to the wrong house. Very happy with this company!", name: "Alycia McNeill", location: "US", rating: 5, date: "Sep 24, 2026" },
+        { title: "great customer service", text: "Gao helped me with several issues very quickly. Very personable too. And I love Shed too", name: "BAG", location: "US", rating: 5, date: "Sep 23, 2026" },
+        { title: "Your communications are excellent", text: "Your communications are excellent! Ethan was quick to reply to my request for clarifications. Recommended!", name: "BB", location: "US", rating: 5, date: "Sep 15, 2026" },
+        { title: "Savannah - real person ⭐⭐⭐⭐⭐", text: "The app & chat function are a little clunky, but improving. Once you start emailing (not chatting) with a real person, Savannah was the best. Another agent told me I was SOL, but Savannah went a step further and resolved my issue.", name: "R M", location: "US", rating: 5, date: "Sep 15, 2026" },
+        { title: "It was a nice personal touch to receive...", text: "It was a nice personal touch to receive a phone call from a real person instead of a robo call. Thank you for the kind follow up. Kind Regards, Maria Magness", name: "Maria Magness", location: "US", rating: 5, date: "Sep 4, 2026" },
+        { title: "Trinity was absolutely amazing", text: "Trinity was absolutely amazing! I accidentally created 2 accounts and thought the issue was revolved from previous interactions with customer service but she assisted me the whole way through and made sure I didn’t loose anything that was owed to me and also set up my next follow up appointment. She is fantastic please reward her for this!", name: "Victoria Conley", location: "US", rating: 5, date: "Sep 2, 2026" },
+        { title: "ShedRx has been awesome", text: "ShedRx has been awesome! Their service is super-fast, and they even changed my refill date so I wouldn't miss my shot days. Anytime I have an issue, a member support person reaches out right away to help.", name: "Michelle Williams", location: "US", rating: 5, date: "Sep 2, 2026" },
+      ],
     },
   ],
 
@@ -997,7 +1006,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A coaching-led compounded GLP-1 program - semaglutide from $199/month and tirzepatide from $299/month, 20% off the first month - with a money-back guarantee if you don't lose 5% of your body weight in 120 days.",
       reviewIntro:
-        "SHED is built for people who want accountability, not just a prescription. Its compounded semaglutide and tirzepatide plans include coaching, home delivery is included, HSA/FSA funds are accepted and there is no commitment. Its headline feature is a guarantee: if you do not lose 5% of your body weight within 120 days, SHED offers your money back (conditions apply - read the terms). The trade-off is price: semaglutide starts at $199/month and tirzepatide at $299/month, with 20% off the first month, which puts SHED among the more expensive compounded programs we track. It holds a 4.6 / 5 Trustpilot score from 1,134 reviews. Compounded medications are not FDA-approved. This review covers what SHED costs, how the guarantee works and who it suits.",
+        "SHED is built for people who want accountability, not just a prescription. Its compounded semaglutide and tirzepatide plans include coaching, home delivery is included, HSA/FSA funds are accepted and there is no commitment. Its headline feature is a guarantee: if you do not lose 5% of your body weight within 120 days, SHED offers your money back (conditions apply - read the terms). The trade-off is price: semaglutide starts at $199/month and tirzepatide at $299/month, with 20% off the first month, which puts SHED among the more expensive compounded programs we track. It holds a 4.6 / 5 Trustpilot score from 1,137 reviews. Compounded medications are not FDA-approved. This review covers what SHED costs, how the guarantee works and who it suits.",
       keyFeatures: [
         "Compounded semaglutide from $199/month, tirzepatide from $299/month",
         "20% off the first month",
@@ -1017,7 +1026,7 @@ export const weightLossConfig: SiteConfig = {
         "A results guarantee - money back if you don't lose 5% in 120 days (conditions apply)",
         "Coaching included for accountability",
         "No commitment; HSA/FSA accepted",
-        "Strong customer feedback - 4.6 / 5 from 1,134 Trustpilot reviews",
+        "Strong customer feedback - 4.6 / 5 from 1,137 Trustpilot reviews",
       ],
       cons: [
         "One of the more expensive compounded options - $199 semaglutide, $299 tirzepatide",
