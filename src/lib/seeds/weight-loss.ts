@@ -6,14 +6,16 @@ import { weightLossBattles } from "./weight-loss-battles";
 // GLP-1 weight-loss vertical content - thetopweightloss.com
 //
 // Launch content for "The Top Weight Loss", an independent comparison site for
-// online (telehealth) GLP-1 weight-loss providers in the US. Six providers:
+// online (telehealth) GLP-1 weight-loss providers in the US. Eight providers:
 // embody (the anchor - lowest no-commitment compounded price, 1-2 day
 // shipping), ro (brand-name, FDA-approved medication only, with an insurance
 // concierge), altRx (flat price at every dose plus a brand-name shelf - carries
 // a June 2026 FDA warning letter, disclosed in its review), trimrx (custom
 // dosing, unlimited provider check-ins), wellmedr (lowest long-run price on
 // a 12-month plan) and MEDVi (all-inclusive price with clinician visits,
-// dietitian access and coaching bundled in). Editorial is original and compliance-minded (YMYL): no
+// dietitian access and coaching bundled in); added Oct 2026: DirectMeds ($147
+// flat for semaglutide or tirzepatide, injection or drops) and SHED (coaching
+// plus a 5%-in-120-days money-back guarantee). Editorial is original and compliance-minded (YMYL): no
 // guaranteed-results claims, compounded GLP-1s are never called FDA-approved,
 // trial figures are cited as averages ("results vary"), and every review is
 // clear that a licensed clinician decides whether treatment is appropriate.
@@ -69,6 +71,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const UPDATED = "2026-09-27";
+const ADDED = "2026-10-11";
 
 export const weightLossConfig: SiteConfig = {
   siteName: "The Top Weight Loss",
@@ -82,7 +85,7 @@ export const weightLossConfig: SiteConfig = {
     h1: "The Top GLP-1 Weight Loss Programs of 2026",
     h2: "Real prices. Fine print decoded. Zero hype.",
     description:
-      "We looked past the promo rates at 6 licensed telehealth programs - semaglutide from $49/mo, tirzepatide from $89/mo, or brand-name Wegovy and Zepbound with insurance help.",
+      "We looked past the promo rates at 8 licensed telehealth programs - semaglutide from $49/mo, tirzepatide from $89/mo, or brand-name Wegovy and Zepbound with insurance help.",
   },
 
   sidebar: {
@@ -105,7 +108,7 @@ export const weightLossConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr", "medvi"],
+    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr", "medvi", "directmeds", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -113,6 +116,8 @@ export const weightLossConfig: SiteConfig = {
       { score: 9.1, starRating: 4, label: "Excellent" },
       { score: 8.9, starRating: 4, label: "Very Good" },
       { score: 8.7, starRating: 4, label: "Very Good" },
+      { score: 8.6, starRating: 4, label: "Very Good" },
+      { score: 8.4, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -222,6 +227,42 @@ export const weightLossConfig: SiteConfig = {
       ctaText: "Visit Site",
       trustpilotRating: "4.3",
       trustpilotReviewCount: "14,836",
+    },
+    {
+      id: "directmeds",
+      name: "DirectMeds",
+      tagline:
+        "One flat price for compounded semaglutide or tirzepatide - $147/month at every dose, as an injection or sublingual drops",
+      logo: "/logos/directmeds.svg",
+      smallLogo: "/logos/directmeds-icon.svg",
+      highlights: [
+        "Semaglutide or tirzepatide - $147/mo flat",
+        "Same price at every dose",
+        "Injection or sublingual drops",
+        "Free 1-2 day shipping",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1304&aff_id=12904",
+      ctaText: "Visit Site",
+      trustpilotRating: "4.6",
+      trustpilotReviewCount: "15,690",
+    },
+    {
+      id: "shed",
+      name: "SHED",
+      tagline:
+        "Compounded GLP-1 with coaching included - and a money-back guarantee if you don't lose 5% of your weight in 120 days",
+      logo: "/logos/shed.svg",
+      smallLogo: "/logos/shed-icon.svg",
+      highlights: [
+        "Semaglutide from $199/mo, tirzepatide from $299/mo",
+        "20% off your first month",
+        "Coaching included",
+        "5%-in-120-days guarantee",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1516&aff_id=12904",
+      ctaText: "Visit Site",
+      trustpilotRating: "4.6",
+      trustpilotReviewCount: "1,134",
     },
   ],
 
@@ -782,6 +823,173 @@ export const weightLossConfig: SiteConfig = {
       ],
       trustBadges: ["Licensed US clinicians", "Dietitian & coaching included", "No hidden fees"],
       updatedAt: UPDATED,
+    },
+    {
+      slug: "directmeds",
+      providerId: "directmeds",
+      shortSummary:
+        "A no-frills compounded GLP-1 program with one flat price - $147/month for semaglutide or tirzepatide at every dose - as an injection or sublingual drops, with free 1-2 day shipping and no membership.",
+      reviewIntro:
+        "DirectMeds does one thing most GLP-1 programs do not: it charges the same price for both medications. Compounded semaglutide and compounded tirzepatide are each $147/month, and that price does not change as your dose goes up. You can take your medication as a weekly injection or as sublingual drops for people who would rather avoid needles. Shipping is free and fast - 1-2 days - and there is no membership fee or commitment. What you do not get is much beyond the prescription: there is no bundled coaching or dietitian. Its Trustpilot record is one of the strongest in the category - 4.6 / 5 from 15,690 reviews. As with every compounded program, the medication is not FDA-approved. This review covers what DirectMeds costs, how the drops compare and who it suits.",
+      keyFeatures: [
+        "Compounded semaglutide or tirzepatide - both $147/month",
+        "Same price at every dose - no increase as you titrate up",
+        "Weekly injection or sublingual drops",
+        "Free 1-2 day shipping",
+        "No membership fee; cancel anytime",
+        "4.6 / 5 from 15,690 Trustpilot reviews",
+      ],
+      pricingSummary:
+        "DirectMeds charges one flat price: $147/month for compounded semaglutide and $147/month for compounded tirzepatide, at every dose. There is no membership fee and no commitment, and shipping is free. That makes it the cheapest tirzepatide on our list after wellmedr ($89) and embody ($119), and it never rises with your dose - though for semaglutide alone, embody ($69), wellmedr ($49 on a 12-month plan) and altRx ($89 promo) cost less. Prices change, so confirm at checkout. Compounded GLP-1s are not FDA-approved.",
+      treatmentOptions: [
+        "Compounded semaglutide (injection or sublingual drops)",
+        "Compounded tirzepatide (injection or sublingual drops)",
+      ],
+      pros: [
+        "One flat $147 price for either medication, at every dose",
+        "Needle-free sublingual drops as an alternative to injections",
+        "Free 1-2 day shipping",
+        "No membership fee or commitment",
+        "Excellent customer feedback at scale - 4.6 / 5 from 15,690 Trustpilot reviews",
+      ],
+      cons: [
+        "Semaglutide costs more here than at embody, wellmedr or altRx",
+        "No bundled coaching or dietitian support",
+        "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
+        "No brand-name medication or insurance help",
+      ],
+      bestFor: [
+        "People starting on - or switching to - tirzepatide who want a price that never climbs",
+        "Anyone who would rather take drops than inject",
+        "Those who want medication quickly with no membership",
+        "Skip it if you want semaglutide at the lowest price, or coaching included",
+      ],
+      finalVerdict:
+        "DirectMeds is the simplest pricing on our list: $147 a month for semaglutide or tirzepatide, at any dose, delivered in 1-2 days, with sublingual drops for people who dislike needles. Its 4.6 / 5 rating across more than 15,000 Trustpilot reviews is among the best in the category. It ranks seventh because cheaper semaglutide exists elsewhere and it offers little beyond the medication itself - no coaching, dietitian or brand-name shelf. If you want tirzepatide at a price that will not rise, or a needle-free option, it is a strong choice. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+      pricingPlans: [
+        {
+          name: "Semaglutide",
+          medication: "Compounded semaglutide",
+          price: "$147",
+          unit: "/mo",
+          cadence: "Flat at every dose - no membership",
+          highlights: ["Injection or sublingual drops", "Free 1-2 day shipping", "Cancel anytime"],
+        },
+        {
+          name: "Tirzepatide",
+          medication: "Compounded tirzepatide",
+          price: "$147",
+          unit: "/mo",
+          cadence: "Flat at every dose - no membership",
+          highlights: ["Same price as semaglutide", "Injection or sublingual drops", "Free 1-2 day shipping"],
+        },
+      ],
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Online intake",
+          detail: "Answer a health questionnaire covering your weight, medical history, goals and current medications.",
+        },
+        {
+          timing: "Step 2",
+          title: "Clinician review",
+          detail:
+            "A licensed clinician reviews your answers and decides whether a GLP-1 is appropriate, which medication and which form - injection or drops.",
+        },
+        {
+          timing: "Step 3",
+          title: "1-2 day delivery",
+          detail: "If prescribed, medication ships free and arrives in 1-2 days. Your price stays $147 as your dose changes.",
+        },
+      ],
+      trustBadges: ["$147 flat at every dose", "Injection or drops", "Free 1-2 day shipping"],
+      updatedAt: ADDED,
+    },
+    {
+      slug: "shed",
+      providerId: "shed",
+      shortSummary:
+        "A coaching-led compounded GLP-1 program - semaglutide from $199/month and tirzepatide from $299/month, 20% off the first month - with a money-back guarantee if you don't lose 5% of your body weight in 120 days.",
+      reviewIntro:
+        "SHED is built for people who want accountability, not just a prescription. Its compounded semaglutide and tirzepatide plans include coaching, home delivery is included, HSA/FSA funds are accepted and there is no commitment. Its headline feature is a guarantee: if you do not lose 5% of your body weight within 120 days, SHED offers your money back (conditions apply - read the terms). The trade-off is price: semaglutide starts at $199/month and tirzepatide at $299/month, with 20% off the first month, which puts SHED among the more expensive compounded programs we track. It holds a 4.6 / 5 Trustpilot score from 1,134 reviews. Compounded medications are not FDA-approved. This review covers what SHED costs, how the guarantee works and who it suits.",
+      keyFeatures: [
+        "Compounded semaglutide from $199/month, tirzepatide from $299/month",
+        "20% off the first month",
+        "Coaching included in the plan",
+        "Money-back guarantee if you don't lose 5% in 120 days (conditions apply)",
+        "Home delivery included; HSA/FSA accepted",
+        "No commitment",
+      ],
+      pricingSummary:
+        "SHED's compounded semaglutide starts at $199/month and compounded tirzepatide at $299/month, with 20% off your first month. Coaching and home delivery are included, there is no commitment, and HSA/FSA funds are accepted. Its money-back guarantee applies if you do not lose 5% of your body weight within 120 days - the guarantee has conditions, so read SHED's terms before relying on it. Prices are starting prices and may vary; confirm at checkout. Compounded GLP-1s are not FDA-approved.",
+      treatmentOptions: [
+        "Compounded semaglutide",
+        "Compounded tirzepatide",
+        "Coaching included",
+      ],
+      pros: [
+        "A results guarantee - money back if you don't lose 5% in 120 days (conditions apply)",
+        "Coaching included for accountability",
+        "No commitment; HSA/FSA accepted",
+        "Strong customer feedback - 4.6 / 5 from 1,134 Trustpilot reviews",
+      ],
+      cons: [
+        "One of the more expensive compounded options - $199 semaglutide, $299 tirzepatide",
+        "The first-month discount is only 20%, and later months are full price",
+        "Compounded medication is not FDA-approved or FDA-reviewed for safety, effectiveness or quality",
+        "The guarantee has conditions - read them before you count on a refund",
+      ],
+      bestFor: [
+        "People who want coaching and accountability built in",
+        "Anyone reassured by a results-based money-back guarantee",
+        "Those paying with HSA/FSA funds",
+        "Skip it if price matters most - MEDVi includes coaching for less on promo, and embody or wellmedr cost far less",
+      ],
+      finalVerdict:
+        "SHED is the program for people who worry about paying for a GLP-1 and not seeing results: coaching is included, and its guarantee offers your money back if you have not lost 5% of your body weight within 120 days. Its 4.6 / 5 Trustpilot score suggests customers are happy with the experience. It ranks eighth because it is expensive - $199/month semaglutide and $299/month tirzepatide after a 20% first-month discount - and MEDVi bundles coaching and a dietitian for less while its promo lasts. If accountability and the guarantee matter to you, read SHED's guarantee terms and give it a look. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+      pricingPlans: [
+        {
+          name: "Semaglutide",
+          medication: "Compounded semaglutide",
+          price: "$199",
+          unit: "/mo",
+          cadence: "Starting price - 20% off month one",
+          highlights: ["Coaching included", "Home delivery included", "HSA/FSA accepted"],
+        },
+        {
+          name: "Tirzepatide",
+          medication: "Compounded tirzepatide",
+          price: "$299",
+          unit: "/mo",
+          cadence: "Starting price - 20% off month one",
+          highlights: ["Coaching included", "5%-in-120-days guarantee", "No commitment"],
+        },
+      ],
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Online intake",
+          detail: "Complete a health questionnaire about your weight, history, goals and current medications.",
+        },
+        {
+          timing: "Step 2",
+          title: "Clinician review",
+          detail: "A licensed clinician reviews your answers and decides whether a GLP-1 is appropriate and at what dose.",
+        },
+        {
+          timing: "Step 3",
+          title: "Delivery and coaching",
+          detail: "If prescribed, medication is delivered to your home and your coaching starts alongside treatment.",
+        },
+        {
+          timing: "Day 120",
+          title: "Guarantee check",
+          detail:
+            "If you have not lost 5% of your body weight within 120 days, you can claim SHED's money-back guarantee under its terms.",
+        },
+      ],
+      trustBadges: ["Coaching included", "5%-in-120-days guarantee", "HSA/FSA accepted"],
+      updatedAt: ADDED,
     },
   ],
 

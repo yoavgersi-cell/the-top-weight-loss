@@ -366,6 +366,8 @@ export const AFFILIATE_PROVIDER_IDS = [
   "trimrx",
   "wellmedr",
   "medvi",
+  "directmeds",
+  "shed",
 ];
 
 // Operator policy (Aug 2026): index everything that can honestly be indexed -

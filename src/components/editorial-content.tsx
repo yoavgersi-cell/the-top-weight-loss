@@ -91,8 +91,10 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <Link href="/reviews/ro" className={linkCls}>ro</Link>,{" "}
         <Link href="/reviews/altrx" className={linkCls}>altRx</Link>,{" "}
         <Link href="/reviews/trimrx" className={linkCls}>trimrx</Link>,{" "}
-        <Link href="/reviews/wellmedr" className={linkCls}>wellmedr</Link> and{" "}
-        <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>, or see them head to head in{" "}
+        <Link href="/reviews/wellmedr" className={linkCls}>wellmedr</Link>,{" "}
+        <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link>,{" "}
+        <Link href="/reviews/directmeds" className={linkCls}>DirectMeds</Link> and{" "}
+        <Link href="/reviews/shed" className={linkCls}>SHED</Link>, or see them head to head in{" "}
         <Link href="/embody-vs-ro" className={linkCls}>embody vs ro</Link>,{" "}
         <Link href="/altrx-vs-trimrx" className={linkCls}>altRx vs trimrx</Link>,{" "}
         <Link href="/embody-vs-wellmedr" className={linkCls}>embody vs wellmedr</Link>,{" "}
@@ -206,6 +208,8 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         <li><strong>If you will commit for a year</strong> - <Link href="/reviews/wellmedr" className={linkCls}>wellmedr</Link>&apos;s 12-month plan is the cheapest long-run price we found ($49/mo semaglutide).</li>
         <li><strong>If you want custom dosing and frequent check-ins</strong> - <Link href="/reviews/trimrx" className={linkCls}>trimrx</Link> offers unlimited provider check-ins.</li>
         <li><strong>If you want a dietitian and coaching in one price</strong> - <Link href="/reviews/medvi" className={linkCls}>MEDVi</Link> bundles them with no membership fee ($99/mo semaglutide promo, $199 regular).</li>
+        <li><strong>If you want tirzepatide and semaglutide at the same price, or needle-free drops</strong> - <Link href="/reviews/directmeds" className={linkCls}>DirectMeds</Link> charges $147/mo for either, at every dose, as an injection or sublingual drops.</li>
+        <li><strong>If you want a results guarantee</strong> - <Link href="/reviews/shed" className={linkCls}>SHED</Link> includes coaching and offers your money back if you don&apos;t lose 5% in 120 days (conditions apply).</li>
         <li><strong>If you want one flat price at every dose</strong> - <Link href="/reviews/altrx" className={linkCls}>altRx</Link> does, but read our review first: its parent company received an FDA warning letter in June 2026.</li>
       </ul>
       <p className="mb-8">

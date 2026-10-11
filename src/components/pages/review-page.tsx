@@ -27,7 +27,7 @@ import { ReadableProse } from "@/components/prose";
 import { ProviderAudit } from "@/components/provider-audit";
 
 // Per-provider SEO overrides, "is X legit?" trust blocks and extra FAQs for
-// this site's six providers. Every figure below must match the seed
+// this site's providers. Every figure below must match the seed
 // (src/lib/seeds/weight-loss.ts) - update both together when prices change.
 // Query-matched titles (Oct 2026): Search Console shows these reviews earning
 // impressions for "<brand> reviews", "is <brand> legit", "<brand> cost per
@@ -58,6 +58,16 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
     title: "wellmedr Reviews 2026: Is It Legit? The $49/mo GLP-1 Catch",
     description:
       "Is wellmedr legit? wellmedr review: semaglutide $49/mo on a 12-month plan, tirzepatide $89/mo, 4.6/5 from 1,919 Trustpilot reviews - and what the low price requires.",
+  },
+  directmeds: {
+    title: "DirectMeds Reviews 2026: Is It Legit? $147 Flat GLP-1 & Drops",
+    description:
+      "Is DirectMeds legit? DirectMeds review: compounded semaglutide or tirzepatide $147/mo at every dose, injection or sublingual drops, 1-2 day shipping, 4.6/5 from 15,690 Trustpilot reviews.",
+  },
+  shed: {
+    title: "SHED Reviews 2026: Is It Legit? Cost, Coaching & 5% Guarantee",
+    description:
+      "SHED weight loss review: semaglutide from $199/mo, tirzepatide from $299/mo, coaching included and a money-back guarantee if you don't lose 5% in 120 days. 4.6/5 on Trustpilot.",
   },
   medvi: {
     title: "MEDVi Reviews 2026: Is MEDVi Good? Cost Per Month & Tirzepatide",
@@ -92,6 +102,16 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
       "Yes. wellmedr uses board-certified clinicians, serves all 50 states and has the strongest Trustpilot score of the compounded programs we track - 4.6/5 from 1,919 reviews. The thing to understand is the pricing, not the legitimacy: the $49/mo semaglutide rate requires a 12-month plan, so read the cancellation terms before committing. Compounded GLP-1s are not FDA-approved.",
     signals: ["Board-certified clinicians", "Available in all 50 states", "Same price at every dose", "Clear 12-month vs monthly pricing"],
   },
+  directmeds: {
+    verdict:
+      "Yes. DirectMeds prescribes through licensed clinicians after an online intake, publishes one flat price for both medications, and ships in 1-2 days. It has one of the strongest review records in compounded GLP-1s - 4.6/5 on Trustpilot from 15,690 reviews. It is a lean program: there is no bundled coaching or dietitian. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Licensed clinicians review every intake", "One published price: $147 at every dose", "No membership, cancel anytime", "Free 1-2 day shipping"],
+  },
+  shed: {
+    verdict:
+      "Yes. SHED prescribes compounded GLP-1s through licensed clinicians, includes coaching, and backs its program with a money-back guarantee if you do not lose 5% of your body weight in 120 days (read the conditions). It holds a 4.6/5 Trustpilot score from 1,134 reviews. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Licensed clinicians review every intake", "Coaching included", "5%-in-120-days money-back guarantee", "HSA/FSA accepted, no commitment"],
+  },
   medvi: {
     verdict:
       "Yes. MEDVi is a licensed US telehealth program with one of the largest review bases in GLP-1 weight loss - 4.3/5 on Trustpilot from 14,836 reviews. Clinician visits, dietitian access and coaching are included in the monthly price, with no membership fee. Its headline prices are promotional, so confirm what you will pay after the promo. Compounded GLP-1s are not FDA-approved.",
@@ -120,6 +140,16 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
     { question: "What do wellmedr reviews say?", answer: "wellmedr has a 4.6/5 Trustpilot score from 1,919 reviews - the highest of the compounded GLP-1 programs we track." },
     { question: "How much is wellmedr tirzepatide?", answer: "wellmedr lists compounded tirzepatide at $89/mo, shipped every 4 weeks, at the same price for every dose." },
     { question: "Is wellmedr's $49 price month-to-month?", answer: "No. The $49/mo semaglutide rate is for the 12-month plan; month-to-month is advertised at around $88/mo. Compounded tirzepatide is $89/mo, shipped every 4 weeks." },
+  ],
+  directmeds: [
+    { question: "How much does DirectMeds cost?", answer: "DirectMeds charges $147/mo for compounded semaglutide and $147/mo for compounded tirzepatide, at every dose. There is no membership fee, and shipping is free." },
+    { question: "Does DirectMeds offer drops instead of injections?", answer: "Yes. DirectMeds offers its compounded GLP-1s as a weekly injection or as sublingual drops. A licensed clinician decides which form is appropriate for you." },
+    { question: "What do DirectMeds reviews say?", answer: "DirectMeds holds a 4.6/5 Trustpilot score from 15,690 reviews - one of the strongest records among compounded GLP-1 programs." },
+  ],
+  shed: [
+    { question: "How much does SHED cost?", answer: "SHED's compounded semaglutide starts at $199/mo and compounded tirzepatide at $299/mo, with 20% off the first month. Coaching and home delivery are included, and HSA/FSA funds are accepted." },
+    { question: "How does the SHED money-back guarantee work?", answer: "SHED offers a money-back guarantee if you do not lose 5% of your body weight within 120 days. The guarantee has conditions, so read SHED's terms before you rely on it." },
+    { question: "Does SHED include coaching?", answer: "Yes. Coaching is included in SHED's plans alongside the medication and clinician care." },
   ],
   medvi: [
     { question: "How much does MEDVi cost per month?", answer: "MEDVi's promotional prices are $99/mo for compounded semaglutide and $166/mo for compounded tirzepatide; regular prices are $199/mo and $299/mo. The price includes clinician visits, dietitian access, coaching and free shipping, with no membership fee." },
