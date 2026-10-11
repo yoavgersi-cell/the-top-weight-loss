@@ -91,8 +91,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Brand track record",
         winner: "provider2",
         explanation:
-          "ro, founded in 2017, is one of the largest direct-to-consumer telehealth companies in the US. embody is newer; it is LegitScript-certified and uses state-licensed 503A pharmacies, but its 3.8/5 Trustpilot score (8,398 reviews) shows mixed experiences, mostly about shipping and support response.",
-        supportingPoints: ["ro: established national brand", "embody: 3.8/5 on Trustpilot from 8,398 reviews"],
+          "ro, founded in 2017, is one of the largest direct-to-consumer telehealth companies in the US. embody is newer; it is LegitScript-certified and uses state-licensed 503A pharmacies, but its 3.8/5 Trustpilot score (9,582 reviews) shows mixed experiences, mostly about shipping and support response.",
+        supportingPoints: ["ro: established national brand", "embody: 3.8/5 on Trustpilot from 9,582 reviews"],
       },
     ],
     features: [
@@ -200,7 +200,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "If price is your first filter, you end up here. embody and wellmedr are the two lowest-priced compounded GLP-1 programs on our list, and both keep the price flat as your dose climbs. The difference is how they earn that price. embody asks for nothing up front: $69/mo semaglutide, cancel whenever. wellmedr goes lower - $49/mo - but only if you sign up for 12 months. On tirzepatide the picture flips, and wellmedr is cheaper with no plan needed. So the real question is not which is cheaper, but which kind of cheap fits you.",
     verdict:
-      "embody takes this one for most first-time GLP-1 patients. Nobody knows in week one whether they will tolerate the medication, and $69/mo with no lock-in and 1-2 day delivery is the lower-risk way to start. wellmedr is the smarter buy if you already know a GLP-1 works for you: $49/mo semaglutide on the 12-month plan is the lowest ongoing price we track, its $89/mo tirzepatide undercuts embody's $119, and its 4.6/5 Trustpilot score (1,919 reviews) beats embody's 3.8 (8,398). Read wellmedr's refund and cancellation terms before committing. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "embody takes this one for most first-time GLP-1 patients. Nobody knows in week one whether they will tolerate the medication, and $69/mo with no lock-in and 1-2 day delivery is the lower-risk way to start. wellmedr is the smarter buy if you already know a GLP-1 works for you: $49/mo semaglutide on the 12-month plan is the lowest ongoing price we track, its $89/mo tirzepatide undercuts embody's $119, and its 4.6/5 Trustpilot score (1,919 reviews) beats embody's 3.8 (9,582). Read wellmedr's refund and cancellation terms before committing. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$69/mo semaglutide with no commitment",
       "Ships in 1-2 days, cold-chain packed",
@@ -241,8 +241,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider2",
         explanation:
-          "wellmedr holds a 4.6/5 Trustpilot score from 1,919 reviews. embody sits at 3.8/5 from 8,398, with complaints clustering around shipping hiccups and slow support replies.",
-        supportingPoints: ["wellmedr: 4.6/5 (1,919)", "embody: 3.8/5 (8,398)"],
+          "wellmedr holds a 4.6/5 Trustpilot score from 1,919 reviews. embody sits at 3.8/5 from 9,582, with complaints clustering around shipping hiccups and slow support replies.",
+        supportingPoints: ["wellmedr: 4.6/5 (1,919)", "embody: 3.8/5 (9,582)"],
       },
       {
         name: "Range beyond weight loss",
@@ -260,7 +260,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Same price at every dose", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
       { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "12 months for lowest rate", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "3-5 business days", highlight: "provider1" },
-      { feature: "Trustpilot", provider1Value: "3.8/5 (8,398)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (9,582)", provider2Value: "4.6/5 (1,919)", highlight: "provider2" },
       { feature: "Oral option", provider1Value: "Compounded daily oral", provider2Value: "GLP-1 + NAD+/B12 microdose", highlight: "none" },
     ],
     updatedAt: ADDED_SEP_30,
@@ -720,7 +720,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "MEDVi and embody are two of the most searched compounded GLP-1 programs, and they make opposite bets about what you want. embody bets on price and speed: $69/mo semaglutide, $119/mo tirzepatide, no commitment and delivery in 1-2 days. MEDVi bets on support: $99/mo semaglutide or $166/mo tirzepatide at promo prices, with clinician visits, a dietitian and coaching included. Neither asks you to sign up for a year, so the choice comes down to whether you want a prescription or a program.",
     verdict:
-      "embody wins for most people: it is $30/mo cheaper on semaglutide and $47/mo cheaper on tirzepatide, its low prices are close to its regular ones ($79 and $129), and it ships in 1-2 days. MEDVi is the better choice if you want help with the habits that make GLP-1 results last - a dietitian and coaching are included - and its 4.3/5 Trustpilot score from 14,836 reviews beats embody's 3.8 from 8,398. Check what MEDVi charges after its promo ends: its regular prices are $199 and $299. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "embody wins for most people: it is $30/mo cheaper on semaglutide and $47/mo cheaper on tirzepatide, its low prices are close to its regular ones ($79 and $129), and it ships in 1-2 days. MEDVi is the better choice if you want help with the habits that make GLP-1 results last - a dietitian and coaching are included - and its 4.3/5 Trustpilot score from 14,836 reviews beats embody's 3.8 from 9,582. Check what MEDVi charges after its promo ends: its regular prices are $199 and $299. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$69/mo semaglutide, $119/mo tirzepatide",
       "Regular prices only $10 higher ($79 / $129)",
@@ -757,8 +757,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider2",
         explanation:
-          "MEDVi rates 4.3/5 from 14,836 Trustpilot reviews. embody rates 3.8/5 from 8,398, with complaints mostly about shipping hiccups and slow support replies.",
-        supportingPoints: ["MEDVi: 4.3/5 (14,836)", "embody: 3.8/5 (8,398)"],
+          "MEDVi rates 4.3/5 from 14,836 Trustpilot reviews. embody rates 3.8/5 from 9,582, with complaints mostly about shipping hiccups and slow support replies.",
+        supportingPoints: ["MEDVi: 4.3/5 (14,836)", "embody: 3.8/5 (9,582)"],
       },
       {
         name: "Medication options",
@@ -776,7 +776,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "Free", highlight: "provider1" },
       { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "3.8/5 (8,398)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (9,582)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_5,
   },

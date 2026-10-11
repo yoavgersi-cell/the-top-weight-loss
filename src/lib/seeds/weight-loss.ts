@@ -25,7 +25,8 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    (reg. $129); month-to-month, no commitment; weekly injection plus a daily
 //    oral (compounded) option; ships in 1-2 days, cold-chain, free shipping;
 //    cash-pay (HSA/FSA usable); LegitScript-certified; 503A pharmacies;
-//    Trustpilot 3.8 / 5 from 8,398 reviews.
+//    Trustpilot 3.8 / 5 from 9,582 reviews (checked Oct 11, 2026; 11 recent
+//    reviews copied verbatim from the profile into trustpilotReviews).
 //  - ro: brand-name only (Wegovy, Zepbound, Ozempic, Foundaya); membership
 //    $39 first month then $149/mo, or up to 50% off annually (~$74/mo);
 //    medication billed separately (insurance or manufacturer self-pay price);
@@ -138,7 +139,20 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1548&aff_id=12904",
       ctaText: "Visit Site",
       trustpilotRating: "3.8",
-      trustpilotReviewCount: "8,398",
+      trustpilotReviewCount: "9,582",
+      trustpilotReviews: [
+        { title: "Jayvee is amazing", text: "Jayvee is amazing. I absolutely love that she follows up and checks on me .", name: "Dyniese Garcia", location: "US", rating: 5, date: "Oct 5, 2026" },
+        { title: "Excellent quick service", text: "Excellent quick service", name: "Nikita Prewitt", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "It was the provider that made it great", text: "It was the provider that made it great! I’m just hoping that I start receiving my medication on time so that I can take my injections on injection day and not have to take them a week late sometimes as late as two weeks it’s kinda hard to stay on track when you do not get your medication on time", name: "Cathy Traverse", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "At first", text: "At first, it was a little bit Rocky, took a long time to get my first order. But they had a guy named luis he called me right away with concerns about the way things happened. For me, took some money off my bill For me and told me to call him if I have any more problems and he's been great This whole entire time. He's part of the reason why I'm staying with the company. They do a good job making sure the customers are taken care of. When I placed my order for my second months, medicine the medicine came in there was no delay. It only took 5 days, so all in all. I'll have to say I'm super happy with this company.", name: "Vincent Argenio", location: "US", rating: 5, date: "Oct 4, 2026" },
+        { title: "Good experience with my provider", text: "Good experience with my provider. Feeling confident about the use of this product.", name: "Lela Brown", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "", text: "The provider was helpful", name: "Cory Madsen", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Great", text: "I enjoyed talking to the provider and talking about the plain is great", name: "PAMELA Johnson", location: "US", rating: 5, date: "Oct 8, 2026" },
+        { title: "Additional information was provided...", text: "Additional information was provided based on my comments, like increasing protein and adding iron supplement", name: "Leslie Touchberry", location: "US", rating: 5, date: "Sep 28, 2026" },
+        { title: "Awesome", text: "Great visit!", name: "Jana Baird", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Providers and customers service agents...", text: "Providers and customers service agents are great!", name: "Maria A Chavez", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "SUCCESS", text: "I believe I am finally on the right path with Karl, my Acct Mgr, & Tia, my coach. They are a must have when embarking on this journey to my health and weight loss success. Thank you Embody!", name: "Jan Anderson", location: "US", rating: 5 },
+      ],
     },
     {
       id: "ro",
@@ -300,7 +314,7 @@ export const weightLossConfig: SiteConfig = {
       cons: [
         "Compounded medication only - not FDA-approved, and not reviewed by the FDA for safety, effectiveness or quality",
         "Cash-pay only - no help using insurance for brand-name medication",
-        "Mixed Trustpilot rating (3.8 / 5 from 8,398 reviews), with complaints centering on shipping delays and support response times",
+        "Mixed Trustpilot rating (3.8 / 5 from 9,582 reviews), with complaints centering on shipping delays and support response times",
         "Promotional prices can revert to the regular $79 / $129 rates",
       ],
       bestFor: [

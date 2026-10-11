@@ -37,7 +37,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   embody: {
     title: "embody Reviews 2026: Is It Legit? $69/mo GLP-1, Fine Print",
     description:
-      "Is embody legit? Our embody review: compounded semaglutide $69/mo, tirzepatide $119/mo, no commitment, 1-2 day shipping - plus what its 8,398 Trustpilot reviews say.",
+      "Is embody legit? Our embody review: compounded semaglutide $69/mo, tirzepatide $119/mo, no commitment, 1-2 day shipping - plus what its 9,582 Trustpilot reviews say.",
   },
   ro: {
     title: "ro Weight Loss Reviews 2026: Cost, Insurance & Is It Legit?",
@@ -121,7 +121,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
 
 const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> = {
   embody: [
-    { question: "What do embody reviews say?", answer: "embody holds a 3.8/5 Trustpilot score from 8,398 reviews. Positive reviews mostly praise the low $69/mo price and fast 1-2 day shipping; negative ones mostly mention shipping delays and slow replies from support." },
+    { question: "What do embody reviews say?", answer: "embody holds a 3.8/5 Trustpilot score from 9,582 reviews. Positive reviews mostly praise the low $69/mo price and fast 1-2 day shipping; negative ones mostly mention shipping delays and slow replies from support." },
     { question: "Does embody require a commitment?", answer: "No. embody is month-to-month: semaglutide is $69/mo and tirzepatide $119/mo with no plan length required, and you can cancel anytime." },
   ],
   ro: [
