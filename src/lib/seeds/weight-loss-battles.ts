@@ -326,8 +326,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Brand track record",
         winner: "provider1",
         explanation:
-          "ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies. MEDVi is newer but has built a large review base - 4.3/5 on Trustpilot from 14,836 reviews.",
-        supportingPoints: ["ro: since 2017", "MEDVi: 4.3/5 (14,836 reviews)"],
+          "ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies. MEDVi is newer but has built a large review base - 4.3/5 on Trustpilot from 14,978 reviews.",
+        supportingPoints: ["ro: since 2017", "MEDVi: 4.3/5 (14,978 reviews)"],
       },
     ],
     features: [
@@ -354,7 +354,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "altRx and MEDVi sit close together on price, and both lean on promotional rates, so the headline numbers only tell part of the story. altRx is the lean option: flat pricing at every dose, a brand-name shelf and Buy Now, Pay Later. MEDVi charges about $10-$17 a month more at promo prices and spends it on people - clinician visits, a dietitian and coaching are in the price. There is also a trust gap to weigh: altRx's parent company received an FDA warning letter in June 2026.",
     verdict:
-      "altRx edges it on price: $89/mo semaglutide and $149/mo tirzepatide at every dose (promo; regular $199 and $299), with brand-name medication on the same shelf if you switch later. MEDVi is the better program if you want support that goes beyond the prescription - its dietitian and coaching are included for $99 or $166 a month (promo; regular $199 and $299) - and it has a clean regulatory record and a 4.3/5 Trustpilot score from 14,836 reviews. At regular prices the two cost the same, which makes MEDVi's extras free. Ask both how long their promos last. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "altRx edges it on price: $89/mo semaglutide and $149/mo tirzepatide at every dose (promo; regular $199 and $299), with brand-name medication on the same shelf if you switch later. MEDVi is the better program if you want support that goes beyond the prescription - its dietitian and coaching are included for $99 or $166 a month (promo; regular $199 and $299) - and it has a clean regulatory record and a 4.3/5 Trustpilot score from 14,978 reviews. At regular prices the two cost the same, which makes MEDVi's extras free. Ask both how long their promos last. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$89/mo semaglutide, $149/mo tirzepatide (promo)",
       "Flat price at every dose",
@@ -362,7 +362,7 @@ export const weightLossBattles: BattleData[] = [
     ],
     verdictLoserPoints: [
       "Dietitian access and coaching included",
-      "4.3/5 on Trustpilot from 14,836 reviews",
+      "4.3/5 on Trustpilot from 14,978 reviews",
       "No FDA warning letter",
     ],
     winnerId: "altrx",
@@ -392,8 +392,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "In June 2026 the FDA sent altRx's parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded GLP-1s look FDA-approved. MEDVi has no comparable action on record and a 4.3/5 Trustpilot score from 14,836 reviews; altRx publishes no Trustpilot score.",
-        supportingPoints: ["altRx: June 2026 FDA warning letter", "MEDVi: 4.3/5 (14,836)"],
+          "In June 2026 the FDA sent altRx's parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded GLP-1s look FDA-approved. MEDVi has no comparable action on record and a 4.3/5 Trustpilot score from 14,978 reviews; altRx publishes no Trustpilot score.",
+        supportingPoints: ["altRx: June 2026 FDA warning letter", "MEDVi: 4.3/5 (14,978)"],
       },
       {
         name: "Flexibility",
@@ -411,7 +411,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "Free", highlight: "both" },
       { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "None - no membership", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA accepted", highlight: "none" },
     ],
     updatedAt: ADDED_SEP_30,
@@ -575,11 +575,11 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "MEDVi and trimrx are the two programs on our list that sell support, not just a prescription - but different kinds of support. trimrx centers on the medication: custom dosing and unlimited check-ins with a provider. MEDVi centers on the habits around it: clinician visits, a dietitian and coaching, all in the monthly price. MEDVi is cheaper today, but its prices are promotional, so the answer can change once the promo ends.",
     verdict:
-      "MEDVi edges it. At current promo prices it is $50/mo cheaper on semaglutide ($99 vs $149) and $93/mo cheaper on tirzepatide ($166 vs $259), it includes a dietitian and coaching, and it rates higher on Trustpilot - 4.3/5 from 14,836 reviews against trimrx's 3.8 from 5,393. The catch: MEDVi's regular prices are $199 and $299, so once the promo ends, trimrx's $149/mo semaglutide becomes the cheaper option. Choose trimrx if you want custom dose steps, unlimited provider access or next-day delivery. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "MEDVi edges it. At current promo prices it is $50/mo cheaper on semaglutide ($99 vs $149) and $93/mo cheaper on tirzepatide ($166 vs $259), it includes a dietitian and coaching, and it rates higher on Trustpilot - 4.3/5 from 14,978 reviews against trimrx's 3.8 from 5,393. The catch: MEDVi's regular prices are $199 and $299, so once the promo ends, trimrx's $149/mo semaglutide becomes the cheaper option. Choose trimrx if you want custom dose steps, unlimited provider access or next-day delivery. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$99/mo semaglutide, $166/mo tirzepatide (promo)",
       "Dietitian and coaching included",
-      "4.3/5 on Trustpilot from 14,836 reviews",
+      "4.3/5 on Trustpilot from 14,978 reviews",
     ],
     verdictLoserPoints: [
       "Custom dosing with unlimited check-ins",
@@ -618,7 +618,7 @@ export const weightLossBattles: BattleData[] = [
       {
         name: "Customer experience",
         winner: "provider2",
-        explanation: "MEDVi has 4.3/5 from 14,836 Trustpilot reviews; trimrx has 3.8/5 from 5,393.",
+        explanation: "MEDVi has 4.3/5 from 14,978 Trustpilot reviews; trimrx has 3.8/5 from 5,393.",
         supportingPoints: ["MEDVi: 4.3/5", "trimrx: 3.8/5"],
       },
     ],
@@ -630,7 +630,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Light coaching", provider2Value: "Included", highlight: "provider2" },
       { feature: "Dosing", provider1Value: "Custom dosing, unlimited check-ins", provider2Value: "Clinician visits", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "Free, often next-day", provider2Value: "Free", highlight: "provider1" },
-      { feature: "Trustpilot", provider1Value: "3.8/5 (5,393)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (5,393)", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
       { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
     ],
     updatedAt: ADDED_OCT_3,
@@ -647,7 +647,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "wellmedr and MEDVi are both well-reviewed compounded GLP-1 programs, and both include a licensed clinician. The split is what else you pay for. wellmedr is built to be cheap over time: $49/mo semaglutide on a 12-month plan and $89/mo tirzepatide. MEDVi charges more - $99 and $166 a month at promo prices - but puts a dietitian and coaching in the price and asks for no commitment.",
     verdict:
-      "wellmedr wins on value. It is $50/mo cheaper on semaglutide (with the 12-month plan) and $77/mo cheaper on tirzepatide, its prices are not promotional, and it has the higher Trustpilot score - 4.6/5 from 2,181 reviews against MEDVi's 4.3 from 14,836. MEDVi is the better choice if you want nutrition coaching built in, or you want to start without signing up for a year: its promo prices need no commitment. Check what MEDVi charges after the promo ($199 and $299 regular). Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "wellmedr wins on value. It is $50/mo cheaper on semaglutide (with the 12-month plan) and $77/mo cheaper on tirzepatide, its prices are not promotional, and it has the higher Trustpilot score - 4.6/5 from 2,181 reviews against MEDVi's 4.3 from 14,978. MEDVi is the better choice if you want nutrition coaching built in, or you want to start without signing up for a year: its promo prices need no commitment. Check what MEDVi charges after the promo ($199 and $299 regular). Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$49/mo semaglutide on the 12-month plan",
       "$89/mo tirzepatide - not a promo price",
@@ -656,7 +656,7 @@ export const weightLossBattles: BattleData[] = [
     verdictLoserPoints: [
       "Dietitian access and coaching included",
       "No membership, no commitment",
-      "4.3/5 from 14,836 Trustpilot reviews",
+      "4.3/5 from 14,978 Trustpilot reviews",
     ],
     winnerId: "wellmedr",
     categories: [
@@ -685,7 +685,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider1",
         explanation:
-          "wellmedr rates 4.6/5 from 2,181 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,836. Both are strong for this category.",
+          "wellmedr rates 4.6/5 from 2,181 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,978. Both are strong for this category.",
         supportingPoints: ["wellmedr: 4.6/5", "MEDVi: 4.3/5, larger sample"],
       },
       {
@@ -704,7 +704,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
       { feature: "Commitment", provider1Value: "12 months for lowest rate", provider2Value: "None - no membership", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "3-5 business days", provider2Value: "Free", highlight: "none" },
-      { feature: "Trustpilot", provider1Value: "4.6/5 (2,181)", provider2Value: "4.3/5 (14,836)", highlight: "provider1" },
+      { feature: "Trustpilot", provider1Value: "4.6/5 (2,181)", provider2Value: "4.3/5 (14,978)", highlight: "provider1" },
     ],
     updatedAt: ADDED_OCT_3,
   },
@@ -720,7 +720,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "MEDVi and embody are two of the most searched compounded GLP-1 programs, and they make opposite bets about what you want. embody bets on price and speed: $69/mo semaglutide, $119/mo tirzepatide, no commitment and delivery in 1-2 days. MEDVi bets on support: $99/mo semaglutide or $166/mo tirzepatide at promo prices, with clinician visits, a dietitian and coaching included. Neither asks you to sign up for a year, so the choice comes down to whether you want a prescription or a program.",
     verdict:
-      "embody wins for most people: it is $30/mo cheaper on semaglutide and $47/mo cheaper on tirzepatide, its low prices are close to its regular ones ($79 and $129), and it ships in 1-2 days. MEDVi is the better choice if you want help with the habits that make GLP-1 results last - a dietitian and coaching are included - and its 4.3/5 Trustpilot score from 14,836 reviews beats embody's 3.8 from 9,582. Check what MEDVi charges after its promo ends: its regular prices are $199 and $299. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "embody wins for most people: it is $30/mo cheaper on semaglutide and $47/mo cheaper on tirzepatide, its low prices are close to its regular ones ($79 and $129), and it ships in 1-2 days. MEDVi is the better choice if you want help with the habits that make GLP-1 results last - a dietitian and coaching are included - and its 4.3/5 Trustpilot score from 14,978 reviews beats embody's 3.8 from 9,582. Check what MEDVi charges after its promo ends: its regular prices are $199 and $299. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$69/mo semaglutide, $119/mo tirzepatide",
       "Regular prices only $10 higher ($79 / $129)",
@@ -728,7 +728,7 @@ export const weightLossBattles: BattleData[] = [
     ],
     verdictLoserPoints: [
       "Dietitian access and coaching included",
-      "4.3/5 on Trustpilot from 14,836 reviews",
+      "4.3/5 on Trustpilot from 14,978 reviews",
       "No membership fee, HSA/FSA accepted",
     ],
     winnerId: "embody",
@@ -757,8 +757,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider2",
         explanation:
-          "MEDVi rates 4.3/5 from 14,836 Trustpilot reviews. embody rates 3.8/5 from 9,582, with complaints mostly about shipping hiccups and slow support replies.",
-        supportingPoints: ["MEDVi: 4.3/5 (14,836)", "embody: 3.8/5 (9,582)"],
+          "MEDVi rates 4.3/5 from 14,978 Trustpilot reviews. embody rates 3.8/5 from 9,582, with complaints mostly about shipping hiccups and slow support replies.",
+        supportingPoints: ["MEDVi: 4.3/5 (14,978)", "embody: 3.8/5 (9,582)"],
       },
       {
         name: "Medication options",
@@ -776,7 +776,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "Free", highlight: "provider1" },
       { feature: "Commitment", provider1Value: "Month-to-month", provider2Value: "None - no membership", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "3.8/5 (9,582)", provider2Value: "4.3/5 (14,836)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "3.8/5 (9,582)", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_5,
   },
@@ -830,7 +830,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Customer experience",
         winner: "provider2",
         explanation:
-          "SHED rates 4.6/5 from 1,134 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,836. Both are strong.",
+          "SHED rates 4.6/5 from 1,134 Trustpilot reviews; MEDVi rates 4.3/5 from a much larger 14,978. Both are strong.",
         supportingPoints: ["SHED: 4.6/5", "MEDVi: 4.3/5, larger sample"],
       },
       {
@@ -848,7 +848,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Coaching", provider1Value: "Included, plus dietitian", provider2Value: "Included", highlight: "provider1" },
       { feature: "Results guarantee", provider1Value: "None", provider2Value: "5% in 120 days or money back", highlight: "provider2" },
       { feature: "Commitment", provider1Value: "None - no membership", provider2Value: "None", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "4.3/5 (14,836)", provider2Value: "4.6/5 (1,134)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "4.3/5 (14,978)", provider2Value: "4.6/5 (1,134)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_11,
   },

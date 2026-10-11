@@ -72,7 +72,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   medvi: {
     title: "MEDVi Reviews 2026: Is MEDVi Good? Cost Per Month & Tirzepatide",
     description:
-      "Is MEDVi good? MEDVi review: compounded semaglutide $99/mo and tirzepatide $166/mo (promo), dietitian and coaching included, 4.3/5 from 14,836 Trustpilot reviews.",
+      "Is MEDVi good? MEDVi review: compounded semaglutide $99/mo and tirzepatide $166/mo (promo), dietitian and coaching included, 4.3/5 from 14,978 Trustpilot reviews.",
   },
 };
 
@@ -114,7 +114,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   medvi: {
     verdict:
-      "Yes. MEDVi is a licensed US telehealth program with one of the largest review bases in GLP-1 weight loss - 4.3/5 on Trustpilot from 14,836 reviews. Clinician visits, dietitian access and coaching are included in the monthly price, with no membership fee. Its headline prices are promotional, so confirm what you will pay after the promo. Compounded GLP-1s are not FDA-approved.",
+      "Yes. MEDVi is a licensed US telehealth program with one of the largest review bases in GLP-1 weight loss - 4.3/5 on Trustpilot from 14,978 reviews. Clinician visits, dietitian access and coaching are included in the monthly price, with no membership fee. Its headline prices are promotional, so confirm what you will pay after the promo. Compounded GLP-1s are not FDA-approved.",
     signals: ["Licensed US clinicians", "Dietitian and coaching included", "No membership or hidden fees", "HSA/FSA accepted"],
   },
 };
@@ -157,7 +157,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
     { question: "Does MEDVi offer compounded tirzepatide?", answer: "Yes. MEDVi offers compounded tirzepatide at $166/mo at its promotional price ($299/mo regular), alongside compounded semaglutide. Compounded medications are not FDA-approved." },
     { question: "Is MEDVi FDA approved?", answer: "MEDVi is a telehealth company, not a drug, so it is not something the FDA approves. Its core program uses compounded semaglutide and tirzepatide, which are not FDA-approved - the FDA does not review compounded drugs for safety, effectiveness or quality. FDA-approved GLP-1s are brand-name drugs such as Wegovy and Zepbound." },
     { question: "Is MEDVi safe?", answer: "A licensed US clinician reviews your health history before anything is prescribed, which is the key safety step. GLP-1 medications commonly cause nausea, diarrhea or constipation, especially while the dose is being increased, and are not suitable for everyone - including people with a personal or family history of medullary thyroid cancer or MEN2, or who are pregnant. Compounded versions are not FDA-approved." },
-    { question: "Is MEDVi good?", answer: "For people who want support beyond a prescription, MEDVi is one of the stronger options: dietitian access and coaching are included, there is no membership fee, and it holds a 4.3/5 Trustpilot score from 14,836 reviews. If price is your only priority, cheaper programs exist." },
+    { question: "Is MEDVi good?", answer: "For people who want support beyond a prescription, MEDVi is one of the stronger options: dietitian access and coaching are included, there is no membership fee, and it holds a 4.3/5 Trustpilot score from 14,978 reviews. If price is your only priority, cheaper programs exist." },
   ],
 };
 

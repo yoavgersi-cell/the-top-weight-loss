@@ -53,7 +53,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    $166/mo promo (reg. $299); all-inclusive - clinician visits, dietitian
 //    access and coaching included; free shipping; no membership or hidden
 //    fees; no commitment; HSA/FSA accepted; licensed US clinicians; brand-name
-//    options via the clinician; Trustpilot 4.3 / 5 from 14,836 reviews.
+//    options via the clinician; Trustpilot 4.3 / 5 from 14,978 reviews.
 //
 // PLACEHOLDERS / OPERATOR TO VERIFY:
 //  - Promo prices (embody, altRx, trimrx discount code, MEDVi) are time-limited -
@@ -284,7 +284,21 @@ export const weightLossConfig: SiteConfig = {
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1265&aff_id=12904",
       ctaText: "Visit Site",
       trustpilotRating: "4.3",
-      trustpilotReviewCount: "14,836",
+      trustpilotReviewCount: "14,978",
+      trustpilotReviews: [
+        { title: "I luv how they keep up with my health...", text: "I luv how they keep up with my health and well-being. I've had nothing but great experience with all I've spoken with.", name: "Deborah Thompson", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "5-star experience", text: "The provider, Monique, was very personable, professional and helpful.", name: "Gigi", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Nestor was patient and answered all my...", text: "Nestor was patient and answered all my questions thoroughly.", name: "Heidi", location: "US", rating: 5, date: "Oct 10, 2026" },
+        { title: "Responding to MEDVi", text: "I don’t want to send a review. I jsit wanted to compliment my medical person to MEDVi.", name: "Wendy Nickels", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "", text: "She was helpful and sweet", name: "Julia Bornstein", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "Super pleasant and answered all of my...", text: "Super pleasant and answered all of my questions", name: "Winter Riffle", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "It was good but could have been more...", text: "It was good but could have been more informative", name: "Anthony Bruno", location: "US", rating: 4, date: "Oct 9, 2026" },
+        { title: "Talking one-on-one to someone who...", text: "Talking one-on-one to someone who reviewed my current data. I was glad to have the time and explanation of recommendation.", name: "Debbie", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "Perfect!", text: "She was very helpful, knowledgeable and friendly. AAA+++", name: "Scott", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "The representative", text: "The representative, Stephanie, was professional and pleasant. Please acknowledge her great work!", name: "Elizabeth Smith", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "", text: "The RN herself!", name: "Happy Customer", location: "US", rating: 5, date: "Oct 9, 2026" },
+        { title: "She had great advice on keeping track...", text: "She had great advice on keeping track with my weight loss", name: "Nancy Kuhnz", location: "US", rating: 5, date: "Oct 8, 2026" },
+      ],
     },
     {
       id: "directmeds",
@@ -809,7 +823,7 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "An all-inclusive compounded GLP-1 program - semaglutide $99/month and tirzepatide $166/month on promo - with clinician visits, dietitian access and coaching included, no membership fees and no commitment.",
       reviewIntro:
-        "MEDVi takes a different approach to pricing from most GLP-1 telehealth brands: instead of a low medication price with add-ons, it bundles everything into one monthly figure. Clinician visits, access to a dietitian and coaching are all included, shipping is free, and there is no separate membership or hidden fee. Plans carry no commitment and HSA/FSA funds are accepted. Licensed US clinicians handle prescribing, and brand-name options are available through your clinician if compounded medication is not the right fit. It also has one of the largest review bases on our list - 4.3 / 5 from 14,836 Trustpilot reviews. As with every compounded program, the medication is not FDA-approved. This review covers what MEDVi costs, what the bundle includes and who it suits.",
+        "MEDVi takes a different approach to pricing from most GLP-1 telehealth brands: instead of a low medication price with add-ons, it bundles everything into one monthly figure. Clinician visits, access to a dietitian and coaching are all included, shipping is free, and there is no separate membership or hidden fee. Plans carry no commitment and HSA/FSA funds are accepted. Licensed US clinicians handle prescribing, and brand-name options are available through your clinician if compounded medication is not the right fit. It also has one of the largest review bases on our list - 4.3 / 5 from 14,978 Trustpilot reviews. As with every compounded program, the medication is not FDA-approved. This review covers what MEDVi costs, what the bundle includes and who it suits.",
       keyFeatures: [
         "Compounded semaglutide $99/month and tirzepatide $166/month (promo rates)",
         "All-inclusive: clinician visits, dietitian access and coaching in the price",
@@ -829,7 +843,7 @@ export const weightLossConfig: SiteConfig = {
       pros: [
         "Genuinely all-inclusive - clinician visits, dietitian access and coaching in one price",
         "No membership or hidden fees, and no commitment",
-        "Strong customer feedback at scale (4.3 / 5 from 14,836 Trustpilot reviews)",
+        "Strong customer feedback at scale (4.3 / 5 from 14,978 Trustpilot reviews)",
         "Brand-name options available through the same clinician",
         "HSA/FSA accepted, free shipping",
       ],
