@@ -392,7 +392,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "In June 2026 the FDA sent altRx's parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded GLP-1s look FDA-approved. MEDVi has no comparable action on record and a 4.3/5 Trustpilot score from 14,978 reviews; altRx publishes no Trustpilot score.",
+          "In June 2026 the FDA sent altRx's parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded GLP-1s look FDA-approved. MEDVi has no comparable action on record and a 4.3/5 Trustpilot score from 14,978 reviews; altRx has no Trustpilot profile.",
         supportingPoints: ["altRx: June 2026 FDA warning letter", "MEDVi: 4.3/5 (14,978)"],
       },
       {
@@ -411,7 +411,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "Free", highlight: "both" },
       { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "None - no membership", highlight: "both" },
-      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "No Trustpilot profile", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA accepted", highlight: "none" },
     ],
     updatedAt: ADDED_SEP_30,
@@ -428,7 +428,7 @@ export const weightLossBattles: BattleData[] = [
     intro:
       "altRx and wellmedr both promise the thing GLP-1 patients like most: a price that does not climb as your dose goes up. They get there differently. altRx's low numbers are promotional - $89/mo semaglutide and $149/mo tirzepatide, against regular prices of $199 and $299 - with no commitment. wellmedr's lowest semaglutide price, $49/mo, needs a 12-month plan, but its $89/mo tirzepatide is the cheapest on our list. Add a trust gap - an FDA warning letter on one side, a 4.6/5 Trustpilot score on the other - and this matchup is less close than it looks.",
     verdict:
-      "wellmedr wins this one. It is cheaper on both drugs - $49/mo semaglutide on its 12-month plan and $89/mo tirzepatide versus altRx's $89 and $149 promo rates - and those prices are not promotions waiting to expire. It also has the stronger trust record: 4.6/5 on Trustpilot from 2,181 reviews, against no published score and a June 2026 FDA warning letter at altRx's parent company. altRx is still the better fit if you want month-to-month semaglutide without signing up for a year, faster access to brand-name medication on the same platform, or Buy Now, Pay Later. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
+      "wellmedr wins this one. It is cheaper on both drugs - $49/mo semaglutide on its 12-month plan and $89/mo tirzepatide versus altRx's $89 and $149 promo rates - and those prices are not promotions waiting to expire. It also has the stronger trust record: 4.6/5 on Trustpilot from 2,181 reviews, against no Trustpilot profile and a June 2026 FDA warning letter at altRx's parent company. altRx is still the better fit if you want month-to-month semaglutide without signing up for a year, faster access to brand-name medication on the same platform, or Buy Now, Pay Later. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
       "$89/mo tirzepatide - $60 less than altRx",
       "$49/mo semaglutide on the 12-month plan",
@@ -463,7 +463,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Transparency & trust",
         winner: "provider2",
         explanation:
-          "wellmedr holds a 4.6/5 Trustpilot score from 2,181 reviews. altRx publishes no score, and its parent company received an FDA warning letter in June 2026 over marketing that made its compounded GLP-1s look FDA-approved.",
+          "wellmedr holds a 4.6/5 Trustpilot score from 2,181 reviews. altRx has no Trustpilot profile, and its parent company received an FDA warning letter in June 2026 over marketing that made its compounded GLP-1s look FDA-approved.",
         supportingPoints: ["wellmedr: 4.6/5 (2,181)", "altRx: June 2026 FDA warning letter"],
       },
       {
@@ -488,7 +488,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Same price at every dose", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
       { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "12 months for lowest rate", highlight: "provider1" },
       { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "3-5 business days", highlight: "provider2" },
-      { feature: "Trustpilot", provider1Value: "Not published", provider2Value: "4.6/5 (2,181)", highlight: "provider2" },
+      { feature: "Trustpilot", provider1Value: "No Trustpilot profile", provider2Value: "4.6/5 (2,181)", highlight: "provider2" },
     ],
     updatedAt: ADDED_OCT_3,
   },

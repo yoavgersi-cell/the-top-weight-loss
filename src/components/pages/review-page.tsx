@@ -89,7 +89,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   altrx: {
     verdict:
-      "altRx is a functioning telehealth program - clinicians review your intake and prescriptions ship from a pharmacy - but there is a caveat worth knowing. On June 8, 2026 the FDA sent its parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded semaglutide and tirzepatide look FDA-approved. A warning letter is not a recall or a shutdown, but it is a reason to read altRx's claims carefully. altRx does not publish a Trustpilot score.",
+      "altRx is a functioning telehealth program - clinicians review your intake and prescriptions ship from a pharmacy - but there is a caveat worth knowing. On June 8, 2026 the FDA sent its parent company, Trinity HealthCare Supply, LLC, a warning letter objecting to claims and labels that made its compounded semaglutide and tirzepatide look FDA-approved. A warning letter is not a recall or a shutdown, but it is a reason to read altRx's claims carefully. altRx has no Trustpilot profile.",
     signals: ["Clinician review before prescribing", "Published flat prices at every dose", "No commitment - pause or cancel", "Caution: June 2026 FDA warning letter"],
   },
   trimrx: {
