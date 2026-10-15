@@ -10,11 +10,6 @@ export const revalidate = 3600;
 
 const ORIGIN = "https://www.thetopweightloss.com";
 
-const firstSentence = (s: string) => {
-  const m = s.match(/^.*?[.!?](\s|$)/);
-  return (m ? m[0] : s).trim();
-};
-
 export async function GET() {
   const config = await getConfig();
   const reviewer = getReviewer();
@@ -65,7 +60,10 @@ export async function GET() {
   lines.push("");
   for (const b of config.battles) {
     const label = b.matchupLabel ?? `${nameOf(b.provider1Id)} vs ${nameOf(b.provider2Id)}`;
-    lines.push(`- [${label}](${ORIGIN}/${b.slug}): Winner: ${nameOf(b.winnerId)}. ${firstSentence(b.verdict)}`);
+    const loserId = b.winnerId === b.provider1Id ? b.provider2Id : b.provider1Id;
+    lines.push(
+      `- [${label}](${ORIGIN}/${b.slug}): Winner: ${nameOf(b.winnerId)} (${b.verdictWinnerPoints.join("; ")}). ${nameOf(loserId)} is better for: ${b.verdictLoserPoints.join("; ")}.`
+    );
   }
 
   lines.push("");
