@@ -22,7 +22,16 @@ import { notFound, permanentRedirect } from "next/navigation";
 // "weight-loss"). This single-vertical weight-loss build keeps the maps empty so the
 // article pages render purely from the weight-loss config (src/lib/seeds/weight-loss.ts); add an
 // entry here only with real, verified figures if CTR tuning is ever needed.
-const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+// Search titles that fit Google's ~60-char display (shown without the
+// " | The Top Weight Loss" suffix). Descriptions stay the article's own.
+const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description?: string }> = {
+  "online-glp1-weight-loss-guide": { title: "Online GLP-1 Weight Loss Guide (2026): Cost, Providers, Safety" },
+  "compounded-vs-brand-name-glp1": { title: "Compounded vs Brand-Name GLP-1s: Cost, Safety & Differences" },
+  "semaglutide-vs-tirzepatide": { title: "Semaglutide vs Tirzepatide (2026): Which Should You Start On?" },
+  "real-cost-of-glp1-weight-loss": { title: "Real Cost of Online GLP-1 Weight Loss in 2026: Fine Print" },
+  "glp1-side-effects-first-12-weeks": { title: "GLP-1 Side Effects: What to Expect in Your First 12 Weeks" },
+  "stopping-glp1-maintenance": { title: "Stopping a GLP-1: Weight Regain, Plateaus & Maintenance" },
+};
 
 const ARTICLE_QUICK_ANSWERS: Record<string, string> = {};
 
@@ -34,10 +43,10 @@ export async function articleMetadata(slug: string, ctx: SiteContext): Promise<M
   const url = canonicalUrl(ctx, `/articles/${slug}`);
 
   // CTR override (code-controlled) wins over stored meta for target articles.
-  const override = ctx.vertical === "weight-loss" ? ARTICLE_SEO_OVERRIDES[slug] : undefined;
+  const override = ARTICLE_SEO_OVERRIDES[slug];
 
   return {
-    title: override?.title ?? article.title,
+    title: override?.title ? { absolute: override.title } : article.title,
     description: override?.description ?? article.description,
     robots: ctx.noindex
       ? { index: false, follow: false }

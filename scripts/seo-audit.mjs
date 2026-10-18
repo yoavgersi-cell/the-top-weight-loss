@@ -27,8 +27,19 @@ const err = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
 // ── start the production server ────────────────────────────────────────────
-const server = spawn("npx", ["next", "start", "-p", String(PORT)], { cwd: ROOT, stdio: "ignore" });
-const stop = () => { try { server.kill("SIGTERM"); } catch {} };
+// Refuse to run against a server that is already on the port - it may be
+// serving an older build.
+try {
+  await fetch(BASE + "/robots.txt");
+  console.error(`Port ${PORT} is already in use - stop that server first (it may be an old build).`);
+  process.exit(2);
+} catch {}
+
+// detached: the server gets its own process group, so stop() can kill npx AND
+// the next-server child it spawns (killing only npx leaves a stale server on
+// the port, and the next run would audit an old build).
+const server = spawn("npx", ["next", "start", "-p", String(PORT)], { cwd: ROOT, stdio: "ignore", detached: true });
+const stop = () => { try { process.kill(-server.pid, "SIGTERM"); } catch {} };
 process.on("exit", stop);
 
 async function waitForServer() {
@@ -165,8 +176,8 @@ async function main() {
   }
 }
 
-let crashed = null;
-try { await main(); } catch (e) { crashed = e; err(`audit crashed: ${e.message}`); }
+
+try { await main(); } catch (e) { err(`audit crashed: ${e.message}`); }
 stop();
 
 const report = [
