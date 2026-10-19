@@ -269,7 +269,14 @@ const REVIEWED_2026_10_07: string[] = [
 
 // Pages published and reviewed after the full-site pass, e.g.
 //   "/reviews/new-provider": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-20" },
-const REVIEWED_LATER: Record<string, PageReview> = {};
+const REVIEWED_LATER: Record<string, PageReview> = {
+  // 2026-10-19: DirectMeds and SHED reviews, two new battles and the pillar guide.
+  "/reviews/directmeds": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+  "/reviews/shed": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+  "/medvi-vs-shed": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+  "/directmeds-vs-wellmedr": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+  "/articles/online-glp1-weight-loss-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+};
 
 export const REVIEW_LOG: Record<string, PageReview> = {
   ...Object.fromEntries(
