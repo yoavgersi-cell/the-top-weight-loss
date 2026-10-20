@@ -7,6 +7,716 @@ const DISCLAIMER = `<p><em>This article is general information, not medical advi
 
 export const weightLossArticles: ArticleData[] = [
   {
+    slug: "glp1-dosage-guide",
+    title: "GLP-1 Dosage Guide: Semaglutide and Tirzepatide Doses, Units and Schedules (2026)",
+    description:
+      "Semaglutide and tirzepatide dosage charts in mg and units, Wegovy, Ozempic and Zepbound schedules, missed doses, switching drugs and dose-related side effects.",
+    category: "Guides",
+    readTime: "60 min read",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    heroColor: "#E8F1FD",
+    author: "The Top Weight Loss Editorial Team",
+    keyTakeaways: [
+      "Wegovy (semaglutide) starts at 0.25 mg a week and steps up every 4 weeks through 0.5, 1 and 1.7 mg to a 2.4 mg maintenance dose from week 17; Zepbound (tirzepatide) starts at 2.5 mg and rises in 2.5 mg steps, at least 4 weeks apart, to a maintenance dose of 5, 10 or 15 mg.",
+      "For compounded vials, units on a U-100 insulin syringe = dose in mg / concentration in mg/mL x 100 - so 0.25 mg of 2.5 mg/mL semaglutide is 10 units and 2.5 mg of 10 mg/mL tirzepatide is 25 units. Recalculate whenever the vial concentration changes.",
+      "In SURMOUNT-1, average weight loss at 72 weeks was about 15% on tirzepatide 5 mg, 19.5% on 10 mg and 20.9% on 15 mg; in STEP-1, semaglutide 2.4 mg averaged about 15% at 68 weeks.",
+      "Missed-dose windows differ: take a missed Wegovy dose if the next is more than 2 days away, Ozempic within 5 days, and Zepbound or Mounjaro within 4 days - never double up.",
+    ],
+    sections: [
+      {
+        heading: "What is the right GLP-1 dose for weight loss?",
+        body: `<p><strong>There is no single right GLP-1 dose. Every patient starts at a low dose - 0.25 mg a week for semaglutide or 2.5 mg a week for tirzepatide - and steps up roughly every four weeks until they reach a maintenance dose that works and that they can tolerate. For weight management, the labeled maintenance doses are 2.4 mg of semaglutide (Wegovy) and 5 mg, 10 mg or 15 mg of tirzepatide (Zepbound).</strong></p>
+<p>Dosing is the part of GLP-1 treatment people search for most and understand least. Brand-name pens make it simple: each pen holds one fixed dose, and you click a button. Compounded medication, which most online programs prescribe, comes in a vial at a concentration that differs from pharmacy to pharmacy, so the same 0.5 mg dose might be 20 units on one label and 10 units on another. That gap between milligrams and syringe markings is where most dosing confusion - and most dosing errors - begins.</p>
+<p>This guide is built to close that gap. It covers:</p>
+<ul>
+<li><strong>The official schedules</strong> for Wegovy, Ozempic, Zepbound and Mounjaro, step by step, with the maintenance doses each label allows.</li>
+<li><strong>What the trials showed at each dose,</strong> including the dose-by-dose weight-loss results from SURMOUNT-1.</li>
+<li><strong>Unit conversion charts</strong> for compounded semaglutide and tirzepatide at the concentrations you are most likely to see, plus the one formula that works for any vial.</li>
+<li><strong>The practical questions:</strong> missed doses, changing your injection day, what to do if you took too much, how long a vial lasts, and which syringe to use.</li>
+<li><strong>The judgment calls:</strong> when to increase, when to stay put, how to switch between drugs or from pens to vials, and what maintenance dosing looks like.</li>
+<li><strong>The money side:</strong> which of the online providers we rank charge the same price at every dose, and which do not.</li>
+</ul>
+<p><strong>How to use it.</strong> If you only need a number, jump to the chart for your medication. If you are about to start, read the sections on titration, syringes and common mistakes first - they take ten minutes and prevent the problems that send people to urgent care. Throughout, the figures come from the FDA-approved prescribing information for each brand-name product and from the published STEP and SURMOUNT trials.</p>
+<p>One rule overrides everything in this article: <strong>your prescription and your pharmacy label are the source of truth for your dose.</strong> This guide explains how dosing works so you can follow your clinician's plan with confidence and spot a mistake before it reaches the syringe. It does not replace that plan, and a licensed clinician - not a chart - decides what dose is right for you.</p>`,
+      },
+      {
+        heading: "How does GLP-1 dosing work?",
+        body: `<p><strong>GLP-1 weight-loss medications are dosed in fixed steps, not by body weight. You take one injection a week, the dose rises gradually during the first few months, and once you reach a dose that is effective and tolerable, you stay there for maintenance.</strong></p>
+<p>Four features make GLP-1 dosing different from most medications people are used to:</p>
+<ul>
+<li><strong>Fixed doses for adults.</strong> A 130 lb adult and a 300 lb adult start on the same dose and follow the same schedule. Your clinician adjusts the pace and the final dose based on how you respond and what you tolerate, not on a weight-based calculation.</li>
+<li><strong>Once-weekly timing.</strong> Semaglutide has a half-life of about one week and tirzepatide about five days, which is why a single weekly injection keeps a fairly steady level in your body. The natural GLP-1 hormone, by comparison, lasts only minutes.</li>
+<li><strong>A slow build-up.</strong> Because the drugs last so long, each dose change takes several weeks to settle. Levels reach a steady state after roughly four to five weeks on the same dose. That is the biological reason the labels hold each step for at least four weeks.</li>
+<li><strong>Titration first, maintenance second.</strong> The first phase - titration - exists mainly to let your digestive system adapt. The second phase - maintenance - is where most of the weight loss accumulates. Many people confuse the two and expect full results from a starting dose that was never designed to produce them.</li>
+</ul>
+<p>The long half-life matters in practice, too. It is why a missed dose can usually be taken a few days late, why side effects from a dose increase can take a few days to appear and a week or more to fade, and why an accidental double dose can make you feel unwell for several days rather than a few hours.</p>
+<table>
+<thead><tr><th>Feature</th><th>Semaglutide</th><th>Tirzepatide</th></tr></thead>
+<tbody>
+<tr><td>Brand names</td><td>Wegovy (weight), Ozempic (type 2 diabetes)</td><td>Zepbound (weight), Mounjaro (type 2 diabetes)</td></tr>
+<tr><td>How often</td><td>Once a week</td><td>Once a week</td></tr>
+<tr><td>Approximate half-life</td><td>About 1 week</td><td>About 5 days</td></tr>
+<tr><td>Starting dose</td><td>0.25 mg</td><td>2.5 mg</td></tr>
+<tr><td>Minimum time per step</td><td>4 weeks</td><td>4 weeks</td></tr>
+<tr><td>Weight-management maintenance dose (label)</td><td>2.4 mg (Wegovy)</td><td>5, 10 or 15 mg (Zepbound)</td></tr>
+<tr><td>Highest labeled dose</td><td>2.4 mg (Wegovy); 2 mg (Ozempic)</td><td>15 mg</td></tr>
+</tbody>
+</table>
+<p>Notice that the numbers are not comparable across the two drugs. A 2.5 mg dose of tirzepatide is a starting dose; a 2.4 mg dose of semaglutide is a full maintenance dose. Milligram for milligram, the molecules have different potencies, so never assume a number on one schedule means the same thing on the other.</p>`,
+      },
+      {
+        heading: "Why do GLP-1 doses start low and go up every 4 weeks?",
+        body: `<p><strong>Starting low and increasing slowly - called titration or dose escalation - gives your stomach and gut time to adjust. Nausea, vomiting and diarrhea are most common in the days after a dose increase, and a gradual schedule makes them milder and less likely to force you to stop treatment.</strong></p>
+<p>GLP-1 drugs slow the rate at which food leaves your stomach and act on areas of the brain involved in appetite and nausea. Jumping straight to a full dose overwhelms both systems at once. Stepping up in small increments lets each change settle before the next one arrives.</p>
+<p>What the labels say about the pace:</p>
+<ul>
+<li><strong>Wegovy</strong> increases every four weeks through five steps. If a dose is not tolerated during escalation, the label suggests considering a four-week delay before the next increase.</li>
+<li><strong>Zepbound and Mounjaro</strong> increase in 2.5 mg steps after at least four weeks on the current dose. The label describes four weeks as a minimum, not a deadline.</li>
+<li><strong>Ozempic</strong> moves from 0.25 mg to 0.5 mg after four weeks, then up only if more effect is needed, again after at least four weeks at each dose.</li>
+</ul>
+<p><strong>Four weeks is a floor, not a schedule you must keep.</strong> This is the single most useful idea in GLP-1 dosing. Many clinicians extend a step to six or eight weeks when side effects are still noticeable or when a patient is already losing weight steadily at the current dose. There is no prize for reaching the top dose quickly. The goal is the lowest dose that produces steady progress with side effects you can live with.</p>
+<p>The starting doses themselves are not meant to cause much weight loss. A 0.25 mg semaglutide dose or a 2.5 mg tirzepatide dose is mainly a tolerability step. Some people do notice reduced appetite straight away, and some lose a few pounds in the first month, but if you feel little during the first four weeks, that is expected - it is not a sign the drug is failing.</p>
+<p>Titration is also why your first months of treatment cost the same as later months at many providers but deliver less effect: you are paying for the ramp. That is one reason we compare providers on a full year at maintenance dose, not on the first month. Our guide to <a href="/articles/glp1-side-effects-first-12-weeks">GLP-1 side effects in the first 12 weeks</a> walks through what most people feel at each step.</p>`,
+      },
+      {
+        heading: "What is the Wegovy dosing schedule?",
+        body: `<p><strong>Wegovy (semaglutide) starts at 0.25 mg once a week for four weeks, then rises to 0.5 mg, 1 mg and 1.7 mg, four weeks at each step, before reaching the 2.4 mg maintenance dose in week 17. The label lists 2.4 mg as the recommended maintenance dose and allows 1.7 mg for people who cannot tolerate 2.4 mg.</strong></p>
+<table>
+<thead><tr><th>Weeks</th><th>Weekly dose</th><th>Phase</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>0.25 mg</td><td>Titration</td></tr>
+<tr><td>5-8</td><td>0.5 mg</td><td>Titration</td></tr>
+<tr><td>9-12</td><td>1 mg</td><td>Titration</td></tr>
+<tr><td>13-16</td><td>1.7 mg</td><td>Titration</td></tr>
+<tr><td>17 onward</td><td>2.4 mg (or 1.7 mg if 2.4 mg is not tolerated)</td><td>Maintenance</td></tr>
+</tbody>
+</table>
+<p><strong>How the pens work.</strong> Wegovy comes as single-dose prefilled pens, one pen per weekly injection, usually four pens to a carton. Each strength is a separate pen, so you do not measure anything: you take the pen for your current step, inject, and dispose of it. That simplicity is one of the real advantages of brand-name medication, and it removes the unit-conversion errors that cause problems with compounded vials.</p>
+<p><strong>Who it is approved for.</strong> Wegovy is approved for chronic weight management in adults with a BMI of 30 or more, or 27 or more with at least one weight-related condition, alongside a reduced-calorie diet and increased physical activity. It is also approved for some adolescents aged 12 and older, and for reducing the risk of major cardiovascular events in adults with established heart disease and either obesity or overweight. Adolescent dosing and eligibility should be handled by a clinician experienced with that age group.</p>
+<p><strong>What if 2.4 mg is too much?</strong> Your clinician can keep you at 1.7 mg. In practice, many patients also spend longer than four weeks on one or more of the earlier steps. Staying at a lower dose that you tolerate is better than pushing to 2.4 mg and then stopping because of side effects.</p>
+<p><strong>Where to get it online.</strong> Among the programs we rank, <a href="/reviews/ro">ro</a> prescribes Wegovy and handles insurance checks and prior authorizations, while <a href="/reviews/altrx">altRx</a> lists it at a $1,579 monthly self-pay price on its brand-name shelf. Whether insurance covers it depends entirely on your plan.</p>`,
+      },
+      {
+        heading: "What is the Ozempic dosing schedule?",
+        body: `<p><strong>Ozempic (semaglutide) starts at 0.25 mg once a week for four weeks, then increases to 0.5 mg. If more blood-sugar control is needed, the dose can rise to 1 mg after at least four weeks, and then to a maximum of 2 mg after at least four more weeks. Ozempic is approved for type 2 diabetes, not for weight management.</strong></p>
+<table>
+<thead><tr><th>Weeks</th><th>Weekly dose</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>0.25 mg</td><td>Starting dose; not intended for blood-sugar control</td></tr>
+<tr><td>5 onward</td><td>0.5 mg</td><td>First treatment dose</td></tr>
+<tr><td>After at least 4 weeks at 0.5 mg</td><td>1 mg</td><td>If more glycemic control is needed</td></tr>
+<tr><td>After at least 4 weeks at 1 mg</td><td>2 mg</td><td>Highest labeled dose</td></tr>
+</tbody>
+</table>
+<p><strong>Why Ozempic and Wegovy differ.</strong> They are the same molecule, but they were developed and tested for different jobs. Ozempic's dose range was studied for blood-sugar control in type 2 diabetes and tops out at 2 mg. Wegovy's range was studied for weight management and goes to 2.4 mg. When a clinician prescribes Ozempic for weight loss, that is off-label use - legal and common, but not what the product was approved for, and insurance plans that cover Ozempic for diabetes often will not cover it for weight.</p>
+<p><strong>The multi-dose pen.</strong> Unlike Wegovy, an Ozempic pen holds several doses and has a dial that clicks as you select a dose. Some people try to "count clicks" to take a dose the dial does not offer. The manufacturer does not support this, the pen is not designed for it, and the click count varies between pen strengths. If you need a dose your pen does not provide, ask your clinician for a different pen or plan rather than improvising.</p>
+<p><strong>Online availability.</strong> <a href="/reviews/ro">ro</a> prescribes Ozempic when clinically appropriate, and <a href="/reviews/altrx">altRx</a> and <a href="/reviews/wellmedr">wellmedr</a> list it on their brand shelves at $1,149 and $1,399 a month respectively at self-pay prices. If you have type 2 diabetes, your diabetes medications, blood-sugar targets and existing care team all shape the right dose - see the section on dosing alongside other medications below.</p>`,
+      },
+      {
+        heading: "What is the Zepbound and Mounjaro dosing schedule?",
+        body: `<p><strong>Zepbound and Mounjaro (tirzepatide) both start at 2.5 mg once a week for four weeks, then rise to 5 mg. After that, the dose can increase in 2.5 mg steps - to 7.5, 10, 12.5 and 15 mg - with at least four weeks at each dose. For weight management, the Zepbound label lists 5 mg, 10 mg or 15 mg as maintenance doses, and 15 mg is the maximum.</strong></p>
+<table>
+<thead><tr><th>Weeks (earliest)</th><th>Weekly dose</th><th>Phase</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>2.5 mg</td><td>Starting dose - for tolerability, not maintenance</td></tr>
+<tr><td>5-8</td><td>5 mg</td><td>First possible maintenance dose</td></tr>
+<tr><td>9-12</td><td>7.5 mg</td><td>Titration step</td></tr>
+<tr><td>13-16</td><td>10 mg</td><td>Possible maintenance dose</td></tr>
+<tr><td>17-20</td><td>12.5 mg</td><td>Titration step</td></tr>
+<tr><td>21 onward</td><td>15 mg</td><td>Maximum dose; possible maintenance dose</td></tr>
+</tbody>
+</table>
+<p>The week numbers are the <strong>fastest</strong> possible pace. Unlike Wegovy, where every patient moves through the same five steps toward 2.4 mg, tirzepatide has three different maintenance doses. Many people stop climbing at 5 mg or 10 mg because they are losing weight steadily and see no reason to add side-effect risk. Others continue to 15 mg. Both are normal.</p>
+<p><strong>Zepbound vs Mounjaro.</strong> They contain the same molecule at the same strengths. Zepbound is approved for chronic weight management (and for moderate to severe obstructive sleep apnea in adults with obesity); Mounjaro is approved for type 2 diabetes. As with Ozempic, prescribing Mounjaro for weight loss is off-label, and insurance coverage usually follows the approved use.</p>
+<p><strong>Pens and vials.</strong> Zepbound pens are single-dose autoinjectors - one pen per week, with a hidden needle and no measuring. Eli Lilly also sells Zepbound in single-dose vials through its self-pay pharmacy; each vial holds one dose, which you draw up with a syringe. Check which form you have been prescribed before your first injection, because the technique is different.</p>
+<p><strong>Where to get it online.</strong> <a href="/reviews/ro">ro</a> prescribes Zepbound with insurance support, and <a href="/reviews/altrx">altRx</a> and <a href="/reviews/wellmedr">wellmedr</a> list Zepbound at $1,249 and $1,599 a month on their self-pay brand shelves. Compounded tirzepatide, which follows the same milligram steps in vial form, is covered further down.</p>`,
+      },
+      {
+        heading: "What dose of semaglutide is used for weight loss?",
+        body: `<p><strong>The dose of semaglutide approved and studied for weight management is 2.4 mg once a week, reached after 16 weeks of titration. In the STEP-1 trial, adults taking 2.4 mg lost about 15% of their body weight on average at 68 weeks, compared with about 2.4% on placebo. Lower doses can also produce weight loss, but the evidence suggests less of it.</strong></p>
+<p>Three pieces of trial evidence help put semaglutide doses in context:</p>
+<table>
+<thead><tr><th>Trial</th><th>Population</th><th>Dose</th><th>Average weight loss</th></tr></thead>
+<tbody>
+<tr><td>STEP-1 (NEJM, 2021)</td><td>Adults with obesity or overweight, without diabetes</td><td>2.4 mg weekly</td><td>About 15% at 68 weeks (placebo about 2.4%)</td></tr>
+<tr><td>STEP-2 (Lancet, 2021)</td><td>Adults with overweight or obesity and type 2 diabetes</td><td>2.4 mg vs 1 mg weekly</td><td>About 9.6% on 2.4 mg vs about 7% on 1 mg at 68 weeks (placebo about 3.4%)</td></tr>
+<tr><td>SURMOUNT-5 (NEJM, 2025)</td><td>Adults with obesity, without diabetes</td><td>Maximum tolerated dose, up to 2.4 mg</td><td>About 13.7% at 72 weeks (vs about 20.2% on tirzepatide)</td></tr>
+</tbody>
+</table>
+<p><strong>What STEP-2 tells you about dose.</strong> It is the clearest head-to-head look at two semaglutide doses for weight. The higher dose produced more weight loss, but the lower dose still produced a meaningful amount. People with type 2 diabetes tend to lose less weight on GLP-1s than people without diabetes, so the absolute numbers in STEP-2 are lower than in STEP-1 - the useful signal is the gap between doses.</p>
+<p><strong>How to read this as a patient:</strong></p>
+<ul>
+<li><strong>2.4 mg is the evidence-backed target</strong> if your goal is the full average effect seen in trials.</li>
+<li><strong>1 mg or 1.7 mg is a reasonable place to stay</strong> if you are losing weight steadily there, or if side effects make the next step hard. Less average effect is not the same as no effect.</li>
+<li><strong>Doses below 0.5 mg</strong> are starting and adjustment doses. The major trials did not test them as long-term weight-loss doses.</li>
+<li><strong>Doses above 2.4 mg</strong> are outside the current Wegovy and Ozempic labels for weight management in the US. Higher-dose semaglutide has been studied, but taking more than your prescription - with a compounded vial, for example - is not a safe way to replicate that research.</li>
+</ul>
+<p>Remember that STEP-1 participants also received lifestyle counseling, and that averages hide a wide spread: some people lost far more than 15%, and some lost very little. Your own response at a given dose is the best guide to whether you need more.</p>`,
+      },
+      {
+        heading: "What dose of tirzepatide is used for weight loss?",
+        body: `<p><strong>Tirzepatide is used for weight management at 5 mg, 10 mg or 15 mg once a week. In the SURMOUNT-1 trial, average weight loss at 72 weeks was about 15% on 5 mg, about 19.5% on 10 mg and about 20.9% on 15 mg, compared with about 3.1% on placebo. The jump from 5 mg to 10 mg added more than the jump from 10 mg to 15 mg.</strong></p>
+<p>SURMOUNT-1 is unusually useful for patients because it randomly assigned people to three fixed maintenance doses, so it shows what each dose achieved on its own:</p>
+<table>
+<thead><tr><th>Maintenance dose</th><th>Average weight loss at 72 weeks (SURMOUNT-1)</th><th>Extra loss vs the dose below</th></tr></thead>
+<tbody>
+<tr><td>Placebo</td><td>About 3.1%</td><td>-</td></tr>
+<tr><td>5 mg</td><td>About 15.0%</td><td>About 12 percentage points vs placebo</td></tr>
+<tr><td>10 mg</td><td>About 19.5%</td><td>About 4.5 points vs 5 mg</td></tr>
+<tr><td>15 mg</td><td>About 20.9%</td><td>About 1.4 points vs 10 mg</td></tr>
+</tbody>
+</table>
+<p><strong>What that pattern means.</strong> Most of tirzepatide's effect is already present at 5 mg. Moving to 10 mg added a meaningful amount on average. Moving from 10 mg to 15 mg added a smaller average gain, though some individuals respond much more to the top dose than the average suggests. This is a classic dose-response curve that flattens near the top - and it is the reason many clinicians do not automatically push every patient to 15 mg.</p>
+<p><strong>Putting it in pounds.</strong> For a 230 lb person, the trial averages translate to roughly 35 lb at 5 mg, 45 lb at 10 mg and 48 lb at 15 mg over 72 weeks. Those are illustrations of averages, not predictions - individual results in the trial ranged widely in both directions.</p>
+<p><strong>Who stopped climbing, and why.</strong> In everyday practice, people tend to settle at a dose for one of three reasons: they are losing about as fast as they and their clinician want, side effects at the next step are not worth it, or the cost at their provider rises with the dose. The first two are clinical decisions. The third is avoidable - several providers we rank charge the same price at every dose, as the pricing section below shows.</p>
+<p>For a direct comparison of the two molecules at their highest doses, see our <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> guide, which covers the SURMOUNT-5 head-to-head results and who tends to start on which.</p>`,
+      },
+      {
+        heading: "How does compounded GLP-1 dosing work?",
+        body: `<p><strong>Compounded semaglutide and tirzepatide usually follow the same milligram steps as the brand-name schedules, but they come in multi-dose vials that you measure with a syringe. Your dose in milligrams stays the same; what changes is how many units you draw up, which depends on the concentration printed on your vial.</strong></p>
+<p>Compounded GLP-1s are prepared by licensed compounding pharmacies, are not FDA-approved, and are not reviewed by the FDA for safety, effectiveness or quality before they reach patients. Seven of the eight online programs we rank prescribe compounded medication. Here is how dosing works in that setting:</p>
+<ul>
+<li><strong>The dose is written in milligrams.</strong> Your prescription might say "semaglutide 0.5 mg subcutaneously once weekly." That number is what matters clinically.</li>
+<li><strong>The vial has a concentration.</strong> The label states how many milligrams are in each milliliter, for example 2.5 mg/mL for semaglutide or 10 mg/mL for tirzepatide. Pharmacies use different concentrations, and the same pharmacy may change concentration when your dose rises.</li>
+<li><strong>The syringe measures volume.</strong> Insulin syringes are marked in units, where 100 units equals 1 mL. The number of units you inject is the bridge between your milligram dose and your vial's concentration.</li>
+<li><strong>Instructions should state units explicitly.</strong> A good provider or pharmacy prints both the milligram dose and the matching unit count on the label or in your instructions. If yours only gives one of them, ask for both before you inject.</li>
+</ul>
+<p><strong>Why compounded schedules sometimes differ.</strong> After the FDA declared the semaglutide and tirzepatide shortages resolved, compounding of copies of commercially available drugs became restricted; 503A pharmacies can still prepare medication for an individual patient's documented clinical need, such as a dose or formulation change. In practice, some compounded programs use intermediate doses - for example a step between 1 mg and 1.7 mg semaglutide, or 3.75 mg tirzepatide - or slower escalation. Programs that emphasize individualized dosing, such as <a href="/reviews/trimrx">trimrx</a>, build their model around it. The regulatory picture continues to evolve, so ask your provider how it applies to your prescription.</p>
+<p><strong>Additives do not change the math.</strong> Some compounded products include vitamin B12, glycine or other ingredients. The concentration on the label still refers to the semaglutide or tirzepatide content, so your unit calculation is the same. Those additives were not part of the STEP or SURMOUNT trials; ask your clinician what each adds and why.</p>
+<p><strong>Oral and sublingual compounded formats</strong> - such as <a href="/reviews/embody">embody</a>'s daily oral option or <a href="/reviews/directmeds">DirectMeds</a>' sublingual drops - use their own dosing instructions and are not interchangeable milligram-for-milligram with weekly injections. We cover them separately below. For a wider look at the trade-offs, read <a href="/articles/compounded-vs-brand-name-glp1">compounded vs brand-name GLP-1s</a>.</p>`,
+      },
+      {
+        heading: "How do I convert a GLP-1 dose from mg to units?",
+        body: `<p><strong>Divide your dose in milligrams by your vial's concentration in mg/mL, then multiply by 100. The answer is the number of units to draw on a standard U-100 insulin syringe. For example, a 0.25 mg semaglutide dose from a 2.5 mg/mL vial is 0.25 ÷ 2.5 × 100 = 10 units.</strong></p>
+<p>That one formula works for any GLP-1 vial, any dose and any concentration:</p>
+<p><strong>Units = (dose in mg ÷ concentration in mg/mL) × 100</strong></p>
+<p>It works because a U-100 insulin syringe is calibrated so that 100 units equals exactly 1 mL. Each unit is therefore 0.01 mL. The "units" on the syringe are a measure of liquid volume only - they are not a measure of how much drug you are taking. How much drug is in each unit depends entirely on how concentrated the liquid is.</p>
+<p><strong>Three worked examples:</strong></p>
+<ul>
+<li><strong>Semaglutide 1 mg from a 2.5 mg/mL vial:</strong> 1 ÷ 2.5 = 0.4 mL. 0.4 × 100 = <strong>40 units</strong>.</li>
+<li><strong>Tirzepatide 7.5 mg from a 10 mg/mL vial:</strong> 7.5 ÷ 10 = 0.75 mL. 0.75 × 100 = <strong>75 units</strong>.</li>
+<li><strong>Semaglutide 0.5 mg from a 5 mg/mL vial:</strong> 0.5 ÷ 5 = 0.1 mL. 0.1 × 100 = <strong>10 units</strong>.</li>
+</ul>
+<p>Notice the first and third examples. Both produce a small number of units, but one delivers 1 mg and the other 0.5 mg. If you moved from a 2.5 mg/mL vial to a 5 mg/mL vial and kept drawing the same number of units, you would double your dose without realizing it. This is why the concentration on every new vial must be checked, every time.</p>
+<p><strong>Working backward.</strong> You can also check a dose you have already been told in units. Multiply the units by the concentration and divide by 100: 20 units of a 2.5 mg/mL vial is 20 × 2.5 ÷ 100 = 0.5 mg. If the answer does not match the milligram dose on your prescription, stop and call your provider or pharmacy before injecting.</p>
+<p><strong>A quick sanity check.</strong> With semaglutide, a full 2.4 mg maintenance dose is usually well under 1 mL at common compounded concentrations. With tirzepatide at 10 mg/mL, each 2.5 mg step adds 25 units. If a number you calculate seems far outside those ranges, recheck the concentration - a misread label is a more likely explanation than an unusual prescription.</p>
+<p>The charts in the next two sections do this arithmetic for the concentrations you are most likely to see. Use them as a cross-check, not as a replacement for your label.</p>`,
+      },
+      {
+        heading: "Compounded semaglutide dosage chart: how many units?",
+        body: `<p><strong>On a U-100 insulin syringe, compounded semaglutide at 2.5 mg/mL works out to 10 units for 0.25 mg, 20 units for 0.5 mg, 40 units for 1 mg, 68 units for 1.7 mg and 96 units for 2.4 mg. At other concentrations the unit counts are completely different, so match the column to the concentration on your vial.</strong></p>
+<table>
+<thead><tr><th>Dose (mg)</th><th>1 mg/mL vial</th><th>2.5 mg/mL vial</th><th>5 mg/mL vial</th></tr></thead>
+<tbody>
+<tr><td>0.25 mg</td><td>25 units (0.25 mL)</td><td>10 units (0.10 mL)</td><td>5 units (0.05 mL)</td></tr>
+<tr><td>0.5 mg</td><td>50 units (0.50 mL)</td><td>20 units (0.20 mL)</td><td>10 units (0.10 mL)</td></tr>
+<tr><td>0.75 mg</td><td>75 units (0.75 mL)</td><td>30 units (0.30 mL)</td><td>15 units (0.15 mL)</td></tr>
+<tr><td>1 mg</td><td>100 units (1.00 mL)</td><td>40 units (0.40 mL)</td><td>20 units (0.20 mL)</td></tr>
+<tr><td>1.25 mg</td><td>125 units (1.25 mL)*</td><td>50 units (0.50 mL)</td><td>25 units (0.25 mL)</td></tr>
+<tr><td>1.7 mg</td><td>170 units (1.70 mL)*</td><td>68 units (0.68 mL)</td><td>34 units (0.34 mL)</td></tr>
+<tr><td>2 mg</td><td>200 units (2.00 mL)*</td><td>80 units (0.80 mL)</td><td>40 units (0.40 mL)</td></tr>
+<tr><td>2.4 mg</td><td>240 units (2.40 mL)*</td><td>96 units (0.96 mL)</td><td>48 units (0.48 mL)</td></tr>
+</tbody>
+</table>
+<p>*More than a standard 1 mL syringe holds. Higher-dose patients are normally switched to a more concentrated vial rather than asked to inject more than 1 mL; if your instructions would require more than one full syringe, confirm with your pharmacy.</p>
+<p><strong>How to use the chart:</strong></p>
+<ol>
+<li>Find the concentration on your vial label - it is usually written as "mg/mL" next to the drug name. Some labels also state the total amount in the vial, for example "5 mg/2 mL", which is also 2.5 mg/mL.</li>
+<li>Find your prescribed milligram dose in the left column.</li>
+<li>Read across to your concentration. That is your unit count.</li>
+<li>Compare it with the unit count in your provider's instructions. The two should match exactly.</li>
+</ol>
+<p><strong>Doses not in the chart.</strong> If your clinician has prescribed an intermediate dose, use the formula: units = dose ÷ concentration × 100. For instance, 1.5 mg at 2.5 mg/mL is 60 units.</p>
+<p><strong>Concentrations not in the chart.</strong> Pharmacies use other strengths too. The same formula applies to all of them, and if your vial lists a concentration you have not seen before, it is worth a quick message to your provider to confirm the unit count in writing.</p>
+<p><strong>Watch the label of every refill.</strong> When your dose rises, some pharmacies send a higher-concentration vial so the volume stays small. That is sensible - but it means the unit count you memorized for the old vial is now wrong. The safest habit is to treat every new vial as a new calculation.</p>`,
+      },
+      {
+        heading: "Compounded tirzepatide dosage chart: how many units?",
+        body: `<p><strong>On a U-100 insulin syringe, compounded tirzepatide at 10 mg/mL works out to 25 units for 2.5 mg, 50 units for 5 mg, 75 units for 7.5 mg, 100 units for 10 mg, 125 units for 12.5 mg and 150 units for 15 mg. Higher doses are usually supplied at higher concentrations so they fit in one syringe.</strong></p>
+<table>
+<thead><tr><th>Dose (mg)</th><th>5 mg/mL vial</th><th>10 mg/mL vial</th><th>20 mg/mL vial</th></tr></thead>
+<tbody>
+<tr><td>2.5 mg</td><td>50 units (0.50 mL)</td><td>25 units (0.25 mL)</td><td>12.5 units (0.125 mL)</td></tr>
+<tr><td>3.75 mg</td><td>75 units (0.75 mL)</td><td>37.5 units (0.375 mL)</td><td>18.75 units (0.1875 mL)</td></tr>
+<tr><td>5 mg</td><td>100 units (1.00 mL)</td><td>50 units (0.50 mL)</td><td>25 units (0.25 mL)</td></tr>
+<tr><td>7.5 mg</td><td>150 units (1.50 mL)*</td><td>75 units (0.75 mL)</td><td>37.5 units (0.375 mL)</td></tr>
+<tr><td>10 mg</td><td>200 units (2.00 mL)*</td><td>100 units (1.00 mL)</td><td>50 units (0.50 mL)</td></tr>
+<tr><td>12.5 mg</td><td>250 units (2.50 mL)*</td><td>125 units (1.25 mL)*</td><td>62.5 units (0.625 mL)</td></tr>
+<tr><td>15 mg</td><td>300 units (3.00 mL)*</td><td>150 units (1.50 mL)*</td><td>75 units (0.75 mL)</td></tr>
+</tbody>
+</table>
+<p>*More than a standard 1 mL syringe holds - ask whether a more concentrated vial is appropriate for your dose.</p>
+<p><strong>Half units and awkward numbers.</strong> Some combinations produce half units, such as 12.5 units or 37.5 units. Many 0.3 mL insulin syringes have half-unit markings; most larger syringes do not. If your dose lands between markings, ask your pharmacy or provider how they want you to measure it rather than rounding on your own. A small rounding difference at a low dose matters less than consistent technique, but the decision belongs to your care team.</p>
+<p><strong>Why tirzepatide volumes are larger.</strong> Tirzepatide doses are measured in whole milligrams (2.5 to 15 mg) rather than fractions of a milligram, so the liquid volumes are bigger than with semaglutide at the same concentration. That is why higher concentrations are common at the top of the tirzepatide schedule.</p>
+<p><strong>Do not reuse a semaglutide chart for tirzepatide.</strong> People who switch drugs sometimes keep a mental model of "about 20 units" from semaglutide. A 2.5 mg tirzepatide starting dose at 10 mg/mL is 25 units, but at 20 mg/mL it is 12.5 units, and at 5 mg/mL it is 50. There is no shortcut that survives a change of drug or concentration - use the formula every time.</p>
+<p>As with semaglutide, check every new vial. A change from 10 mg/mL to 20 mg/mL halves the number of units for the same dose; keeping the old number would double what you inject.</p>`,
+      },
+      {
+        heading: "Which syringe should I use for compounded GLP-1s?",
+        body: `<p><strong>Use the U-100 insulin syringes your pharmacy or provider supplies, and choose the smallest size that holds your full dose - usually 0.3 mL (30 units), 0.5 mL (50 units) or 1 mL (100 units). Smaller syringes have finer markings, which makes small doses more accurate. Never use a U-40 or U-500 syringe with a unit-based GLP-1 dose.</strong></p>
+<table>
+<thead><tr><th>Syringe size</th><th>Holds</th><th>Typical markings</th><th>Good for</th></tr></thead>
+<tbody>
+<tr><td>0.3 mL</td><td>30 units</td><td>1-unit marks; many have half-unit marks</td><td>Small doses, such as starting semaglutide doses</td></tr>
+<tr><td>0.5 mL</td><td>50 units</td><td>1-unit marks</td><td>Mid-range doses</td></tr>
+<tr><td>1 mL</td><td>100 units</td><td>Usually 2-unit marks</td><td>Doses above 50 units</td></tr>
+</tbody>
+</table>
+<p><strong>Why the syringe size matters.</strong> On a 1 mL syringe, a 5-unit dose is a tiny sliver of liquid between widely spaced marks, and a small misreading can change the dose by a large percentage. On a 0.3 mL syringe, the same 5 units fills a much longer stretch of the barrel. The FDA has specifically noted cases where patients were given syringes much larger than their dose required, which made accurate measurement harder.</p>
+<p><strong>The U-100 rule.</strong> "U-100" means the syringe is calibrated for liquid where 100 units equal 1 mL. All the unit conversions in this guide - and in nearly every compounded GLP-1 instruction sheet - assume a U-100 syringe. U-40 syringes, sold for some veterinary insulins, and U-500 syringes, designed for concentrated insulin, have different unit scales and would produce the wrong dose.</p>
+<p><strong>Syringes marked in mL.</strong> Some instructions use mL instead of units, with syringes marked in tenths or hundredths of a milliliter. That is fine if the instructions and the syringe use the same scale. Problems happen when they do not - for example, being told "0.2" and drawing 2 units instead of 0.2 mL (20 units). If your syringe and your instructions use different measures, ask before injecting.</p>
+<p><strong>Needles.</strong> Subcutaneous injections need only short, fine needles, and insulin syringes come with them attached. Use each syringe once, never share it, and dispose of it in an FDA-cleared sharps container or a heavy-duty plastic container as your local rules allow. Most online programs include syringes and alcohol swabs with each shipment; check what is in the box before your first dose so you are not left without the right size.</p>`,
+      },
+      {
+        heading: "What are the most common GLP-1 dosing mistakes?",
+        body: `<p><strong>The most common GLP-1 dosing errors involve compounded vials: confusing units with milliliters, keeping the old unit count after the concentration changes, using a syringe that is too large to measure accurately, and doubling up after a missed dose. In 2024 the FDA warned that some patients had injected five to 20 times their intended dose, and some needed hospital care.</strong></p>
+<p>The FDA alert, issued in July 2024, described dosing errors with compounded semaglutide caused both by patients measuring incorrectly and by health care professionals miscalculating doses. Most of the errors trace back to a handful of avoidable situations:</p>
+<table>
+<thead><tr><th>Mistake</th><th>What happens</th><th>How to prevent it</th></tr></thead>
+<tbody>
+<tr><td>Reading "units" as "mL" (or the reverse)</td><td>Drawing 0.2 mL instead of 0.2 units - or 20 mL in a large syringe - can multiply the dose many times</td><td>Confirm whether your instructions use units or mL, and use a syringe marked the same way</td></tr>
+<tr><td>Keeping the old unit count on a new vial</td><td>A higher-concentration refill doubles or triples the dose</td><td>Recalculate with the formula every time the label changes</td></tr>
+<tr><td>Using a large syringe for a small dose</td><td>Small misreadings become large percentage errors</td><td>Use the smallest U-100 syringe that holds your dose</td></tr>
+<tr><td>Escalating early or skipping a step</td><td>More nausea, vomiting and dehydration risk</td><td>Follow the written schedule; never move up without your clinician's sign-off</td></tr>
+<tr><td>Taking a missed dose too late, then the next on time</td><td>Two doses close together</td><td>Follow the missed-dose window for your drug, described below</td></tr>
+<tr><td>Injecting twice in one week by accident</td><td>A double dose with a long-lasting drug</td><td>Log each injection - a phone reminder or a note on the box</td></tr>
+<tr><td>Counting clicks on a brand-name pen</td><td>Unreliable, unapproved partial doses</td><td>Ask for a pen or plan that provides your dose</td></tr>
+</tbody>
+</table>
+<p><strong>Who is responsible for getting it right?</strong> Everyone in the chain. Your clinician writes the milligram dose; the pharmacy chooses the concentration and should print clear instructions; you measure and inject. A good online provider closes the loop by stating the unit count in writing and answering dosing questions quickly. That is a fair question to ask before you sign up, and one of the reasons we look at messaging access when we rank programs.</p>
+<p><strong>Signs you may have taken too much.</strong> Severe nausea or vomiting, abdominal pain, inability to keep fluids down, dizziness, or - especially if you take insulin or a sulfonylurea - symptoms of low blood sugar. The next sections explain what to do. If symptoms are severe, seek urgent care rather than waiting to see if they pass.</p>
+<p>A simple routine prevents almost all of these errors: read the label, do the calculation, compare it with your instructions, use the right syringe, and write down the date and dose after each injection.</p>`,
+      },
+      {
+        heading: "How many doses are in a GLP-1 vial, and how long does it last?",
+        body: `<p><strong>Divide the total milligrams in the vial by your weekly dose. A 2 mL vial of semaglutide at 2.5 mg/mL contains 5 mg - enough for 20 doses at 0.25 mg, 10 at 0.5 mg, or 5 at 1 mg. But a vial also has a beyond-use date set by the pharmacy, and you should not use it after that date, even if liquid is left.</strong></p>
+<p>Two different limits decide how long a vial lasts: the amount of medication inside, and how long the pharmacy says it stays usable once prepared or opened.</p>
+<p><strong>1. How many doses it contains.</strong> Total milligrams = concentration × volume. Then divide by your dose.</p>
+<table>
+<thead><tr><th>Vial</th><th>Total drug</th><th>Doses at a low dose</th><th>Doses at a mid dose</th><th>Doses at a high dose</th></tr></thead>
+<tbody>
+<tr><td>Semaglutide 2.5 mg/mL, 2 mL</td><td>5 mg</td><td>20 at 0.25 mg</td><td>5 at 1 mg</td><td>2 at 2.4 mg (with 0.2 mg left over)</td></tr>
+<tr><td>Semaglutide 5 mg/mL, 2 mL</td><td>10 mg</td><td>20 at 0.5 mg</td><td>10 at 1 mg</td><td>4 at 2.4 mg (with 0.4 mg left over)</td></tr>
+<tr><td>Tirzepatide 10 mg/mL, 2 mL</td><td>20 mg</td><td>8 at 2.5 mg</td><td>4 at 5 mg</td><td>2 at 10 mg</td></tr>
+<tr><td>Tirzepatide 20 mg/mL, 2 mL</td><td>40 mg</td><td>8 at 5 mg</td><td>4 at 10 mg</td><td>2 at 15 mg (with 10 mg left over)</td></tr>
+</tbody>
+</table>
+<p>These are illustrations - your pharmacy may use other volumes. A vial may contain a small extra amount (overfill), and a little liquid always stays in the needle and the bottom of the vial, so do not plan to extract every last drop.</p>
+<p><strong>2. The beyond-use date.</strong> Compounded medications carry a beyond-use date (BUD) printed on the label, which is the pharmacy's limit for safe use. It reflects sterility and stability, not just how much liquid remains. If you are on a low dose and your vial technically holds 20 weeks of medication, the BUD will usually end its life long before you finish it. Discard any remaining medication after that date and ask for a refill rather than stretching it.</p>
+<p><strong>3. Storage changes the clock.</strong> Most injectable GLP-1s - compounded and brand-name - should be refrigerated, kept away from light and never frozen. Brand-name pens have specific room-temperature allowances in their labels (for example, Wegovy pens may be kept between 46°F and 86°F for up to 28 days, and Zepbound pens unrefrigerated up to 86°F for up to 21 days). Compounded vials follow the pharmacy's instructions, which can be stricter. A vial left in a hot car or frozen in transit should not be used; contact your provider for a replacement.</p>
+<p><strong>Plan the refill before you need it.</strong> When you know your dose and your vial size, you can count the weeks to your next order. Ask your provider whether the next shipment will be a different concentration, and put the reorder date in your calendar so you do not skip a week waiting for a package. Our <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers shipping and storage across the programs we rank.</p>`,
+      },
+      {
+        heading: "What should I check on my GLP-1 label before every injection?",
+        body: `<p><strong>Check five things every time: the drug name, the concentration in mg/mL, your prescribed dose in milligrams, the matching unit count, and the beyond-use or expiration date. If any of those has changed since your last vial, or does not match your instructions, stop and confirm with your provider before injecting.</strong></p>
+<p>It takes less than a minute and catches nearly every dosing error described in this guide. A practical checklist:</p>
+<ol>
+<li><strong>Drug name.</strong> Semaglutide or tirzepatide? If you have recently switched medications, make sure the vial in your hand is the new one.</li>
+<li><strong>Concentration.</strong> Look for mg/mL. If the label shows total milligrams and volume (for example "20 mg/2 mL"), divide to get mg/mL (here, 10 mg/mL).</li>
+<li><strong>Your dose this week.</strong> Are you still on the same step, or does your schedule move up this week? Escalation dates are easy to forget.</li>
+<li><strong>Units to draw.</strong> Calculate: dose ÷ concentration × 100. Compare with the number in your written instructions. They must match.</li>
+<li><strong>Dates.</strong> Is the vial within its beyond-use date? For a brand-name pen, is it within its expiration date and room-temperature allowance?</li>
+<li><strong>Appearance.</strong> Follow the pharmacy's description of how the medication should look. Do not use it if it looks different from usual - for example cloudy, discolored or containing particles - and ask for a replacement.</li>
+<li><strong>Syringe.</strong> U-100 insulin syringe, the right size for your dose, new and unopened.</li>
+</ol>
+<p><strong>Keep a dosing log.</strong> Write the date, dose in milligrams, units drawn, injection site and any side effects. It takes seconds and gives your clinician exactly what they need to judge whether to increase, hold or reduce your dose at your next check-in. It also stops the "did I take it this week?" doubt that leads to accidental double doses.</p>
+<p><strong>Know who to ask.</strong> Before your first vial arrives, find out how to reach your provider with a dosing question and how fast they usually reply. Programs with unlimited messaging or check-ins, such as <a href="/reviews/trimrx">trimrx</a>, <a href="/reviews/ro">ro</a> and <a href="/reviews/embody">embody</a>, make this easier. The compounding pharmacy that filled the prescription can also answer label questions - its phone number is normally on the label.</p>`,
+      },
+      {
+        heading: "How do I inject a GLP-1 dose?",
+        body: `<p><strong>GLP-1s are injected just under the skin (subcutaneously), usually in the abdomen, thigh or upper arm. With a brand-name pen, you press it against the skin and the device delivers the dose. With a compounded vial, you draw the prescribed number of units into an insulin syringe and inject it into a pinch of skin. Your provider's written instructions always come first.</strong></p>
+<p>The steps below are a general overview to help you follow those instructions, not a substitute for them. If you have never injected before, ask your provider for a video walkthrough or a live demonstration during a telehealth visit.</p>
+<p><strong>Compounded vial and syringe - the general sequence:</strong></p>
+<ol>
+<li>Wash your hands. Check the label (drug, concentration, date) and calculate your units.</li>
+<li>If the vial is refrigerated, follow the pharmacy's guidance on letting it sit briefly at room temperature. Do not shake it hard unless the instructions say to.</li>
+<li>Wipe the rubber stopper with an alcohol swab and let it dry.</li>
+<li>Pull the syringe plunger back to your dose mark to fill the syringe with air, insert the needle into the vial and push the air in. This equalizes pressure and makes drawing easier.</li>
+<li>Turn the vial upside down and slowly pull the plunger past your dose, then push back to the exact line. Tap out any large air bubbles and re-check the number.</li>
+<li>Clean the injection site, pinch a fold of skin, insert the needle at the angle your instructions describe, and push the plunger steadily.</li>
+<li>Withdraw the needle, dispose of the syringe in a sharps container, and log the dose.</li>
+</ol>
+<p><strong>Brand-name pens.</strong> Wegovy and Zepbound single-dose pens are designed for people who have never injected. You remove the cap, place the pen flat against the skin, press or unlock it, and wait for the click or the indicator that the dose is complete. Ozempic's multi-dose pen requires attaching a new needle each time and dialing the dose. Each brand includes an instructions-for-use leaflet with diagrams, and the manufacturers publish videos.</p>
+<p><strong>Common worries:</strong></p>
+<ul>
+<li><strong>Does it hurt?</strong> The needles are short and thin, and most people describe the injection as a brief pinch. Injecting slowly and letting an alcohol swab dry first can reduce stinging.</li>
+<li><strong>A small bump or redness at the site</strong> is common and usually fades within a day or two. Rotate sites to reduce it.</li>
+<li><strong>A drop of liquid on the skin afterward</strong> is usually a tiny amount. Do not inject again to "make up" for it; hold the needle in place for a few seconds next time.</li>
+<li><strong>Bleeding</strong> is usually a single drop. Press gently with a cotton ball; do not rub.</li>
+</ul>
+<p>Get medical advice for an injection site that becomes increasingly painful, hot, swollen or red over several days, or for any sign of an allergic reaction such as rash, swelling of the face or throat, or difficulty breathing - the last of these is an emergency.</p>`,
+      },
+      {
+        heading: "Where should I inject a GLP-1, and does the site matter?",
+        body: `<p><strong>You can inject a GLP-1 into the stomach area (staying about 2 inches from the belly button), the front of the thighs or the back of the upper arms. The brand-name labels allow all three. What matters most is rotating between spots so you do not inject into the same patch of skin every week.</strong></p>
+<table>
+<thead><tr><th>Site</th><th>Where exactly</th><th>Practical notes</th></tr></thead>
+<tbody>
+<tr><td>Abdomen</td><td>Anywhere on the stomach area at least 2 inches from the navel</td><td>Easiest to reach and see; the most popular choice</td></tr>
+<tr><td>Thigh</td><td>Front or outer middle of the thigh</td><td>Easy to reach while seated; some people find it less sensitive</td></tr>
+<tr><td>Upper arm</td><td>Back of the upper arm</td><td>Hard to do alone; often easier with someone helping</td></tr>
+</tbody>
+</table>
+<p><strong>Rotation.</strong> Using a slightly different spot each week - even within the same area - reduces the chance of bruising, tenderness and lumps of fatty tissue under the skin. A simple system is to divide your abdomen into four quarters and work clockwise, one quarter per week, or to alternate abdomen and thigh.</p>
+<p><strong>Places to avoid:</strong> skin that is bruised, tender, scarred, hard, red or broken; stretch marks and moles; and the 2-inch circle around your navel. Do not inject into a muscle or a vein - GLP-1s are designed for the fatty layer under the skin.</p>
+<p><strong>Does the site change how well it works?</strong> The prescribing information for the brand-name products allows any of the three sites without changing the dose. Some people have strong personal preferences based on comfort, and that is a perfectly good reason to choose one site over another. What you should not do is change sites as a strategy to "feel it more" or to reduce side effects - there is no good evidence for either, and the dose is what drives the effect.</p>
+<p><strong>Injecting with other medications.</strong> If you also inject insulin, the labels say you can inject both in the same body region but not right next to each other. Never mix a GLP-1 with insulin in the same syringe.</p>`,
+      },
+      {
+        heading: "What day and time should I take my weekly GLP-1 dose?",
+        body: `<p><strong>Choose one day of the week and inject on that day each week, at any time of day, with or without food. You can change your injection day if needed, as long as the doses stay far enough apart: at least 2 days (48 hours) between doses for Wegovy and Ozempic, and at least 3 days (72 hours) for Zepbound and Mounjaro.</strong></p>
+<p>Weekly GLP-1s are forgiving about timing because they last so long. Morning or evening makes no meaningful difference to how well they work, and you do not need to plan your injection around meals. Consistency matters more than the clock: the same day each week keeps levels steady and makes a missed dose less likely.</p>
+<p><strong>Choosing your day.</strong> Some practical considerations people use:</p>
+<ul>
+<li><strong>Side-effect timing.</strong> Many people notice the most appetite suppression or nausea one to three days after injecting, particularly after a dose increase. If that is true for you, choose a day that puts those days somewhere quieter in your week - for example injecting on Thursday evening so the strongest effects fall on the weekend, or the reverse if weekends are when you eat socially.</li>
+<li><strong>Routine anchors.</strong> Pair the injection with something you already do weekly - a Sunday planning session, a recurring call, the day you take out recycling - so it becomes automatic.</li>
+<li><strong>Delivery timing.</strong> If your provider ships every four weeks, an injection day a few days after your usual delivery date gives you a buffer.</li>
+</ul>
+<p><strong>Changing your day.</strong> Travel, shifts or events sometimes make your usual day impractical. The labels allow you to move your injection day permanently, as long as you respect the minimum gap:</p>
+<table>
+<thead><tr><th>Medication</th><th>Minimum time between two doses when changing day</th></tr></thead>
+<tbody>
+<tr><td>Wegovy (semaglutide)</td><td>At least 2 days (more than 48 hours)</td></tr>
+<tr><td>Ozempic (semaglutide)</td><td>At least 2 days (more than 48 hours)</td></tr>
+<tr><td>Zepbound (tirzepatide)</td><td>At least 3 days (72 hours)</td></tr>
+<tr><td>Mounjaro (tirzepatide)</td><td>At least 3 days (72 hours)</td></tr>
+</tbody>
+</table>
+<p>Compounded semaglutide and tirzepatide are generally handled the same way as their brand-name equivalents, but ask your provider to confirm, since compounded instructions can differ. After a change, simply continue weekly on the new day.</p>
+<p><strong>Travel across time zones</strong> rarely matters for a weekly drug - take it on the same calendar day at local time. Keep pens and vials in your carry-on with a cool pack if needed, because checked luggage can get too hot or freeze in the hold.</p>`,
+      },
+      {
+        heading: "What should I do if I miss a GLP-1 dose?",
+        body: `<p><strong>It depends on the medication and how late you are. For Wegovy, take the missed dose if your next scheduled dose is more than 2 days away; otherwise skip it. For Ozempic, take it within 5 days of the missed day. For Zepbound and Mounjaro, take it within 4 days. If you are past the window, skip the missed dose and take the next one on your usual day. Never take two doses to catch up.</strong></p>
+<table>
+<thead><tr><th>Medication</th><th>Take the missed dose if...</th><th>Otherwise</th></tr></thead>
+<tbody>
+<tr><td>Wegovy (semaglutide)</td><td>The next scheduled dose is more than 2 days (48 hours) away</td><td>Skip it; resume on your regular day</td></tr>
+<tr><td>Ozempic (semaglutide)</td><td>No more than 5 days have passed since the missed dose</td><td>Skip it; resume on your regular day</td></tr>
+<tr><td>Zepbound (tirzepatide)</td><td>No more than 4 days (96 hours) have passed since the missed dose</td><td>Skip it; resume on your regular day</td></tr>
+<tr><td>Mounjaro (tirzepatide)</td><td>No more than 4 days (96 hours) have passed since the missed dose</td><td>Skip it; resume on your regular day</td></tr>
+</tbody>
+</table>
+<p><strong>Two ways to think about the same rule.</strong> The Wegovy label counts forward to the next dose; the Ozempic, Zepbound and Mounjaro labels count from the missed day. They end up in a similar place: if you are only a few days late, take the dose; if you are close to the next one, let it go.</p>
+<p><strong>A worked example.</strong> Say you normally inject on Monday and remember on Thursday. For Zepbound, three days have passed, which is within the 4-day window - take it Thursday, then go back to Monday the following week (Thursday to Monday is four days, above the 3-day minimum). For Wegovy, your next dose is four days away, so you can take it Thursday too. If you remembered on Saturday instead, five days would have passed: too late for Zepbound and Wegovy (the next dose is only two days away), so you would skip and inject on Monday as usual.</p>
+<p><strong>Compounded medications.</strong> Providers usually apply the same windows as the brand-name equivalent, but confirm with yours. If your program has a simple rule written in your instructions, follow it.</p>
+<p><strong>What a single missed dose does.</strong> Because these drugs have long half-lives, one missed week does not mean your levels drop to zero. Some people notice appetite returning toward the end of a missed week. Weight loss usually resumes once you restart. The bigger risk is not the gap - it is trying to make it up with an extra dose.</p>`,
+      },
+      {
+        heading: "What if I missed two or more weeks of GLP-1 doses?",
+        body: `<p><strong>If you have missed two or more weekly doses in a row, contact your clinician before restarting. Your body may have lost some of its tolerance to the medication, and restarting at your previous full dose can bring back strong nausea and vomiting. The Wegovy label says that after more than two consecutive missed weeks, treatment should be restarted as clinically appropriate.</strong></p>
+<p>People pause treatment for all sorts of reasons - a delayed shipment, illness, a holiday, cost, or a surgery. The return is where problems happen, because patients reasonably assume they can pick up where they left off.</p>
+<p><strong>What clinicians typically consider:</strong></p>
+<ul>
+<li><strong>How long the break was.</strong> After one missed dose, most people simply resume. After two weeks, some clinicians resume at the same dose and others step down. After several weeks off, many restart at a lower dose, sometimes the starting dose, and re-titrate more quickly than the first time.</li>
+<li><strong>Which dose you were on.</strong> Restarting at 0.5 mg semaglutide after a break carries less risk than restarting at 2.4 mg. Restarting at 2.5 mg tirzepatide is gentler than restarting at 15 mg.</li>
+<li><strong>How you tolerated the medication before.</strong> If you had significant side effects during your first titration, a more cautious restart makes sense.</li>
+<li><strong>Why you stopped.</strong> If the break was because of severe side effects, pancreatitis symptoms, gallbladder problems or pregnancy, restarting at all is a clinical decision, not a scheduling one.</li>
+</ul>
+<p><strong>Avoid the gap in the first place.</strong> The most common avoidable cause of missed doses with online programs is a refill that arrives late. A few habits help:</p>
+<ul>
+<li>Reorder or confirm your refill at least a week before your last dose.</li>
+<li>Know your provider's shipping time. Among the programs we rank, <a href="/reviews/embody">embody</a> and <a href="/reviews/directmeds">DirectMeds</a> publish 1-2 day delivery, <a href="/reviews/trimrx">trimrx</a> often delivers next-day, <a href="/reviews/wellmedr">wellmedr</a> takes 3-5 business days and <a href="/reviews/altrx">altRx</a> takes 5-7 days.</li>
+<li>Ask whether your next shipment requires a check-in or a dose approval, and complete it early.</li>
+<li>If you are switching providers, plan the overlap so the new medication arrives before the old one runs out.</li>
+</ul>
+<p>If a pause is caused by cost, talk to your clinician before simply stopping; there may be cheaper options at a similar dose, as the pricing section below shows. Our guide to <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1</a> covers what happens to weight and appetite during longer breaks.</p>`,
+      },
+      {
+        heading: "What should I do if I took too much of a GLP-1?",
+        body: `<p><strong>If you injected more than your prescribed dose, contact your provider or call Poison Control at 1-800-222-1222 right away, even if you feel fine - symptoms can take hours to appear and may last for days. Go to an emergency department or call 911 if you have severe vomiting, cannot keep fluids down, have severe abdominal pain, or feel faint or confused.</strong></p>
+<p>Overdoses with weekly GLP-1s usually cause intense versions of the familiar side effects: nausea, vomiting, diarrhea, abdominal pain and a complete loss of appetite. The main dangers are dehydration - which can stress the kidneys - and, in people who also take insulin or a sulfonylurea, low blood sugar. Because the drugs last about a week in the body, the effect does not wear off overnight.</p>
+<p><strong>What to do, in order:</strong></p>
+<ol>
+<li><strong>Work out what you took.</strong> Note the concentration, the units you drew and when. Calculate the milligrams: units × concentration ÷ 100. This is what Poison Control or your clinician will ask.</li>
+<li><strong>Call for advice.</strong> Poison Control (1-800-222-1222 in the US) is free and available around the clock, and can tell you whether home monitoring is reasonable or whether you need to be seen. Also message or call your prescribing provider.</li>
+<li><strong>Do not take your next dose</strong> until a clinician tells you when and at what dose to resume.</li>
+<li><strong>Hydrate in small amounts.</strong> Frequent sips of water or an electrolyte drink are easier to keep down than large glasses.</li>
+<li><strong>Watch for warning signs:</strong> repeated vomiting, inability to keep fluids down for several hours, very little urine, dizziness when standing, severe or persistent abdominal pain (especially pain spreading to the back), or confusion, shakiness and sweating if you take diabetes medication. Any of these warrants urgent care.</li>
+</ol>
+<p><strong>Why this happens.</strong> The FDA's 2024 alert on compounded semaglutide described exactly these situations: patients drawing up the wrong volume, confusing units and milliliters, or receiving instructions with a miscalculated dose. If your overdose was caused by unclear instructions or a label you found confusing, tell your provider so they can fix it for you and for other patients.</p>
+<p><strong>A small over-measurement</strong> - say a unit or two at a low dose - is different from a large error and is unlikely to be dangerous. It is still worth noting in your log and mentioning to your provider, especially if it happened because your syringe is too large for your dose.</p>`,
+      },
+      {
+        heading: "When should I increase my GLP-1 dose?",
+        body: `<p><strong>Increase your dose only when your clinician approves it, and usually only when three things are true: you have been on the current dose for at least four weeks, side effects are mild or settled, and you are not already losing weight at a pace you and your clinician are happy with. If you are still losing steadily, there is often no need to go up yet.</strong></p>
+<p>The labeled schedules show when a dose increase becomes possible. They do not say an increase is required on that date. Good clinicians use your actual response to decide. Signals that an increase may make sense:</p>
+<ul>
+<li><strong>Appetite effect has faded.</strong> Hunger and "food noise" are returning toward pre-treatment levels a few days after each injection.</li>
+<li><strong>Weight has stalled for several weeks</strong> despite consistent dosing and no major change in eating or activity. A week or two of stable weight is normal; a month or more may be a signal.</li>
+<li><strong>Side effects are minimal.</strong> You are eating enough protein, staying hydrated and not struggling with nausea, constipation or fatigue at the current dose.</li>
+<li><strong>You have not reached the maintenance dose yet,</strong> and your clinician wants to move toward the dose with the strongest evidence behind it.</li>
+</ul>
+<p>Signals that it is better to wait:</p>
+<ul>
+<li><strong>You are still losing weight steadily.</strong> Many clinicians consider an average of roughly 0.5% to 1% of body weight a week reasonable progress during active weight loss. If you are in that range, more drug is unlikely to add much except side effects.</li>
+<li><strong>Side effects are still noticeable</strong> after four weeks on the current dose.</li>
+<li><strong>You are eating very little</strong> - skipping meals because you have no appetite at all, or struggling to reach adequate protein. This is a sign the dose may already be high enough for you.</li>
+<li><strong>You have had a recent illness, dehydration or a stomach bug.</strong> Let it resolve first.</li>
+</ul>
+<p><strong>How online providers handle increases.</strong> Most programs ask you to complete a short check-in before each dose change, reporting your weight, side effects and appetite. Answer honestly - understating side effects to get a higher dose sooner backfires. Programs that offer unlimited provider check-ins, such as <a href="/reviews/trimrx">trimrx</a>, make it easier to adjust between scheduled reviews. If you feel pushed to escalate faster than you want, ask to stay where you are; that request is clinically reasonable at any program.</p>`,
+      },
+      {
+        heading: "Can I stay on a lower GLP-1 dose?",
+        body: `<p><strong>Yes. Many people stay on a lower dose for months, or permanently, because it works for them and the next step adds side effects without much extra benefit. The trials suggest lower doses produce less weight loss on average, but if you are losing steadily and feeling well, a lower dose can be the right dose.</strong></p>
+<p>The idea that everyone must reach 2.4 mg semaglutide or 15 mg tirzepatide comes from how the trials were designed, not from a rule that higher is always better. The evidence actually supports a more flexible approach:</p>
+<ul>
+<li><strong>Tirzepatide has three labeled maintenance doses.</strong> In SURMOUNT-1, 5 mg produced about 15% average weight loss - more than semaglutide 2.4 mg did in STEP-1. Staying at 5 mg or 10 mg is an approved strategy, not a compromise.</li>
+<li><strong>Wegovy allows 1.7 mg maintenance</strong> for people who do not tolerate 2.4 mg.</li>
+<li><strong>Lower doses still work.</strong> In STEP-2, semaglutide 1 mg produced meaningful weight loss in people with type 2 diabetes, though less than 2.4 mg.</li>
+</ul>
+<p><strong>The trade-offs of staying lower:</strong></p>
+<table>
+<thead><tr><th>Staying at a lower dose</th><th>Moving to a higher dose</th></tr></thead>
+<tbody>
+<tr><td>Fewer and milder side effects for most people</td><td>Greater average weight loss in trials</td></tr>
+<tr><td>Easier to eat enough protein and stay hydrated</td><td>May restart progress after a plateau</td></tr>
+<tr><td>Uses less medication per vial (fewer refills at some providers)</td><td>Closer to the doses with the strongest evidence</td></tr>
+<tr><td>Possibly slower or smaller total loss</td><td>More nausea, diarrhea and vomiting on average</td></tr>
+</tbody>
+</table>
+<p><strong>Lower dose vs "microdosing."</strong> Staying at an established step, such as 1 mg semaglutide or 5 mg tirzepatide, is different from programs marketed as "microdosing," which use doses below the standard steps. Our <a href="/articles/online-glp1-weight-loss-guide">complete GLP-1 guide</a> explains why there is little evidence on what very low doses achieve over time.</p>
+<p><strong>The right question to ask</strong> is not "what is the maximum dose?" but "what is the lowest dose that keeps me making the progress I want, with side effects I can live with?" Raise it at each check-in and let your clinician help you answer it from your own results.</p>`,
+      },
+      {
+        heading: "Should I lower my GLP-1 dose if side effects are bad?",
+        body: `<p><strong>Often, yes - talk to your clinician. If side effects at a new dose stay severe or do not improve after a week or two, the usual options are to hold the current dose longer, step back down to the last dose you tolerated, or spread the next increase over more weeks. Do not stop or change your dose on your own if you have severe symptoms; get medical advice first.</strong></p>
+<p>Both brand-name labels build in this flexibility. Wegovy suggests delaying escalation by four weeks if a dose is not tolerated, and allows a 1.7 mg maintenance dose. Zepbound suggests considering a lower maintenance dose if a maintenance dose is not tolerated. For compounded medication, your clinician has the same options and, in some cases, more granular doses.</p>
+<p><strong>A practical framework:</strong></p>
+<table>
+<thead><tr><th>What you are experiencing</th><th>Common approach (discuss with your clinician)</th></tr></thead>
+<tbody>
+<tr><td>Mild nausea or fullness for 1-3 days after injecting</td><td>Usually manageable; smaller meals, less fat, slower eating, good hydration. Stay on the dose.</td></tr>
+<tr><td>Side effects that are improving week to week</td><td>Hold the current dose until they settle before increasing.</td></tr>
+<tr><td>Side effects that are not improving after 2-4 weeks</td><td>Step back to the previous dose, or stay longer before trying again.</td></tr>
+<tr><td>Persistent vomiting, inability to keep fluids down, or signs of dehydration</td><td>Contact your clinician promptly; urgent care if severe.</td></tr>
+<tr><td>Severe abdominal pain, especially spreading to the back, or pain in the upper right abdomen with fever or yellowing skin</td><td>Seek urgent medical care - these can be signs of pancreatitis or gallbladder disease.</td></tr>
+</tbody>
+</table>
+<p><strong>Stepping down is not failure.</strong> Many people who struggle at one step tolerate it well a month later after spending more time at the dose below. And many people discover that a lower dose gives them nearly the same appetite effect with far fewer side effects.</p>
+<p><strong>Rule out the non-dose causes too.</strong> Large or high-fat meals, eating past fullness, alcohol, dehydration and constipation all make GLP-1 side effects worse at any dose. Sometimes the fix is a change in eating pattern rather than a change in dose. Our <a href="/articles/glp1-side-effects-first-12-weeks">side effects guide</a> has practical strategies for each of the common problems.</p>`,
+      },
+      {
+        heading: "Which GLP-1 side effects depend on the dose?",
+        body: `<p><strong>Digestive side effects - nausea, diarrhea, vomiting and constipation - are the most clearly dose-related. They are most common in the weeks after a dose increase and usually ease as your body adjusts. In the trials, they were more frequent on GLP-1s than on placebo at every dose, and most were mild to moderate.</strong></p>
+<p>The trial data give a sense of scale. These are the approximate proportions of participants who reported each effect at least once during the trial:</p>
+<table>
+<thead><tr><th>Side effect</th><th>Placebo (SURMOUNT-1)</th><th>Tirzepatide 5 mg</th><th>Tirzepatide 10 mg</th><th>Tirzepatide 15 mg</th></tr></thead>
+<tbody>
+<tr><td>Nausea</td><td>About 10%</td><td>About 25%</td><td>About 33%</td><td>About 31%</td></tr>
+<tr><td>Diarrhea</td><td>About 7%</td><td>About 19%</td><td>About 21%</td><td>About 23%</td></tr>
+<tr><td>Vomiting</td><td>About 2%</td><td>About 8%</td><td>About 11%</td><td>About 12%</td></tr>
+<tr><td>Stopped because of side effects</td><td>About 3%</td><td>About 4%</td><td>About 7%</td><td>About 6%</td></tr>
+</tbody>
+</table>
+<p>In STEP-1, about 44% of people on semaglutide 2.4 mg reported nausea at some point, compared with about 17% on placebo, and about 7% stopped treatment because of side effects, compared with about 3% on placebo.</p>
+<p><strong>What these numbers do and do not mean:</strong></p>
+<ul>
+<li><strong>They are "ever" rates over more than a year.</strong> Reporting nausea once in 72 weeks is not the same as feeling sick all the time. In both trial programs, digestive side effects were concentrated in the dose-escalation period and became less common later.</li>
+<li><strong>The steps up matter more than the final dose.</strong> Most people feel side effects in the days after an increase, then adapt. That is why slower escalation is the main tool for reducing them.</li>
+<li><strong>Not every side effect is dose-related in a simple way.</strong> Fatigue, headache, reflux and dizziness were also reported, often linked to eating much less and drinking too little. Hair shedding has been reported during rapid weight loss of any kind.</li>
+<li><strong>Serious risks are not a numbers game.</strong> Pancreatitis, gallbladder disease, kidney injury from dehydration and allergic reactions are uncommon, and anyone with warning signs needs medical care regardless of dose. The boxed warning about thyroid C-cell tumors seen in rodents applies to both drugs; they should not be used by people with a personal or family history of medullary thyroid carcinoma or MEN2.</li>
+</ul>
+<p>The trials used brand-name medication with careful dose escalation. If you take compounded medication, accurate measurement is part of side-effect prevention: an accidental overdose produces the same symptoms as a too-fast escalation, only more abruptly.</p>`,
+      },
+      {
+        heading: "How do I switch from semaglutide to tirzepatide, or back?",
+        body: `<p><strong>There is no official dose-conversion chart between semaglutide and tirzepatide, because the two drugs were never tested that way. Most clinicians start tirzepatide at 2.5 mg or 5 mg the week after a final semaglutide dose, depending on how well you tolerated semaglutide, and then titrate as usual. Switching the other way, semaglutide usually restarts low as well.</strong></p>
+<p>People switch for good reasons: a plateau on semaglutide, side effects on one drug, a change in insurance coverage, or price. You will find "equivalent dose" tables online claiming, for example, that a certain semaglutide dose equals a certain tirzepatide dose. Treat them with caution. The drugs act on different receptors - tirzepatide works on both GIP and GLP-1 receptors - and no trial has validated a milligram-for-milligram conversion. SURMOUNT-5 compared the two at their highest tolerated doses; it did not establish equivalents.</p>
+<p><strong>What a switch usually involves:</strong></p>
+<ul>
+<li><strong>Timing.</strong> Most clinicians start the new drug on the day your next weekly dose of the old drug would have been due. There is usually no need for a long washout, and taking both drugs together is not recommended.</li>
+<li><strong>Starting dose.</strong> Starting tirzepatide at 2.5 mg is the most cautious option and follows the label. Some clinicians start at 5 mg for patients who tolerated a higher semaglutide dose well, to avoid a long period of reduced effect. This is a clinical judgment for your prescriber.</li>
+<li><strong>Expect a transition period.</strong> If you step down to a starting dose, appetite may return somewhat for a few weeks. That does not mean the switch failed.</li>
+<li><strong>New math.</strong> If you use compounded vials, your unit count will change completely. A semaglutide habit of "20 units" says nothing about tirzepatide. Recalculate from the new label.</li>
+</ul>
+<p><strong>Price is part of the decision.</strong> At most programs tirzepatide costs more than semaglutide: among the providers we rank, compounded semaglutide starts between $49 and $199 a month and compounded tirzepatide between $89 and $299. Two exceptions make switching cheaper: <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either drug, and several programs, including <a href="/reviews/embody">embody</a> and <a href="/reviews/altrx">altRx</a>, charge one price at every dose of each drug, so a switch changes the bill only once. Our <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> comparison covers who tends to do better on each.</p>`,
+      },
+      {
+        heading: "How do I switch from a brand-name pen to compounded vials, or back?",
+        body: `<p><strong>When you move between a brand-name pen and a compounded vial of the same drug, the milligram dose usually stays the same - what changes is how you measure it. A 1 mg Wegovy-step dose becomes 40 units from a 2.5 mg/mL compounded semaglutide vial, for example. Your clinician decides whether to continue at the same dose or step back.</strong></p>
+<p><strong>Pen to vial - the usual reasons and steps.</strong> Most people switch to compounded medication for cost: brand-name self-pay prices on our list run from $1,149 to $1,599 a month, while compounded programs start far lower. If your clinician keeps the same milligram dose:</p>
+<ol>
+<li>Confirm the exact dose in milligrams on your new prescription.</li>
+<li>Read the concentration on the vial and calculate units with the formula (dose ÷ concentration × 100).</li>
+<li>Check the result against the provider's written instructions and the charts in this guide.</li>
+<li>Get the right syringe size and practice the drawing-up steps before injection day.</li>
+<li>Take the first vial dose on the day your next pen dose would have been due.</li>
+</ol>
+<p><strong>Things that change besides the measuring.</strong> A compounded product is not the FDA-approved product, even at the same dose. It may contain additives, comes from a different manufacturing process, and has a pharmacy beyond-use date instead of a manufacturer expiration date. Many people notice no difference; some report that the medication feels slightly stronger or weaker. If your response changes noticeably, tell your clinician rather than adjusting the dose yourself.</p>
+<p><strong>Vial to pen.</strong> Moving the other way usually happens when insurance approves Wegovy or Zepbound, or when someone wants only FDA-approved medication. The pens come only in fixed strengths, so if you were on an intermediate compounded dose - for example 1.25 mg semaglutide or 3.75 mg tirzepatide - your clinician will choose the nearest pen strength, often the one just below. Insurance approvals sometimes require you to restart at the starting dose; your prescriber can clarify.</p>
+<p><strong>Where the two worlds meet.</strong> If you want the option to move between brand-name and compounded medication without changing providers, a program with both on one account helps. <a href="/reviews/altrx">altRx</a> and <a href="/reviews/wellmedr">wellmedr</a> list brand-name shelves alongside compounded plans, and <a href="/reviews/medvi">MEDVi</a> offers brand-name options through its clinicians; <a href="/reviews/ro">ro</a> prescribes brand-name medication only. See our <a href="/embody-vs-ro">embody vs ro</a> comparison for the clearest example of a compounded-first and a brand-only program side by side.</p>`,
+      },
+      {
+        heading: "What GLP-1 dose should I take for maintenance after reaching my goal?",
+        body: `<p><strong>The trial evidence supports continuing the dose that got you to your goal. When people in trials stopped treatment, most regained a large share of the weight they had lost. Some clinicians try a gradual reduction to the lowest dose that keeps weight stable, but that approach has much less trial evidence behind it, and it should be monitored closely.</strong></p>
+<p>Two trials show what happens when the dose drops to zero:</p>
+<ul>
+<li><strong>STEP-1 extension:</strong> participants who stopped semaglutide 2.4 mg regained about two-thirds of the weight they had lost within a year.</li>
+<li><strong>SURMOUNT-4:</strong> after 36 weeks of tirzepatide, participants switched to placebo regained about 14% of their body weight over the following year, while those who continued kept losing.</li>
+</ul>
+<p>What those trials do not test is the middle ground: stepping down from 2.4 mg to 1 mg, say, or from 15 mg to 5 mg, and holding there. In practice, clinicians use several strategies, each with trade-offs:</p>
+<table>
+<thead><tr><th>Maintenance approach</th><th>Evidence</th><th>Who it may suit</th></tr></thead>
+<tbody>
+<tr><td>Continue the same dose</td><td>Strongest - this is what the trials studied</td><td>Anyone for whom the dose is affordable and well tolerated</td></tr>
+<tr><td>Step down gradually and monitor weight</td><td>Limited; based on clinical experience</td><td>People with side effects at full dose, or who want to use less medication</td></tr>
+<tr><td>Stretch the interval between doses</td><td>Very limited; not how the labels are written</td><td>Only under close clinical supervision</td></tr>
+<tr><td>Stop with a structured plan</td><td>Trials show substantial average regain</td><td>People who must stop - for pregnancy, side effects or cost - with a plan for diet, activity and follow-up</td></tr>
+</tbody>
+</table>
+<p><strong>If you step down, track it.</strong> Weigh yourself at the same time of day once or twice a week, agree in advance on how much regain would trigger a return to the previous dose, and keep protein intake and resistance training in place - both help protect lean muscle, which supports long-term weight stability.</p>
+<p><strong>Cost often drives maintenance decisions.</strong> If you want to lower your dose mainly to save money, check first whether your provider charges more at higher doses. At a flat-price program, a lower dose saves nothing per month, though it may stretch a vial further at programs that ship by quantity. Our article on <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1 and maintenance</a> covers this phase in detail.</p>`,
+      },
+      {
+        heading: "Will a higher GLP-1 dose make me lose weight faster?",
+        body: `<p><strong>On average, higher maintenance doses produced more total weight loss in the trials, but racing up the schedule does not reliably speed things up and increases side effects. Weight loss on GLP-1s builds over many months, and most of the difference between doses shows up over a year or more, not in the first weeks.</strong></p>
+<p>In SURMOUNT-1, the difference between tirzepatide 10 mg and 15 mg was about 1.4 percentage points of body weight after 72 weeks. In STEP-2, the gap between semaglutide 1 mg and 2.4 mg was a few percentage points over 68 weeks. Those are real differences over the long term - but they are not the kind of gap you would feel in a single month, and they come with more digestive side effects on average.</p>
+<p><strong>Why faster escalation tends to backfire:</strong></p>
+<ul>
+<li><strong>Side effects scale with speed.</strong> The fastest route to nausea and vomiting is skipping steps or shortening them.</li>
+<li><strong>Eating too little has costs.</strong> Very rapid loss can come with muscle loss, fatigue, dizziness, gallstones and hair shedding. A slower pace with adequate protein is easier to sustain.</li>
+<li><strong>Stopping costs more than going slowly.</strong> In the trials, people who discontinued because of side effects lost the benefit entirely. A slower escalation that keeps you on treatment beats a fast one you abandon.</li>
+</ul>
+<p><strong>When a plateau is a dose question.</strong> Weight loss on GLP-1s typically slows and flattens after many months, as the body adapts. If you plateau well before your goal and you are not yet at the maximum dose, your clinician may suggest moving up a step. If you are at the maximum dose, the options are different: reviewing protein, calories and activity, considering a switch between semaglutide and tirzepatide, or accepting that you have reached your body's new set point on this treatment. Our <a href="/articles/stopping-glp1-maintenance">plateau and maintenance guide</a> covers those options.</p>
+<p><strong>Never take more than prescribed.</strong> With a compounded vial, it is physically easy to draw extra units. It is also exactly how the overdoses described in the FDA's 2024 alert happened. If you want faster progress, ask your clinician about the next step; do not create one yourself.</p>`,
+      },
+      {
+        heading: "Does the price of GLP-1 treatment go up with the dose?",
+        body: `<p><strong>It depends on the provider. Five of the compounded programs we rank - embody, altRx, trimrx (for semaglutide), wellmedr and DirectMeds - publish the same price at every dose, so moving from a starting dose to maintenance does not raise your bill. Other programs publish starting prices that may change by plan, and brand-name medication costs depend on insurance or the manufacturer's self-pay price.</strong></p>
+<p>Dose-tiered pricing is one of the least visible costs in GLP-1 treatment. A program that looks cheap at 0.25 mg semaglutide can cost much more by the time you reach 2.4 mg - and because escalation takes about four months, you may not notice until you are well into treatment. Here is how the programs we rank handle it, based on their published pricing:</p>
+<table>
+<thead><tr><th>Provider</th><th>Semaglutide</th><th>Tirzepatide</th><th>Same price at every dose?</th></tr></thead>
+<tbody>
+<tr><td><a href="/reviews/embody">embody</a></td><td>$69/mo (regular $79)</td><td>$119/mo (regular $129)</td><td>Yes - flat pricing, month-to-month</td></tr>
+<tr><td><a href="/reviews/ro">ro</a></td><td colspan="2">Brand-name only; $39 first month then $149/mo membership (or about $74/mo annual), medication billed separately</td><td>Medication cost depends on insurance or self-pay price</td></tr>
+<tr><td><a href="/reviews/altrx">altRx</a></td><td>$89/mo promo (regular $199)</td><td>$149/mo promo (regular $299)</td><td>Yes - flat at every dose</td></tr>
+<tr><td><a href="/reviews/trimrx">trimrx</a></td><td>$149/mo</td><td>$259/mo</td><td>Yes for semaglutide; confirm for tirzepatide</td></tr>
+<tr><td><a href="/reviews/wellmedr">wellmedr</a></td><td>$49/mo on a 12-month plan (about $88 month-to-month)</td><td>$89/mo</td><td>Yes - same price at every dose</td></tr>
+<tr><td><a href="/reviews/medvi">MEDVi</a></td><td>$99/mo promo (regular $199)</td><td>$166/mo promo (regular $299)</td><td>Not stated in the pricing we reviewed - ask</td></tr>
+<tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$147/mo</td><td>$147/mo</td><td>Yes - one price for either drug at every dose</td></tr>
+<tr><td><a href="/reviews/shed">SHED</a></td><td>From $199/mo</td><td>From $299/mo</td><td>Starting prices; may vary by plan - ask</td></tr>
+</tbody>
+</table>
+<p><strong>Questions that reveal dose-based pricing:</strong></p>
+<ul>
+<li>"What will I pay per month at the maintenance dose - 2.4 mg semaglutide or 15 mg tirzepatide?"</li>
+<li>"Is the price the same if my clinician increases my dose mid-cycle?"</li>
+<li>"When the promo ends, what is the regular price at my dose?"</li>
+<li>"If I need a larger or more concentrated vial, does that change the price?"</li>
+</ul>
+<p><strong>The dose and the promo can interact.</strong> altRx and MEDVi advertise promo prices roughly half their regular rates. Promos usually apply to your first period of treatment - which, because of titration, is also when your dose is lowest. Compare what you will pay in month six at maintenance dose, not month one at a starting dose. Our <a href="/articles/real-cost-of-glp1-weight-loss">real cost of GLP-1 weight loss</a> guide does that comparison line by line.</p>
+<p>Prices change often; these are provider-published figures checked in fall 2026, so confirm at checkout.</p>`,
+      },
+      {
+        heading: "How do online GLP-1 providers handle dose changes?",
+        body: `<p><strong>Most online programs adjust your dose through check-ins: you report your weight, side effects and appetite through a form or message, and a licensed clinician approves the next step or keeps you where you are. The best programs make it easy to ask for a slower schedule, a step down, or a question answered between check-ins.</strong></p>
+<p>The details vary more than people expect, and they directly affect your dosing experience:</p>
+<ul>
+<li><strong>How escalation is scheduled.</strong> Some programs send a pre-planned titration in one shipment - for example, a vial with enough medication for several steps and written instructions for each. Others ship one dose level at a time and require a check-in before each increase. The first is convenient; the second gives more oversight.</li>
+<li><strong>How custom dosing works.</strong> <a href="/reviews/trimrx">trimrx</a> builds its program around individualized dosing with unlimited provider check-ins, which suits people who want to move in smaller steps or adjust often. Other programs follow the standard steps more closely.</li>
+<li><strong>How fast clinicians respond.</strong> A dose question on injection day needs an answer that day. Ask how messaging works and what the typical response time is before you sign up.</li>
+<li><strong>What happens at the top of the schedule.</strong> Ask whether higher doses need a new concentration, a new vial size or a price change.</li>
+<li><strong>Who you talk to.</strong> At <a href="/reviews/medvi">MEDVi</a>, clinician visits come with dietitian access and coaching, which helps when side effects are really a diet issue. At <a href="/reviews/ro">ro</a>, unlimited provider messaging is part of the membership.</li>
+</ul>
+<p><strong>What to report at each check-in.</strong> Clinicians make better dose decisions with specific information. Include:</p>
+<ol>
+<li>Your weight trend over the last two to four weeks, not just today's number.</li>
+<li>Your current dose in milligrams and the units you draw, so they can spot any measuring problem.</li>
+<li>Side effects: what, how severe, how many days after the injection, and whether they are improving.</li>
+<li>How much you are eating, especially protein and fluids.</li>
+<li>Any new medications, illnesses or planned procedures.</li>
+<li>What you want - to go up, to stay, or to go down - and why.</li>
+</ol>
+<p>A provider that answers dosing questions clearly and puts your unit count in writing is doing its job. One that pushes escalation on a fixed calendar regardless of your answers, or cannot tell you the concentration of the vial it is sending, is a warning sign. Our <a href="/how-we-rank">ranking methodology</a> weights clinical oversight and support for exactly this reason.</p>`,
+      },
+      {
+        heading: "How do other medications and life events affect GLP-1 dosing?",
+        body: `<p><strong>Several situations need a conversation with your clinician before your next dose: taking insulin or a sulfonylurea, using birth control pills while on tirzepatide, planning a pregnancy, having surgery or a procedure that needs anesthesia, and being ill with vomiting or diarrhea. In each case, the GLP-1 dose or the other medication may need adjusting.</strong></p>
+<p><strong>Diabetes medications.</strong> GLP-1s on their own rarely cause low blood sugar. Combined with insulin or sulfonylureas (such as glipizide or glimepiride), they can. The labels note that the dose of those medications may need to be reduced when a GLP-1 is started or increased. If you have type 2 diabetes, your diabetes care team should know about any GLP-1 prescription, including one from an online program.</p>
+<p><strong>Birth control pills and tirzepatide.</strong> The Zepbound and Mounjaro labels advise people using oral hormonal contraceptives to switch to a non-oral method, or add a barrier method, for four weeks after starting tirzepatide and for four weeks after each dose increase. Slower stomach emptying can reduce how well the pill is absorbed during those periods. This is one of the clearest examples of a side effect of dose escalation that is easy to miss.</p>
+<p><strong>Pregnancy.</strong> GLP-1s should not be used during pregnancy. The Wegovy label advises stopping semaglutide at least two months before a planned pregnancy because of its long half-life. If you become pregnant or plan to, tell your prescriber promptly - they will advise on timing for your specific medication.</p>
+<p><strong>Surgery, endoscopy and anesthesia.</strong> Because GLP-1s slow stomach emptying, there is a risk of food remaining in the stomach during sedation. Professional guidance on whether to hold a dose before procedures has changed over time. Tell your surgeon, anesthesiologist or endoscopy team that you take a GLP-1, including the dose and your injection day, and follow their instructions.</p>
+<p><strong>Illness and dehydration.</strong> If you have a stomach bug, severe vomiting or diarrhea, or cannot keep fluids down, contact your clinician about whether to delay your next dose. Dehydration on top of GLP-1 side effects can stress the kidneys.</p>
+<p><strong>Other oral medications.</strong> Slower stomach emptying can affect how quickly some oral drugs are absorbed. This matters most for medications where small changes in level are important. Give every prescriber - and the online program's clinician - a complete list of what you take.</p>
+<p><strong>Alcohol.</strong> There is no labeled interaction that changes the dose, but alcohol adds to nausea, dehydration and, for people on diabetes medication, low-blood-sugar risk. Many patients find they want less of it on treatment anyway.</p>`,
+      },
+      {
+        heading: "How is oral GLP-1 dosing different from injections?",
+        body: `<p><strong>Oral GLP-1s are taken daily rather than weekly, use much higher milligram numbers than injections because most of the drug is not absorbed, and come with strict instructions about water, food and timing. The doses are not interchangeable with injectable doses, and oral compounded products do not follow the brand-name schedules.</strong></p>
+<p>Semaglutide is a peptide, and the digestive system breaks most of it down before it can be absorbed. FDA-approved oral semaglutide gets around this with a special formulation, and only works well when it is taken exactly as directed. For Rybelsus, the oral semaglutide tablet approved for type 2 diabetes, the label instructions are to take it on an empty stomach first thing in the morning with no more than 4 ounces of plain water, and to wait at least 30 minutes before eating, drinking anything else or taking other oral medications. Rybelsus starts at 3 mg daily for 30 days before increasing - numbers that bear no relationship to the 0.25 mg weekly injection.</p>
+<p><strong>The key differences:</strong></p>
+<table>
+<thead><tr><th></th><th>Weekly injection</th><th>Daily oral pill</th></tr></thead>
+<tbody>
+<tr><td>How often</td><td>Once a week</td><td>Every day</td></tr>
+<tr><td>Missed dose</td><td>Drug-specific windows of several days</td><td>Usually skip and take the next day; check the label</td></tr>
+<tr><td>Food and water rules</td><td>None</td><td>Often strict - empty stomach, limited water, wait before eating</td></tr>
+<tr><td>Milligram numbers</td><td>Small (0.25-2.4 mg semaglutide)</td><td>Larger, because absorption is low</td></tr>
+<tr><td>Converting between them</td><td colspan="2">Not milligram-for-milligram - your clinician decides the equivalent step</td></tr>
+</tbody>
+</table>
+<p><strong>Brand-name oral weight-loss options.</strong> FDA-approved oral GLP-1 options exist in 2026, and <a href="/reviews/ro">ro</a> offers Foundaya as an oral pill. Each oral product has its own dosing schedule and instructions, so follow the label and your prescriber's directions for the specific product you receive rather than applying rules from another pill.</p>
+<p><strong>Compounded oral and sublingual products.</strong> <a href="/reviews/embody">embody</a> offers a daily oral compounded option, and <a href="/reviews/directmeds">DirectMeds</a> offers sublingual drops - liquid held under the tongue - for both semaglutide and tirzepatide at the same $147 monthly price as its injections. These are not FDA-approved, and there is little published evidence on how consistently they are absorbed. Their dosing comes from the prescribing clinician and the pharmacy, so follow those instructions closely and ask how the dose relates to a weekly injection if you might switch later.</p>
+<p><strong>Who oral dosing suits.</strong> People who will not start treatment because of needles. If you are comfortable with a weekly injection, it remains the most predictable and best-studied route, with the simplest dosing routine.</p>`,
+      },
+      {
+        heading: "GLP-1 dosing terms explained",
+        body: `<p><strong>These are the dosing terms you will see on prescriptions, vial labels and provider instructions, in plain English.</strong></p>
+<ul>
+<li><strong>Titration (dose escalation):</strong> the gradual increase from a starting dose to a maintenance dose, usually in four-week steps.</li>
+<li><strong>Starting dose:</strong> the first, lowest dose - 0.25 mg semaglutide or 2.5 mg tirzepatide - used to build tolerance, not to produce full weight loss.</li>
+<li><strong>Maintenance dose:</strong> the dose you stay on long-term once titration is complete - 2.4 mg (or 1.7 mg) for Wegovy, and 5, 10 or 15 mg for Zepbound.</li>
+<li><strong>Maximum dose:</strong> the highest dose on the label - 2.4 mg for Wegovy, 2 mg for Ozempic, 15 mg for Zepbound and Mounjaro.</li>
+<li><strong>mg (milligram):</strong> the amount of drug. Your prescription dose is written in milligrams.</li>
+<li><strong>mL (milliliter):</strong> the volume of liquid. 1 mL = 100 units on a U-100 syringe.</li>
+<li><strong>Concentration (mg/mL):</strong> how much drug is in each milliliter of liquid. The single most important number on a compounded vial.</li>
+<li><strong>Units:</strong> the markings on an insulin syringe. On a U-100 syringe, one unit is 0.01 mL. Units measure volume, not drug.</li>
+<li><strong>U-100 syringe:</strong> the standard insulin syringe used for compounded GLP-1s; 100 units per mL.</li>
+<li><strong>Subcutaneous (sub-Q):</strong> injected into the fatty layer just under the skin, not into a muscle or vein.</li>
+<li><strong>Single-dose pen:</strong> a prefilled injector that delivers one fixed dose and is then discarded (Wegovy, Zepbound).</li>
+<li><strong>Multi-dose pen:</strong> a pen that holds several doses selected with a dial (Ozempic).</li>
+<li><strong>Multi-dose vial:</strong> a vial containing several weeks of compounded medication, drawn up with a syringe.</li>
+<li><strong>Beyond-use date (BUD):</strong> the date after which a compounded medication should not be used, set by the pharmacy.</li>
+<li><strong>Half-life:</strong> the time it takes for the level of drug in your body to fall by half - about a week for semaglutide and about five days for tirzepatide.</li>
+<li><strong>Steady state:</strong> the point, about four to five weeks after a dose change, when weekly doses keep a roughly stable level in your body.</li>
+<li><strong>Off-label:</strong> prescribing an approved drug for a use not on its label, such as Ozempic for weight loss.</li>
+<li><strong>Dose-response:</strong> how the effect of a drug changes as the dose changes. For tirzepatide, SURMOUNT-1 showed more weight loss at 10 mg than 5 mg, and a smaller further gain at 15 mg.</li>
+</ul>`,
+      },
+      {
+        heading: "What should I ask my clinician about my GLP-1 dose?",
+        body: `<p><strong>Before you start, ask for your full titration plan in milligrams and units, how to measure each dose, what to do if you miss one, and how to reach someone with a dosing question. At each check-in, ask whether to increase, hold or reduce - and why - based on your weight trend and side effects.</strong></p>
+<p><strong>Before your first dose:</strong></p>
+<ol>
+<li>"What is my dose in milligrams for each of the next few months, and when does each step start?"</li>
+<li>"What concentration will my vial be, and how many units is each dose?" (Ask for this in writing.)</li>
+<li>"Which syringe size should I use, and will you send them?"</li>
+<li>"What is the missed-dose rule for my medication?"</li>
+<li>"How do I reach a clinician if I have a dosing question on injection day, and how fast do you usually reply?"</li>
+<li>"Will the concentration or vial change when my dose goes up?"</li>
+<li>"Does my price change at higher doses?"</li>
+</ol>
+<p><strong>At each check-in:</strong></p>
+<ol>
+<li>"Based on my progress, should I go up, stay or go down?"</li>
+<li>"Are my side effects normal for this stage, or a reason to slow down?"</li>
+<li>"Am I eating enough protein and fluids for this dose?"</li>
+<li>"Do any of my other medications need adjusting?"</li>
+</ol>
+<p><strong>Later in treatment:</strong></p>
+<ol>
+<li>"Is this the right long-term maintenance dose for me?"</li>
+<li>"If I want to lower the dose or stop, what is the plan, and how will we watch for regain?"</li>
+<li>"Would switching drugs make sense if I plateau?"</li>
+</ol>
+<p><strong>The bottom line.</strong> GLP-1 dosing looks complicated mainly because of the gap between milligrams and syringe units. Close that gap - read the concentration, use the formula, use the right syringe, write it down - and the rest follows a simple logic: start low, step up no faster than every four weeks, stop climbing when you are making steady progress, and never take more than prescribed. The best dose is the one that keeps you on treatment, losing steadily, with side effects you can manage. If you are still choosing a program, our <a href="/">2026 ranking</a> compares the eight online GLP-1 providers we review on price at every dose, clinical support and delivery, and the <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers everything else.</p>
+${DISCLAIMER}`,
+      },
+    ],
+  },
+  {
     slug: "online-glp1-weight-loss-guide",
     title: "The Complete Guide to Online GLP-1 Weight Loss (2026)",
     description:
@@ -202,7 +912,7 @@ export const weightLossArticles: ArticleData[] = [
 <li><strong>If you want one price whichever you choose,</strong> <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either, so switching later does not change your bill.</li>
 <li><strong>If you stall or struggle with side effects on one,</strong> your clinician may suggest trying the other.</li>
 </ul>
-<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. We go deeper on dosing, tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>.</p>`,
+<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. We go deeper on tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>, and every dose step - in milligrams and syringe units - is in our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a>.</p>`,
       },
       {
         heading: "Oral vs injectable GLP-1s: which is better?",
@@ -825,7 +1535,7 @@ export const weightLossArticles: ArticleData[] = [
     sections: [
       {
         heading: "Why side effects follow the dose schedule",
-        body: `<p>Semaglutide and tirzepatide slow how quickly your stomach empties and turn down appetite signals. That is how they work - and it is also why most side effects are digestive. Treatment starts at a low dose and is stepped up gradually, typically about every four weeks, so your body can adjust. The pattern most people notice: side effects flare for a few days after each increase, then settle.</p><p>Over 12 weeks you will usually move through your starting dose and one or two increases, as your clinician decides. Not everyone gets side effects, and severity varies a lot from person to person.</p>`,
+        body: `<p>Semaglutide and tirzepatide slow how quickly your stomach empties and turn down appetite signals. That is how they work - and it is also why most side effects are digestive. Treatment starts at a low dose and is stepped up gradually, typically about every four weeks, so your body can adjust. The pattern most people notice: side effects flare for a few days after each increase, then settle. Our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a> lays out every step of the Wegovy, Ozempic and Zepbound schedules, with unit charts for compounded vials.</p><p>Over 12 weeks you will usually move through your starting dose and one or two increases, as your clinician decides. Not everyone gets side effects, and severity varies a lot from person to person.</p>`,
       },
       {
         heading: "Week-by-week: what to expect",
