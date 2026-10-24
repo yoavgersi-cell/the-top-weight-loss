@@ -27,7 +27,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    cash-pay (HSA/FSA usable); LegitScript-certified; 503A pharmacies;
 //    Trustpilot 3.8 / 5 from 9,582 reviews (checked Oct 11, 2026; 11 recent
 //    reviews copied verbatim from the profile into trustpilotReviews).
-//  - ro: brand-name only (Wegovy, Zepbound, Ozempic, Foundaya); membership
+//  - ro: brand-name only (Wegovy, Zepbound, Ozempic, Foundayo); membership
 //    $39 first month then $149/mo, or up to 50% off annually (~$74/mo);
 //    medication billed separately (insurance or manufacturer self-pay price);
 //    insurance concierge + prior authorizations; founded 2017.
@@ -160,7 +160,7 @@ export const weightLossConfig: SiteConfig = {
       id: "ro",
       name: "ro",
       tagline:
-        "Brand-name, FDA-approved GLP-1s only - Wegovy, Zepbound, Ozempic and Foundaya - with an insurance concierge",
+        "Brand-name, FDA-approved GLP-1s only - Wegovy, Zepbound, Ozempic and Foundayo - with an insurance concierge",
       logo: "/logos/roweightlosslogo.png",
       smallLogo: "/logos/roweightlosslogo.png",
       highlights: [
@@ -459,11 +459,11 @@ export const weightLossConfig: SiteConfig = {
       slug: "ro",
       providerId: "ro",
       shortSummary:
-        "The best choice for brand-name, FDA-approved GLP-1s: ro prescribes only Wegovy, Zepbound, Ozempic and Foundaya, checks your insurance and handles prior authorizations for you.",
+        "The best choice for brand-name, FDA-approved GLP-1s: ro prescribes only Wegovy, Zepbound, Ozempic and Foundayo, checks your insurance and handles prior authorizations for you.",
       reviewIntro:
-        "ro is one of the largest and most established direct-to-consumer telehealth brands in the US, founded in 2017, and its weight-loss program takes a deliberately different path from most GLP-1 sites: it prescribes only brand-name, FDA-approved medications - Wegovy, Zepbound, Ozempic and Foundaya - and does not sell compounded GLP-1s at all. Its standout feature is an insurance concierge that checks your coverage and handles prior authorizations, which can be the difference between paying hundreds of dollars a month and paying a copay. The trade-off is pricing that is harder to predict: you pay a membership fee, and the medication is billed separately. This review covers how ro works, what it really costs, and who it fits.",
+        "ro is one of the largest and most established direct-to-consumer telehealth brands in the US, founded in 2017, and its weight-loss program takes a deliberately different path from most GLP-1 sites: it prescribes only brand-name, FDA-approved medications - Wegovy, Zepbound, Ozempic and Foundayo - and does not sell compounded GLP-1s at all. Its standout feature is an insurance concierge that checks your coverage and handles prior authorizations, which can be the difference between paying hundreds of dollars a month and paying a copay. The trade-off is pricing that is harder to predict: you pay a membership fee, and the medication is billed separately. This review covers how ro works, what it really costs, and who it fits.",
       keyFeatures: [
-        "Brand-name, FDA-approved medication only: Wegovy, Zepbound, Ozempic, Foundaya",
+        "Brand-name, FDA-approved medication only: Wegovy, Zepbound, Ozempic, Foundayo",
         "Oral pill or injection pen options",
         "Insurance concierge - coverage checks and prior authorizations handled",
         "Labs when clinically indicated",
@@ -476,7 +476,7 @@ export const weightLossConfig: SiteConfig = {
         "Wegovy (semaglutide) - FDA-approved for chronic weight management",
         "Zepbound (tirzepatide) - FDA-approved for chronic weight management",
         "Ozempic (semaglutide)",
-        "Foundaya (oral pill)",
+        "Foundayo (oral pill)",
         "Insurance coverage checks, prior authorizations and labs when indicated",
       ],
       pros: [
@@ -1141,7 +1141,7 @@ export const weightLossConfig: SiteConfig = {
     {
       question: "Are there oral GLP-1 options instead of injections?",
       answer:
-        "Yes. There are brand-name oral GLP-1 options - ro, for example, offers Foundaya as an oral pill - and some compounded programs, such as embody, offer a daily oral option. Oral and injectable forms differ in dosing and how consistently they are absorbed, so ask your clinician which suits you. Remember that compounded oral products, like compounded injections, are not FDA-approved.",
+        "Yes. There are brand-name oral GLP-1 options - ro, for example, offers Foundayo as an oral pill - and some compounded programs, such as embody, offer a daily oral option. Oral and injectable forms differ in dosing and how consistently they are absorbed, so ask your clinician which suits you. Remember that compounded oral products, like compounded injections, are not FDA-approved.",
     },
   ],
 

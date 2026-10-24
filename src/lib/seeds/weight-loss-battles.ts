@@ -36,7 +36,7 @@ export const weightLossBattles: BattleData[] = [
     description:
       "embody vs ro compared: compounded semaglutide from $69/mo and tirzepatide from $119/mo vs ro's Wegovy, Zepbound and insurance concierge. Price, medications, support and who each fits.",
     intro:
-      "These two programs solve the same problem in opposite ways. embody sells compounded semaglutide and tirzepatide at one flat, all-in monthly price with no commitment and 1-2 day shipping. ro sells only FDA-approved brand-name medication - Wegovy, Zepbound, Ozempic and the Foundaya pill - and charges a membership on top, but it will check your insurance and handle the prior authorization. Which one wins depends almost entirely on one question: will your insurance cover a brand-name GLP-1?",
+      "These two programs solve the same problem in opposite ways. embody sells compounded semaglutide and tirzepatide at one flat, all-in monthly price with no commitment and 1-2 day shipping. ro sells only FDA-approved brand-name medication - Wegovy, Zepbound, Ozempic and the Foundayo pill - and charges a membership on top, but it will check your insurance and handle the prior authorization. Which one wins depends almost entirely on one question: will your insurance cover a brand-name GLP-1?",
     verdict:
       "embody wins for most people paying cash: $69/mo semaglutide or $119/mo tirzepatide, medication included, month-to-month and delivered in 1-2 days - a fraction of the brand-name self-pay price. ro is the better choice if your insurance may cover Wegovy or Zepbound, or if you only want an FDA-approved brand-name medication; its membership ($39 the first month, then $149/mo or about $74/mo annually) buys a coverage check, prior-authorization help and one of the most established telehealth operations in the US. Remember that compounded medications are not FDA-approved, and a licensed clinician decides what is appropriate for you.",
     verdictWinnerPoints: [
@@ -66,9 +66,9 @@ export const weightLossBattles: BattleData[] = [
         name: "Medication options",
         winner: "provider2",
         explanation:
-          "ro offers the full FDA-approved lineup - Wegovy, Zepbound, Ozempic and the Foundaya pill. embody offers compounded semaglutide and tirzepatide as a weekly injection, plus a compounded daily oral option. Compounded drugs are not FDA-approved or reviewed for safety, effectiveness or quality.",
+          "ro offers the full FDA-approved lineup - Wegovy, Zepbound, Ozempic and the Foundayo pill. embody offers compounded semaglutide and tirzepatide as a weekly injection, plus a compounded daily oral option. Compounded drugs are not FDA-approved or reviewed for safety, effectiveness or quality.",
         supportingPoints: [
-          "ro: Wegovy, Zepbound, Ozempic, Foundaya",
+          "ro: Wegovy, Zepbound, Ozempic, Foundayo",
           "embody: compounded semaglutide and tirzepatide, injection or oral",
           "Only ro offers FDA-approved products",
         ],
@@ -97,11 +97,11 @@ export const weightLossBattles: BattleData[] = [
     ],
     features: [
       { feature: "Starting price", provider1Value: "$69/mo, medication included", provider2Value: "$39 first month + medication", highlight: "provider1" },
-      { feature: "Medications", provider1Value: "Compounded semaglutide & tirzepatide", provider2Value: "Wegovy, Zepbound, Ozempic, Foundaya", highlight: "none" },
+      { feature: "Medications", provider1Value: "Compounded semaglutide & tirzepatide", provider2Value: "Wegovy, Zepbound, Ozempic, Foundayo", highlight: "none" },
       { feature: "Semaglutide", provider1Value: "$69/mo compounded (reg. $79)", provider2Value: "Wegovy / Ozempic - insurance or self-pay", highlight: "provider1" },
       { feature: "Tirzepatide", provider1Value: "$119/mo compounded (reg. $129)", provider2Value: "Zepbound - insurance or self-pay", highlight: "provider1" },
       { feature: "FDA-approved", provider1Value: "No - compounded", provider2Value: "Yes - brand-name only", highlight: "provider2" },
-      { feature: "Oral option", provider1Value: "Compounded daily oral", provider2Value: "Foundaya pill", highlight: "both" },
+      { feature: "Oral option", provider1Value: "Compounded daily oral", provider2Value: "Foundayo pill", highlight: "both" },
       { feature: "Program fee", provider1Value: "None - medication included", provider2Value: "$39 first month, then $149/mo (~$74/mo annual)", highlight: "provider1" },
       { feature: "Insurance help", provider1Value: "Cash-pay (HSA/FSA)", provider2Value: "Insurance concierge + prior authorization", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "1-2 days, cold-chain", provider2Value: "Varies by pharmacy", highlight: "provider1" },
@@ -275,11 +275,11 @@ export const weightLossBattles: BattleData[] = [
     description:
       "MEDVi vs ro compared: all-inclusive compounded semaglutide at $99/mo (promo) with dietitian and coaching vs ro's Wegovy, Zepbound and insurance concierge. Cost, care and who each fits.",
     intro:
-      "MEDVi and ro are both big names in online weight loss, but they are selling different things. ro is a brand-name shop: FDA-approved Wegovy, Zepbound, Ozempic and the Foundaya pill, plus a team that fights your insurer for coverage. MEDVi is an all-inclusive compounded program: semaglutide or tirzepatide, clinician visits, a dietitian and coaching for one monthly price. If you have coverage, this comparison is short. If you are paying cash, it gets interesting.",
+      "MEDVi and ro are both big names in online weight loss, but they are selling different things. ro is a brand-name shop: FDA-approved Wegovy, Zepbound, Ozempic and the Foundayo pill, plus a team that fights your insurer for coverage. MEDVi is an all-inclusive compounded program: semaglutide or tirzepatide, clinician visits, a dietitian and coaching for one monthly price. If you have coverage, this comparison is short. If you are paying cash, it gets interesting.",
     verdict:
       "ro wins if there is any chance your insurance covers a GLP-1 for weight loss: its concierge checks your benefits and handles prior authorization, and you get an FDA-approved medication. MEDVi is the better value for cash payers who want more than a prescription - $99/mo semaglutide or $166/mo tirzepatide (promo prices; regular $199 and $299) with a dietitian and coaching included and no membership fee. Ask MEDVi how long the promo lasts. Compounded medications are not FDA-approved, and a licensed clinician decides what is right for you.",
     verdictWinnerPoints: [
-      "FDA-approved Wegovy, Zepbound, Ozempic and Foundaya",
+      "FDA-approved Wegovy, Zepbound, Ozempic and Foundayo",
       "Insurance concierge and prior-authorization help",
       "Established national telehealth brand",
     ],
@@ -306,7 +306,7 @@ export const weightLossBattles: BattleData[] = [
         winner: "provider1",
         explanation:
           "ro offers only FDA-approved brand-name GLP-1s, in injection or pill form. MEDVi's core program is compounded semaglutide and tirzepatide, which are not FDA-approved or reviewed for safety, effectiveness or quality.",
-        supportingPoints: ["ro: Wegovy, Zepbound, Ozempic, Foundaya", "MEDVi: compounded sema & tirz"],
+        supportingPoints: ["ro: Wegovy, Zepbound, Ozempic, Foundayo", "MEDVi: compounded sema & tirz"],
       },
       {
         name: "Support & coaching",
@@ -332,7 +332,7 @@ export const weightLossBattles: BattleData[] = [
     ],
     features: [
       { feature: "Starting price", provider1Value: "$39 first month + medication", provider2Value: "$99/mo all-in (promo)", highlight: "provider2" },
-      { feature: "Medications", provider1Value: "Wegovy, Zepbound, Ozempic, Foundaya", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "none" },
+      { feature: "Medications", provider1Value: "Wegovy, Zepbound, Ozempic, Foundayo", provider2Value: "Compounded semaglutide & tirzepatide", highlight: "none" },
       { feature: "FDA-approved", provider1Value: "Yes - brand-name only", provider2Value: "No - compounded", highlight: "provider1" },
       { feature: "Program fee", provider1Value: "$149/mo (~$74/mo annual)", provider2Value: "None - included", highlight: "provider2" },
       { feature: "Dietitian & coaching", provider1Value: "Not included", provider2Value: "Included", highlight: "provider2" },

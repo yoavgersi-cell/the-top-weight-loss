@@ -42,7 +42,7 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   ro: {
     title: "ro Weight Loss Reviews 2026: Cost, Insurance & Is It Legit?",
     description:
-      "ro weight loss review: Wegovy, Zepbound, Ozempic and Foundaya with an insurance concierge. Membership $39 first month, then $149/mo - what it really costs and who it fits.",
+      "ro weight loss review: Wegovy, Zepbound, Ozempic and Foundayo with an insurance concierge. Membership $39 first month, then $149/mo - what it really costs and who it fits.",
   },
   altrx: {
     title: "altRx Reviews 2026: Is altRx Legit for GLP-1? Cost & FDA Letter",
@@ -84,7 +84,7 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
   },
   ro: {
     verdict:
-      "Yes. ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies in the US. For weight loss it prescribes only FDA-approved brand-name medications - Wegovy, Zepbound, Ozempic and Foundaya - after a clinician review, and its insurance concierge works directly with your plan.",
+      "Yes. ro has operated nationally since 2017 and is one of the largest direct-to-consumer telehealth companies in the US. For weight loss it prescribes only FDA-approved brand-name medications - Wegovy, Zepbound, Ozempic and Foundayo - after a clinician review, and its insurance concierge works directly with your plan.",
     signals: ["Operating since 2017", "FDA-approved brand-name medication only", "Insurance concierge and prior authorization help", "Licensed clinicians, nationwide"],
   },
   altrx: {
@@ -127,7 +127,7 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
   ro: [
     { question: "Does ro take insurance for Wegovy and Zepbound?", answer: "ro's insurance concierge checks your coverage and handles prior authorization for brand-name GLP-1s. If your plan covers the medication, you pay your plan's share plus ro's membership; if not, you pay the manufacturer's self-pay price." },
     { question: "What do ro reviews say?", answer: "ro holds a 3.9/5 Trustpilot score from 7,083 reviews. Recent reviewers often mention quick setup and fast delivery; the most common complaint is that the total cost - ro's membership fee plus the medication - ended up higher than they expected from its ads." },
-    { question: "Does ro sell compounded semaglutide?", answer: "No. ro prescribes only FDA-approved brand-name medications for weight loss - Wegovy, Zepbound, Ozempic and Foundaya." },
+    { question: "Does ro sell compounded semaglutide?", answer: "No. ro prescribes only FDA-approved brand-name medications for weight loss - Wegovy, Zepbound, Ozempic and Foundayo." },
   ],
   altrx: [
     { question: "How much is altRx per month after the promo?", answer: "altRx's promotional prices are $89/mo for compounded semaglutide and $149/mo for tirzepatide. Its regular prices are $199/mo and $299/mo. Prices are flat at every dose, so they do not rise as your dose increases - ask how long the promo lasts before you sign up." },
