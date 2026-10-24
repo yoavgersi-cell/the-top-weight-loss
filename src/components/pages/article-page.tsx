@@ -25,6 +25,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 // Search titles that fit Google's ~60-char display (shown without the
 // " | The Top Weight Loss" suffix). Descriptions stay the article's own.
 const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description?: string }> = {
+  "new-weight-loss-drugs-2026": { title: "New Weight-Loss Drugs 2026: GLP-1 Pills, Retatrutide, CagriSema" },
   "glp1-dosage-guide": { title: "GLP-1 Dosage Chart (2026): Semaglutide & Tirzepatide mg to Units" },
   "online-glp1-weight-loss-guide": { title: "Online GLP-1 Weight Loss Guide (2026): Cost, Providers, Safety" },
   "compounded-vs-brand-name-glp1": { title: "Compounded vs Brand-Name GLP-1s: Cost, Safety & Differences" },

@@ -7,6 +7,839 @@ const DISCLAIMER = `<p><em>This article is general information, not medical advi
 
 export const weightLossArticles: ArticleData[] = [
   {
+    slug: "new-weight-loss-drugs-2026",
+    title: "New Weight-Loss Drugs in 2026: GLP-1 Pills, Wegovy HD, Retatrutide, CagriSema and What's Next",
+    description:
+      "Every new weight-loss drug of 2026 explained with sources: Wegovy pill, Foundayo, Wegovy HD, retatrutide, CagriSema, MariTide, real prices and Medicare coverage.",
+    category: "Guides",
+    readTime: "55 min read",
+    publishedAt: "2026-10-24",
+    updatedAt: "2026-10-24",
+    heroColor: "#E8F1FD",
+    author: "The Top Weight Loss Editorial Team",
+    keyTakeaways: [
+      "The FDA approved three new weight-loss treatments in 2025-2026: the Wegovy pill (Dec 22, 2025; 13.6% average weight loss at 64 weeks in OASIS 4), Wegovy HD 7.2 mg (Mar 19, 2026; 18.7% at 72 weeks in STEP UP) and Foundayo, a daily orforglipron pill with no food rules (Apr 1, 2026; 11.2% at 72 weeks on the top dose in ATTAIN-1).",
+      "Retatrutide, Lilly's investigational GIP/GLP-1/glucagon drug, produced 28.3% average weight loss at 80 weeks on 12 mg in TRIUMPH-1 (on-treatment estimate); Lilly plans to file it with the FDA in Q1 2027, and the FDA warns that 'research peptide' versions sold online are unapproved and of unknown quality.",
+      "CagriSema (cagrilintide + semaglutide) has an FDA decision expected in Q4 2026; it averaged 20.4% at 68 weeks in REDEFINE 1 but produced less weight loss than tirzepatide in the head-to-head REDEFINE 4 trial.",
+      "Manufacturer self-pay prices fell to $149-$449 a month for most doses of Wegovy, Zepbound and the GLP-1 pills, and the Medicare GLP-1 Bridge (July 1, 2026 - Dec 31, 2027) offers eligible Part D enrollees a $50 monthly copay.",
+    ],
+    sections: [
+      {
+        heading: "What are the new weight-loss drugs of 2026?",
+        body: `<p><strong>Three new weight-loss medicines reached US patients between December 2025 and April 2026: the Wegovy pill (oral semaglutide), Wegovy HD (a 7.2 mg weekly injection) and Foundayo (orforglipron, a daily pill with no food rules). Behind them, retatrutide, CagriSema, MariTide, amycretin and survodutide are in late-stage trials, and CagriSema has an FDA decision expected by the end of 2026.</strong></p>
+<p>For most of 2024 and 2025, "GLP-1 weight loss" meant one of two weekly injections - Wegovy or Zepbound - or a compounded copy of them. That market has changed faster in the last twelve months than at any point since Wegovy was approved in 2021. There are now pills, a higher-dose injection, a monthly injection in phase 3, a triple-hormone drug that produced close to 30% average weight loss in trials, and cash prices for brand-name medication that are a fraction of what they were.</p>
+<p>Here is the field at a glance, as of October 2026:</p>
+<table>
+<thead><tr><th>Drug</th><th>Company</th><th>What it targets</th><th>How it is taken</th><th>US status (Oct 2026)</th></tr></thead>
+<tbody>
+<tr><td>Wegovy pill (oral semaglutide 25 mg)</td><td>Novo Nordisk</td><td>GLP-1</td><td>Daily pill, empty stomach</td><td>Approved Dec 22, 2025</td></tr>
+<tr><td>Wegovy HD (semaglutide 7.2 mg)</td><td>Novo Nordisk</td><td>GLP-1</td><td>Weekly injection</td><td>Approved Mar 19, 2026</td></tr>
+<tr><td>Foundayo (orforglipron)</td><td>Eli Lilly</td><td>GLP-1 (non-peptide)</td><td>Daily pill, no food or water rules</td><td>Approved Apr 1, 2026</td></tr>
+<tr><td>CagriSema (cagrilintide + semaglutide)</td><td>Novo Nordisk</td><td>Amylin + GLP-1</td><td>Weekly injection</td><td>Filed Dec 2025; decision expected Q4 2026</td></tr>
+<tr><td>Retatrutide</td><td>Eli Lilly</td><td>GIP + GLP-1 + glucagon</td><td>Weekly injection</td><td>Phase 3 complete; filing planned Q1 2027</td></tr>
+<tr><td>MariTide (maridebart cafraglutide)</td><td>Amgen</td><td>GLP-1 activator, GIP blocker</td><td>Monthly injection</td><td>Phase 3 ongoing</td></tr>
+<tr><td>Amycretin</td><td>Novo Nordisk</td><td>GLP-1 + amylin in one molecule</td><td>Weekly injection; pill in development</td><td>Phase 3 ongoing</td></tr>
+<tr><td>Survodutide</td><td>Boehringer Ingelheim</td><td>Glucagon + GLP-1</td><td>Weekly injection</td><td>Phase 3 results reported; no filing announced</td></tr>
+</tbody>
+</table>
+<p>This guide explains each one in plain English: what it is, what the trials actually showed (including the less flattering numbers companies tend to leave out of headlines), what it costs, when the pipeline drugs might arrive, and - most importantly - what all of this means if you are deciding about weight-loss treatment today.</p>
+<p><strong>How we sourced it.</strong> Every figure comes from FDA approval documents and labels, peer-reviewed trial publications (NEJM, The Lancet, Nature Medicine), company announcements, CMS program pages and independent analysis from KFF. Where a company's headline number differs from the more conservative published result, we give both and say which is which. A full source list is at the end. Pipeline drugs are investigational: their results can change, and none of them should be bought outside a clinical trial.</p>`,
+      },
+      {
+        heading: "What changed in the weight-loss drug market in 2025 and 2026?",
+        body: `<p><strong>Five things changed: the FDA approved the first GLP-1 pills and a higher-dose Wegovy, manufacturer cash prices for brand-name GLP-1s fell to roughly $149-$449 a month for most doses, Medicare began covering weight-loss GLP-1s for some beneficiaries at $50 a month, the FDA stepped up enforcement against compounded and "research" GLP-1s, and the next generation of drugs produced phase 3 results.</strong></p>
+<p>The timeline below shows how quickly the landscape moved. Each event is covered in detail later in this guide.</p>
+<table>
+<thead><tr><th>Date</th><th>What happened</th></tr></thead>
+<tbody>
+<tr><td>Feb-May 2025</td><td>FDA grace periods for compounding copies of tirzepatide and semaglutide end after both shortages were declared resolved</td></tr>
+<tr><td>Aug 15, 2025</td><td>Wegovy receives accelerated approval for the liver disease MASH</td></tr>
+<tr><td>Sept 2025</td><td>FDA launches a crackdown on misleading drug advertising, including dozens of letters about compounded GLP-1 marketing</td></tr>
+<tr><td>Nov 6, 2025</td><td>White House announces pricing agreements with Novo Nordisk and Eli Lilly</td></tr>
+<tr><td>Dec 18, 2025</td><td>Novo files CagriSema with the FDA</td></tr>
+<tr><td>Dec 22, 2025</td><td>FDA approves the Wegovy pill, the first oral GLP-1 for weight management</td></tr>
+<tr><td>Jan 2026</td><td>Wegovy pill launches; FDA asks makers to remove the suicidal-behavior warning from Wegovy, Zepbound and Saxenda labels</td></tr>
+<tr><td>Feb 2026</td><td>TrumpRx.gov launches; Zepbound KwikPen (a four-dose pen) announced</td></tr>
+<tr><td>Mar 2026</td><td>FDA warns 30 telehealth companies over compounded GLP-1 marketing; Wegovy HD 7.2 mg approved</td></tr>
+<tr><td>Apr 1, 2026</td><td>FDA approves Foundayo (orforglipron)</td></tr>
+<tr><td>Apr 30, 2026</td><td>FDA proposes removing semaglutide, tirzepatide and liraglutide from the list large outsourcing facilities can compound from</td></tr>
+<tr><td>May 2026</td><td>Retatrutide's pivotal TRIUMPH-1 trial reports about 28% average weight loss on the top dose</td></tr>
+<tr><td>July 1, 2026</td><td>Medicare GLP-1 Bridge begins: $50 a month for eligible beneficiaries</td></tr>
+<tr><td>Aug 2026</td><td>Lilly files six lawsuits against sellers of gray-market retatrutide; FDA issues more warning letters to "research peptide" sellers</td></tr>
+<tr><td>Oct 2026</td><td>A University of Pennsylvania study of Reddit posts documents side effects reported by people using unapproved retatrutide</td></tr>
+</tbody>
+</table>
+<p><strong>The big picture.</strong> Weight-loss medication is no longer a niche treatment. In EY-Parthenon's 2026 consumer survey of more than 3,600 current and former users, 54% said they take a GLP-1 primarily for weight management - the first time that share passed half. More options, lower cash prices and new coverage routes mean more people can get FDA-approved medication than a year ago. At the same time, employer coverage has not kept pace: KFF's 2026 survey found only 18% of firms with 200 or more workers cover GLP-1s for weight loss.</p>
+<p>For anyone shopping for treatment, the practical effect is that the gap between brand-name and compounded medication has narrowed sharply. We explain what that means for choosing a provider later in the guide.</p>`,
+      },
+      {
+        heading: "Why do weight-loss trial results differ depending on who reports them?",
+        body: `<p><strong>Most weight-loss trials report two results. The "treatment-policy" (or intention-to-treat) result counts everyone who was randomly assigned, including people who stopped the drug. The "efficacy" or "trial-product" result estimates what happens if everyone keeps taking it. Companies usually headline the second, which is always higher. Neither is wrong, but comparing one drug's efficacy number with another's treatment-policy number is misleading.</strong></p>
+<p>This is the single most useful idea for reading weight-loss drug news, and almost no consumer coverage explains it. Take the Wegovy pill's OASIS 4 trial:</p>
+<ul>
+<li><strong>Treatment-policy result:</strong> 13.6% average weight loss at 64 weeks, vs 2.2% on placebo. This is the primary result in the published NEJM paper.</li>
+<li><strong>Trial-product result:</strong> 16.6% vs 2.7%. This is the figure in Novo Nordisk's announcement.</li>
+</ul>
+<p>Both describe the same trial. The difference is the people who stopped treatment early, whose weight loss is fully counted in the first number and modeled away in the second.</p>
+<p><strong>The same gap appears everywhere:</strong></p>
+<table>
+<thead><tr><th>Drug and trial</th><th>Treatment-policy (everyone randomized)</th><th>Efficacy / trial-product (if everyone stays on)</th></tr></thead>
+<tbody>
+<tr><td>Wegovy pill - OASIS 4 (64 weeks)</td><td>13.6%</td><td>16.6%</td></tr>
+<tr><td>Foundayo, top dose - ATTAIN-1 (72 weeks)</td><td>11.2%</td><td>12.4%</td></tr>
+<tr><td>Wegovy HD 7.2 mg - STEP UP (72 weeks)</td><td>18.7%</td><td>20.7%</td></tr>
+<tr><td>CagriSema - REDEFINE 1 (68 weeks)</td><td>20.4%</td><td>22.7%</td></tr>
+<tr><td>Survodutide, top dose - SYNCHRONIZE-1 (76 weeks)</td><td>13.0%</td><td>16.6%</td></tr>
+<tr><td>MariTide - phase 2 (52 weeks)</td><td>12.3%-16.2%</td><td>16.3%-19.9%</td></tr>
+</tbody>
+</table>
+<p><strong>Three more traps to watch for:</strong></p>
+<ul>
+<li><strong>Different trial lengths.</strong> A 36-week result and an 80-week result are not comparable, because weight loss keeps building for a year or more on most of these drugs.</li>
+<li><strong>Different populations.</strong> People with type 2 diabetes consistently lose less weight on these drugs than people without it. A result from a diabetes trial will look smaller.</li>
+<li><strong>Placebo differences.</strong> Some trials report placebo-adjusted figures (drug minus placebo); others report raw averages. Always check which.</li>
+</ul>
+<p>Throughout this guide we label which result we are quoting. When we compare drugs side by side, we use the same type of result where it is available - and we flag cross-trial comparisons as the rough guides they are. Only head-to-head trials, like SURMOUNT-5 (tirzepatide vs semaglutide) or REDEFINE 4 (CagriSema vs tirzepatide), compare drugs directly.</p>`,
+      },
+      {
+        heading: "Is there a GLP-1 weight-loss pill now?",
+        body: `<p><strong>Yes - two. The Wegovy pill (oral semaglutide 25 mg) was approved by the FDA on December 22, 2025, and Foundayo (orforglipron) on April 1, 2026. Both are once-daily tablets approved for chronic weight management in adults with obesity, or with overweight and a weight-related condition. They work on the same GLP-1 pathway as the injections, but they are different products with different rules.</strong></p>
+<p>The pills matter for a simple reason: many people who would benefit from a GLP-1 never start because they do not want to inject themselves. Before these approvals, the only oral GLP-1 was Rybelsus, approved for type 2 diabetes at doses studied for blood-sugar control, not weight loss.</p>
+<table>
+<thead><tr><th></th><th>Wegovy pill</th><th>Foundayo</th></tr></thead>
+<tbody>
+<tr><td>Active ingredient</td><td>Semaglutide (a peptide)</td><td>Orforglipron (a small molecule, not a peptide)</td></tr>
+<tr><td>FDA approval</td><td>December 22, 2025</td><td>April 1, 2026</td></tr>
+<tr><td>How often</td><td>Once daily, in the morning</td><td>Once daily, any time</td></tr>
+<tr><td>Food and water rules</td><td>Empty stomach, up to 4 oz of plain water, wait 30 minutes before eating, drinking or other pills</td><td>None - with or without food</td></tr>
+<tr><td>Maintenance dose</td><td>25 mg</td><td>Varies; up to 17.2 mg</td></tr>
+<tr><td>Key trial result (everyone randomized)</td><td>13.6% at 64 weeks (OASIS 4)</td><td>11.2% at 72 weeks on the top dose (ATTAIN-1)</td></tr>
+<tr><td>Other approved use</td><td>Reducing the risk of heart attack and stroke in adults with established cardiovascular disease and obesity or overweight</td><td>Weight management only in the US (diabetes filing submitted)</td></tr>
+<tr><td>Starting self-pay price</td><td>$149/month (1.5 mg)</td><td>$149/month (lowest dose)</td></tr>
+</tbody>
+</table>
+<p><strong>Why the two pills behave so differently.</strong> Semaglutide is a peptide - a chain of amino acids that the digestive system normally breaks down. The Wegovy pill uses an absorption enhancer that lets semaglutide be absorbed in the stomach, and that only works on an empty stomach with very little water. Orforglipron is a small-molecule drug designed from scratch to be swallowed, so it does not need those conditions. That design difference is why Foundayo can be taken with breakfast and the Wegovy pill cannot.</p>
+<p><strong>What they share.</strong> Both carry the same boxed warning about thyroid C-cell tumors seen in rodents as the injectable GLP-1s, and both list the same class warnings, including pancreatitis, gallbladder disease and dehydration-related kidney problems. Both cause mainly digestive side effects, especially while the dose is being increased.</p>
+<p>The next sections cover each pill in detail, then compare them directly. If you are already on an injection, see the section on switching to a pill for maintenance - it is one of the most practical findings of 2026.</p>`,
+      },
+      {
+        heading: "How does the Wegovy pill work, and how well does it work?",
+        body: `<p><strong>The Wegovy pill is daily oral semaglutide - the same active ingredient as Wegovy injections - stepped up every 30 days from 1.5 mg to a 25 mg maintenance dose. In the OASIS 4 trial, adults without diabetes lost an average of 13.6% of their body weight at 64 weeks, compared with 2.2% on placebo, counting everyone randomized; Novo's on-treatment estimate is 16.6%.</strong></p>
+<p><strong>Dosing (FDA label):</strong></p>
+<table>
+<thead><tr><th>Days</th><th>Daily dose</th></tr></thead>
+<tbody>
+<tr><td>1-30</td><td>1.5 mg</td></tr>
+<tr><td>31-60</td><td>4 mg</td></tr>
+<tr><td>61-90</td><td>9 mg</td></tr>
+<tr><td>91 onward</td><td>25 mg (maintenance)</td></tr>
+</tbody>
+</table>
+<p><strong>How to take it.</strong> Every morning on an empty stomach, swallowed whole with no more than 4 ounces (about half a cup) of plain water. Then wait at least 30 minutes before eating, drinking anything else, or taking other oral medications. If you miss a dose, the label says to skip it and resume the next day. These rules are not optional: they are how the drug gets absorbed.</p>
+<p><strong>What OASIS 4 found.</strong> The trial randomly assigned 307 adults with obesity or overweight, without diabetes, to the pill or placebo for 64 weeks, alongside lifestyle support. Key results, published in NEJM in 2025:</p>
+<ul>
+<li>Average weight loss of <strong>13.6% vs 2.2%</strong> on placebo (treatment-policy), or 16.6% vs 2.7% if everyone had stayed on treatment.</li>
+<li>About <strong>30%</strong> of people on the pill lost at least 20% of their body weight, vs about 3% on placebo.</li>
+<li>Digestive side effects were common: nausea in about 47% vs 19% on placebo, and vomiting in about 31% vs 6%.</li>
+<li>About 7% stopped because of side effects, vs about 6% on placebo.</li>
+</ul>
+<p><strong>How it compares with Wegovy injections.</strong> Novo describes the pill's weight loss as similar to injectable Wegovy 2.4 mg, which produced about 15% in the STEP-1 trial. The trials were separate, so this is an indirect comparison, but the numbers are in the same range. The trade-off is convenience: one injection a week vs one pill every morning with a fasting routine.</p>
+<p><strong>Who it suits.</strong> People who want FDA-approved semaglutide without needles and who can keep a consistent morning routine. It also carries the cardiovascular risk-reduction indication for adults with established heart disease, which the injectable Wegovy also has. It suits people less well if they take several other morning medications that conflict with the 30-minute wait, or if they know they will not stick to a fasting rule every day.</p>
+<p><strong>Where to get it.</strong> Novo says it is available at about 70,000 US pharmacies, through NovoCare Pharmacy, Amazon Pharmacy and telehealth services. Among the providers we rank, <a href="/reviews/ro">ro</a> prescribes brand-name GLP-1s and handles insurance checks.</p>`,
+      },
+      {
+        heading: "What is Foundayo (orforglipron), and how well does it work?",
+        body: `<p><strong>Foundayo is Eli Lilly's once-daily orforglipron pill, approved on April 1, 2026 for chronic weight management. It can be taken at any time of day with or without food. In the ATTAIN-1 trial, the top dose produced 11.2% average weight loss at 72 weeks vs 2.1% on placebo counting everyone randomized, or 12.4% (about 27 lb) for people who stayed on treatment.</strong></p>
+<p><strong>Dosing (FDA label).</strong> Foundayo starts at 0.8 mg once daily. After at least 30 days the dose moves to 2.5 mg, then after at least 30 more days to 5.5 mg. From there, your clinician may increase it to 9 mg, 14.5 mg and finally 17.2 mg, each after at least 30 days, depending on how you respond and what you tolerate. The maximum is 17.2 mg a day (9 mg if you also take certain drugs, called strong CYP3A4 inhibitors, that slow how the body clears it). If you miss a dose, take it as soon as possible, but never double up.</p>
+<p><strong>A detail that confuses many readers.</strong> The phase 3 trials used capsules at 6, 12 and 36 mg. The tablets sold today use different numbers that deliver equivalent exposure: the 36 mg trial dose corresponds to the 17.2 mg tablet, 12 mg to 9 mg, and 6 mg to 5.5 mg. So when you read "36 mg" in a trial report, it means the top Foundayo dose, not a dose higher than the label allows.</p>
+<p><strong>ATTAIN-1 results</strong> (3,127 adults with obesity or overweight, without diabetes, 72 weeks, NEJM 2025):</p>
+<table>
+<thead><tr><th>Trial dose (tablet equivalent)</th><th>Everyone randomized</th><th>If everyone stayed on treatment</th><th>Lost at least 10% (on treatment)</th></tr></thead>
+<tbody>
+<tr><td>6 mg (5.5 mg)</td><td>7.5%</td><td>7.8%</td><td>35.9%</td></tr>
+<tr><td>12 mg (9 mg)</td><td>8.4%</td><td>9.3%</td><td>45.1%</td></tr>
+<tr><td>36 mg (17.2 mg)</td><td>11.2%</td><td>12.4%</td><td>59.6%</td></tr>
+<tr><td>Placebo</td><td>2.1%</td><td>0.9%</td><td>8.6%</td></tr>
+</tbody>
+</table>
+<p><strong>Side effects.</strong> As with other GLP-1s, they are mostly digestive: nausea, constipation, diarrhea, vomiting, indigestion and abdominal pain, plus headache, fatigue and hair loss among the more common effects on the label. In ATTAIN-1, 5.3% to 10.3% of people stopped treatment because of side effects across doses, compared with 2.7% on placebo.</p>
+<p><strong>How it fits.</strong> Foundayo's average weight loss is lower than the injectables and lower than the Wegovy pill in cross-trial comparisons. Its advantages are practical: no fasting routine, no needles, a manufacturing process that does not depend on injectable peptide supply, and - as the next sections show - promising data as a maintenance option after an injection. For someone who needs moderate weight loss, or who wants to keep off weight already lost, it may be enough. For someone who needs 20% or more, the injections have stronger evidence.</p>
+<p><strong>Where to get it.</strong> Lilly sells it through LillyDirect, retail pharmacies and telehealth partners. Among the providers we rank, <a href="/reviews/ro">ro</a> offers Foundayo.</p>`,
+      },
+      {
+        heading: "Wegovy pill vs Foundayo: which GLP-1 pill is better?",
+        body: `<p><strong>No trial has compared the two pills directly in people with obesity. In separate trials, the Wegovy pill produced more average weight loss (13.6% at 64 weeks vs 11.2% at 72 weeks for Foundayo's top dose, counting everyone randomized). Foundayo is easier to take, with no food or water restrictions. Each company has published an indirect analysis that favors its own drug.</strong></p>
+<table>
+<thead><tr><th>Factor</th><th>Wegovy pill</th><th>Foundayo</th><th>Edge</th></tr></thead>
+<tbody>
+<tr><td>Average weight loss (separate trials, everyone randomized)</td><td>13.6% at 64 weeks</td><td>11.2% at 72 weeks (top dose)</td><td>Wegovy pill</td></tr>
+<tr><td>Daily routine</td><td>Empty stomach, little water, 30-minute wait</td><td>Any time, with or without food</td><td>Foundayo</td></tr>
+<tr><td>Dose steps</td><td>4 steps to 25 mg over 90 days</td><td>Up to 6 steps; maintenance dose can stop lower</td><td>Depends on you</td></tr>
+<tr><td>Cardiovascular indication</td><td>Yes (established heart disease)</td><td>No (US weight label)</td><td>Wegovy pill</td></tr>
+<tr><td>Maintenance after an injection</td><td>Not specifically tested</td><td>Tested in ATTAIN-MAINTAIN</td><td>Foundayo</td></tr>
+<tr><td>Self-pay price range</td><td>$149-$299/month</td><td>$149-$349/month</td><td>Similar</td></tr>
+<tr><td>Medicare GLP-1 Bridge</td><td>Covered</td><td>Covered</td><td>Tie</td></tr>
+</tbody>
+</table>
+<p><strong>The dueling analyses.</strong> Novo Nordisk sponsored an indirect comparison, presented in 2026, estimating that oral semaglutide 25 mg produced about 3 percentage points more weight loss than orforglipron's top dose, with higher odds of stopping because of side effects on orforglipron. Lilly sponsored its own analysis in adults with type 2 diabetes, estimating that Foundayo's top dose produced 1.5 to 2.4 points more weight loss than oral semaglutide 25 mg. Indirect comparisons cannot fully adjust for differences between trials, and it is no coincidence that each favors its sponsor. Treat both as hypotheses, not verdicts.</p>
+<p><strong>The one true head-to-head.</strong> In ACHIEVE-3, published in The Lancet in 2026, orforglipron was compared directly with Rybelsus (oral semaglutide at the lower 7 mg and 14 mg diabetes doses, not the 25 mg Wegovy pill) in people with type 2 diabetes. Orforglipron lowered A1C and weight more (weight loss of 9.2% on its top dose vs 5.3% on 14 mg oral semaglutide over 52 weeks), but caused more digestive side effects and more discontinuations. Because the semaglutide doses were lower than the Wegovy pill, this trial does not settle the obesity question.</p>
+<p><strong>Our decision rules:</strong></p>
+<ul>
+<li><strong>If you want the most weight loss from a pill</strong> and can manage a strict morning routine, the Wegovy pill has the stronger trial result.</li>
+<li><strong>If a fasting routine would not survive your real life</strong> - shift work, morning medications, unpredictable mornings - Foundayo's flexibility may matter more than a few percentage points, because the best drug is the one you take consistently.</li>
+<li><strong>If you have established heart disease,</strong> the Wegovy pill's cardiovascular indication is a point in its favor; discuss it with your clinician.</li>
+<li><strong>If you are coming off an injection to maintain your weight,</strong> Foundayo has the only dedicated maintenance trial (see below).</li>
+</ul>`,
+      },
+      {
+        heading: "Are GLP-1 pills as effective as injections?",
+        body: `<p><strong>Not on average. Weekly injections still produce the largest weight loss: about 15% for Wegovy 2.4 mg (STEP-1), about 18.7% for Wegovy HD 7.2 mg (STEP UP) and up to about 20.9% for Zepbound 15 mg (SURMOUNT-1). The Wegovy pill (13.6%) comes closest; Foundayo's top dose produced 11.2%. These are cross-trial comparisons, and individual results vary widely.</strong></p>
+<table>
+<thead><tr><th>Medication</th><th>Form</th><th>Trial</th><th>Average weight loss</th></tr></thead>
+<tbody>
+<tr><td>Zepbound (tirzepatide) 15 mg</td><td>Weekly injection</td><td>SURMOUNT-1, 72 weeks</td><td>About 20.9% (placebo 3.1%)</td></tr>
+<tr><td>Wegovy HD (semaglutide 7.2 mg)</td><td>Weekly injection</td><td>STEP UP, 72 weeks</td><td>18.7% (placebo 3.9%)</td></tr>
+<tr><td>Wegovy (semaglutide 2.4 mg)</td><td>Weekly injection</td><td>STEP-1, 68 weeks</td><td>About 15% (placebo 2.4%)</td></tr>
+<tr><td>Wegovy pill (semaglutide 25 mg)</td><td>Daily pill</td><td>OASIS 4, 64 weeks</td><td>13.6% (placebo 2.2%)</td></tr>
+<tr><td>Foundayo (orforglipron, top dose)</td><td>Daily pill</td><td>ATTAIN-1, 72 weeks</td><td>11.2% (placebo 2.1%)</td></tr>
+</tbody>
+</table>
+<p><em>Figures are treatment-policy results where available; the STEP-1 and SURMOUNT-1 figures are the widely cited primary results of those trials.</em></p>
+<p><strong>Why "less" can still be "enough".</strong> Clinical guidelines generally treat a 5% to 10% loss of body weight as meaningful for health - it can improve blood pressure, blood sugar and other markers. A pill producing 11% to 14% on average clears that bar for many people. Whether a pill is enough for you depends on your starting point and your goal, not on which drug tops a league table.</p>
+<p><strong>What pills do better.</strong></p>
+<ul>
+<li><strong>No needles,</strong> which removes the main reason some people never start.</li>
+<li><strong>No refrigeration or cold-chain shipping,</strong> which simplifies travel and delivery.</li>
+<li><strong>Easy to stop and restart</strong> day to day if a side effect flares - though stopping altogether brings the same regain risk as with injections.</li>
+</ul>
+<p><strong>What injections do better.</strong></p>
+<ul>
+<li><strong>Larger average effect,</strong> particularly tirzepatide and the higher semaglutide dose.</li>
+<li><strong>Once a week,</strong> so a missed dose is a rarer event than with a daily pill.</li>
+<li><strong>Longer track record</strong> in large outcome trials.</li>
+</ul>
+<p><strong>A cost note.</strong> At manufacturer self-pay prices, pills and injections now cost roughly the same at comparable steps - the Wegovy pill and Foundayo top out around $299 to $349 a month, while Wegovy injections are $349 and Zepbound $449 at most doses with on-time refills. Price is no longer the main reason to choose one form over the other.</p>`,
+      },
+      {
+        heading: "Can I switch from a weight-loss injection to a pill to maintain my weight?",
+        body: `<p><strong>The evidence for this is new but encouraging. In ATTAIN-MAINTAIN (Nature Medicine, May 2026), adults who had lost weight on Wegovy or Zepbound were switched to orforglipron or placebo for a year. People switched from Wegovy kept off most of their loss, and people switched from Zepbound kept off about three-quarters of it, while those switched to placebo regained much more. Any switch should be planned with your clinician.</strong></p>
+<p>Maintenance is the hardest part of GLP-1 treatment. In earlier trials, people who stopped semaglutide or tirzepatide regained a large share of their weight within a year. A pill that costs less, needs no injections and holds most of the weight off would change the long-term picture for many patients.</p>
+<p><strong>What ATTAIN-MAINTAIN did.</strong> It enrolled 376 adults who had already lost weight on injectable Wegovy or Zepbound in an earlier trial, then randomly assigned them to daily orforglipron or placebo for 52 weeks.</p>
+<p><strong>What it found:</strong></p>
+<ul>
+<li><strong>Switched from Wegovy:</strong> Lilly reported that people on orforglipron stayed within about 0.9 kg (2 lb) of the weight they had reached on the injection. The published analysis reported that they kept off about 79% of their earlier weight loss, compared with about 38% for those switched to placebo.</li>
+<li><strong>Switched from Zepbound:</strong> people on orforglipron regained about 5 kg (11 lb) on average and kept off about 75% of their earlier loss.</li>
+<li><strong>Side effects:</strong> between about 5% and 8% stopped orforglipron because of side effects.</li>
+</ul>
+<p><strong>The important limitation.</strong> The trial had no group that simply stayed on the injection, so it cannot tell you whether switching is as good as continuing. It shows the pill is much better than stopping, not that it equals the injection. Zepbound produces more weight loss than orforglipron, so it makes sense that more weight came back after that switch.</p>
+<p><strong>Who might consider it:</strong></p>
+<ul>
+<li>People at a stable goal weight who want to stop injecting.</li>
+<li>People whose insurance or budget covers a pill more easily than an injection.</li>
+<li>People who tolerated their injection well and want a lower-intensity maintenance option.</li>
+</ul>
+<p><strong>How to do it safely.</strong> Agree on a plan with your clinician: when to stop the injection, which pill dose to start at, how often to weigh yourself, and how much regain would trigger a change of plan. Keep up the habits that protect maintenance - adequate protein, resistance training and regular activity. Our guide to <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1 and maintenance</a> covers the broader evidence.</p>`,
+      },
+      {
+        heading: "How much do the GLP-1 pills cost?",
+        body: `<p><strong>At manufacturer self-pay prices, the Wegovy pill costs $149 a month for the 1.5 mg starting dose, $199 for 4 mg, and $299 for the 9 mg and 25 mg doses. Foundayo ranges from $149 at its lowest doses to $299 for most higher doses, and $349 for the top two doses if you do not refill within 45 days. Commercially insured patients may pay as little as $25 with savings cards, and eligible Medicare beneficiaries pay $50.</strong></p>
+<table>
+<thead><tr><th>Dose</th><th>Wegovy pill (NovoCare self-pay)</th></tr></thead>
+<tbody>
+<tr><td>1.5 mg</td><td>$149/month</td></tr>
+<tr><td>4 mg</td><td>$199/month</td></tr>
+<tr><td>9 mg</td><td>$299/month</td></tr>
+<tr><td>25 mg</td><td>$299/month</td></tr>
+</tbody>
+</table>
+<table>
+<thead><tr><th>Dose</th><th>Foundayo (LillyDirect self-pay)</th></tr></thead>
+<tbody>
+<tr><td>0.8 mg</td><td>$149/month</td></tr>
+<tr><td>2.5 mg</td><td>$149/month promotional price through Dec 31, 2026 (regular $199)</td></tr>
+<tr><td>5.5 mg</td><td>$199/month promotional price through Dec 31, 2026 (regular $299)</td></tr>
+<tr><td>9 mg</td><td>$299/month</td></tr>
+<tr><td>14.5 mg and 17.2 mg</td><td>$299/month if refilled within 45 days; otherwise $349</td></tr>
+</tbody>
+</table>
+<p><strong>Reading the fine print:</strong></p>
+<ul>
+<li><strong>Prices rise as the dose rises.</strong> Both pills have dose-tiered pricing, so the starting price is not your long-term price. Budget for the maintenance dose: about $299 a month for most people on either pill.</li>
+<li><strong>The 45-day refill rule.</strong> Lilly's lowest prices on higher doses depend on refilling on time. A late refill can cost $50 more.</li>
+<li><strong>Promotions end.</strong> Foundayo's reduced prices on 2.5 mg and 5.5 mg run through December 31, 2026. Check the current price before you order.</li>
+<li><strong>TrumpRx lists the same products</strong> and routes orders to the manufacturers' pharmacies; it does not usually offer a lower price than buying directly.</li>
+</ul>
+<p><strong>Annual cost at maintenance.</strong> At $299 a month, a year of either pill at a full dose costs about $3,588. That is several times the cost of the cheapest compounded semaglutide programs we track, but it buys an FDA-approved product - and it is a tiny fraction of what brand-name GLP-1s cost at list price just two years ago.</p>
+<p><strong>With insurance.</strong> Coverage for weight-loss drugs depends entirely on your plan. If you have commercial coverage, ask whether the pill is on your formulary and whether prior authorization is required. Telehealth services with insurance support, such as <a href="/reviews/ro">ro</a>, can check this for you. Medicare coverage is covered later in this guide.</p>
+<p>Prices are the manufacturers' published self-pay prices as of October 2026 and can change; confirm before ordering.</p>`,
+      },
+      {
+        heading: "What is Wegovy HD (semaglutide 7.2 mg)?",
+        body: `<p><strong>Wegovy HD is a higher-dose version of the Wegovy injection: 7.2 mg of semaglutide once a week, three times the standard 2.4 mg maintenance dose. The FDA approved it on March 19, 2026 for adults with obesity, or overweight and a weight-related condition, who have tolerated 2.4 mg and need more weight loss. In the STEP UP trial, it produced 18.7% average weight loss at 72 weeks, vs 15.6% on 2.4 mg and 3.9% on placebo.</strong></p>
+<p>Wegovy HD was approved under the FDA's Commissioner's National Priority Voucher pilot, which aims to speed up reviews of selected drugs. Some news coverage called it an "accelerated" approval; that describes the fast review, not the FDA's formal Accelerated Approval pathway. It launched nationwide on April 7, 2026.</p>
+<p><strong>STEP UP results</strong> (1,407 adults with obesity, without diabetes, 72 weeks, published in The Lancet Diabetes &amp; Endocrinology in 2025):</p>
+<table>
+<thead><tr><th>Group</th><th>Everyone randomized</th><th>If everyone stayed on treatment</th></tr></thead>
+<tbody>
+<tr><td>Semaglutide 7.2 mg</td><td>18.7%</td><td>20.7%</td></tr>
+<tr><td>Semaglutide 2.4 mg</td><td>15.6%</td><td>17.5%</td></tr>
+<tr><td>Placebo</td><td>3.9%</td><td>2.4%</td></tr>
+</tbody>
+</table>
+<p>About one in three people on 7.2 mg lost at least 25% of their body weight.</p>
+<p><strong>The side effect to know about: dysesthesia.</strong> Dysesthesia means unusual or unpleasant skin sensations - tingling, burning, sensitivity to touch. In STEP UP it was reported by about 22% of people on 7.2 mg, compared with about 6% on 2.4 mg and 0.3% on placebo. Digestive side effects were also more frequent at the higher dose. Dysesthesia has now appeared with several high-efficacy weight-loss drugs, including retatrutide, and is worth asking your clinician about if you are considering a higher dose.</p>
+<p><strong>Who it is for.</strong> The label is aimed at people who are already on 2.4 mg, tolerate it, and need further weight reduction. It is not a starting dose and not a shortcut. The extra gain over 2.4 mg in the trial averaged about 3 percentage points of body weight - meaningful for some people, especially those with a lot of weight to lose or who have plateaued, but modest compared with the jump from no treatment to 2.4 mg.</p>
+<p><strong>Price.</strong> Novo lists Wegovy HD at about $399 a month self-pay, compared with $349 for standard Wegovy doses. Commercially insured patients may pay as little as $25 a month with the savings offer if their plan covers it.</p>
+<p><strong>Do not recreate it with compounded semaglutide.</strong> Drawing extra units from a compounded vial to reach 7.2 mg is not the same as being prescribed Wegovy HD, and dosing errors with compounded semaglutide have already sent people to hospital. Our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a> explains why.</p>`,
+      },
+      {
+        heading: "What is the Zepbound KwikPen, and did Zepbound change in 2026?",
+        body: `<p><strong>The Zepbound KwikPen is a new multi-dose pen that holds four weekly doses - one month of treatment - instead of the single-use pens Zepbound launched with. Lilly announced it in February 2026, and since March 2026 its self-pay price has been available at major pharmacies. Zepbound's active ingredient (tirzepatide), doses and indications did not change.</strong></p>
+<p>Zepbound itself remains approved for chronic weight management and for moderate to severe obstructive sleep apnea in adults with obesity. We found no new Zepbound indication in 2025 or 2026. What changed is how it is sold and what it costs.</p>
+<p><strong>Three formats are now available:</strong></p>
+<table>
+<thead><tr><th>Format</th><th>How it works</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Single-dose autoinjector pen</td><td>One pen per weekly dose; hidden needle</td><td>The original format</td></tr>
+<tr><td>Single-dose vial</td><td>One vial per weekly dose; drawn up with a syringe</td><td>Sold through LillyDirect; Walmart pickup available since October 2025</td></tr>
+<tr><td>KwikPen</td><td>Four doses in one pen; new pen needle each week</td><td>Self-pay price available at retail pharmacies; pen needles sold separately</td></tr>
+</tbody>
+</table>
+<p><strong>Self-pay prices (LillyDirect, October 2026).</strong> Lilly says vials and KwikPen are priced the same:</p>
+<table>
+<thead><tr><th>Dose</th><th>Price with refill within 45 days</th><th>Otherwise</th></tr></thead>
+<tbody>
+<tr><td>2.5 mg</td><td>$299/month</td><td>$299/month</td></tr>
+<tr><td>5 mg</td><td>$399/month</td><td>$399/month</td></tr>
+<tr><td>7.5 mg</td><td>$449/month</td><td>$499/month</td></tr>
+<tr><td>10 mg, 12.5 mg, 15 mg</td><td>$449/month</td><td>$699/month</td></tr>
+</tbody>
+</table>
+<p>The 45-day rule is important: at the higher doses, a refill that is more than 45 days after the last one can cost $250 more. If you are on Zepbound self-pay, put your refill date in your calendar.</p>
+<p><strong>Medicare.</strong> The Medicare GLP-1 Bridge covers the Zepbound KwikPen specifically - not the single-dose pens or vials - at a $50 monthly copay for eligible beneficiaries. If you are on Medicare and use another Zepbound format, ask your prescriber about switching formats.</p>
+<p><strong>Why this matters for comparison shopping.</strong> At $449 a month for most maintenance doses, brand-name Zepbound now costs roughly 1.5 to 5 times as much as the compounded tirzepatide programs we track (which start between $89 and $299 a month), instead of ten times as much at its old list price. For some people, that gap is now small enough to choose the FDA-approved product. For a direct comparison of the molecules, see <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>.</p>`,
+      },
+      {
+        heading: "What is retatrutide?",
+        body: `<p><strong>Retatrutide is an investigational once-weekly injection from Eli Lilly that activates three hormone receptors - GIP, GLP-1 and glucagon - which is why it is often called a "triple agonist" or "triple G" drug. It is not FDA-approved. In phase 3 trials it produced the largest average weight loss of any weight-loss drug tested so far: about 28% at 80 weeks on the top dose in the pivotal TRIUMPH-1 trial.</strong></p>
+<p>To understand why retatrutide gets so much attention, it helps to see how it builds on the drugs already on the market:</p>
+<table>
+<thead><tr><th>Drug</th><th>Receptors activated</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>Semaglutide (Wegovy)</td><td>GLP-1</td><td>Approved</td></tr>
+<tr><td>Tirzepatide (Zepbound)</td><td>GIP + GLP-1</td><td>Approved</td></tr>
+<tr><td>Retatrutide</td><td>GIP + GLP-1 + glucagon</td><td>Investigational</td></tr>
+</tbody>
+</table>
+<p><strong>What each hormone adds.</strong> GLP-1 and GIP are gut hormones that reduce appetite and help regulate blood sugar. Glucagon is better known for raising blood sugar, but it also increases energy expenditure and helps the liver burn fat. The idea behind retatrutide is that adding glucagon activity to a GIP/GLP-1 drug produces more weight loss and more liver-fat reduction than appetite effects alone. Survodutide, covered later, pairs glucagon with GLP-1 only.</p>
+<p><strong>How it is taken in trials.</strong> Once a week by injection under the skin, with doses of 4 mg, 9 mg and 12 mg studied in phase 3 after a gradual escalation.</p>
+<p><strong>The early evidence.</strong> Retatrutide first drew wide attention with a phase 2 trial published in NEJM in 2023: at 48 weeks, people on the 12 mg dose had lost 24.2% of their body weight on average, vs 2.1% on placebo, and their weight had not yet plateaued. That trial was small (338 people) and short. The phase 3 TRIUMPH program, which reported in 2025 and 2026, was designed to show whether those results hold in larger, longer trials - and they largely did.</p>
+<p><strong>Why it matters for patients today.</strong> Retatrutide is not available legally outside clinical trials. The intense interest has created a large gray market of products sold online as "research peptides," which the FDA and Lilly are actively targeting. We cover the trial results, side effects, expected timeline and the risks of the gray market in the next four sections.</p>`,
+      },
+      {
+        heading: "How much weight do people lose on retatrutide?",
+        body: `<p><strong>In Lilly's pivotal TRIUMPH-1 trial, adults without diabetes lost an average of 28.3% of their body weight at 80 weeks on the 12 mg dose (about 70 lb), vs 2.2% on placebo, for people who stayed on treatment; the published treatment-policy result is lower, reported at about 25%. In a 104-week extension, the 12 mg group averaged 30.3%. People with type 2 diabetes lost less - about 20.8% at 80 weeks in TRIUMPH-2.</strong></p>
+<p>The TRIUMPH program tested retatrutide across different groups of patients. Lilly's headline results (efficacy estimand, for people who stayed on treatment):</p>
+<table>
+<thead><tr><th>Trial</th><th>Who was studied</th><th>Duration</th><th>Weight loss on retatrutide</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>Phase 2 (NEJM 2023)</td><td>Obesity or overweight, no diabetes (n=338)</td><td>48 weeks</td><td>24.2% on 12 mg</td><td>2.1%</td></tr>
+<tr><td>TRIUMPH-4</td><td>Obesity or overweight with knee osteoarthritis</td><td>68 weeks</td><td>28.7% on 12 mg; 26.4% on 9 mg</td><td>2.1%</td></tr>
+<tr><td>TRIUMPH-1</td><td>Obesity or overweight, no diabetes (n=2,339)</td><td>80 weeks</td><td>28.3% on 12 mg; 25.9% on 9 mg; 19.0% on 4 mg</td><td>2.2%</td></tr>
+<tr><td>TRIUMPH-1 extension</td><td>Same participants, pre-specified</td><td>104 weeks</td><td>30.3% on 12 mg</td><td>-</td></tr>
+<tr><td>TRIUMPH-2</td><td>Obesity or overweight with type 2 diabetes</td><td>80 weeks</td><td>20.8% on 12 mg; 19.1% on 9 mg; 12.7% on 4 mg</td><td>About 4%</td></tr>
+<tr><td>TRIUMPH-3</td><td>Severe obesity with established cardiovascular disease</td><td>80 weeks</td><td>Up to 22.6%</td><td>-</td></tr>
+</tbody>
+</table>
+<p><strong>What else the trials showed:</strong></p>
+<ul>
+<li><strong>A large share reached very high losses.</strong> In TRIUMPH-1, 45.3% of people on 12 mg lost at least 30% of their body weight, and 65.3% ended with a BMI below 30.</li>
+<li><strong>Knee pain improved.</strong> In TRIUMPH-4, a standard knee-pain score fell by about 74% to 76% on retatrutide, vs about 40% on placebo.</li>
+<li><strong>Sleep apnea improved.</strong> Two sleep apnea trials published in NEJM in October 2026 found retatrutide reduced breathing interruptions during sleep significantly more than placebo.</li>
+<li><strong>The cardiovascular signal was less clear.</strong> TRIUMPH-3 enrolled people with heart disease and produced large weight loss, but trade press reported that major cardiovascular events did not differ significantly from placebo. The trial was not designed as a cardiovascular outcomes study; a dedicated outcomes trial (TRIUMPH-Outcomes) is still running.</li>
+</ul>
+<p><strong>How to read "28%" responsibly.</strong> The figure is Lilly's on-treatment estimate for the highest dose. The treatment-policy result, which counts people who stopped, is reported at about 25% - still the largest ever seen in a phase 3 obesity trial, but a few points lower than the headline. For context, tirzepatide 15 mg produced about 20.9% at 72 weeks in SURMOUNT-1. No head-to-head trial of retatrutide against tirzepatide has reported.</p>`,
+      },
+      {
+        heading: "What are the side effects of retatrutide?",
+        body: `<p><strong>Retatrutide's side effects were mainly digestive, as with other GLP-1-based drugs, and more common at higher doses. In TRIUMPH-1, 11.3% of people on the 12 mg dose stopped because of side effects, vs 4.9% on placebo. Dysesthesia - unusual skin sensations - was reported by about 12.5% on 12 mg vs 0.9% on placebo.</strong></p>
+<table>
+<thead><tr><th>TRIUMPH-1 (80 weeks)</th><th>4 mg</th><th>9 mg</th><th>12 mg</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>Stopped because of side effects</td><td>4.1%</td><td>6.9%</td><td>11.3%</td><td>4.9%</td></tr>
+<tr><td>Dysesthesia (abnormal skin sensations)</td><td>5.1%</td><td>12.3%</td><td>12.5%</td><td>0.9%</td></tr>
+</tbody>
+</table>
+<p><strong>Digestive side effects.</strong> Nausea, diarrhea, vomiting and constipation were the most common side effects, as they are with semaglutide and tirzepatide. In the phase 2 trial, they were dose-related and partly reduced by starting at a lower dose. This is the same pattern seen with every drug in the class: slower escalation means fewer problems.</p>
+<p><strong>Dysesthesia.</strong> Lilly describes the cases as mostly mild to moderate, with most resolving during treatment. It is notable because it was rare with the earlier GLP-1 drugs at standard doses but appears more often with the newest high-efficacy treatments - it was also reported by about 22% of people on Wegovy HD 7.2 mg. Researchers are still working out why. If you experience new tingling, burning or skin sensitivity on any GLP-1 drug, tell your clinician.</p>
+<p><strong>Discontinuation depends on the population.</strong> In TRIUMPH-2, which enrolled people with type 2 diabetes, discontinuation due to side effects was 3.8%, 11.6% and 7.7% across the three doses, vs 4.9% on placebo. These numbers are in a similar range to other high-dose incretin drugs.</p>
+<p><strong>What we do not know yet.</strong></p>
+<ul>
+<li><strong>Long-term safety beyond about two years</strong> in large numbers of people.</li>
+<li><strong>Cardiovascular outcomes,</strong> which the ongoing TRIUMPH-Outcomes trial is designed to measure.</li>
+<li><strong>Muscle and bone effects</strong> of losing 25% to 30% of body weight - a question for any drug that produces this much loss.</li>
+<li><strong>The full label,</strong> including warnings and contraindications, which will not exist until the FDA completes a review.</li>
+</ul>
+<p>The trial safety data apply only to the genuine product, made by Lilly, given at tested doses under medical supervision. They say nothing about the safety of products sold online as "retatrutide," which is the subject of the next two sections.</p>`,
+      },
+      {
+        heading: "When will retatrutide be approved?",
+        body: `<p><strong>Not before 2027 at the earliest. Lilly said in July 2026 that it plans to submit retatrutide to the FDA in the first quarter of 2027, later than its earlier 2026 target, to complete manufacturing and quality data. Standard FDA reviews of new drugs aim to finish about 10 months after an application is formally accepted - roughly a year after submission - though priority programs can be faster. Until then, it is available only in clinical trials.</strong></p>
+<p>Lilly's second-quarter 2026 report stated that the clinical data package for obesity, obstructive sleep apnea and knee osteoarthritis pain is complete. The delay, according to Lilly, is about chemistry, manufacturing and controls - the data that show the company can produce the drug consistently at scale - rather than about the trial results.</p>
+<p><strong>What could change the timeline:</strong></p>
+<ul>
+<li><strong>Faster review.</strong> The FDA's National Priority Voucher pilot has produced very fast reviews for some weight-loss drugs in 2026; Foundayo's review reportedly took about 50 days. Whether retatrutide would receive similar treatment has not been announced.</li>
+<li><strong>Updated guidance.</strong> Lilly reports quarterly results and could update its filing plans.</li>
+<li><strong>FDA questions.</strong> Any regulatory review can be extended if the agency requests more data.</li>
+</ul>
+<p><strong>Can I get it through a clinical trial?</strong> Possibly. Retatrutide trials continue, including the cardiovascular outcomes trial and a maintenance trial. You can search for recruiting studies at ClinicalTrials.gov by entering "retatrutide." Trials have strict eligibility criteria, and you may be assigned to placebo, but trial participants receive the genuine drug under medical supervision at no cost.</p>
+<p><strong>What should I do in the meantime?</strong> If you need weight-loss treatment now, the approved options are strong. Tirzepatide (Zepbound) produced about 20.9% average weight loss in SURMOUNT-1, and its self-pay price has fallen sharply. Starting an approved treatment now and discussing retatrutide with your clinician once it is approved is a better plan than waiting - or than buying an unapproved product. Our <a href="/">ranking of online GLP-1 providers</a> compares programs that offer tirzepatide today.</p>`,
+      },
+      {
+        heading: "Is it safe or legal to buy retatrutide online?",
+        body: `<p><strong>No. Retatrutide is not approved for any use, cannot legally be compounded, and the FDA warns that products sold online "for research purposes" or "not for human consumption" are of unknown quality and may be harmful. The FDA has sent multiple rounds of warning letters to sellers, and Lilly has filed lawsuits against several. A 2026 University of Pennsylvania study of Reddit posts found thousands of users reporting side effects from gray-market products.</strong></p>
+<p>A large online market sells vials labeled "retatrutide," often branded with names like "GLP-3" or "RT," usually as freeze-dried powder that buyers mix themselves. Sellers typically label them "research use only." Here is what regulators and researchers say about them.</p>
+<p><strong>The FDA's position.</strong> On its page about unapproved GLP-1 drugs, the FDA states that retatrutide and cagrilintide are not components of any FDA-approved drug, cannot be used in compounding, and have not been found safe and effective for any condition. It warns consumers against GLP-1 products sold for "research purposes," noting they do not go through FDA review for safety, effectiveness or quality.</p>
+<p><strong>Enforcement against sellers.</strong> The FDA has issued warning letters to peptide sellers in several waves, including December 2024, September 2025, March 2026 and August 2026. Letters dated August 24, 2026 to Royal Peptides and NuScience Peptides called retatrutide an unapproved new drug; FDA has said that a "research use only" label does not protect a seller when the evidence shows the product is intended for people. The advocacy group Public Citizen reported in 2026 that many sellers who received letters continued advertising peptides.</p>
+<p><strong>Lilly's lawsuits.</strong> On August 12, 2026, Lilly filed six lawsuits against businesses it accused of selling retatrutide, and said it had referred more than 200 individuals and companies to federal and state authorities. These are allegations; courts had not ruled on them at the time of writing.</p>
+<p><strong>What users report.</strong> Researchers at the University of Pennsylvania used AI to analyze about 150,000 Reddit posts and comments and identified roughly 14,000 users who described taking unapproved retatrutide; 7,823 of them reported at least one symptom. The most commonly reported symptom was increased appetite - surprising for a drug designed to suppress it - along with sleep problems and a faster heart rate. In the clinical trials, digestive side effects dominated. The authors are clear that they cannot show the products caused these symptoms, or even that people were taking real retatrutide.</p>
+<p><strong>Why that last point matters.</strong> A gray-market vial may contain the wrong amount of drug, a different drug, impurities, or bacterial contamination. Buyers also have to mix and measure doses themselves - the same kind of measuring that produced serious dosing errors even with pharmacy-labeled compounded semaglutide. None of the trial safety data applies to these products.</p>
+<p><strong>What about buyers?</strong> Enforcement reported so far has targeted sellers, not individual buyers. That does not make purchasing safe, and you have no recourse if a product is contaminated or mislabeled.</p>`,
+      },
+      {
+        heading: "What is CagriSema, and how well does it work?",
+        body: `<p><strong>CagriSema is Novo Nordisk's once-weekly injection combining cagrilintide (a long-acting amylin analogue) with semaglutide 2.4 mg in a dual-chamber pen. In the REDEFINE 1 trial, adults without diabetes lost 20.4% of their body weight on average at 68 weeks, vs 3.0% on placebo, counting everyone randomized. But in the head-to-head REDEFINE 4 trial, it produced less weight loss than tirzepatide.</strong></p>
+<p><strong>Why amylin?</strong> Amylin is a hormone released by the pancreas alongside insulin after meals. It signals fullness, slows stomach emptying and reduces how much you eat, through pathways that partly differ from GLP-1. Combining it with semaglutide is meant to add appetite control on top of a proven drug.</p>
+<p><strong>REDEFINE 1</strong> (3,417 adults with obesity or overweight, without diabetes, 68 weeks, NEJM June 2025):</p>
+<table>
+<thead><tr><th>Group</th><th>Everyone randomized</th><th>If everyone stayed on treatment</th></tr></thead>
+<tbody>
+<tr><td>CagriSema</td><td>20.4%</td><td>22.7%</td></tr>
+<tr><td>Semaglutide 2.4 mg alone</td><td>-</td><td>16.1%</td></tr>
+<tr><td>Cagrilintide 2.4 mg alone</td><td>-</td><td>11.8%</td></tr>
+<tr><td>Placebo</td><td>3.0%</td><td>2.3%</td></tr>
+</tbody>
+</table>
+<p><strong>REDEFINE 2</strong> (about 1,200 adults with type 2 diabetes, 68 weeks): 13.7% vs 3.4% on placebo counting everyone, or 15.7% vs 3.1% on treatment; 22.9% lost at least 20% of their weight, vs 0.5% on placebo.</p>
+<p><strong>REDEFINE 4 - the head-to-head.</strong> In February 2026, Novo reported that CagriSema failed to show it was at least as effective as tirzepatide in a direct comparison. News reports put weight loss at about 20% on CagriSema vs about 24% on tirzepatide at 84 weeks, and Novo's shares fell sharply on the news. It is one of the few head-to-head trials in the field, and it matters: it suggests CagriSema is unlikely to displace tirzepatide as the most effective approved option.</p>
+<p><strong>Side effects.</strong> In REDEFINE 1, digestive side effects were reported by about 80% of people on CagriSema vs about 40% on placebo, mostly mild to moderate and concentrated during dose escalation.</p>
+<p><strong>Who might it suit?</strong> Until it is approved and priced, this is speculative. The combination produced more weight loss than semaglutide alone in REDEFINE 1, so it could become a step up for people who respond well to semaglutide but want more effect - with Wegovy HD now competing for the same role. A post-hoc analysis presented in October 2026 suggested women averaged about 25% weight loss at 68 weeks, but exploratory analyses like this need confirmation.</p>`,
+      },
+      {
+        heading: "When will CagriSema be approved?",
+        body: `<p><strong>Novo Nordisk submitted CagriSema to the FDA on December 18, 2025 and has said it expects a decision in the fourth quarter of 2026, with a US launch in early 2027 if approved. No exact decision date has been made public, and no decision had been reported as of late October 2026.</strong></p>
+<p>The submission is for chronic weight management, based on the REDEFINE 1 and REDEFINE 2 trials. The drug would be given once weekly with a dual-chamber pen; Novo has said it dropped plans for a single-chamber version for portfolio reasons and that launch plans are unchanged.</p>
+<p><strong>What to watch for:</strong></p>
+<ul>
+<li><strong>The FDA decision itself,</strong> expected by the end of 2026.</li>
+<li><strong>The label:</strong> which patients it is approved for, the dosing schedule and any warnings.</li>
+<li><strong>The price:</strong> Novo has not announced one. Today, its standard Wegovy injection costs $349 a month self-pay and Wegovy HD about $399, which gives some sense of where Novo's pricing sits.</li>
+<li><strong>How clinicians position it</strong> against Wegovy HD and tirzepatide, given the REDEFINE 4 result.</li>
+</ul>
+<p><strong>Should I wait for CagriSema?</strong> For most people, no. Even if approved on schedule, it will take time to reach pharmacies, insurance formularies and telehealth programs. Tirzepatide is available now and produced more weight loss in the direct comparison. Semaglutide and Wegovy HD are also available now. If you are a strong semaglutide responder considering a future step up, it is reasonable to ask your clinician about CagriSema once it is approved.</p>
+<p><strong>Do not buy cagrilintide online.</strong> The FDA lists cagrilintide, like retatrutide, as an ingredient that cannot be used in compounding and is not part of any approved drug. Products sold as "cagrilintide" or "cagri-sema" before approval are unapproved and of unknown quality.</p>`,
+      },
+      {
+        heading: "What is MariTide, the monthly weight-loss injection?",
+        body: `<p><strong>MariTide (maridebart cafraglutide) is an investigational Amgen drug given as an injection once a month, rather than once a week. It activates the GLP-1 receptor and blocks the GIP receptor. In its phase 2 trial, adults without diabetes lost 12.3% to 16.2% of their body weight at 52 weeks counting everyone randomized (up to about 20% for those who stayed on treatment), vs about 2.5% on placebo. Phase 3 trials are underway, and it has not been submitted to the FDA.</strong></p>
+<p><strong>The unusual mechanism.</strong> Tirzepatide activates the GIP receptor. MariTide does the opposite: it blocks GIP while activating GLP-1. That both approaches produce weight loss is one of the open scientific puzzles in the field. MariTide is also built differently - a GLP-1 peptide attached to an antibody - which is what allows monthly dosing.</p>
+<p><strong>Phase 2 results</strong> (592 adults, 52 weeks, NEJM June 2025):</p>
+<ul>
+<li>Weight loss of 12.3% to 16.2% across doses counting everyone, or 16.3% to 19.9% for those who stayed on treatment.</li>
+<li>Weight had not plateaued at 52 weeks.</li>
+<li>In a cohort with type 2 diabetes, weight loss reached about 17%, with A1C reductions of up to about 2.2 points.</li>
+</ul>
+<p><strong>The tolerability problem - and the fix.</strong> Digestive side effects, especially vomiting, were concentrated around the first doses. In study arms that started at a full dose, discontinuation was high, so Amgen moved to a slower dose escalation for phase 3. In arms that escalated gradually, about 11% stopped because of side effects. Monthly dosing means each injection is a larger dose, so how the dose is introduced matters a lot.</p>
+<p><strong>Phase 3: the MARITIME program.</strong> Two 72-week trials - MARITIME-1 in people without diabetes and MARITIME-2 in people with type 2 diabetes - are fully enrolled, with MARITIME-2's primary completion estimated for January 2027. Additional phase 3 trials are testing MariTide in sleep apnea, heart failure and other conditions, and some are testing dosing every two or three months for maintenance, including in people switching from weekly semaglutide or tirzepatide.</p>
+<p><strong>Why monthly dosing matters.</strong> Weekly injections are already convenient, but long-term treatment is where weight-loss drugs succeed or fail. An injection every month - or every few months for maintenance - could make staying on treatment easier for some people. Whether MariTide delivers that depends on phase 3 results, which have not been reported. With phase 3 completion dates running into 2027, approval before then is not realistic.</p>`,
+      },
+      {
+        heading: "What is amycretin?",
+        body: `<p><strong>Amycretin is an investigational Novo Nordisk drug that activates both the GLP-1 and amylin receptors with a single molecule - unlike CagriSema, which combines two separate drugs. In an early-stage trial published in The Lancet in 2025, the weekly injection produced 24.3% average weight loss at 36 weeks on the highest dose, vs 1.1% on placebo. It is now in phase 3 and has not been submitted for approval.</strong></p>
+<p><strong>Why it gets attention.</strong> A 24% loss at 36 weeks is an unusually large result for such a short trial, and weight had not plateaued. But the trial was small - 125 participants in a phase 1b/2a study - and early-stage results often shrink in larger, longer trials with broader populations. STAT reported at the time that dosing and side effects were open questions.</p>
+<p><strong>Two forms are in development:</strong></p>
+<table>
+<thead><tr><th>Form</th><th>Evidence so far</th><th>Stage</th></tr></thead>
+<tbody>
+<tr><td>Weekly injection</td><td>24.3% at 36 weeks on 60 mg; 22.0% on 20 mg (Lancet 2025, n=125)</td><td>Phase 3 (AMAZE program)</td></tr>
+<tr><td>Daily pill</td><td>Roughly 12% to 13% at 12 weeks in a phase 1 study (reported figures differ)</td><td>Earlier stage</td></tr>
+</tbody>
+</table>
+<p>Novo announced it was moving amycretin into phase 3 after the Lancet publication. The AMAZE 1 trial tests the weekly injection in people with obesity, with its primary endpoint at 84 weeks - which means results are years away. Newer scientific papers sometimes use the name "zenagamtide" for the same compound, so you may see both names.</p>
+<p><strong>How it differs from CagriSema:</strong></p>
+<ul>
+<li><strong>One molecule vs two.</strong> Amycretin is a single drug engineered to act on both receptors. CagriSema is two drugs given together.</li>
+<li><strong>Possible pill.</strong> Amycretin is being developed as both an injection and a pill; CagriSema is injection-only.</li>
+<li><strong>Timeline.</strong> CagriSema has been submitted for approval; amycretin's phase 3 has only recently begun.</li>
+</ul>
+<p><strong>What it means for you.</strong> Nothing practical yet. Amycretin is a sign that amylin-based treatment is becoming a major direction in the field, alongside the GIP and glucagon approaches. If early results hold, it could become one of the most effective options later this decade. In the meantime, it is not available outside clinical trials, and products sold online under its name are not genuine approved medicine.</p>`,
+      },
+      {
+        heading: "What is survodutide?",
+        body: `<p><strong>Survodutide is an investigational once-weekly injection from Boehringer Ingelheim that activates the glucagon and GLP-1 receptors. In the phase 3 SYNCHRONIZE-1 trial, people without diabetes lost up to 16.6% of their body weight at 76 weeks on treatment, or 12.2% to 13.0% counting everyone randomized, vs 3.2% on placebo (on treatment). A notably high share stopped because of digestive side effects.</strong></p>
+<p><strong>The glucagon angle.</strong> Like retatrutide, survodutide uses glucagon activity, which increases energy use and helps the liver burn fat. That makes it especially interesting for metabolic dysfunction-associated steatohepatitis (MASH), a serious form of fatty liver disease, for which it is also being developed. In a SYNCHRONIZE-1 sub-study, Boehringer reported reductions of up to 34% in visceral (belly) fat and 63% in liver fat.</p>
+<p><strong>Phase 3 results:</strong></p>
+<table>
+<thead><tr><th>Trial</th><th>Population</th><th>Duration</th><th>Weight loss</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>SYNCHRONIZE-1</td><td>Obesity or overweight, no diabetes</td><td>76 weeks</td><td>Up to 16.6% on treatment (6.0 mg); 12.2%-13.0% counting everyone</td><td>3.2% (on treatment)</td></tr>
+<tr><td>SYNCHRONIZE-2</td><td>Obesity or overweight with type 2 diabetes</td><td>76 weeks</td><td>Up to 13.1%</td><td>3.1%</td></tr>
+</tbody>
+</table>
+<p><strong>Tolerability is the big question.</strong> Trade press reports of SYNCHRONIZE-1 put discontinuation because of digestive side effects at about 18% to 20% on survodutide vs about 3% on placebo. That is a much higher dropout rate than in the tirzepatide and semaglutide phase 3 trials, and it explains much of the gap between the on-treatment and everyone-randomized results. A drug only helps if people can stay on it.</p>
+<p><strong>Status.</strong> Survodutide is investigational. We found no announcement of a US filing for weight management, and a cardiovascular outcomes trial (SYNCHRONIZE-CVOT) is still running. Its future may lie more in liver disease than in general weight management, where it would compete with tirzepatide, which produced more weight loss in its own trials.</p>
+<p><strong>Glucagon-based drugs compared:</strong></p>
+<ul>
+<li><strong>Retatrutide</strong> (GIP + GLP-1 + glucagon): about 28% on treatment at 80 weeks in TRIUMPH-1.</li>
+<li><strong>Survodutide</strong> (GLP-1 + glucagon): up to 16.6% on treatment at 76 weeks in SYNCHRONIZE-1.</li>
+</ul>
+<p>The difference suggests that the combination of receptors, not glucagon alone, drives retatrutide's results - although these were separate trials in different populations.</p>`,
+      },
+      {
+        heading: "What are amylin drugs like petrelintide and eloralintide?",
+        body: `<p><strong>Petrelintide (Zealand Pharma and Roche) and eloralintide (Eli Lilly) are investigational once-weekly amylin drugs being developed as weight-loss treatments on their own, not just as add-ons to GLP-1s. In phase 2, petrelintide produced up to 10.7% weight loss at 42 weeks and eloralintide up to 20.1% at 48 weeks. Both have moved into phase 3.</strong></p>
+<p>Amylin has become one of the most active areas in obesity research because it may offer a different side-effect profile from GLP-1 drugs. Amylin is released alongside insulin after meals and signals fullness. The hope is that amylin-based treatment can deliver meaningful weight loss with less nausea and vomiting - and that it could be combined with GLP-1 drugs for larger effects.</p>
+<table>
+<thead><tr><th>Drug</th><th>Company</th><th>Phase 2 result</th><th>Notable</th><th>Stage</th></tr></thead>
+<tbody>
+<tr><td>Petrelintide</td><td>Zealand Pharma / Roche</td><td>Up to 10.7% at 42 weeks vs 1.7% placebo (on treatment); 10.2% vs 1.4% counting everyone</td><td>Vomiting rates were lower than placebo across dose groups</td><td>Phase 3</td></tr>
+<tr><td>Eloralintide</td><td>Eli Lilly</td><td>9.5% to 20.1% at 48 weeks vs 0.4% placebo (on treatment; Lancet 2025)</td><td>A selective amylin receptor agonist</td><td>Phase 3 (recruiting)</td></tr>
+<tr><td>Cagrilintide</td><td>Novo Nordisk</td><td>11.8% alone at 68 weeks (REDEFINE 1, on treatment)</td><td>The amylin half of CagriSema</td><td>Filed only as part of CagriSema</td></tr>
+<tr><td>Amycretin</td><td>Novo Nordisk</td><td>24.3% at 36 weeks (early-stage, injection)</td><td>Amylin and GLP-1 in one molecule</td><td>Phase 3</td></tr>
+</tbody>
+</table>
+<p><strong>How to interpret this.</strong> Petrelintide's 10.7% is less than the GLP-1 drugs produce, but its tolerability results are the headline: if a drug can produce roughly 10% weight loss with little nausea, it could suit people who cannot tolerate GLP-1s, or be paired with one. Eloralintide's top result of about 20% at 48 weeks is in the same range as tirzepatide, though from a smaller phase 2 trial; phase 3 will show whether it holds.</p>
+<p><strong>Why it matters for patients.</strong> Today, roughly every effective weight-loss drug works through GLP-1, and digestive side effects are the main reason people stop. A second, independent pathway with a gentler side-effect profile would give clinicians a genuine alternative - and possibly a combination partner. These drugs are several years from approval, and none should be bought outside a trial.</p>`,
+      },
+      {
+        heading: "Are there drugs that protect muscle during weight loss?",
+        body: `<p><strong>Not yet approved, but they are being tested. In Lilly's phase 2b BELIEVE trial, published in Nature Medicine in 2026, adding the experimental antibody bimagrumab to semaglutide meant about 93% of the weight lost was fat, compared with about 72% on semaglutide alone. Until such drugs are approved, protein intake and resistance training remain the proven tools for preserving muscle.</strong></p>
+<p><strong>Why muscle is a concern.</strong> Any large weight loss - from diet, surgery or medication - includes some loss of lean mass, which includes muscle. With drugs now producing 20% to 30% average losses, researchers and clinicians are paying close attention to how much of that is muscle, especially for older adults and people who start with low muscle mass.</p>
+<p><strong>How bimagrumab works.</strong> It is an antibody that blocks activin type II receptors, a signaling pathway that limits muscle growth. Blocking it is meant to preserve or build muscle while other drugs drive fat loss.</p>
+<p><strong>BELIEVE results</strong> (507 participants):</p>
+<table>
+<thead><tr><th>Group</th><th>Share of weight lost that was fat</th><th>Change in lean mass</th></tr></thead>
+<tbody>
+<tr><td>Bimagrumab + semaglutide</td><td>About 92.8%</td><td>About -3%</td></tr>
+<tr><td>Semaglutide alone</td><td>About 71.8%</td><td>About -7%</td></tr>
+<tr><td>Bimagrumab alone</td><td>-</td><td>About +2.5%</td></tr>
+</tbody>
+</table>
+<p>Total weight loss on the combination was reported at about 20% to 22%. Some participants had temporary rises in liver enzymes and creatine kinase (a marker of muscle activity). This is a phase 2b trial; bimagrumab is investigational, and larger trials are needed to confirm both benefit and safety.</p>
+<p><strong>What actually works now.</strong> The joint 2025 nutrition advisory from the American College of Lifestyle Medicine, the American Society for Nutrition, the Obesity Medicine Association and The Obesity Society calls for preserving muscle and bone during GLP-1 treatment through resistance training and appropriate diet, alongside managing digestive side effects and preventing nutrient deficiencies. In practice that means:</p>
+<ul>
+<li><strong>Prioritize protein at every meal,</strong> especially when appetite is low. Ask your clinician or a dietitian for a target suited to you.</li>
+<li><strong>Do resistance training</strong> - weights, bands or bodyweight exercises - on a regular schedule.</li>
+<li><strong>Avoid losing weight faster than necessary.</strong> Slower dose escalation makes it easier to eat enough.</li>
+<li><strong>Ask about body-composition checks</strong> if you are older or losing a large amount of weight.</li>
+</ul>
+<p>Programs that include dietitian access, such as <a href="/reviews/medvi">MEDVi</a>, or coaching, such as <a href="/reviews/shed">SHED</a>, can help with the nutrition side.</p>`,
+      },
+      {
+        heading: "What other weight-loss drugs are in development?",
+        body: `<p><strong>Beyond the drugs above, the pipeline includes more oral GLP-1 pills (such as Structure Therapeutics' aleniglipron and Viking's VK2735 tablet), Viking's injectable VK2735, and drugs approved outside the US, such as ecnoglutide, approved in China in March 2026. None of these is close to US approval, and most will not report pivotal results before 2027-2028.</strong></p>
+<table>
+<thead><tr><th>Drug</th><th>Company</th><th>Type</th><th>Best result so far</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>Aleniglipron</td><td>Structure Therapeutics</td><td>Oral small-molecule GLP-1</td><td>Placebo-adjusted 8.2% to 11.3% at 36 weeks (phase 2b)</td><td>Phase 3 (ACCOMPLISH); results expected second half of 2028</td></tr>
+<tr><td>VK2735 (oral)</td><td>Viking Therapeutics</td><td>Oral GLP-1/GIP</td><td>Up to 12.2% vs 1.3% placebo at 13 weeks (phase 2)</td><td>Phase 2 completed</td></tr>
+<tr><td>Ecnoglutide</td><td>Sciwind Biosciences</td><td>Weekly GLP-1 injection</td><td>About 15% at 48 weeks (phase 3, China)</td><td>Approved in China; not FDA-approved</td></tr>
+<tr><td>Oral amycretin</td><td>Novo Nordisk</td><td>Oral GLP-1 + amylin</td><td>Roughly 12%-13% at 12 weeks (phase 1)</td><td>Earlier stage</td></tr>
+</tbody>
+</table>
+<p><strong>Three trends to watch:</strong></p>
+<ol>
+<li><strong>More pills.</strong> With two GLP-1 pills now approved, several companies are racing to offer oral options with better efficacy or simpler dosing. Small-molecule pills like orforglipron and aleniglipron are cheaper to manufacture at scale than peptide drugs, which could matter for long-term prices.</li>
+<li><strong>Less frequent dosing.</strong> Monthly (MariTide) and potentially quarterly maintenance schedules are being tested, aimed at making long-term treatment easier.</li>
+<li><strong>Better-quality weight loss.</strong> Muscle-preserving combinations and drugs with gentler side effects (amylin agents) target the main weaknesses of current treatment, not just the size of the effect.</li>
+</ol>
+<p><strong>How to read pipeline news.</strong> Early-stage results are exciting but unreliable predictors. Short trials, small samples and on-treatment estimates all inflate numbers, and many promising drugs never reach approval - Pfizer, for example, discontinued its oral GLP-1 candidate danuglipron in 2025. Treat any result from a trial shorter than a year, or with fewer than a few hundred participants, as a signal rather than a promise.</p>
+<p><strong>A word on "peptide" shops.</strong> Whenever a pipeline drug makes headlines, unapproved versions appear for sale online. The FDA's warning about retatrutide applies equally to any investigational compound sold as a "research peptide."</p>`,
+      },
+      {
+        heading: "Which weight-loss drug causes the most weight loss?",
+        body: `<p><strong>Among approved drugs, tirzepatide (Zepbound) has the highest average weight loss in its pivotal trial - about 20.9% at 72 weeks on 15 mg - and beat semaglutide and CagriSema in head-to-head trials. Among investigational drugs, retatrutide has produced the largest results: about 28% on treatment at 80 weeks, with a reported treatment-policy result of about 25%.</strong></p>
+<p>Here is every drug in this guide in one table. Use it as a rough map - trial lengths, populations and analysis methods differ, so small differences are not meaningful.</p>
+<table>
+<thead><tr><th>Drug</th><th>Status (US)</th><th>Form</th><th>Trial</th><th>Average weight loss</th></tr></thead>
+<tbody>
+<tr><td>Retatrutide 12 mg</td><td>Investigational</td><td>Weekly injection</td><td>TRIUMPH-1, 80 weeks</td><td>28.3% on treatment; about 25% everyone</td></tr>
+<tr><td>Amycretin 60 mg</td><td>Investigational</td><td>Weekly injection</td><td>Phase 1b/2a, 36 weeks</td><td>24.3% (small, early trial)</td></tr>
+<tr><td>Tirzepatide 15 mg (Zepbound)</td><td>Approved</td><td>Weekly injection</td><td>SURMOUNT-1, 72 weeks</td><td>About 20.9%</td></tr>
+<tr><td>CagriSema</td><td>Decision expected Q4 2026</td><td>Weekly injection</td><td>REDEFINE 1, 68 weeks</td><td>20.4% everyone; 22.7% on treatment</td></tr>
+<tr><td>Eloralintide</td><td>Investigational</td><td>Weekly injection</td><td>Phase 2, 48 weeks</td><td>Up to 20.1% on treatment</td></tr>
+<tr><td>Semaglutide 7.2 mg (Wegovy HD)</td><td>Approved</td><td>Weekly injection</td><td>STEP UP, 72 weeks</td><td>18.7% everyone; 20.7% on treatment</td></tr>
+<tr><td>MariTide</td><td>Investigational</td><td>Monthly injection</td><td>Phase 2, 52 weeks</td><td>12.3%-16.2% everyone; up to 19.9% on treatment</td></tr>
+<tr><td>Survodutide 6.0 mg</td><td>Investigational</td><td>Weekly injection</td><td>SYNCHRONIZE-1, 76 weeks</td><td>13.0% everyone; 16.6% on treatment</td></tr>
+<tr><td>Semaglutide 2.4 mg (Wegovy)</td><td>Approved</td><td>Weekly injection</td><td>STEP-1, 68 weeks</td><td>About 15%</td></tr>
+<tr><td>Oral semaglutide 25 mg (Wegovy pill)</td><td>Approved</td><td>Daily pill</td><td>OASIS 4, 64 weeks</td><td>13.6% everyone; 16.6% on treatment</td></tr>
+<tr><td>Orforglipron, top dose (Foundayo)</td><td>Approved</td><td>Daily pill</td><td>ATTAIN-1, 72 weeks</td><td>11.2% everyone; 12.4% on treatment</td></tr>
+<tr><td>Petrelintide</td><td>Investigational</td><td>Weekly injection</td><td>Phase 2, 42 weeks</td><td>Up to 10.7% on treatment</td></tr>
+</tbody>
+</table>
+<p><strong>The head-to-head evidence</strong> - the only direct comparisons:</p>
+<ul>
+<li><strong>SURMOUNT-5 (NEJM 2025):</strong> tirzepatide about 20.2% vs semaglutide about 13.7% at 72 weeks.</li>
+<li><strong>REDEFINE 4 (2026):</strong> tirzepatide about 24% vs CagriSema about 20% at 84 weeks, as reported.</li>
+<li><strong>ACHIEVE-3 (Lancet 2026, type 2 diabetes):</strong> orforglipron 9.2% vs oral semaglutide 14 mg 5.3% at 52 weeks.</li>
+</ul>
+<p><strong>"Most weight loss" is not the same as "best for you".</strong> The right drug depends on how much weight you need to lose, your other health conditions, what you can tolerate, whether you prefer pills or injections, and what you can afford or get covered. Someone who needs 10% may do well on a pill; someone with severe obesity and sleep apnea may need the most effective approved injection. A clinician can weigh those factors with you.</p>`,
+      },
+      {
+        heading: "How much do brand-name weight-loss drugs cost in 2026?",
+        body: `<p><strong>Manufacturer self-pay prices fell sharply after the November 2025 pricing deals. As of October 2026, Wegovy injections cost $349 a month (with a $199 introductory price on the two lowest doses), Wegovy HD about $399, Zepbound $299 to $449 with on-time refills, and the two GLP-1 pills $149 to $349 depending on dose. Commercially insured patients may pay as little as $25 with manufacturer savings cards.</strong></p>
+<table>
+<thead><tr><th>Medication</th><th>Where</th><th>Self-pay price (October 2026)</th></tr></thead>
+<tbody>
+<tr><td>Wegovy injection 0.25 mg and 0.5 mg</td><td>NovoCare Pharmacy</td><td>$199/month for the first two fills for new patients (through Dec 31, 2026), then $349</td></tr>
+<tr><td>Wegovy injection 1 mg to 2.4 mg</td><td>NovoCare Pharmacy</td><td>$349/month</td></tr>
+<tr><td>Wegovy HD 7.2 mg</td><td>NovoCare Pharmacy</td><td>About $399/month</td></tr>
+<tr><td>Wegovy pill</td><td>NovoCare Pharmacy</td><td>$149 (1.5 mg), $199 (4 mg), $299 (9 mg and 25 mg)</td></tr>
+<tr><td>Zepbound KwikPen or vials</td><td>LillyDirect</td><td>$299 (2.5 mg), $399 (5 mg), $449 (7.5-15 mg with refill within 45 days; otherwise $499 for 7.5 mg and $699 for higher doses)</td></tr>
+<tr><td>Foundayo</td><td>LillyDirect</td><td>$149 to $299 for most doses; top two doses $299 with refill within 45 days, otherwise $349</td></tr>
+</tbody>
+</table>
+<p><strong>What this means in a year.</strong> At maintenance doses, a year of Wegovy costs about $4,188 (12 x $349), Wegovy HD about $4,788, Zepbound about $5,388 with on-time refills (12 x $449), and either pill about $3,588 (12 x $299). Two years ago, brand-name list prices were well over $1,000 a month - more than $12,000 a year.</p>
+<p><strong>Where else you can buy.</strong> Costco's member prescription program lists Wegovy and the Wegovy pill at the same prices as NovoCare (membership required; shipping extra). Lilly made Zepbound KwikPen self-pay pricing available at major pharmacies from March 2026. TrumpRx lists the products but routes orders to the manufacturers' channels.</p>
+<p><strong>Watch for list prices that look outdated.</strong> Some telehealth programs still advertise brand-name GLP-1s at old list-price levels of $1,000 to $1,600 a month on their "brand shelf." Before paying that, check the manufacturer's self-pay price, which is often far lower. Novo has also announced that the list prices of Wegovy, Ozempic and Rybelsus will drop to $675 a month on January 1, 2027 - a change that mainly affects insurance and deductibles, not self-pay prices.</p>
+<p><strong>How this compares with compounded medication.</strong> The cheapest compounded semaglutide programs we track still cost less ($49 to $199 a month, depending on provider and commitment), and compounded tirzepatide starts at $89. But the price gap is now hundreds of dollars a year, not thousands - and brand-name medication is FDA-approved. Our <a href="/articles/real-cost-of-glp1-weight-loss">real cost of GLP-1 weight loss</a> guide compares the options in detail.</p>
+<p>Prices are manufacturers' published self-pay prices as of October 2026 and can change at any time; always confirm before ordering.</p>`,
+      },
+      {
+        heading: "What is TrumpRx, and does it make weight-loss drugs cheaper?",
+        body: `<p><strong>TrumpRx.gov is a federal website launched in February 2026 that lists discounted cash prices for brand-name drugs, including Wegovy, the Wegovy pill, Zepbound and Foundayo, and routes orders to the manufacturers' own pharmacies. It grew out of the November 2025 pricing agreements with Novo Nordisk and Eli Lilly. Independent analysts note that its "savings" are measured against list prices, and that many insured people already pay less.</strong></p>
+<p><strong>What the November 2025 agreements said.</strong> According to the White House fact sheet, Wegovy and Ozempic would cost $350 a month on TrumpRx, the starting dose of an approved oral GLP-1 would be $150, and Medicare would pay $245 for Ozempic, Wegovy, Mounjaro and Zepbound, with beneficiaries paying a $50 monthly copay. Lilly's announcement listed Zepbound multi-dose pen prices of $299 to $449 and orforglipron prices of $149 to $399 through LillyDirect.</p>
+<p><strong>At launch in February 2026,</strong> the White House said Wegovy and Ozempic pens averaged $350 (as low as $199 depending on dose), the Wegovy pill started at $149, and Zepbound averaged $346 (as low as $299).</p>
+<p><strong>How it works in practice.</strong> TrumpRx is mainly a front door. Its product pages send you to the manufacturer's channel - LillyDirect for Lilly products, NovoCare for Novo products - where the purchase actually happens. The prices are the same self-pay prices you can get by going to the manufacturer directly.</p>
+<p><strong>The critics' view.</strong></p>
+<ul>
+<li><strong>KFF</strong> notes that TrumpRx compares its prices with list prices (wholesale acquisition cost), which few people actually pay, and that an insured patient may pay less through insurance than through TrumpRx.</li>
+<li><strong>STAT</strong> reported analyst skepticism that the broader "most favored nation" pricing deals would deliver the savings claimed, and that much of their impact falls on Medicaid, which already receives the lowest prices by law.</li>
+</ul>
+<p><strong>Our take.</strong> For people paying cash, the lower manufacturer prices are real and substantial, whichever website you start from. TrumpRx is useful as a price reference. It does not change whether a drug is right for you, and it does not replace a prescription - you still need a licensed clinician, whether in person or through a telehealth program, to prescribe the medication.</p>`,
+      },
+      {
+        heading: "Does Medicare cover weight-loss drugs now?",
+        body: `<p><strong>For some people, yes - temporarily. The Medicare GLP-1 Bridge, which began on July 1, 2026 and now runs through December 31, 2027, lets eligible Part D enrollees get Wegovy (injection or pill), Foundayo or the Zepbound KwikPen for weight management at a $50 monthly copay. Eligibility depends on BMI and specific health conditions, and a prescriber must request prior authorization.</strong></p>
+<p>By law, Medicare Part D has long excluded drugs used for weight loss alone. The Bridge is a temporary demonstration program that sits outside the regular Part D benefit. It was originally set to end in 2026 and was extended after CMS delayed the Medicare part of its broader BALANCE model.</p>
+<p><strong>Who qualifies</strong> (according to KFF's summary of the CMS criteria):</p>
+<ul>
+<li>You must be enrolled in Medicare Part D, and</li>
+<li>Have a BMI of 35 or higher; or</li>
+<li>Have a BMI of 30 or higher plus heart failure with preserved ejection fraction, uncontrolled high blood pressure, or stage 3a or higher chronic kidney disease; or</li>
+<li>Have a BMI of 27 or higher plus prediabetes, a previous heart attack or stroke, or symptomatic peripheral artery disease.</li>
+</ul>
+<p><strong>Who is handled differently.</strong> People with type 2 diabetes, moderate to severe sleep apnea or MASH are excluded from the Bridge because those conditions can already qualify for GLP-1 coverage through regular Part D. CMS guidance also excludes people who already filled a Part D GLP-1 in 2026.</p>
+<p><strong>How it works:</strong></p>
+<ol>
+<li>Your prescriber submits a prior authorization request. Enrollment is not automatic.</li>
+<li>Humana processes requests on behalf of CMS, with decisions typically within 72 hours.</li>
+<li>Once approved, you pay $50 per monthly fill at the pharmacy.</li>
+<li>The $50 does not count toward your Part D deductible or out-of-pocket cap, and Low-Income Subsidy help does not apply.</li>
+</ol>
+<p><strong>Covered products:</strong> CMS lists all formulations of Wegovy (pens and the pill), Foundayo and the Zepbound KwikPen. If you use Wegovy HD, confirm with your prescriber that your dose is included. Zepbound single-dose pens and vials are not covered.</p>
+<p><strong>How many people could use it.</strong> KFF estimated that about 3.8 million Medicare beneficiaries met the eligibility criteria in 2023. The administration said in September 2026 that hundreds of thousands of seniors had used the program in its first two months.</p>
+<p><strong>What happens after 2027</strong> has not been decided. If you are on Medicare, ask your prescriber about the Bridge now and plan for the possibility that coverage changes in 2028.</p>`,
+      },
+      {
+        heading: "Do Medicaid and employer plans cover weight-loss drugs in 2026?",
+        body: `<p><strong>Coverage is shrinking in some places. KFF counted 13 state Medicaid programs covering GLP-1s for obesity as of January 2026, down from 16 in 2025. Among employers, KFF's 2026 survey found 18% of firms with 200 or more workers cover GLP-1s for weight loss - and the largest employers' coverage fell from 43% to 33%.</strong></p>
+<p><strong>Medicaid.</strong> Several states dropped obesity coverage at the start of 2026, citing cost. CMS's BALANCE model offers states a way to join a negotiated-price coverage program, with states able to join on a rolling basis through January 1, 2027, but we found no public list of participating states. A September 2026 White House announcement extended "most favored nation" pricing to every state Medicaid program; that is a pricing change, not a requirement to cover weight-loss drugs. If you are on Medicaid, check your state's current policy.</p>
+<p><strong>Employers - KFF 2026 Employer Health Benefits Survey:</strong></p>
+<table>
+<thead><tr><th>Firm size</th><th>Share covering GLP-1s for weight loss</th></tr></thead>
+<tbody>
+<tr><td>All firms with 200+ workers</td><td>18% (19% in 2025)</td></tr>
+<tr><td>200-999 workers</td><td>16%</td></tr>
+<tr><td>1,000-4,999 workers</td><td>29%</td></tr>
+<tr><td>5,000+ workers</td><td>33% (down from 43% in 2025)</td></tr>
+</tbody>
+</table>
+<p>Among firms that cover the drugs, 40% require participation in a lifestyle program or similar, and 29% reported a significant impact on drug spending. Among firms that do not cover them, 12% had stopped coverage in the past year, and 79% said they were not likely to add it. Mercer separately found that 6% of large employers dropped coverage for 2026, with another 5% planning or considering it for 2027.</p>
+<p><strong>Why coverage is falling while prices fall.</strong> Employers pay negotiated prices through insurers and pharmacy benefit managers, and the cost of covering a large share of employees for years is still high. Lower cash prices also make it easier for employers to point workers toward self-pay options instead.</p>
+<p><strong>What to do:</strong></p>
+<ul>
+<li><strong>Check your formulary.</strong> Ask your plan whether Wegovy, Zepbound or the pills are covered for weight management and what prior authorization requires.</li>
+<li><strong>Use the savings cards</strong> if you have commercial coverage - the manufacturers advertise copays as low as $25.</li>
+<li><strong>Get help with paperwork.</strong> Telehealth services with insurance support, such as <a href="/reviews/ro">ro</a>, check coverage and handle prior authorizations.</li>
+<li><strong>Compare against self-pay.</strong> If your plan denies coverage, compare manufacturer self-pay prices with compounded programs before deciding.</li>
+</ul>`,
+      },
+      {
+        heading: "What is happening to compounded GLP-1s in 2026?",
+        body: `<p><strong>Compounded semaglutide and tirzepatide are still available from licensed pharmacies for individual patients, but the FDA has tightened the rules steadily since the drug shortages ended in 2025. In 2026 it warned 30 telehealth companies about misleading marketing, signaled action against mass-marketed compounded GLP-1s, and proposed barring large outsourcing facilities from compounding semaglutide and tirzepatide. That proposal was not final as of October 2026.</strong></p>
+<p>Compounded GLP-1s grew into a huge market while semaglutide and tirzepatide were on the FDA's shortage list, which allowed pharmacies to make copies. The FDA declared the tirzepatide shortage resolved in December 2024 and the semaglutide shortage in February 2025. After the grace periods ended in spring 2025, mass compounding of "essentially copies" of the approved drugs became restricted. Licensed 503A pharmacies can still compound for an individual patient's documented clinical need, such as a dose or formulation that the approved product does not offer.</p>
+<p><strong>What the FDA has done since:</strong></p>
+<table>
+<thead><tr><th>Date</th><th>Action</th></tr></thead>
+<tbody>
+<tr><td>Sept 5, 2025</td><td>An import "green list" for GLP-1 ingredients: shipments are held unless the manufacturer and product have been cleared</td></tr>
+<tr><td>Sept 9, 2025</td><td>A crackdown on misleading drug advertising, including warning letters about compounded GLP-1 marketing</td></tr>
+<tr><td>Feb 6, 2026</td><td>FDA says it intends to act against non-approved GLP-1 drugs mass-marketed by telehealth companies</td></tr>
+<tr><td>Mar 3, 2026</td><td>Warning letters to 30 telehealth companies over false or misleading compounded GLP-1 marketing</td></tr>
+<tr><td>Apr 30, 2026</td><td>Proposal to exclude semaglutide, tirzepatide and liraglutide from the list of bulk substances 503B outsourcing facilities may compound from</td></tr>
+</tbody>
+</table>
+<p><strong>The most common problems regulators flag:</strong> marketing that implies a compounded drug is the "same as" or "generic" FDA-approved Wegovy or Zepbound, branding a compounded drug under a telehealth company's name as if it were a product, and labeling that suggests FDA approval. Among the providers we rank, <a href="/reviews/altrx">altRx</a>'s parent company received an FDA warning letter in June 2026 over claims about its compounded products, which we disclose in its review.</p>
+<p><strong>The lawsuits.</strong> Novo Nordisk has filed more than 130 lawsuits against pharmacies, clinics and others over copies. Its February 2026 suit against Hims &amp; Hers ended a month later with a deal under which Hims sells branded Wegovy. Lilly sued several pharmacies and telehealth companies over compounded tirzepatide in 2025.</p>
+<p><strong>What it means if you use a compounded program:</strong></p>
+<ul>
+<li><strong>Your access may change.</strong> If the 503B proposal is finalized, programs that rely on large outsourcing facilities would need to change supply. Programs using 503A pharmacies for individual prescriptions are affected differently.</li>
+<li><strong>Ask your provider directly</strong> which type of pharmacy fills your prescription, and what their plan is if the rules change.</li>
+<li><strong>Know your fallback.</strong> With brand-name self-pay prices now $149 to $449 a month for most doses, switching to an FDA-approved product is more affordable than it used to be.</li>
+<li><strong>Red flags stay red:</strong> any program calling its compounded product "FDA-approved," "generic Wegovy" or "the same as Zepbound" is making claims the FDA has specifically challenged.</li>
+</ul>
+<p>Our <a href="/articles/compounded-vs-brand-name-glp1">compounded vs brand-name GLP-1s</a> guide covers the trade-offs in detail.</p>`,
+      },
+      {
+        heading: "What changed in GLP-1 safety labels in 2025 and 2026?",
+        body: `<p><strong>Three label changes stand out. In January 2026 the FDA asked makers to remove the suicidal behavior and ideation warning from Wegovy, Zepbound and Saxenda after a review of 91 placebo-controlled trials found no increased risk. Wegovy gained an accelerated approval for the liver disease MASH in August 2025. And the newest high-dose drugs have highlighted dysesthesia, an unusual skin-sensation side effect.</strong></p>
+<p><strong>1. The suicidality warning.</strong> Wegovy, Zepbound and Saxenda had carried a warning about suicidal thoughts and behavior, a precaution common to weight-management drugs. On January 13, 2026, the FDA said its review of 91 placebo-controlled trials involving 107,910 patients found no increased risk, and asked the companies to remove the warning. This does not mean mood changes can be ignored: anyone who experiences new depression or thoughts of self-harm on any medication should contact a clinician promptly.</p>
+<p><strong>2. MASH.</strong> On August 15, 2025, the FDA granted Wegovy accelerated approval for metabolic dysfunction-associated steatohepatitis (MASH) with moderate to advanced liver fibrosis. Continued approval depends on a confirmatory outcomes trial. For people with this form of fatty liver disease, it adds a medical reason for treatment beyond weight.</p>
+<p><strong>3. Dysesthesia.</strong> Unusual skin sensations - tingling, burning, sensitivity - were reported by about 22% of people on Wegovy HD 7.2 mg in STEP UP and by about 12% on retatrutide's higher doses in TRIUMPH-1, far more often than on placebo. It was uncommon with standard doses of earlier drugs. Most cases in trials were mild to moderate.</p>
+<p><strong>Other safety topics in the news:</strong></p>
+<ul>
+<li><strong>NAION (an eye condition).</strong> European and UK regulators have added a very rare risk of non-arteritic anterior ischemic optic neuropathy, a cause of sudden vision loss, to semaglutide information. We did not find a corresponding FDA action. Anyone with sudden vision changes on a GLP-1 should seek urgent care.</li>
+<li><strong>Dosing errors with compounded drugs.</strong> The FDA continues to warn about overdoses caused by measuring errors with compounded semaglutide vials. Our <a href="/articles/glp1-dosage-guide">dosage guide</a> explains how to avoid them.</li>
+<li><strong>The class warnings remain.</strong> All GLP-1 drugs, including the new pills, carry the boxed warning about thyroid C-cell tumors in rodents and warnings about pancreatitis, gallbladder disease and dehydration-related kidney problems.</li>
+</ul>
+<p>Safety information evolves as more people use these drugs. Read the current Medication Guide that comes with your prescription, and ask your clinician about anything new.</p>`,
+      },
+      {
+        heading: "Should I wait for the new weight-loss drugs or start treatment now?",
+        body: `<p><strong>For most people who qualify, starting an approved treatment now makes more sense than waiting. Retatrutide is not expected to be filed until 2027, MariTide and amycretin are further away, and CagriSema - if approved on time - produced less weight loss than tirzepatide, which is available today. Treatment can be changed later as new options arrive.</strong></p>
+<p>The appeal of waiting is understandable: retatrutide's results are remarkable, and nobody wants to start on a drug that is about to be overtaken. But waiting has costs, and the drugs already available are highly effective.</p>
+<table>
+<thead><tr><th>If you are thinking...</th><th>Consider this</th></tr></thead>
+<tbody>
+<tr><td>"I'll wait for retatrutide"</td><td>Filing is planned for Q1 2027, then FDA review, launch, pricing and coverage. Realistic access for most people is well into 2027 or later. Tirzepatide averaged about 20.9% in SURMOUNT-1.</td></tr>
+<tr><td>"I'll wait for CagriSema"</td><td>It lost its head-to-head trial against tirzepatide. Wegovy HD is already available as a semaglutide step-up.</td></tr>
+<tr><td>"I'll wait for a pill"</td><td>Two pills are already approved: the Wegovy pill and Foundayo.</td></tr>
+<tr><td>"I'll wait for a monthly shot"</td><td>MariTide is still in phase 3, with key trials completing around 2027.</td></tr>
+<tr><td>"I'll wait for prices to fall"</td><td>They already have: brand-name self-pay prices are $149-$449 a month for most doses, and compounded programs start lower.</td></tr>
+</tbody>
+</table>
+<p><strong>When waiting might make sense:</strong></p>
+<ul>
+<li>You have tried semaglutide and tirzepatide and could not tolerate either - a different mechanism (such as amylin drugs) may suit you better later. Ask about clinical trials.</li>
+<li>Your health is stable, your BMI is modest, and lifestyle changes alone are working.</li>
+<li>You are planning a pregnancy soon, which is a reason to avoid starting a GLP-1 at all - discuss timing with your clinician.</li>
+</ul>
+<p><strong>Starting now does not lock you in.</strong> People switch between semaglutide and tirzepatide routinely, and many will switch again when new drugs are approved. Weight lost now improves blood pressure, blood sugar, joint pain and sleep apnea now. If a better option arrives, your clinician can help you move to it - and you will be starting from a lower weight.</p>
+<p><strong>The one thing not to do</strong> is bridge the gap with an unapproved "research" version of a pipeline drug. The trial results that make retatrutide exciting apply only to the genuine product used under medical supervision.</p>`,
+      },
+      {
+        heading: "How do the online providers we rank fit into the new landscape?",
+        body: `<p><strong>The eight online programs we rank split into two groups. ro prescribes only FDA-approved brand-name medication - including the newer options such as Foundayo - and helps with insurance. The other seven focus on compounded semaglutide and tirzepatide at $49 to $299 a month, and several also offer brand-name medication or non-injection formats.</strong></p>
+<table>
+<thead><tr><th>Provider (our score)</th><th>Main offering</th><th>Brand-name options</th><th>Non-injection options</th></tr></thead>
+<tbody>
+<tr><td><a href="/reviews/embody">embody</a> (9.8)</td><td>Compounded semaglutide $69/mo, tirzepatide $119/mo, flat at every dose</td><td>Not its focus</td><td>Daily oral compounded option</td></tr>
+<tr><td><a href="/reviews/ro">ro</a> (9.6)</td><td>Brand-name only, with insurance concierge; membership $39 first month, then $149/mo</td><td>Wegovy, Zepbound, Ozempic, Foundayo</td><td>Foundayo pill</td></tr>
+<tr><td><a href="/reviews/altrx">altRx</a> (9.3)</td><td>Compounded semaglutide $89/mo, tirzepatide $149/mo on promo</td><td>Brand-name shelf</td><td>-</td></tr>
+<tr><td><a href="/reviews/trimrx">trimrx</a> (9.1)</td><td>Compounded with custom dosing; semaglutide $149/mo, tirzepatide $259/mo</td><td>Branded options available</td><td>-</td></tr>
+<tr><td><a href="/reviews/wellmedr">wellmedr</a> (8.9)</td><td>Compounded semaglutide $49/mo (12-month plan), tirzepatide $89/mo</td><td>Brand-name shelf</td><td>-</td></tr>
+<tr><td><a href="/reviews/medvi">MEDVi</a> (8.7)</td><td>Compounded with dietitian and coaching; $99/mo and $166/mo on promo</td><td>Through its clinicians</td><td>-</td></tr>
+<tr><td><a href="/reviews/directmeds">DirectMeds</a> (8.6)</td><td>Compounded semaglutide or tirzepatide, $147/mo either</td><td>-</td><td>Sublingual drops</td></tr>
+<tr><td><a href="/reviews/shed">SHED</a> (8.4)</td><td>Compounded with coaching and a money-back guarantee; from $199/mo</td><td>-</td><td>-</td></tr>
+</tbody>
+</table>
+<p><strong>How the 2026 changes affect the choice:</strong></p>
+<ul>
+<li><strong>If you want a GLP-1 pill,</strong> the FDA-approved pills come from brand-name channels. <a href="/reviews/ro">ro</a> offers Foundayo. Compounded oral and sublingual formats, such as those at <a href="/reviews/embody">embody</a> and <a href="/reviews/directmeds">DirectMeds</a>, are not FDA-approved and have little published evidence on absorption.</li>
+<li><strong>If you have insurance or Medicare,</strong> a brand-name route is now much more attractive: a $25 commercial copay with a savings card or a $50 Medicare Bridge copay beats any compounded price.</li>
+<li><strong>If you pay cash and want the lowest price,</strong> compounded programs remain cheaper - <a href="/reviews/wellmedr">wellmedr</a> and <a href="/reviews/embody">embody</a> lead on price - but compare a full year against manufacturer self-pay prices before deciding.</li>
+<li><strong>If you see a brand shelf priced at $1,000 or more a month,</strong> check NovoCare and LillyDirect first; manufacturer self-pay prices are usually far lower.</li>
+</ul>
+<p>Prices are provider-published figures checked in fall 2026; confirm at checkout. Compounded medications are not FDA-approved. Full details are in each review and on our <a href="/">homepage ranking</a>.</p>`,
+      },
+      {
+        heading: "What should I ask my clinician about the new weight-loss drugs?",
+        body: `<p><strong>Ask which approved option fits your goals, health conditions and budget; whether a pill could work for you; whether you qualify for insurance or Medicare coverage; and how you would switch to a newer drug if one becomes a better fit. Bring your weight history, current medications and any side effects you have had on previous treatments.</strong></p>
+<p><strong>If you are starting treatment:</strong></p>
+<ol>
+<li>"How much weight loss do I realistically need for my health goals - and which approved drug fits that?"</li>
+<li>"Would a pill work for me, or is an injection a better choice given my goals?"</li>
+<li>"Which option does my insurance cover, and do I qualify for the Medicare GLP-1 Bridge?"</li>
+<li>"What is the manufacturer self-pay price compared with a compounded program?"</li>
+<li>"Do any of my current medications or conditions affect which drug I should take?"</li>
+</ol>
+<p><strong>If you are already on a GLP-1:</strong></p>
+<ol>
+<li>"I have plateaued - is a higher dose, Wegovy HD or a switch to tirzepatide the right next step?"</li>
+<li>"Could I move to a pill such as Foundayo for maintenance once I reach my goal?"</li>
+<li>"My compounded program's supply may change - what is my backup plan?"</li>
+<li>"How are we protecting my muscle mass while I lose weight?"</li>
+</ol>
+<p><strong>If you are interested in pipeline drugs:</strong></p>
+<ol>
+<li>"Am I a candidate for a clinical trial of retatrutide, MariTide, amycretin or an amylin drug?"</li>
+<li>"When CagriSema or retatrutide is approved, how would we decide whether to switch?"</li>
+<li>"What should I know about the dysesthesia reported with the newest high-dose drugs?"</li>
+</ol>
+<p><strong>Questions to ask an online provider:</strong></p>
+<ul>
+<li>"Do you prescribe FDA-approved brand-name medication, compounded medication, or both?"</li>
+<li>"Which pharmacy fills compounded prescriptions, and is it a 503A or 503B facility?"</li>
+<li>"Do you offer the Wegovy pill or Foundayo?"</li>
+<li>"Will you help with insurance or prior authorization?"</li>
+<li>"How quickly can I reach a clinician if I have side effects?"</li>
+</ul>
+<p>A good clinician will welcome these questions. The new options make shared decision-making more important, not less - there is now a genuine choice of drugs, forms and price points, and the best one depends on you.</p>`,
+      },
+      {
+        heading: "Sources for this guide",
+        body: `<p><strong>Every figure in this guide comes from the primary and independent sources below. Pipeline drugs are investigational, prices change frequently, and policies such as the Medicare GLP-1 Bridge are temporary; check the linked sources for the latest information.</strong></p>
+<p><strong>FDA approvals and safety</strong></p>
+<ul>
+<li>FDA approval letter, Wegovy (semaglutide) tablets, December 2025: <a href="https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/218316Orig1s000ltr.pdf">accessdata.fda.gov</a></li>
+<li>Eli Lilly, FDA approves Foundayo (orforglipron), April 2026: <a href="https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill">investor.lilly.com</a></li>
+<li>FDA, fourth product approved under the National Priority Voucher program (semaglutide 7.2 mg): <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-fourth-product-under-national-priority-voucher-program-higher-dose-semaglutide">fda.gov</a></li>
+<li>FDA, removal of the suicidal behavior and ideation warning from GLP-1 labels, January 2026: <a href="https://www.fda.gov/drugs/drug-safety-communications/fda-requests-removal-suicidal-behavior-and-ideation-warning-glucagon-peptide-1-receptor-agonist-glp">fda.gov</a></li>
+<li>FDA, approval of Wegovy for MASH: <a href="https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash">fda.gov</a></li>
+<li>FDA, concerns with unapproved GLP-1 drugs used for weight loss: <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss">fda.gov</a></li>
+<li>FDA, warning letters to 30 telehealth companies, March 2026: <a href="https://www.fda.gov/news-events/press-announcements/fda-warns-30-telehealth-companies-against-illegal-marketing-compounded-glp-1s">fda.gov</a></li>
+<li>FDA, proposal to exclude semaglutide, tirzepatide and liraglutide from the 503B bulks list: <a href="https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list">fda.gov</a></li>
+<li>FDA warning letter to Royal Peptides LLC, August 2026: <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/royal-peptides-llc-734884-08242026">fda.gov</a></li>
+</ul>
+<p><strong>Clinical trials</strong></p>
+<ul>
+<li>OASIS 4, oral semaglutide 25 mg (NEJM 2025): <a href="https://pubmed.ncbi.nlm.nih.gov/40934115/">PubMed</a></li>
+<li>ATTAIN-1, orforglipron (NEJM 2025): <a href="https://www.nejm.org/doi/10.1056/NEJMoa2511774">nejm.org</a></li>
+<li>ACHIEVE-3, orforglipron vs oral semaglutide (Lancet 2026): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00202-3/abstract">thelancet.com</a></li>
+<li>Retatrutide phase 2 (NEJM 2023): <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2301972">nejm.org</a></li>
+<li>Eli Lilly, TRIUMPH-1 retatrutide results: <a href="https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss">investor.lilly.com</a></li>
+<li>Eli Lilly, TRIUMPH-4 retatrutide results: <a href="https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average">investor.lilly.com</a></li>
+<li>Retatrutide sleep apnea trials (NEJM 2026): <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2611477">nejm.org</a></li>
+<li>Novo Nordisk, REDEFINE 2 results: <a href="https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916353">novonordisk.com</a></li>
+<li>MariTide phase 2 (NEJM 2025): <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2504214">nejm.org</a></li>
+<li>Amycretin phase 1b/2a (Lancet 2025): <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01185-7/abstract">thelancet.com</a></li>
+<li>Boehringer Ingelheim, SYNCHRONIZE-1 survodutide results: <a href="https://www.boehringer-ingelheim.com/us/human-health/metabolic-diseases/results-phase-iii-synchronize-1-obesity-trial">boehringer-ingelheim.com</a></li>
+<li>Roche, petrelintide phase 2 results: <a href="https://www.roche.com/media/releases/med-cor-2026-03-05">roche.com</a></li>
+<li>MARITIME-2 trial record: <a href="https://clinicaltrials.gov/study/NCT06858878">ClinicalTrials.gov</a></li>
+<li>Nutritional priorities to support GLP-1 therapy for obesity, joint advisory (2025): <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12304835/">PMC</a></li>
+<li>University of Pennsylvania, AI analysis of Reddit reports on unapproved retatrutide: <a href="https://www.engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/">upenn.edu</a></li>
+</ul>
+<p><strong>Prices, coverage and policy</strong></p>
+<ul>
+<li>CMS, Medicare GLP-1 Bridge: <a href="https://www.cms.gov/medicare/coverage/prescription-drug-coverage/medicare-glp-1-bridge">cms.gov</a></li>
+<li>KFF, what Medicare's temporary GLP-1 program means for beneficiaries: <a href="https://www.kff.org/quick-insights/what-medicares-temporary-program-covering-glp-1s-for-obesity-means-for-beneficiaries/">kff.org</a></li>
+<li>KFF, TrumpRx: what's the value for customers: <a href="https://www.kff.org/patient-consumer-protections/trumprx-whats-the-value-for-customers/">kff.org</a></li>
+<li>KFF, 2026 Employer Health Benefits Survey: <a href="https://www.kff.org/health-costs/2026-employer-health-benefits-survey/">kff.org</a></li>
+<li>KFF, Medicaid coverage of GLP-1s: <a href="https://www.kff.org/medicaid/medicaid-coverage-of-and-spending-on-glp-1s/">kff.org</a></li>
+<li>White House fact sheet on the November 2025 pricing agreements: <a href="https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-announces-major-developments-in-bringing-most-favored-nation-pricing-to-american-patients/">whitehouse.gov</a></li>
+<li>NovoCare Pharmacy, Wegovy self-pay pricing: <a href="https://www.novocare.com/pharmacy/wegovy.html">novocare.com</a></li>
+<li>LillyDirect, Zepbound self-pay pricing: <a href="https://www.lilly.com/lillydirect/zepbound">lilly.com</a></li>
+<li>LillyDirect, Foundayo self-pay pricing: <a href="https://www.lilly.com/lillydirect/foundayo">lilly.com</a></li>
+<li>Eli Lilly lawsuits against retatrutide sellers (NPR, August 2026): <a href="https://www.npr.org/2026/08/13/g-s1-138594/eli-lilly-files-6-lawsuits-against-businesses-selling-black-market-obesity-drug">npr.org</a></li>
+<li>EY-Parthenon GLP-1 consumer impact report (October 2026): <a href="https://www.prnewswire.com/news-releases/ey-parthenon-glp-1-consumer-impact-report-majority-of-glp-1-users-seek-weight-management-reshaping-shopping-carts-302916849.html">prnewswire.com</a></li>
+</ul>
+<p><strong>The bottom line.</strong> 2026 turned weight-loss medication from a choice between two weekly injections into a real menu: two pills, a higher-dose injection, much lower cash prices and, for some, Medicare coverage. The next wave - retatrutide, CagriSema, MariTide, amycretin and amylin drugs - promises more, but most of it is still a year or more from pharmacies. If you need treatment, the best approved options today are highly effective; start with a licensed clinician, use FDA-approved or properly prescribed medication, and revisit the choice as new drugs arrive. To compare online programs, see our <a href="/">2026 ranking</a> and the <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a>.</p>
+${DISCLAIMER}`,
+      },
+    ],
+  },
+  {
     slug: "glp1-dosage-guide",
     title: "GLP-1 Dosage Guide: Semaglutide and Tirzepatide Doses, Units and Schedules (2026)",
     description:
@@ -60,7 +893,7 @@ export const weightLossArticles: ArticleData[] = [
 <tr><td>Starting dose</td><td>0.25 mg</td><td>2.5 mg</td></tr>
 <tr><td>Minimum time per step</td><td>4 weeks</td><td>4 weeks</td></tr>
 <tr><td>Weight-management maintenance dose (label)</td><td>2.4 mg (Wegovy)</td><td>5, 10 or 15 mg (Zepbound)</td></tr>
-<tr><td>Highest labeled dose</td><td>2.4 mg (Wegovy); 2 mg (Ozempic)</td><td>15 mg</td></tr>
+<tr><td>Highest labeled dose</td><td>7.2 mg (Wegovy HD, approved March 2026); 2 mg (Ozempic)</td><td>15 mg</td></tr>
 </tbody>
 </table>
 <p>Notice that the numbers are not comparable across the two drugs. A 2.5 mg dose of tirzepatide is a starting dose; a 2.4 mg dose of semaglutide is a full maintenance dose. Milligram for milligram, the molecules have different potencies, so never assume a number on one schedule means the same thing on the other.</p>`,
@@ -150,7 +983,7 @@ export const weightLossArticles: ArticleData[] = [
 <li><strong>2.4 mg is the evidence-backed target</strong> if your goal is the full average effect seen in trials.</li>
 <li><strong>1 mg or 1.7 mg is a reasonable place to stay</strong> if you are losing weight steadily there, or if side effects make the next step hard. Less average effect is not the same as no effect.</li>
 <li><strong>Doses below 0.5 mg</strong> are starting and adjustment doses. The major trials did not test them as long-term weight-loss doses.</li>
-<li><strong>Doses above 2.4 mg</strong> are outside the current Wegovy and Ozempic labels for weight management in the US. Higher-dose semaglutide has been studied, but taking more than your prescription - with a compounded vial, for example - is not a safe way to replicate that research.</li>
+<li><strong>Doses above 2.4 mg</strong> now exist as a brand-name option: the FDA approved Wegovy HD (semaglutide 7.2 mg) in March 2026. In the STEP UP trial, 7.2 mg averaged about 18.7% weight loss at 72 weeks, compared with about 15.6% on 2.4 mg and 3.9% on placebo, with more dysesthesia (unusual skin sensations) - about 22% vs 6% on 2.4 mg. It is a prescription decision for people already on 2.4 mg, and taking more than your prescription - with a compounded vial, for example - is not a safe way to replicate it.</li>
 </ul>
 <p>Remember that STEP-1 participants also received lifestyle counseling, and that averages hide a wide spread: some people lost far more than 15%, and some lost very little. Your own response at a given dose is the best guide to whether you need more.</p>`,
       },
@@ -645,7 +1478,7 @@ export const weightLossArticles: ArticleData[] = [
       {
         heading: "How is oral GLP-1 dosing different from injections?",
         body: `<p><strong>Oral GLP-1s are taken daily rather than weekly, use much higher milligram numbers than injections because most of the drug is not absorbed, and come with strict instructions about water, food and timing. The doses are not interchangeable with injectable doses, and oral compounded products do not follow the brand-name schedules.</strong></p>
-<p>Semaglutide is a peptide, and the digestive system breaks most of it down before it can be absorbed. FDA-approved oral semaglutide gets around this with a special formulation, and only works well when it is taken exactly as directed. For Rybelsus, the oral semaglutide tablet approved for type 2 diabetes, the label instructions are to take it on an empty stomach first thing in the morning with no more than 4 ounces of plain water, and to wait at least 30 minutes before eating, drinking anything else or taking other oral medications. Rybelsus starts at 3 mg daily for 30 days before increasing - numbers that bear no relationship to the 0.25 mg weekly injection.</p>
+<p>Semaglutide is a peptide, and the digestive system breaks most of it down before it can be absorbed. FDA-approved oral semaglutide gets around this with a special formulation, and only works well when it is taken exactly as directed. For Rybelsus, the oral semaglutide tablet approved for type 2 diabetes, the label instructions are to take it on an empty stomach first thing in the morning with no more than 4 ounces of plain water, and to wait at least 30 minutes before eating, drinking anything else or taking other oral medications. The Wegovy pill (oral semaglutide approved for weight management in December 2025) follows the same rules and steps up every 30 days from 1.5 mg to 4 mg, 9 mg and then 25 mg - numbers that bear no relationship to the 0.25 mg weekly injection.</p>
 <p><strong>The key differences:</strong></p>
 <table>
 <thead><tr><th></th><th>Weekly injection</th><th>Daily oral pill</th></tr></thead>
@@ -657,7 +1490,7 @@ export const weightLossArticles: ArticleData[] = [
 <tr><td>Converting between them</td><td colspan="2">Not milligram-for-milligram - your clinician decides the equivalent step</td></tr>
 </tbody>
 </table>
-<p><strong>Brand-name oral weight-loss options.</strong> FDA-approved oral GLP-1 options exist in 2026, and <a href="/reviews/ro">ro</a> offers Foundayo as an oral pill. Each oral product has its own dosing schedule and instructions, so follow the label and your prescriber's directions for the specific product you receive rather than applying rules from another pill.</p>
+<p><strong>Brand-name oral weight-loss options.</strong> Two GLP-1 pills are FDA-approved for weight management. The <strong>Wegovy pill</strong> (approved December 22, 2025) is taken with the fasting rules above. <strong>Foundayo</strong> (orforglipron, approved April 1, 2026) is a non-peptide pill with no food or water restrictions; it starts at 0.8 mg daily and steps up at least every 30 days through 2.5 mg and 5.5 mg, with higher steps of 9, 14.5 and 17.2 mg. <a href="/reviews/ro">ro</a> offers Foundayo. Each product has its own label, so never apply one pill's rules to another. Our <a href="/articles/new-weight-loss-drugs-2026">guide to the new weight-loss drugs of 2026</a> compares them in detail.</p>
 <p><strong>Compounded oral and sublingual products.</strong> <a href="/reviews/embody">embody</a> offers a daily oral compounded option, and <a href="/reviews/directmeds">DirectMeds</a> offers sublingual drops - liquid held under the tongue - for both semaglutide and tirzepatide at the same $147 monthly price as its injections. These are not FDA-approved, and there is little published evidence on how consistently they are absorbed. Their dosing comes from the prescribing clinician and the pharmacy, so follow those instructions closely and ask how the dose relates to a weekly injection if you might switch later.</p>
 <p><strong>Who oral dosing suits.</strong> People who will not start treatment because of needles. If you are comfortable with a weekly injection, it remains the most predictable and best-studied route, with the simplest dosing routine.</p>`,
       },
@@ -668,7 +1501,7 @@ export const weightLossArticles: ArticleData[] = [
 <li><strong>Titration (dose escalation):</strong> the gradual increase from a starting dose to a maintenance dose, usually in four-week steps.</li>
 <li><strong>Starting dose:</strong> the first, lowest dose - 0.25 mg semaglutide or 2.5 mg tirzepatide - used to build tolerance, not to produce full weight loss.</li>
 <li><strong>Maintenance dose:</strong> the dose you stay on long-term once titration is complete - 2.4 mg (or 1.7 mg) for Wegovy, and 5, 10 or 15 mg for Zepbound.</li>
-<li><strong>Maximum dose:</strong> the highest dose on the label - 2.4 mg for Wegovy, 2 mg for Ozempic, 15 mg for Zepbound and Mounjaro.</li>
+<li><strong>Maximum dose:</strong> the highest dose on the label - 2.4 mg for standard Wegovy (7.2 mg for Wegovy HD), 2 mg for Ozempic, 15 mg for Zepbound and Mounjaro.</li>
 <li><strong>mg (milligram):</strong> the amount of drug. Your prescription dose is written in milligrams.</li>
 <li><strong>mL (milliliter):</strong> the volume of liquid. 1 mL = 100 units on a U-100 syringe.</li>
 <li><strong>Concentration (mg/mL):</strong> how much drug is in each milliliter of liquid. The single most important number on a compounded vial.</li>
@@ -769,7 +1602,7 @@ ${DISCLAIMER}`,
       },
       {
         heading: "Which GLP-1 medications are FDA-approved for weight loss?",
-        body: `<p><strong>Among the GLP-1 medications sold through the online programs we review, Wegovy (semaglutide) and Zepbound (tirzepatide) are the products FDA-approved specifically for chronic weight management. Ozempic and Mounjaro contain the same active ingredients but are approved for type 2 diabetes.</strong></p>
+        body: `<p><strong>Among the GLP-1 medications sold through the online programs we review, Wegovy (semaglutide) and Zepbound (tirzepatide) are the injections FDA-approved specifically for chronic weight management, joined since late 2025 by two daily pills - the Wegovy pill and Foundayo (orforglipron). Ozempic and Mounjaro contain the same active ingredients but are approved for type 2 diabetes.</strong></p>
 <table>
 <thead><tr><th>Brand</th><th>Active ingredient</th><th>FDA-approved use</th><th>Form</th></tr></thead>
 <tbody>
@@ -777,6 +1610,9 @@ ${DISCLAIMER}`,
 <tr><td>Zepbound</td><td>Tirzepatide</td><td>Chronic weight management</td><td>Weekly injection</td></tr>
 <tr><td>Ozempic</td><td>Semaglutide</td><td>Type 2 diabetes</td><td>Weekly injection pen</td></tr>
 <tr><td>Mounjaro</td><td>Tirzepatide</td><td>Type 2 diabetes</td><td>Weekly injection</td></tr>
+<tr><td>Wegovy HD</td><td>Semaglutide 7.2 mg</td><td>Chronic weight management (approved March 2026)</td><td>Weekly injection</td></tr>
+<tr><td>Wegovy pill</td><td>Oral semaglutide 25 mg</td><td>Chronic weight management (approved December 2025)</td><td>Daily pill with fasting rules</td></tr>
+<tr><td>Foundayo</td><td>Orforglipron</td><td>Chronic weight management (approved April 2026)</td><td>Daily pill, no food or water rules</td></tr>
 <tr><td>Compounded semaglutide or tirzepatide</td><td>Semaglutide or tirzepatide</td><td>Not FDA-approved for any use</td><td>Vials, oral tablets or sublingual drops, depending on the pharmacy</td></tr>
 </tbody>
 </table>
