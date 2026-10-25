@@ -69,6 +69,11 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
     description:
       "SHED weight loss review: semaglutide from $199/mo, tirzepatide from $299/mo, coaching included and a money-back guarantee if you don't lose 5% in 120 days. 4.6/5 on Trustpilot.",
   },
+  medgm: {
+    title: "MEDGm Reviews 2026: Is It Legit? GLP-1 Cost, Tablets & Zepbound",
+    description:
+      "Is MEDGm legit? MEDGm review: compounded GLP-1 injections from $169/mo, daily dissolvable tablets from $239/mo, or Zepbound with a $99 membership - and what to ask first.",
+  },
   medvi: {
     title: "MEDVi Reviews 2026: Is MEDVi Good? Cost Per Month & Tirzepatide",
     description:
@@ -112,6 +117,11 @@ const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {
       "Yes. SHED prescribes compounded GLP-1s through licensed clinicians, includes coaching, and backs its program with a money-back guarantee if you do not lose 5% of your body weight in 120 days (read the conditions). It holds a 4.6/5 Trustpilot score from 1,137 reviews. Compounded GLP-1s are not FDA-approved.",
     signals: ["Licensed clinicians review every intake", "Coaching included", "5%-in-120-days money-back guarantee", "HSA/FSA accepted, no commitment"],
   },
+  medgm: {
+    verdict:
+      "MEDGm is a telehealth GLP-1 program that publishes its starting prices and offers a brand-name route (Zepbound) alongside compounded injections and tablets. We could not check customer feedback the way we do for most providers: it has no Trustpilot profile. Its public pricing also does not name the compounded molecule, so ask which medication and dose your price covers, and how billing and refunds work, before you pay. Compounded GLP-1s are not FDA-approved.",
+    signals: ["Published starting prices", "Brand-name Zepbound option", "Injection or daily tablet", "No Trustpilot profile - ask questions first"],
+  },
   medvi: {
     verdict:
       "Yes. MEDVi is a licensed US telehealth program with one of the largest review bases in GLP-1 weight loss - 4.3/5 on Trustpilot from 14,978 reviews. Clinician visits, dietitian access and coaching are included in the monthly price, with no membership fee. Its headline prices are promotional, so confirm what you will pay after the promo. Compounded GLP-1s are not FDA-approved.",
@@ -151,6 +161,11 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
     { question: "How much does SHED cost?", answer: "SHED's compounded semaglutide starts at $199/mo and compounded tirzepatide at $299/mo, with 20% off the first month. Coaching and home delivery are included, and HSA/FSA funds are accepted." },
     { question: "How does the SHED money-back guarantee work?", answer: "SHED offers a money-back guarantee if you do not lose 5% of your body weight within 120 days. The guarantee has conditions, so read SHED's terms before you rely on it." },
     { question: "Does SHED include coaching?", answer: "Yes. Coaching is included in SHED's plans alongside the medication and clinician care." },
+  ],
+  medgm: [
+    { question: "How much does MEDGm cost?", answer: "MEDGm advertises compounded GLP-1 injections starting at $169/mo and compounded GLP-1 dissolvable tablets starting at $239/mo. Brand-name Zepbound costs a $99 membership plus the medication cost. Starting prices can depend on plan length and dose, so confirm at checkout." },
+    { question: "Does MEDGm offer GLP-1 tablets?", answer: "Yes. MEDGm offers a compounded GLP-1 as one dissolvable tablet a day, starting at $239/mo. Compounded tablets are not FDA-approved, and there is little published evidence on how consistently they are absorbed - FDA-approved GLP-1 pills (the Wegovy pill and Foundayo) are sold through brand-name channels." },
+    { question: "Does MEDGm have Trustpilot reviews?", answer: "We did not find a Trustpilot profile for MEDGm, so there is little independent customer feedback to check. Ask about billing, refunds and support response times before you sign up." },
   ],
   medvi: [
     { question: "How much does MEDVi cost per month?", answer: "MEDVi's promotional prices are $99/mo for compounded semaglutide and $166/mo for compounded tirzepatide; regular prices are $199/mo and $299/mo. The price includes clinician visits, dietitian access, coaching and free shipping, with no membership fee." },

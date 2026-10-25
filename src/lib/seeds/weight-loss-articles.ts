@@ -730,7 +730,7 @@ export const weightLossArticles: ArticleData[] = [
       },
       {
         heading: "How do the online providers we rank fit into the new landscape?",
-        body: `<p><strong>The eight online programs we rank split into two groups. ro prescribes only FDA-approved brand-name medication - including the newer options such as Foundayo - and helps with insurance. The other seven focus on compounded semaglutide and tirzepatide at $49 to $299 a month, and several also offer brand-name medication or non-injection formats.</strong></p>
+        body: `<p><strong>The nine online programs we rank split into two groups. ro prescribes only FDA-approved brand-name medication - including the newer options such as Foundayo - and helps with insurance. The other eight focus on compounded GLP-1s at $49 to $299 a month, and several also offer brand-name medication or non-injection formats.</strong></p>
 <table>
 <thead><tr><th>Provider (our score)</th><th>Main offering</th><th>Brand-name options</th><th>Non-injection options</th></tr></thead>
 <tbody>
@@ -742,6 +742,7 @@ export const weightLossArticles: ArticleData[] = [
 <tr><td><a href="/reviews/medvi">MEDVi</a> (8.7)</td><td>Compounded with dietitian and coaching; $99/mo and $166/mo on promo</td><td>Through its clinicians</td><td>-</td></tr>
 <tr><td><a href="/reviews/directmeds">DirectMeds</a> (8.6)</td><td>Compounded semaglutide or tirzepatide, $147/mo either</td><td>-</td><td>Sublingual drops</td></tr>
 <tr><td><a href="/reviews/shed">SHED</a> (8.4)</td><td>Compounded with coaching and a money-back guarantee; from $199/mo</td><td>-</td><td>-</td></tr>
+<tr><td><a href="/reviews/medgm">MEDGm</a> (8.2)</td><td>Compounded GLP-1 injections from $169/mo or daily tablets from $239/mo</td><td>Zepbound for a $99 membership plus medication cost</td><td>Daily dissolvable compounded tablet</td></tr>
 </tbody>
 </table>
 <p><strong>How the 2026 changes affect the choice:</strong></p>
@@ -1008,7 +1009,7 @@ ${DISCLAIMER}`,
       {
         heading: "How does compounded GLP-1 dosing work?",
         body: `<p><strong>Compounded semaglutide and tirzepatide usually follow the same milligram steps as the brand-name schedules, but they come in multi-dose vials that you measure with a syringe. Your dose in milligrams stays the same; what changes is how many units you draw up, which depends on the concentration printed on your vial.</strong></p>
-<p>Compounded GLP-1s are prepared by licensed compounding pharmacies, are not FDA-approved, and are not reviewed by the FDA for safety, effectiveness or quality before they reach patients. Seven of the eight online programs we rank prescribe compounded medication. Here is how dosing works in that setting:</p>
+<p>Compounded GLP-1s are prepared by licensed compounding pharmacies, are not FDA-approved, and are not reviewed by the FDA for safety, effectiveness or quality before they reach patients. Eight of the nine online programs we rank prescribe compounded medication. Here is how dosing works in that setting:</p>
 <ul>
 <li><strong>The dose is written in milligrams.</strong> Your prescription might say "semaglutide 0.5 mg subcutaneously once weekly." That number is what matters clinically.</li>
 <li><strong>The vial has a concentration.</strong> The label states how many milligrams are in each milliliter, for example 2.5 mg/mL for semaglutide or 10 mg/mL for tirzepatide. Pharmacies use different concentrations, and the same pharmacy may change concentration when your dose rises.</li>
@@ -1430,6 +1431,7 @@ ${DISCLAIMER}`,
 <tr><td><a href="/reviews/medvi">MEDVi</a></td><td>$99/mo promo (regular $199)</td><td>$166/mo promo (regular $299)</td><td>Not stated in the pricing we reviewed - ask</td></tr>
 <tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$147/mo</td><td>$147/mo</td><td>Yes - one price for either drug at every dose</td></tr>
 <tr><td><a href="/reviews/shed">SHED</a></td><td>From $199/mo</td><td>From $299/mo</td><td>Starting prices; may vary by plan - ask</td></tr>
+<tr><td><a href="/reviews/medgm">MEDGm</a></td><td colspan="2">Compounded GLP-1 injections from $169/mo; molecule not named in public pricing</td><td>Starting price - ask</td></tr>
 </tbody>
 </table>
 <p><strong>Questions that reveal dose-based pricing:</strong></p>
@@ -1544,7 +1546,7 @@ ${DISCLAIMER}`,
 <li>"If I want to lower the dose or stop, what is the plan, and how will we watch for regain?"</li>
 <li>"Would switching drugs make sense if I plateau?"</li>
 </ol>
-<p><strong>The bottom line.</strong> GLP-1 dosing looks complicated mainly because of the gap between milligrams and syringe units. Close that gap - read the concentration, use the formula, use the right syringe, write it down - and the rest follows a simple logic: start low, step up no faster than every four weeks, stop climbing when you are making steady progress, and never take more than prescribed. The best dose is the one that keeps you on treatment, losing steadily, with side effects you can manage. If you are still choosing a program, our <a href="/">2026 ranking</a> compares the eight online GLP-1 providers we review on price at every dose, clinical support and delivery, and the <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers everything else.</p>
+<p><strong>The bottom line.</strong> GLP-1 dosing looks complicated mainly because of the gap between milligrams and syringe units. Close that gap - read the concentration, use the formula, use the right syringe, write it down - and the rest follows a simple logic: start low, step up no faster than every four weeks, stop climbing when you are making steady progress, and never take more than prescribed. The best dose is the one that keeps you on treatment, losing steadily, with side effects you can manage. If you are still choosing a program, our <a href="/">2026 ranking</a> compares the nine online GLP-1 providers we review on price at every dose, clinical support and delivery, and the <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers everything else.</p>
 ${DISCLAIMER}`,
       },
     ],
@@ -1553,7 +1555,7 @@ ${DISCLAIMER}`,
     slug: "online-glp1-weight-loss-guide",
     title: "The Complete Guide to Online GLP-1 Weight Loss (2026)",
     description:
-      "How online GLP-1 weight loss works in 2026: who qualifies, compounded vs brand-name, real prices from 8 providers, trial results, side effects and safety.",
+      "How online GLP-1 weight loss works in 2026: who qualifies, compounded vs brand-name, real prices from 9 providers, trial results, side effects and safety.",
     category: "Guides",
     readTime: "55 min read",
     publishedAt: "2026-10-18",
@@ -1563,7 +1565,7 @@ ${DISCLAIMER}`,
     keyTakeaways: [
       "Wegovy (semaglutide) and Zepbound (tirzepatide) are FDA-approved for chronic weight management in adults with a BMI of 30 or more, or 27 or more with a weight-related condition; compounded semaglutide and tirzepatide are not FDA-approved.",
       "Average weight loss in trials was about 15% at 68 weeks on semaglutide 2.4 mg (STEP-1) and about 20.9% at 72 weeks on tirzepatide 15 mg (SURMOUNT-1); in the SURMOUNT-5 head-to-head trial, tirzepatide averaged about 20.2% vs 13.7% for semaglutide.",
-      "Across the 8 online providers we rank, compounded semaglutide starts between $49/mo (wellmedr, 12-month plan) and $199/mo (SHED), and compounded tirzepatide between $89/mo and $299/mo; brand-name self-pay list prices run from $1,149 to $1,599 a month.",
+      "Across the 9 online providers we rank, compounded semaglutide starts between $49/mo (wellmedr, 12-month plan) and $199/mo (SHED), and compounded tirzepatide between $89/mo and $299/mo; brand-name self-pay list prices run from $1,149 to $1,599 a month.",
       "In the STEP-1 extension, people who stopped semaglutide regained about two-thirds of the weight they had lost within a year.",
     ],
     sections: [
@@ -1571,7 +1573,7 @@ ${DISCLAIMER}`,
         heading: "What is online GLP-1 weight loss?",
         body: `<p><strong>Online GLP-1 weight loss is a telehealth service in which a licensed clinician reviews your health information remotely and, if appropriate, prescribes a GLP-1 medication such as semaglutide or tirzepatide that is shipped to your door. You never have to sit in a waiting room, but you still need a real prescription from a real clinician.</strong></p>
 <p>The model has grown quickly because it solves three practical problems at once. First, access: many people do not have a primary care doctor who is comfortable prescribing weight-loss medication, or they face weeks-long waits for an appointment. Second, price: online programs that use compounded medication charge a small fraction of the brand-name self-pay price. Third, convenience: intake, follow-up, dose changes and refills all happen through a website or app.</p>
-<p>This guide is the long version of everything we have learned reviewing these services. It covers how the medications work, who qualifies, the difference between compounded and brand-name products, what treatment really costs in 2026, what results the clinical trials actually showed, the side effects to plan for, and how to tell a trustworthy provider from a risky one. We compare the eight programs we currently rank - <a href="/reviews/embody">embody</a>, <a href="/reviews/ro">ro</a>, <a href="/reviews/altrx">altRx</a>, <a href="/reviews/trimrx">trimrx</a>, <a href="/reviews/wellmedr">wellmedr</a>, <a href="/reviews/medvi">MEDVi</a>, <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/shed">SHED</a> - using their published prices and current Trustpilot data. If you only want the ranking, it lives on our <a href="/">homepage</a>; if you want to understand the decision, keep reading.</p>
+<p>This guide is the long version of everything we have learned reviewing these services. It covers how the medications work, who qualifies, the difference between compounded and brand-name products, what treatment really costs in 2026, what results the clinical trials actually showed, the side effects to plan for, and how to tell a trustworthy provider from a risky one. We compare the nine programs we currently rank - <a href="/reviews/embody">embody</a>, <a href="/reviews/ro">ro</a>, <a href="/reviews/altrx">altRx</a>, <a href="/reviews/trimrx">trimrx</a>, <a href="/reviews/wellmedr">wellmedr</a>, <a href="/reviews/medvi">MEDVi</a>, <a href="/reviews/directmeds">DirectMeds</a>, <a href="/reviews/shed">SHED</a> and <a href="/reviews/medgm">MEDGm</a> - using their published prices and current Trustpilot data. If you only want the ranking, it lives on our <a href="/">homepage</a>; if you want to understand the decision, keep reading.</p>
 <p><strong>Online vs in-person care.</strong> Getting a GLP-1 online is not automatically better or worse than seeing a doctor in person; it is a different set of trade-offs. Telehealth is usually faster, more convenient and - for cash-pay compounded medication - much cheaper. An in-person doctor can examine you, may already know your history, and can coordinate GLP-1 treatment with your other conditions more easily. Many people combine the two: they keep their regular doctor informed while an online program handles prescribing and delivery. If you have complex medical conditions, take several prescription medications or have had problems with previous weight-loss drugs, involving your regular clinician is especially worthwhile.</p>
 <p>One ground rule runs through every section: no provider can guarantee results, compounded GLP-1s are not FDA-approved, and a licensed clinician - not a website, and not this guide - decides whether a GLP-1 is right for you.</p>`,
       },
@@ -1696,7 +1698,7 @@ ${DISCLAIMER}`,
 <tr><td>Regulatory status</td><td>Stable</td><td>Restricted since the shortages ended; rules still evolving</td></tr>
 </tbody>
 </table>
-<p>The brand-name list prices above come from the self-pay shelves at <a href="/reviews/altrx">altRx</a> (Ozempic $1,149, Zepbound $1,249, Wegovy $1,579 a month) and <a href="/reviews/wellmedr">wellmedr</a> (Ozempic $1,399, Zepbound $1,599 a month). The compounded range spans the eight programs we rank.</p>
+<p>The brand-name list prices above come from the self-pay shelves at <a href="/reviews/altrx">altRx</a> (Ozempic $1,149, Zepbound $1,249, Wegovy $1,579 a month) and <a href="/reviews/wellmedr">wellmedr</a> (Ozempic $1,399, Zepbound $1,599 a month). The compounded range spans the compounded programs we rank.</p>
 <p>Neither option is "the right one" for everyone. If you have insurance that covers Wegovy or Zepbound, or you want only FDA-approved medication, brand-name is the clear choice. If you are paying cash and brand-name prices are out of reach, compounded medication from a reputable provider is the route many people take - with eyes open about what FDA approval does and does not cover. For a deeper look at what the price gap buys, read <a href="/articles/compounded-vs-brand-name-glp1">compounded vs brand-name GLP-1s</a>.</p>`,
       },
       {
@@ -1820,7 +1822,7 @@ ${DISCLAIMER}`,
       },
       {
         heading: "How much does online GLP-1 treatment cost in 2026?",
-        body: `<p><strong>Among the eight online providers we rank, compounded semaglutide starts between $49 and $199 a month, and compounded tirzepatide between $89 and $299 a month. Brand-name medication costs $1,149-$1,599 a month at self-pay list prices, but insurance can bring that down sharply.</strong></p>
+        body: `<p><strong>Among the nine online providers we rank, compounded semaglutide starts between $49 and $199 a month, and compounded tirzepatide between $89 and $299 a month. Brand-name medication costs $1,149-$1,599 a month at self-pay list prices, but insurance can bring that down sharply.</strong></p>
 <p>Here is every provider we rank, in ranking order, with its published prices, pricing model and current Trustpilot score. Promo prices are labeled with the regular price alongside.</p>
 <table>
 <thead><tr><th>Provider (our score)</th><th>Semaglutide</th><th>Tirzepatide</th><th>Model</th><th>Commitment</th><th>Shipping</th><th>Trustpilot</th></tr></thead>
@@ -1833,6 +1835,7 @@ ${DISCLAIMER}`,
 <tr><td><a href="/reviews/medvi">MEDVi</a> (8.7)</td><td>$99/mo promo (regular $199)</td><td>$166/mo promo (regular $299)</td><td>All-inclusive: clinician visits, dietitian, coaching</td><td>None - no membership</td><td>Free; timing not published</td><td>4.3 / 5 (14,978 reviews)</td></tr>
 <tr><td><a href="/reviews/directmeds">DirectMeds</a> (8.6)</td><td>$147/mo</td><td>$147/mo</td><td>Compounded, flat at every dose; injection or sublingual drops</td><td>None - no membership</td><td>Free, 1-2 days</td><td>4.6 / 5 (16,368 reviews)</td></tr>
 <tr><td><a href="/reviews/shed">SHED</a> (8.4)</td><td>From $199/mo (20% off first month)</td><td>From $299/mo (20% off first month)</td><td>Compounded with coaching; 5%-in-120-days money-back guarantee</td><td>None</td><td>Home delivery included; timing not published</td><td>4.6 / 5 (1,137 reviews)</td></tr>
+<tr><td><a href="/reviews/medgm">MEDGm</a> (8.2)</td><td colspan="2">Compounded GLP-1 injections from $169/mo or daily dissolvable tablets from $239/mo (molecule not named in public pricing); brand-name Zepbound for a $99 membership plus medication cost</td><td>Compounded injection, compounded tablet or brand-name Zepbound</td><td>Ask at checkout</td><td>Not published</td><td>No published profile</td></tr>
 </tbody>
 </table>
 <p>Four pricing mechanics explain most of the differences in that table:</p>
@@ -1858,6 +1861,7 @@ ${DISCLAIMER}`,
 <tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$1,764 (12 x $147)</td><td>Not a promo</td><td>$1,764 (12 x $147)</td><td>Not a promo</td></tr>
 <tr><td><a href="/reviews/trimrx">trimrx</a></td><td>$1,788 (12 x $149)</td><td>Not a promo</td><td>$3,108 (12 x $259)</td><td>Not a promo</td></tr>
 <tr><td><a href="/reviews/shed">SHED</a></td><td>$2,348.20 ($159.20 + 11 x $199)</td><td>Already includes the 20% first-month discount</td><td>$3,528.20 ($239.20 + 11 x $299)</td><td>Already includes the 20% first-month discount</td></tr>
+<tr><td><a href="/reviews/medgm">MEDGm</a></td><td colspan="2">$2,028 (12 x $169) for compounded GLP-1 injections at the starting price; molecule not named</td><td colspan="2">Tablets: $2,868 (12 x $239) at the starting price</td></tr>
 </tbody>
 </table>
 <p>Notes on reading the table:</p>
@@ -1932,8 +1936,8 @@ ${DISCLAIMER}`,
 <p>For direct matchups, see our head-to-head comparisons: <a href="/embody-vs-ro">embody vs ro</a>, <a href="/embody-vs-wellmedr">embody vs wellmedr</a>, <a href="/embody-vs-medvi">embody vs MEDVi</a>, <a href="/altrx-vs-trimrx">altRx vs trimrx</a>, <a href="/altrx-vs-medvi">altRx vs MEDVi</a>, <a href="/altrx-vs-wellmedr">altRx vs wellmedr</a>, <a href="/trimrx-vs-wellmedr">trimrx vs wellmedr</a>, <a href="/trimrx-vs-medvi">trimrx vs MEDVi</a>, <a href="/wellmedr-vs-medvi">wellmedr vs MEDVi</a>, <a href="/ro-vs-medvi">ro vs MEDVi</a>, <a href="/medvi-vs-shed">MEDVi vs SHED</a> and <a href="/directmeds-vs-wellmedr">DirectMeds vs wellmedr</a>.</p>`,
       },
       {
-        heading: "How do the 8 online GLP-1 providers we rank compare?",
-        body: `<p><strong>Our 2026 ranking is embody (9.8), ro (9.6), altRx (9.3), trimrx (9.1), wellmedr (8.9), MEDVi (8.7), DirectMeds (8.6) and SHED (8.4). Each program has a clear strength and a clear trade-off; none is right for everyone.</strong></p>
+        heading: "How do the 9 online GLP-1 providers we rank compare?",
+        body: `<p><strong>Our 2026 ranking is embody (9.8), ro (9.6), altRx (9.3), trimrx (9.1), wellmedr (8.9), MEDVi (8.7), DirectMeds (8.6), SHED (8.4) and MEDGm (8.2). Each program has a clear strength and a clear trade-off; none is right for everyone.</strong></p>
 <p><strong>1. <a href="/reviews/embody">embody</a> - best overall for cash-pay patients.</strong> Compounded semaglutide is $69 a month (regular $79) and tirzepatide $119 (regular $129), flat at every dose and month-to-month. Medication ships cold-chain in 1-2 days with free shipping, it offers a daily oral option alongside injections, and it is LegitScript-certified with medication from state-licensed 503A pharmacies. The trade-off is a mixed 3.8 / 5 Trustpilot score from 9,582 reviews, where complaints focus on shipping delays and support response times.</p>
 <p><strong>2. <a href="/reviews/ro">ro</a> - best for insurance and brand-name medication.</strong> ro prescribes only FDA-approved brand-name GLP-1s - Wegovy, Zepbound, Ozempic and Foundayo - and its insurance concierge handles coverage checks and prior authorizations. Founded in 2017, it is one of the most established telehealth brands in the US. The membership is $39 for the first month, then $149 a month, or about $74 a month on an annual plan, with medication billed separately. Without coverage, the total is usually far above compounded programs. Trustpilot: 3.9 / 5 from 7,083 reviews.</p>
 <p><strong>3. <a href="/reviews/altrx">altRx</a> - flat pricing plus a brand-name shelf.</strong> Compounded semaglutide is $89 a month and tirzepatide $149 on promo (regular $199 and $299), the same at every dose, with brand-name Ozempic, Zepbound and Wegovy available at self-pay prices in the same account. It offers Buy Now, Pay Later and no commitment, but delivery takes 5-7 days, it has no published Trustpilot profile, and its parent company received an FDA warning letter on June 8, 2026 (see the next section).</p>
@@ -1942,7 +1946,8 @@ ${DISCLAIMER}`,
 <p><strong>6. <a href="/reviews/medvi">MEDVi</a> - best all-inclusive support.</strong> Semaglutide is $99 a month and tirzepatide $166 on promo (regular $199 and $299), with clinician visits, dietitian access and coaching included, no membership fees and no commitment. Brand-name options are available through its clinicians. It is rated 4.3 / 5 from 14,978 reviews. After the promo, its regular prices are among the highest we track.</p>
 <p><strong>7. <a href="/reviews/directmeds">DirectMeds</a> - simplest pricing.</strong> Semaglutide or tirzepatide costs $147 a month at every dose, as a weekly injection or sublingual drops, with free 1-2 day shipping and no membership. Its 4.6 / 5 score from 16,368 reviews is the largest review base on our list. It offers little beyond the prescription - no coaching, dietitian or brand-name shelf - and its semaglutide costs more than several rivals.</p>
 <p><strong>8. <a href="/reviews/shed">SHED</a> - coaching with a guarantee.</strong> Semaglutide starts at $199 a month and tirzepatide at $299, with 20% off the first month, coaching included and a money-back guarantee if you do not lose 5% of your body weight in 120 days (conditions apply). It accepts HSA/FSA, has no commitment and is rated 4.6 / 5 from 1,137 reviews, but it is among the most expensive compounded options we track.</p>
-<p>All seven compounded programs share the same caveat: their medication is not FDA-approved. Full details, pros and cons are in each linked review, and the side-by-side ranking is on our <a href="/">homepage</a>.</p>
+<p><strong>9. <a href="/reviews/medgm">MEDGm</a> - injection, tablet or brand-name in one program.</strong> Compounded GLP-1 injections start at $169 a month and compounded once-daily dissolvable tablets at $239, and brand-name Zepbound is available for a $99 membership plus the medication cost. Its public pricing does not name the compounded molecule, so ask which medication and dose your price covers. It has no published Trustpilot profile, and its compounded prices are higher than several programs above.</p>
+<p>All eight compounded programs share the same caveat: their medication is not FDA-approved. Full details, pros and cons are in each linked review, and the side-by-side ranking is on our <a href="/">homepage</a>.</p>
 <p><strong>How we score providers.</strong> We score each provider on clinical safety and oversight, total price and pricing transparency, flexibility, delivery, support and customer feedback, then check regulatory records such as FDA warning letters. Compensation from providers may affect placement but does not change our editorial ratings.</p>
 <p>In practice, that means we look for answers to questions like these:</p>
 <ul>
@@ -2220,7 +2225,7 @@ ${DISCLAIMER}`,
 <ul>
 <li>Wegovy and Zepbound are FDA-approved for chronic weight management; compounded semaglutide and tirzepatide are not FDA-approved.</li>
 <li>Average trial results were about 15% weight loss on semaglutide (STEP-1) and about 20.9% on tirzepatide (SURMOUNT-1); head-to-head, tirzepatide averaged about 20.2% vs 13.7% (SURMOUNT-5). Results vary.</li>
-<li>Compounded semaglutide starts between $49 and $199 a month across the eight providers we rank; compounded tirzepatide between $89 and $299. Compare the full year, not the first month, and note which prices are promotional.</li>
+<li>Compounded semaglutide starts between $49 and $199 a month across the providers we rank; compounded tirzepatide between $89 and $299. Compare the full year, not the first month, and note which prices are promotional.</li>
 <li>Side effects are mostly digestive and peak after dose increases; serious risks are uncommon but real, and people with MTC or MEN2 history or who are pregnant should not take these drugs.</li>
 <li>Most people regain weight after stopping, so plan for the long term with your clinician.</li>
 <li>Check that any provider uses licensed clinicians and pharmacies, prices transparently and never calls compounded medication FDA-approved - and check the FDA's warning letter database, as we did for altRx.</li>
@@ -2336,7 +2341,7 @@ ${DISCLAIMER}`,
       },
       {
         heading: "2026 price comparison",
-        body: `<table><thead><tr><th>Provider</th><th>Semaglutide</th><th>Tirzepatide</th><th>Model</th><th>Commitment</th></tr></thead><tbody><tr><td><a href="/reviews/embody">embody</a></td><td>$69/mo (regular $79)</td><td>$119/mo (regular $129)</td><td>Compounded, flat all doses</td><td>Month-to-month</td></tr><tr><td><a href="/reviews/ro">ro</a></td><td colspan="2">Brand-name only; membership $39 first month, then $149/mo (~$74/mo annual) + medication</td><td>Membership + medication</td><td>Monthly or annual</td></tr><tr><td><a href="/reviews/altrx">altRx</a></td><td>$89/mo promo (regular $199)</td><td>$149/mo promo (regular $299)</td><td>Compounded, flat all doses</td><td>None - pause or cancel</td></tr><tr><td><a href="/reviews/trimrx">trimrx</a></td><td>$149/mo</td><td>$259/mo</td><td>Compounded, flat all doses</td><td>Month-to-month</td></tr><tr><td><a href="/reviews/wellmedr">wellmedr</a></td><td>$49/mo on 12-month plan (~$88 month-to-month)</td><td>$89/mo</td><td>Compounded, flat all doses</td><td>12-month plan for lowest rate</td></tr><tr><td><a href="/reviews/medvi">MEDVi</a></td><td>$99/mo promo (regular $199)</td><td>$166/mo promo (regular $299)</td><td>All-inclusive: visits, dietitian, coaching</td><td>None - no membership</td></tr><tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$147/mo</td><td>$147/mo</td><td>Compounded, flat all doses; injection or drops</td><td>None - no membership</td></tr><tr><td><a href="/reviews/shed">SHED</a></td><td>From $199/mo (20% off month one)</td><td>From $299/mo (20% off month one)</td><td>Compounded, coaching included</td><td>None - HSA/FSA accepted</td></tr></tbody></table><p>Prices are provider-published figures checked in September 2026 and can change at any time. Compounded medications are not FDA-approved.</p>`,
+        body: `<table><thead><tr><th>Provider</th><th>Semaglutide</th><th>Tirzepatide</th><th>Model</th><th>Commitment</th></tr></thead><tbody><tr><td><a href="/reviews/embody">embody</a></td><td>$69/mo (regular $79)</td><td>$119/mo (regular $129)</td><td>Compounded, flat all doses</td><td>Month-to-month</td></tr><tr><td><a href="/reviews/ro">ro</a></td><td colspan="2">Brand-name only; membership $39 first month, then $149/mo (~$74/mo annual) + medication</td><td>Membership + medication</td><td>Monthly or annual</td></tr><tr><td><a href="/reviews/altrx">altRx</a></td><td>$89/mo promo (regular $199)</td><td>$149/mo promo (regular $299)</td><td>Compounded, flat all doses</td><td>None - pause or cancel</td></tr><tr><td><a href="/reviews/trimrx">trimrx</a></td><td>$149/mo</td><td>$259/mo</td><td>Compounded, flat all doses</td><td>Month-to-month</td></tr><tr><td><a href="/reviews/wellmedr">wellmedr</a></td><td>$49/mo on 12-month plan (~$88 month-to-month)</td><td>$89/mo</td><td>Compounded, flat all doses</td><td>12-month plan for lowest rate</td></tr><tr><td><a href="/reviews/medvi">MEDVi</a></td><td>$99/mo promo (regular $199)</td><td>$166/mo promo (regular $299)</td><td>All-inclusive: visits, dietitian, coaching</td><td>None - no membership</td></tr><tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$147/mo</td><td>$147/mo</td><td>Compounded, flat all doses; injection or drops</td><td>None - no membership</td></tr><tr><td><a href="/reviews/shed">SHED</a></td><td>From $199/mo (20% off month one)</td><td>From $299/mo (20% off month one)</td><td>Compounded, coaching included</td><td>None - HSA/FSA accepted</td></tr><tr><td><a href="/reviews/medgm">MEDGm</a></td><td colspan="2">Compounded GLP-1 injection from $169/mo; dissolvable tablet from $239/mo</td><td>Compounded, plus brand-name Zepbound ($99 membership + medication)</td><td>Ask at checkout</td></tr></tbody></table><p>Prices are provider-published figures checked in September 2026 and can change at any time. Compounded medications are not FDA-approved.</p>`,
       },
       {
         heading: "First-year cost: worked examples",

@@ -6,7 +6,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 // GLP-1 weight-loss vertical content - thetopweightloss.com
 //
 // Launch content for "The Top Weight Loss", an independent comparison site for
-// online (telehealth) GLP-1 weight-loss providers in the US. Eight providers:
+// online (telehealth) GLP-1 weight-loss providers in the US. Nine providers:
 // embody (the anchor - lowest no-commitment compounded price, 1-2 day
 // shipping), ro (brand-name, FDA-approved medication only, with an insurance
 // concierge), altRx (flat price at every dose plus a brand-name shelf - carries
@@ -15,7 +15,9 @@ import { weightLossBattles } from "./weight-loss-battles";
 // a 12-month plan) and MEDVi (all-inclusive price with clinician visits,
 // dietitian access and coaching bundled in); added Oct 2026: DirectMeds ($147
 // flat for semaglutide or tirzepatide, injection or drops) and SHED (coaching
-// plus a 5%-in-120-days money-back guarantee). Editorial is original and compliance-minded (YMYL): no
+// plus a 5%-in-120-days money-back guarantee); added Oct 25: MEDGm
+// (compounded injection $169 or dissolvable tablet $239, or Zepbound with a
+// $99 membership; no Trustpilot profile). Editorial is original and compliance-minded (YMYL): no
 // guaranteed-results claims, compounded GLP-1s are never called FDA-approved,
 // trial figures are cited as averages ("results vary"), and every review is
 // clear that a licensed clinician decides whether treatment is appropriate.
@@ -75,6 +77,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 
 const UPDATED = "2026-09-27";
 const ADDED = "2026-10-11";
+const ADDED_OCT_25 = "2026-10-25";
 
 export const weightLossConfig: SiteConfig = {
   siteName: "The Top Weight Loss",
@@ -111,7 +114,7 @@ export const weightLossConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr", "medvi", "directmeds", "shed"],
+    providerOrder: ["embody", "ro", "altrx", "trimrx", "wellmedr", "medvi", "directmeds", "shed", "medgm"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -121,6 +124,7 @@ export const weightLossConfig: SiteConfig = {
       { score: 8.7, starRating: 4, label: "Very Good" },
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
+      { score: 8.2, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -358,6 +362,22 @@ export const weightLossConfig: SiteConfig = {
         { title: "Trinity was absolutely amazing", text: "Trinity was absolutely amazing! I accidentally created 2 accounts and thought the issue was revolved from previous interactions with customer service but she assisted me the whole way through and made sure I didn’t loose anything that was owed to me and also set up my next follow up appointment. She is fantastic please reward her for this!", name: "Victoria Conley", location: "US", rating: 5, date: "Sep 2, 2026" },
         { title: "ShedRx has been awesome", text: "ShedRx has been awesome! Their service is super-fast, and they even changed my refill date so I wouldn't miss my shot days. Anytime I have an issue, a member support person reaches out right away to help.", name: "Michelle Williams", location: "US", rating: 5, date: "Sep 2, 2026" },
       ],
+    },
+    {
+      id: "medgm",
+      name: "MEDGm",
+      tagline:
+        "Compounded GLP-1 injections or daily dissolvable tablets, plus brand-name Zepbound with a membership - three routes in one program",
+      logo: "/logos/medgm.png",
+      smallLogo: "/logos/medgm-icon.png",
+      highlights: [
+        "GLP-1 injections from $169/mo",
+        "Daily dissolvable GLP-1 tablets from $239/mo",
+        "Zepbound: $99 membership + medication cost",
+        "Weekly injection or daily tablet",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1656&aff_id=12904",
+      ctaText: "Visit Site",
     },
   ],
 
@@ -1085,6 +1105,92 @@ export const weightLossConfig: SiteConfig = {
       ],
       trustBadges: ["Coaching included", "5%-in-120-days guarantee", "HSA/FSA accepted"],
       updatedAt: ADDED,
+    },
+    {
+      slug: "medgm",
+      providerId: "medgm",
+      shortSummary:
+        "A three-route GLP-1 program: compounded injections from $169/month, compounded once-daily dissolvable tablets from $239/month, or brand-name Zepbound for a $99 membership plus the medication cost.",
+      reviewIntro:
+        "MEDGm is a cash-pay GLP-1 telehealth program that lets you choose how you take your medication. Its compounded GLP-1 injections start at $169/month as one injection a week, and its compounded GLP-1 tablets start at $239/month as one dissolvable tablet a day - an option for people who would rather avoid needles. If you want FDA-approved medication instead, MEDGm also offers brand-name Zepbound for a $99 membership fee plus the cost of the medication, with availability subject to change. That range of routes is its main appeal. The trade-offs: its compounded prices are higher than the cheapest programs we rank, MEDGm does not name the specific compounded molecule in its public pricing, and it has no Trustpilot profile for us to check customer feedback against. Compounded GLP-1s are not FDA-approved. This review covers what MEDGm costs, how its options compare and who it suits.",
+      keyFeatures: [
+        "Compounded GLP-1 injections from $169/month (one injection a week)",
+        "Compounded GLP-1 tablets from $239/month (one dissolvable tablet a day)",
+        "Brand-name Zepbound: $99 membership plus medication cost",
+        "Choose between injection, tablet and brand-name routes in one program",
+        "Online intake reviewed by a licensed clinician",
+      ],
+      pricingSummary:
+        "MEDGm advertises compounded GLP-1 injections starting at $169/month and compounded GLP-1 dissolvable tablets starting at $239/month. Brand-name Zepbound is priced as a $99 membership plus the medication cost; for comparison, Lilly's own LillyDirect self-pay price for Zepbound runs from $299/month at the starting dose to $449/month at higher doses with on-time refills. \"Starting at\" prices can depend on plan length and dose, so confirm what you will pay - and whether a plan is billed upfront and refundable - at checkout. Compounded GLP-1s are not FDA-approved.",
+      treatmentOptions: [
+        "Compounded GLP-1 injection (weekly)",
+        "Compounded GLP-1 dissolvable tablet (daily)",
+        "Brand-name Zepbound (membership plus medication cost)",
+      ],
+      pros: [
+        "Three routes in one place: weekly injection, daily tablet or brand-name Zepbound",
+        "A needle-free tablet option for people who will not inject",
+        "A path to FDA-approved Zepbound without changing providers",
+      ],
+      cons: [
+        "Compounded prices are higher than several programs we rank - embody's semaglutide is $69/month and wellmedr's $49/month on a 12-month plan",
+        "The public pricing does not name the compounded molecule (semaglutide or tirzepatide) - ask before you buy",
+        "No Trustpilot profile, so there is little independent customer feedback to check",
+        "Compounded injections and tablets are not FDA-approved, and there is little published evidence on how consistently compounded tablets are absorbed",
+        "The Zepbound route adds a $99 membership on top of the medication",
+      ],
+      bestFor: [
+        "People who want the option of a daily tablet instead of injections",
+        "Anyone who may want to move from compounded medication to brand-name Zepbound later",
+        "Skip it if the lowest price matters most - embody, wellmedr and altRx cost less for compounded medication",
+      ],
+      finalVerdict:
+        "MEDGm's strength is choice: a weekly compounded injection from $169/month, a daily dissolvable compounded tablet from $239/month, or brand-name Zepbound for a $99 membership plus the medication. For someone undecided between needles and pills, or who expects to move to FDA-approved medication later, that flexibility is useful. It ranks ninth because its compounded prices are higher than the cheapest programs we track, its public pricing does not say which molecule its compounded products contain, and without a Trustpilot profile there is little independent feedback to go on. Ask MEDGm which medication and dose your price covers and how billing works before you sign up. Compounded GLP-1s are not FDA-approved, results vary, and a licensed clinician decides whether treatment is right for you. This review is general information, not medical advice.",
+      pricingPlans: [
+        {
+          name: "GLP-1 Injections",
+          medication: "Compounded GLP-1 (weekly injection)",
+          price: "$169",
+          unit: "/mo",
+          cadence: "Starting price",
+          highlights: ["One injection per week", "Licensed clinician review", "Confirm molecule and plan length"],
+        },
+        {
+          name: "GLP-1 Tablets",
+          medication: "Compounded GLP-1 (daily dissolvable tablet)",
+          price: "$239",
+          unit: "/mo",
+          cadence: "Starting price",
+          highlights: ["One dissolvable tablet per day", "Needle-free", "Not FDA-approved"],
+        },
+        {
+          name: "Zepbound",
+          medication: "Brand-name tirzepatide (Zepbound)",
+          price: "$99",
+          unit: "/mo",
+          cadence: "Membership - medication cost billed separately",
+          highlights: ["FDA-approved medication", "Availability subject to change", "Medication priced separately"],
+        },
+      ],
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Choose a route",
+          detail: "Pick compounded injections, compounded tablets or brand-name Zepbound, then complete an online health questionnaire.",
+        },
+        {
+          timing: "Step 2",
+          title: "Clinician review",
+          detail: "A licensed clinician reviews your answers and decides whether a GLP-1 is appropriate, which form and at what dose.",
+        },
+        {
+          timing: "Step 3",
+          title: "Treatment starts",
+          detail: "If prescribed, your medication is shipped to you. For Zepbound, the medication cost is billed in addition to the membership.",
+        },
+      ],
+      trustBadges: ["Injection or daily tablet", "Brand-name Zepbound option", "Licensed clinicians"],
+      updatedAt: ADDED_OCT_25,
     },
   ],
 

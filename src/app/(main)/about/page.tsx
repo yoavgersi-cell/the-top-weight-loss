@@ -200,7 +200,7 @@ export default async function AboutPage() {
             <div className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
               <Award className="h-8 w-8 shrink-0 text-[#1A5DB8]" strokeWidth={1.5} />
               <div>
-                <p className="text-[18px] font-extrabold text-[#191919]">8</p>
+                <p className="text-[18px] font-extrabold text-[#191919]">9</p>
                 <p className="text-[12px] text-gray-500">Providers independently reviewed</p>
               </div>
             </div>
