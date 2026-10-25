@@ -162,8 +162,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Medication options",
         winner: "provider1",
         explanation:
-          "Both offer compounded semaglutide and tirzepatide and branded options. altRx publishes its brand-name prices (Ozempic $1,149, Zepbound $1,249, Wegovy $1,579 per month self-pay), which makes switching easy to plan.",
-        supportingPoints: ["Compounded sema + tirz at both", "altRx lists brand-name prices openly"],
+          "Both offer compounded semaglutide and tirzepatide and branded options. altRx adds a brand-name shelf with Ozempic, Zepbound and Wegovy in the same account, which makes switching to an FDA-approved drug easy to plan - compare its shelf price with the manufacturers' self-pay prices ($199-$449 a month at most doses in October 2026).",
+        supportingPoints: ["Compounded sema + tirz at both", "altRx: Ozempic, Zepbound and Wegovy on one account"],
       },
       {
         name: "Transparency & trust",
@@ -294,7 +294,7 @@ export const weightLossBattles: BattleData[] = [
         name: "Price & value",
         winner: "provider2",
         explanation:
-          "Paying cash, MEDVi is far cheaper: $99/mo semaglutide or $166/mo tirzepatide at promo prices with medication, visits and coaching included. ro's membership alone is $149/mo after a $39 first month (about $74/mo on the annual plan), and brand-name medication without coverage costs well over $1,000 a month. With good insurance, ro can come out cheaper.",
+          "Paying cash, MEDVi is far cheaper: $99/mo semaglutide or $166/mo tirzepatide at promo prices with medication, visits and coaching included. ro's membership alone is $149/mo after a $39 first month (about $74/mo on the annual plan), and brand-name medication without coverage adds the manufacturer self-pay price - about $149-$449 a month at most doses in October 2026. With good insurance, ro can come out cheaper.",
         supportingPoints: [
           "MEDVi: all-in $99 / $166 (promo)",
           "ro: membership + medication billed separately",
@@ -385,8 +385,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Medication options",
         winner: "provider1",
         explanation:
-          "Both prescribe compounded semaglutide and tirzepatide. altRx also publishes a brand-name shelf - Ozempic $1,149, Zepbound $1,249 and Wegovy $1,579 a month, self-pay - so switching to an FDA-approved drug is one click away.",
-        supportingPoints: ["Compounded at both", "altRx: published brand-name prices"],
+          "Both prescribe compounded semaglutide and tirzepatide. altRx also has a brand-name shelf with Ozempic, Zepbound and Wegovy, so switching to an FDA-approved drug happens in the same account. Compare its shelf price with the manufacturers' own self-pay prices ($199-$449 a month at most doses in October 2026).",
+        supportingPoints: ["Compounded at both", "altRx: brand-name shelf in the same account"],
       },
       {
         name: "Transparency & trust",
@@ -476,8 +476,8 @@ export const weightLossBattles: BattleData[] = [
         name: "Medication options",
         winner: "provider1",
         explanation:
-          "Both sell compounded semaglutide and tirzepatide plus brand-name options. altRx's brand-name prices are lower where they overlap - Ozempic $1,149 vs $1,399 and Zepbound $1,249 vs $1,599 a month, self-pay - and it also lists Wegovy.",
-        supportingPoints: ["altRx: Ozempic $1,149, Zepbound $1,249", "wellmedr: Ozempic $1,399, Zepbound $1,599"],
+          "Both sell compounded semaglutide and tirzepatide plus brand-name options. altRx's brand-name shelf is broader - it lists Wegovy as well as Ozempic and Zepbound. Whichever you use, compare the shelf price with the manufacturers' own self-pay prices ($199-$449 a month at most doses in October 2026).",
+        supportingPoints: ["altRx: Ozempic, Zepbound and Wegovy", "wellmedr: Ozempic and Zepbound"],
       },
     ],
     features: [

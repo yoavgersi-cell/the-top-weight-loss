@@ -96,7 +96,7 @@ export default async function StatePage({
     },
     {
       question: `How much does online GLP-1 treatment cost in ${s.name}?`,
-      answer: `Among the providers we rank, compounded semaglutide is advertised at roughly $49-$199 per month and compounded tirzepatide at roughly $89-$299, depending on plan length and promos. Brand-name medication often costs $1,000+ per month at self-pay list price, but may be far less with insurance. Check the regular price after any intro offer.`,
+      answer: `Among the providers we rank, compounded semaglutide is advertised at roughly $49-$199 per month and compounded tirzepatide at roughly $89-$299, depending on plan length and promos. Brand-name medication costs about $149-$449 per month at most doses at manufacturer self-pay prices (October 2026), and may be less with insurance. Check the regular price after any intro offer.`,
     },
   ];
 

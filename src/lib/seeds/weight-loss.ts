@@ -35,7 +35,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //    insurance concierge + prior authorizations; founded 2017.
 //  - altRx: compounded semaglutide $89/mo promo (reg. $199), tirzepatide
 //    $149/mo promo (reg. $299), flat at every dose; brand shelf Ozempic
-//    $1,149, Zepbound $1,249, Wegovy $1,579 per month (self-pay list); ships
+//    (Oct 2026: shelf prices not re-verified; manufacturer self-pay is lower); ships
 //    in 5-7 days; no commitment; Buy Now, Pay Later. FDA warning letter to
 //    Trinity HealthCare Supply, LLC (dba altRx) dated June 8, 2026 over false
 //    or misleading claims about its compounded semaglutide and tirzepatide,
@@ -48,7 +48,7 @@ import { weightLossBattles } from "./weight-loss-battles";
 //  - wellmedr: compounded semaglutide $49/mo on the 12-month plan
 //    (month-to-month advertised around $88/mo), tirzepatide $89/mo shipped
 //    every 4 weeks, same price at every dose; GLP-1 + NAD+/B12 microdose
-//    option; brand shelf Ozempic $1,399, Zepbound $1,599 per month; ships in
+//    option; brand shelf (shelf prices not re-verified Oct 2026); ships in
 //    3-5 business days; all 50 states; Trustpilot 4.6 / 5 from 2,181 reviews
 //    (operator-supplied Oct 11, 2026, with 11 verbatim reviews).
 //  - MEDVi: compounded semaglutide $99/mo promo (reg. $199), tirzepatide
@@ -575,17 +575,17 @@ export const weightLossConfig: SiteConfig = {
       shortSummary:
         "A flat-price compounded GLP-1 program - semaglutide $89/month and tirzepatide $149/month on promo, the same at every dose - with a brand-name shelf, but it received an FDA warning letter in June 2026.",
       reviewIntro:
-        "altRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy at self-pay list prices in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to altRx's parent company, Trinity HealthCare Supply, LLC (dba altRx), because, in the agency's view, its marketing and labels made its compounded semaglutide and tirzepatide look FDA-approved. Compounded GLP-1s are not FDA-approved. This review covers altRx's pricing, how it works and how to weigh that letter.",
+        "altRx sells compounded semaglutide and tirzepatide at one flat price regardless of dose, which matters because many programs charge more as your dose climbs. It also offers brand-name Ozempic, Zepbound and Wegovy on a brand-name shelf in the same account, so you can switch without changing providers. The intake is fast and asynchronous, with video when needed and a tracking app. One thing every reader should know before signing up: on June 8, 2026 the FDA issued a warning letter to altRx's parent company, Trinity HealthCare Supply, LLC (dba altRx), because, in the agency's view, its marketing and labels made its compounded semaglutide and tirzepatide look FDA-approved. Compounded GLP-1s are not FDA-approved. This review covers altRx's pricing, how it works and how to weigh that letter.",
       keyFeatures: [
         "Compounded semaglutide $89/month and tirzepatide $149/month (promo rates)",
         "Flat price at every dose - no increase as you titrate up",
-        "Brand-name shelf: Ozempic, Zepbound and Wegovy at self-pay list prices",
+        "Brand-name shelf: Ozempic, Zepbound and Wegovy in the same account",
         "No commitment - pause or cancel anytime; Buy Now, Pay Later available",
         "Fast async intake, video when needed, tracking app",
         "Free shipping, arrives in 5-7 days",
       ],
       pricingSummary:
-        "altRx charges one flat price at every dose: compounded semaglutide is $89/month on promo (regular $199) and compounded tirzepatide is $149/month on promo (regular $299). Promo rates are time-limited - after the promotion you pay the regular price, which is well above most competitors, so check which rate applies to you. Brand-name medication is also available at self-pay list prices: Ozempic $1,149/month, Zepbound $1,249/month and Wegovy $1,579/month. Shipping is free and there is no commitment. Note that altRx received an FDA warning letter dated June 8, 2026 about how it marketed its compounded products, and compounded GLP-1s are not FDA-approved.",
+        "altRx charges one flat price at every dose: compounded semaglutide is $89/month on promo (regular $199) and compounded tirzepatide is $149/month on promo (regular $299). Promo rates are time-limited - after the promotion you pay the regular price, which is well above most competitors, so check which rate applies to you. Brand-name Ozempic, Zepbound and Wegovy are also available through its brand-name shelf - compare its price with the manufacturers' own self-pay prices (October 2026: Wegovy and Ozempic $199-$349/month at NovoCare, Zepbound $299-$449/month at LillyDirect with on-time refills) before you buy. Shipping is free and there is no commitment. Note that altRx received an FDA warning letter dated June 8, 2026 about how it marketed its compounded products, and compounded GLP-1s are not FDA-approved.",
       treatmentOptions: [
         "Compounded semaglutide (flat price at every dose)",
         "Compounded tirzepatide (flat price at every dose)",
@@ -634,10 +634,10 @@ export const weightLossConfig: SiteConfig = {
         {
           name: "Brand-name shelf",
           medication: "Ozempic / Zepbound / Wegovy",
-          price: "$1,149+",
-          unit: "/mo",
-          cadence: "Self-pay list prices",
-          highlights: ["Ozempic $1,149/mo", "Zepbound $1,249/mo", "Wegovy $1,579/mo"],
+          price: "Varies",
+          unit: "",
+          cadence: "Check price at checkout",
+          highlights: ["Ozempic, Zepbound and Wegovy", "Compare with manufacturer self-pay: $199-$449/mo", "FDA-approved medication"],
         },
       ],
       howItWorks: [
@@ -769,7 +769,7 @@ export const weightLossConfig: SiteConfig = {
         "Available in all 50 states; ships in 3-5 business days",
       ],
       pricingSummary:
-        "wellmedr's compounded semaglutide is $49/month on its 12-month plan, with the rate locked for the year; month-to-month is higher, advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks. Prices are the same at every dose. Brand-name medication is available at self-pay prices: Ozempic $1,399/month and Zepbound $1,599/month. The $49 rate is the lowest long-run price on our list, but it assumes you are comfortable committing to 12 months - check the plan terms, including cancellation, before you sign up. Compounded GLP-1s are not FDA-approved.",
+        "wellmedr's compounded semaglutide is $49/month on its 12-month plan, with the rate locked for the year; month-to-month is higher, advertised at around $88/month. Compounded tirzepatide is $89/month, shipped every 4 weeks. Prices are the same at every dose. Brand-name Ozempic and Zepbound are available on its brand shelf - compare with the manufacturers' own self-pay prices (October 2026: Ozempic $199-$349/month at NovoCare, Zepbound $299-$449/month at LillyDirect with on-time refills). The $49 rate is the lowest long-run price on our list, but it assumes you are comfortable committing to 12 months - check the plan terms, including cancellation, before you sign up. Compounded GLP-1s are not FDA-approved.",
       treatmentOptions: [
         "Compounded semaglutide (same price at every dose)",
         "Compounded tirzepatide (shipped every 4 weeks)",
@@ -817,10 +817,10 @@ export const weightLossConfig: SiteConfig = {
         {
           name: "Brand-name shelf",
           medication: "Ozempic / Zepbound",
-          price: "$1,399+",
-          unit: "/mo",
-          cadence: "Self-pay prices",
-          highlights: ["Ozempic $1,399/mo", "Zepbound $1,599/mo"],
+          price: "Varies",
+          unit: "",
+          cadence: "Check price at checkout",
+          highlights: ["Ozempic and Zepbound", "Compare with manufacturer self-pay: $199-$449/mo", "FDA-approved medication"],
         },
       ],
       howItWorks: [
@@ -1212,7 +1212,7 @@ export const weightLossConfig: SiteConfig = {
     {
       question: "How much do online GLP-1 programs cost?",
       answer:
-        "At current advertised rates among the providers we rank, compounded semaglutide ranges from $49/month (wellmedr, on a 12-month plan) to $149/month (trimrx), and compounded tirzepatide from $89/month to $259/month. Brand-name medication without insurance typically costs over $1,000/month at self-pay list prices, although insurance can bring it far lower. Always check whether a price is promotional, requires a long commitment, or rises with your dose.",
+        "At current advertised rates among the providers we rank, compounded semaglutide ranges from $49/month (wellmedr, on a 12-month plan) to $149/month (trimrx), and compounded tirzepatide from $89/month to $259/month. Brand-name medication without insurance now costs about $149-$449/month at most doses at manufacturer self-pay prices (October 2026), and insurance can bring it lower. Always check whether a price is promotional, requires a long commitment, or rises with your dose.",
     },
     {
       question: "Will insurance pay for semaglutide or tirzepatide?",

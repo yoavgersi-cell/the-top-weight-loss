@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const treatmentRows: [string, string, string][] = [
-  ["Brand-name, FDA-approved GLP-1", "Wegovy (semaglutide), Zepbound (tirzepatide); Ozempic and Mounjaro are the diabetes versions", "Reviewed by the FDA for safety, effectiveness and manufacturing quality. Wegovy and Zepbound are approved for chronic weight management. Self-pay list prices often exceed $1,000/mo, but insurance or manufacturer programs can lower that a lot."],
+  ["Brand-name, FDA-approved GLP-1", "Wegovy (semaglutide), Zepbound (tirzepatide); Ozempic and Mounjaro are the diabetes versions", "Reviewed by the FDA for safety, effectiveness and manufacturing quality. Wegovy and Zepbound are approved for chronic weight management. Manufacturer self-pay prices now run about $149-$449/mo at most doses (Oct 2026), and insurance can lower that further."],
   ["Compounded semaglutide", "Made by a state-licensed 503A compounding pharmacy for an individual patient", "Not FDA-approved - the FDA does not review compounded drugs for safety, effectiveness or quality. Online programs advertise roughly $49-$199/mo. Rules on compounding have tightened since the shortages ended, so ask your provider how their prescription is justified."],
   ["Compounded tirzepatide", "Made by a state-licensed 503A compounding pharmacy for an individual patient", "Same caveats as compounded semaglutide. Online programs advertise roughly $89-$299/mo, usually more than compounded semaglutide."],
   ["Oral options", "Brand-name oral GLP-1s (e.g. Foundayo at ro); some compounded daily oral formulations", "Useful if you dislike injections. Brand-name pills are FDA-approved; compounded oral versions are not, and have less evidence behind them."],
