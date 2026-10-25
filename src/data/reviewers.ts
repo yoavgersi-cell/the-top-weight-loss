@@ -276,6 +276,10 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/medvi-vs-shed": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
   "/directmeds-vs-wellmedr": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
   "/articles/online-glp1-weight-loss-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-19" },
+  // 2026-10-25: MEDGm review, the GLP-1 dosage guide and the new-drugs guide.
+  "/reviews/medgm": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
+  "/articles/glp1-dosage-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
+  "/articles/new-weight-loss-drugs-2026": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {
