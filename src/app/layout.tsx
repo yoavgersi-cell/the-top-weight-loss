@@ -87,12 +87,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
+              "@id": `${SITE_URL}/#organization`,
               name: "The Top Weight Loss",
               url: SITE_URL,
+              logo: { "@type": "ImageObject", url: `${SITE_URL}/logo-mark.png` },
               areaServed: { "@type": "Country", name: "United States" },
               description:
                 "Independent guides and provider comparisons for online GLP-1 weight loss - expert reviews, verified pricing research, and side-by-side comparisons.",
-              sameAs: [],
             }),
           }}
         />

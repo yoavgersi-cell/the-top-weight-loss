@@ -42,12 +42,12 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   ro: {
     title: "ro Weight Loss Reviews 2026: Cost, Insurance & Is It Legit?",
     description:
-      "ro weight loss review: Wegovy, Zepbound, Ozempic and Foundayo with an insurance concierge. Membership $39 first month, then $149/mo - what it really costs and who it fits.",
+      "ro weight loss review: Wegovy, Zepbound, Ozempic and Foundayo with an insurance concierge. Membership $39 first month, then $149/mo - real cost and who it fits.",
   },
   altrx: {
     title: "altRx Reviews 2026: Is altRx Legit for GLP-1? Cost & FDA Letter",
     description:
-      "Is altRx legit? altRx review: compounded semaglutide $89/mo and tirzepatide $149/mo (promo), regular prices, brand-name shelf - and the June 2026 FDA warning letter explained.",
+      "Is altRx legit? Compounded semaglutide $89/mo and tirzepatide $149/mo (promo), regular prices, brand-name shelf and the June 2026 FDA warning letter explained.",
   },
   trimrx: {
     title: "trimrx Reviews 2026: Is It Legit? Cost, Dosing & Ratings",
@@ -62,17 +62,17 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
   directmeds: {
     title: "DirectMeds Reviews 2026: Is It Legit? $147 Flat GLP-1 & Drops",
     description:
-      "Is DirectMeds legit? DirectMeds review: compounded semaglutide or tirzepatide $147/mo at every dose, injection or sublingual drops, 1-2 day shipping, 4.6/5 from 16,368 Trustpilot reviews.",
+      "Is DirectMeds legit? Semaglutide or tirzepatide $147/mo at every dose, injection or sublingual drops, 1-2 day shipping, 4.6/5 from 16,368 Trustpilot reviews.",
   },
   shed: {
     title: "SHED Reviews 2026: Is It Legit? Cost, Coaching & 5% Guarantee",
     description:
-      "SHED weight loss review: semaglutide from $199/mo, tirzepatide from $299/mo, coaching included and a money-back guarantee if you don't lose 5% in 120 days. 4.6/5 on Trustpilot.",
+      "SHED review: semaglutide from $199/mo, tirzepatide from $299/mo, coaching included and money back if you don't lose 5% in 120 days. 4.6/5 on Trustpilot.",
   },
   medgm: {
     title: "MEDGm Reviews 2026: Is It Legit? GLP-1 Cost, Tablets & Zepbound",
     description:
-      "Is MEDGm legit? MEDGm review: compounded GLP-1 injections from $169/mo, daily dissolvable tablets from $239/mo, or Zepbound with a $99 membership - and what to ask first.",
+      "Is MEDGm legit? MEDGm review: compounded GLP-1 injections from $169/mo, daily dissolvable tablets from $239/mo, or Zepbound with a $99 membership.",
   },
   medvi: {
     title: "MEDVi Reviews 2026: Is MEDVi Good? Cost Per Month & Tirzepatide",

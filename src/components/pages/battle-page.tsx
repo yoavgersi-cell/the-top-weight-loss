@@ -43,12 +43,12 @@ const BATTLE_COST_MATH: Record<
 // ro, embody, MEDVi), and a click hook (price or the key difference). The
 // higher-demand brand leads where it differs from the ranking order.
 const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description?: string }> = {
-  "embody-vs-ro": { title: "embody vs ro (2026): $69 Compounded GLP-1 or Brand-Name?" },
-  "altrx-vs-trimrx": { title: "altRx vs trimrx (2026): $89 vs $149 GLP-1 - Which Is Worth It?" },
+  "embody-vs-ro": { title: "embody vs ro (2026): $69 Compounded GLP-1 or Brand-Name?", description: "embody vs ro: compounded semaglutide from $69/mo and tirzepatide from $119/mo vs ro's Wegovy, Zepbound and insurance concierge. Cost and who each fits." },
+  "altrx-vs-trimrx": { title: "altRx vs trimrx (2026): $89 vs $149 GLP-1 - Which Is Worth It?", description: "altRx vs trimrx: $89 vs $149/mo semaglutide, $149 vs $259/mo tirzepatide, dosing, shipping, support and altRx's 2026 FDA warning letter compared." },
   "embody-vs-wellmedr": { title: "embody vs wellmedr (2026): $69 No Commitment or $49 a Month?" },
-  "ro-vs-medvi": { title: "MEDVi vs ro (2026): $99 All-In Care or Brand-Name GLP-1s?" },
+  "ro-vs-medvi": { title: "MEDVi vs ro (2026): $99 All-In Care or Brand-Name GLP-1s?", description: "MEDVi vs ro: all-inclusive compounded semaglutide at $99/mo (promo) with a dietitian and coaching vs ro's Wegovy, Zepbound and insurance concierge." },
   "altrx-vs-medvi": { title: "MEDVi vs altRx (2026): $99 With Coaching or $89 Bare-Bones?" },
-  "altrx-vs-wellmedr": { title: "altRx vs wellmedr (2026): Which Flat-Price GLP-1 Is Cheaper?" },
+  "altrx-vs-wellmedr": { title: "altRx vs wellmedr (2026): Which Flat-Price GLP-1 Is Cheaper?", description: "altRx vs wellmedr: $89 vs $49/mo semaglutide, $149 vs $89/mo tirzepatide, regular prices, commitment and the altRx FDA letter. Which is the better buy?" },
   "trimrx-vs-wellmedr": { title: "trimrx vs wellmedr (2026): Custom Dosing or $49 a Month?" },
   "trimrx-vs-medvi": { title: "MEDVi vs trimrx (2026): Coaching Included or Custom Dosing?" },
   "wellmedr-vs-medvi": { title: "MEDVi vs wellmedr (2026): Coaching Included or $49 a Month?" },

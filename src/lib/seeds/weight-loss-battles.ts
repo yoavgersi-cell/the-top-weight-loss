@@ -24,6 +24,7 @@ const ADDED_SEP_30 = "2026-09-30";
 const ADDED_OCT_3 = "2026-10-03";
 const ADDED_OCT_5 = "2026-10-05";
 const ADDED_OCT_11 = "2026-10-11";
+const UPDATED_OCT_25 = "2026-10-25"; // brand-name price refresh
 
 export const weightLossBattles: BattleData[] = [
   {
@@ -186,7 +187,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Commitment", provider1Value: "None - pause or cancel", provider2Value: "Month-to-month", highlight: "both" },
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA eligible", highlight: "none" },
     ],
-    updatedAt: UPDATED,
+    updatedAt: UPDATED_OCT_25,
   },
   {
     slug: "embody-vs-wellmedr",
@@ -340,7 +341,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Commitment", provider1Value: "Monthly or annual membership", provider2Value: "None", highlight: "provider2" },
       { feature: "Shipping", provider1Value: "Varies by pharmacy", provider2Value: "Free", highlight: "none" },
     ],
-    updatedAt: ADDED_SEP_30,
+    updatedAt: UPDATED_OCT_25,
   },
   {
     slug: "altrx-vs-medvi",
@@ -414,7 +415,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Trustpilot", provider1Value: "No Trustpilot profile", provider2Value: "4.3/5 (14,978)", highlight: "provider2" },
       { feature: "Payment", provider1Value: "Buy Now, Pay Later", provider2Value: "HSA/FSA accepted", highlight: "none" },
     ],
-    updatedAt: ADDED_SEP_30,
+    updatedAt: UPDATED_OCT_25,
   },
   {
     slug: "altrx-vs-wellmedr",
@@ -490,7 +491,7 @@ export const weightLossBattles: BattleData[] = [
       { feature: "Shipping", provider1Value: "Free, 5-7 days", provider2Value: "3-5 business days", highlight: "provider2" },
       { feature: "Trustpilot", provider1Value: "No Trustpilot profile", provider2Value: "4.6/5 (2,181)", highlight: "provider2" },
     ],
-    updatedAt: ADDED_OCT_3,
+    updatedAt: UPDATED_OCT_25,
   },
   {
     slug: "trimrx-vs-wellmedr",

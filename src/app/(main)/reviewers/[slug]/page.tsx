@@ -22,8 +22,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const r = getReviewer(slug);
   if (!r) return {};
-  const title = `${reviewerDisplayName(r)} - ${r.jobTitle} | The Top Weight Loss`;
-  const description = r.shortBio;
+  const title = `${reviewerDisplayName(r)} - ${r.jobTitle}`;
+  // Meta descriptions over ~160 chars get cut off; the full bio stays on the page.
+  const description =
+    r.shortBio.length > 160
+      ? `${reviewerDisplayName(r)} medically reviews our GLP-1 content: a licensed medical laboratory scientist with an MPH and clinical-trial experience.`
+      : r.shortBio;
   return {
     title: { absolute: title },
     description,

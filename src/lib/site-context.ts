@@ -22,7 +22,7 @@ export interface SiteContext {
   origin: string;
   /** Path prefix inside the canonical origin. Always "" here. */
   canonicalPrefix: string;
-  /** Bare domain for schema Organization names. */
+  /** Brand name for schema Organization names (matches the site-wide Organization). */
   brandDomain: string;
   /** Display name for schema author/publisher. */
   brandTeam: string;
@@ -35,7 +35,7 @@ export const ROOT_CONTEXT: SiteContext = {
   prefix: "",
   origin: ORIGIN,
   canonicalPrefix: "",
-  brandDomain: "thetopweightloss.com",
+  brandDomain: "The Top Weight Loss",
   brandTeam: "The Top Weight Loss Team",
   noindex: false,
 };

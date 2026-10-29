@@ -29,10 +29,10 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description?: strin
   "glp1-dosage-guide": { title: "GLP-1 Dosage Chart (2026): Semaglutide & Tirzepatide mg to Units" },
   "online-glp1-weight-loss-guide": { title: "Online GLP-1 Weight Loss Guide (2026): Cost, Providers, Safety" },
   "compounded-vs-brand-name-glp1": { title: "Compounded vs Brand-Name GLP-1s: Cost, Safety & Differences" },
-  "semaglutide-vs-tirzepatide": { title: "Semaglutide vs Tirzepatide (2026): Which Should You Start On?" },
-  "real-cost-of-glp1-weight-loss": { title: "Real Cost of Online GLP-1 Weight Loss in 2026: Fine Print" },
-  "glp1-side-effects-first-12-weeks": { title: "GLP-1 Side Effects: What to Expect in Your First 12 Weeks" },
-  "stopping-glp1-maintenance": { title: "Stopping a GLP-1: Weight Regain, Plateaus & Maintenance" },
+  "semaglutide-vs-tirzepatide": { title: "Semaglutide vs Tirzepatide (2026): Which Should You Start On?", description: "Tirzepatide produced more weight loss head-to-head, but semaglutide is cheaper with a longer track record. How they compare on results, side effects and price." },
+  "real-cost-of-glp1-weight-loss": { title: "Real Cost of Online GLP-1 Weight Loss in 2026: Fine Print", description: "Promo rates, 12-month prepay plans, membership fees and dose-tiered pricing can mislead. How to work out what a year of GLP-1 treatment actually costs." },
+  "glp1-side-effects-first-12-weeks": { title: "GLP-1 Side Effects: What to Expect in Your First 12 Weeks", description: "GLP-1 side effects are mostly digestive and peak after dose increases. A week-by-week guide to the first 3 months, how to manage them and urgent warning signs." },
+  "stopping-glp1-maintenance": { title: "Stopping a GLP-1: Weight Regain, Plateaus & Maintenance", description: "Trials show most people regain weight after stopping semaglutide or tirzepatide. What the evidence says, why plateaus happen and how to plan maintenance." },
 };
 
 const ARTICLE_QUICK_ANSWERS: Record<string, string> = {};
@@ -203,7 +203,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
     dateModified: latestUpdate(article.updatedAt),
     wordCount,
     articleSection: article.category,
-    author: author
+    author: author && !/\bTeam$/.test(author.name)
       ? {
           "@type": "Person",
           name: author.credentials ? `${author.name}, ${author.credentials}` : author.name,
@@ -212,8 +212,8 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
         }
       : {
           "@type": "Organization",
-          name: article.author || ctx.brandDomain,
-          url: ctx.origin,
+          name: author?.name ?? (article.author || ctx.brandDomain),
+          url: canonicalUrl(ctx, "/about"),
         },
     publisher: {
       "@type": "Organization",

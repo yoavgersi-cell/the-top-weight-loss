@@ -661,7 +661,7 @@ export const weightLossConfig: SiteConfig = {
         },
       ],
       trustBadges: ["Flat price at every dose", "Brand-name options", "No commitment"],
-      updatedAt: UPDATED,
+      updatedAt: ADDED_OCT_25,
     },
     {
       slug: "trimrx",
@@ -844,7 +844,7 @@ export const weightLossConfig: SiteConfig = {
         },
       ],
       trustBadges: ["Board-certified clinicians", "All 50 states", "Same price at every dose"],
-      updatedAt: UPDATED,
+      updatedAt: ADDED_OCT_25,
     },
     {
       slug: "medvi",

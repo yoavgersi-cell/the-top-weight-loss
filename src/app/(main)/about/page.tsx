@@ -8,9 +8,9 @@ import { ExpertTeam } from "@/components/expert-team";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "About The Top Weight Loss - Our Mission, Team & Review Methodology",
+  title: "About Us: Our Mission, Team & Review Methodology",
   description:
-    "Learn how thetopweightloss.com independently ranks and reviews online GLP-1 weight loss providers. Our editorial methodology, review process, medical advisory approach, and commitment to unbiased comparisons.",
+    "How The Top Weight Loss independently ranks and reviews online GLP-1 providers: our editorial methodology, medical review process and unbiased comparisons.",
   alternates: {
     canonical: "https://www.thetopweightloss.com/about",
   },

@@ -14,12 +14,12 @@ export const revalidate = 60;
 const CANONICAL = "https://www.thetopweightloss.com/how-we-rank";
 
 export const metadata: Metadata = {
-  title: "How We Rank & Review GLP-1 Weight Loss Providers - Our Methodology",
+  title: "How We Rank GLP-1 Providers: Our Methodology",
   description:
-    "Our full methodology for ranking and reviewing online GLP-1 weight loss providers: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners in head-to-head comparisons.",
+    "How we rank and review online GLP-1 weight loss providers: the factors we score, where our data comes from, how we verify accuracy and how we pick comparison winners.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "How We Rank & Review GLP-1 Weight Loss Providers - Our Methodology",
+    title: "How We Rank GLP-1 Providers: Our Methodology",
     description:
       "The factors we score, where our data comes from, how we verify accuracy, and how we pick winners in our GLP-1 provider comparisons.",
     url: CANONICAL,

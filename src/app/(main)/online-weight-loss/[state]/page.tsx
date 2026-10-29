@@ -29,9 +29,10 @@ export async function generateMetadata({
   const url = `${SITE_URL}/online-weight-loss/${s.slug}`;
   const title = `Online GLP-1 Weight Loss in ${s.name} (2026)`;
   const description =
-    `Compare licensed online GLP-1 weight loss providers serving ${s.name}. Telehealth care from ${s.abbr}-licensed clinicians for semaglutide and tirzepatide, brand-name or compounded, shipped to your door.`;
+    `Compare online GLP-1 weight loss providers serving ${s.name}: ${s.abbr}-licensed telehealth clinicians, semaglutide or tirzepatide, brand-name or compounded.`;
   return {
-    title: { absolute: `${title} | The Top Weight Loss` },
+    // Keep the brand suffix only while the title stays within ~65 characters.
+    title: { absolute: title.length > 43 ? title : `${title} | The Top Weight Loss` },
     description,
     alternates: { canonical: url },
     openGraph: { title, description, url, type: "website" },

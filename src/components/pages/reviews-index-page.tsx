@@ -39,7 +39,8 @@ export async function reviewsIndexMetadata(ctx: SiteContext): Promise<Metadata> 
   const categoryLabel = ctx.vertical === "weight-loss" ? "GLP-1 weight loss" : lowerKeepAcronyms(vName);
   const description = `Independent 2026 reviews of ${config.reviews?.length ?? "the top"} online ${categoryLabel} providers${topNames.length ? ` - ${topNames.join(", ")} and more` : ""} - with verified ratings, pricing, pros and cons.`;
   return {
-    title,
+    // Drop the " | The Top Weight Loss" suffix when it would push the title past ~65 chars.
+    title: title.length > 43 ? { absolute: title } : title,
     description,
     robots: ctx.noindex ? { index: false, follow: false } : undefined,
     alternates: {
