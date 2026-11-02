@@ -7,6 +7,616 @@ const DISCLAIMER = `<p><em>This article is general information, not medical advi
 
 export const weightLossArticles: ArticleData[] = [
   {
+    slug: "glp1-weight-loss-statistics",
+    title: "GLP-1 Weight Loss Statistics 2026: Usage, Results, Side Effects, Costs and Coverage",
+    description:
+      "GLP-1 weight loss statistics for 2026: how many Americans take GLP-1s, trial and real-world results, side effects, stopping rates, prices and coverage.",
+    category: "Guides",
+    readTime: "40 min read",
+    publishedAt: "2026-11-02",
+    updatedAt: "2026-11-02",
+    heroColor: "#E8F1FD",
+    author: "The Top Weight Loss Editorial Team",
+    keyTakeaways: [
+      "About 1 in 8 US adults (12%) currently take a GLP-1 drug and 18% have ever taken one, up from 6% and 12% in May 2024 (KFF, Nov 2025); 54% of users now take them mainly for weight management (EY-Parthenon, Oct 2026).",
+      "Average weight loss in pivotal trials was 14.9% on semaglutide 2.4 mg (STEP-1, 68 weeks) and 20.9% on tirzepatide 15 mg (SURMOUNT-1, 72 weeks); in real-world care it was about 8.7% at one year, or 11.9% for people who stayed on treatment (Cleveland Clinic, 2025).",
+      "Many people stop: in Prime Therapeutics claims data, 28.9% of people with obesity were still on a GLP-1 after one year, and people regained about two-thirds of lost weight within a year of stopping semaglutide (STEP-1 extension).",
+      "Brand-name GLP-1s now cost about $149-$449 a month at most doses at manufacturer self-pay prices, while only 18% of employers with 200+ workers cover them for weight loss (KFF, 2026).",
+    ],
+    sections: [
+      {
+        heading: "GLP-1 weight loss statistics at a glance",
+        body: `<p><strong>About 1 in 8 US adults (12%) currently take a GLP-1 drug, average weight loss in the pivotal trials ranged from about 11% to 21%, about two-thirds of lost weight returned within a year of stopping semaglutide, and brand-name cash prices have fallen to about $149-$449 a month. Here are the most important numbers, each sourced below.</strong></p>
+<p><strong>Who uses GLP-1s</strong></p>
+<ul>
+<li><strong>40.3%</strong> of US adults have obesity, and <strong>9.4%</strong> have severe obesity (CDC, 2021-2023).</li>
+<li>About <strong>136.8 million</strong> US adults - roughly half - are eligible for semaglutide under its labels (JAMA Cardiology, 2024).</li>
+<li><strong>12%</strong> of US adults currently take a GLP-1 and <strong>18%</strong> have ever taken one, up from 6% and 12% in 2024 (KFF, Nov 2025).</li>
+<li><strong>11%</strong> of adults take a GLP-1 specifically for weight loss, up from 3% in 2024 (Gallup, 2026).</li>
+<li><strong>54%</strong> of GLP-1 users now take them mainly for weight management (EY-Parthenon, Oct 2026).</li>
+<li><strong>22%</strong> of adults aged 50-64 currently take a GLP-1; women (15%) outpace men (9%) (KFF, Nov 2025).</li>
+<li>GLP-1 prescriptions per 100,000 patients rose more than <strong>fourfold</strong> from 2021 to 2026 (Epic Research).</li>
+<li><strong>18%</strong> of people using a GLP-1 for weight loss take a compounded version (Gallup, 2026).</li>
+</ul>
+<p><strong>How well they work</strong></p>
+<ul>
+<li><strong>20.9%</strong> average weight loss on tirzepatide 15 mg at 72 weeks (SURMOUNT-1); <strong>14.9%</strong> on semaglutide 2.4 mg at 68 weeks (STEP-1).</li>
+<li><strong>20.2% vs 13.7%</strong> - tirzepatide vs semaglutide head to head (SURMOUNT-5).</li>
+<li><strong>86% to 91%</strong> of trial participants lost at least 5% of their body weight.</li>
+<li><strong>8.7%</strong> average weight loss at one year in real-world care - <strong>11.9%</strong> for people who stayed on treatment (Cleveland Clinic, 2025).</li>
+<li><strong>20%</strong> lower risk of heart attack, stroke or cardiovascular death on semaglutide in people with heart disease (SELECT).</li>
+<li><strong>94%</strong> lower risk of progressing from prediabetes to type 2 diabetes on tirzepatide over three years (SURMOUNT-1).</li>
+</ul>
+<p><strong>Stopping and side effects</strong></p>
+<ul>
+<li>Only <strong>28.9%</strong> of people with obesity (no diabetes) were still on a GLP-1 after one year in older claims data - but about <strong>63%</strong> of 2024 Wegovy starters were (Prime Therapeutics).</li>
+<li>About <strong>two-thirds</strong> of lost weight returned within a year of stopping semaglutide (STEP-1 extension).</li>
+<li><strong>44%</strong> reported nausea on semaglutide 2.4 mg in STEP-1; <strong>4% to 7%</strong> stopped because of side effects across the main trials.</li>
+<li><strong>14%</strong> of users stopped because of cost and <strong>13%</strong> because of side effects (KFF, Nov 2025).</li>
+</ul>
+<p><strong>Cost and coverage</strong></p>
+<ul>
+<li><strong>$149-$449</strong> a month: manufacturer self-pay prices for brand-name GLP-1s at most doses in 2026, down from list prices above $1,000.</li>
+<li><strong>18%</strong> of employers with 200+ workers cover GLP-1s for weight loss (KFF, 2026).</li>
+<li><strong>$50</strong> a month: the Medicare GLP-1 Bridge copay for eligible beneficiaries from July 2026.</li>
+<li>About <strong>$132 billion</strong> was spent on GLP-1s in the US in 2025 - about 14% of all prescription drug spending (ASHP).</li>
+</ul>
+<p>The sections below give the context, sample sizes and caveats behind every figure. This page is updated as new data are published; statistics are current as of November 2026.</p>`,
+      },
+      {
+        heading: "How many Americans have obesity?",
+        body: `<p><strong>About 40.3% of US adults had obesity in August 2021-August 2023, according to the CDC's measured NHANES data, and 9.4% had severe obesity (a BMI of 40 or higher). Self-reported surveys suggest the rate has started to fall since GLP-1 use took off: Gallup's measure dropped from 39.9% in 2022 to 37.0% in 2025.</strong></p>
+<p>Obesity statistics come from two kinds of sources, and it helps to know the difference. The CDC's National Health and Nutrition Examination Survey (NHANES) measures people's height and weight directly, which makes it the gold standard - but it is slow, with the latest cycle ending in 2023. Polls such as Gallup's ask people to report their own height and weight, which tends to underestimate obesity but gives faster, yearly readings.</p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source and period</th></tr></thead>
+<tbody>
+<tr><td>Adults with obesity (BMI 30+), measured</td><td>40.3%</td><td>CDC NHANES, Aug 2021-Aug 2023</td></tr>
+<tr><td>Men with obesity</td><td>39.2%</td><td>CDC NHANES, Aug 2021-Aug 2023</td></tr>
+<tr><td>Women with obesity</td><td>41.3%</td><td>CDC NHANES, Aug 2021-Aug 2023</td></tr>
+<tr><td>Adults with severe obesity (BMI 40+)</td><td>9.4%</td><td>CDC NHANES, Aug 2021-Aug 2023</td></tr>
+<tr><td>Severe obesity, age-adjusted trend</td><td>7.7% (2013-14) to 9.7% (2021-23)</td><td>CDC NHANES</td></tr>
+<tr><td>Self-reported obesity</td><td>39.9% (2022) to 37.0% (2025)</td><td>Gallup, n=16,946 in 2025</td></tr>
+<tr><td>Self-reported obesity, 2026 to date</td><td>36.8%</td><td>Gallup, n=10,091, revised Sept 2026</td></tr>
+<tr><td>Obesity in health-record data</td><td>42.3% (Q2 2021) to 40.7% (Q1 2026)</td><td>Epic Research, May 2026</td></tr>
+</tbody>
+</table>
+<p><strong>What the trend means.</strong> Severe obesity rose for a decade, from 7.7% to 9.7% age-adjusted between 2013-14 and 2021-23. The more recent readings point the other way: both Gallup's self-reported data and Epic Research's electronic health-record data show modest declines since 2021-2022 - the same period in which GLP-1 prescribing more than quadrupled. Whether GLP-1s are the cause is not proven, and we look at that question in a later section. But for the first time in decades, the direction of travel appears to be changing.</p>
+<p><strong>Why it matters for treatment.</strong> With roughly four in ten adults living with obesity, GLP-1 medications are not a niche product. The potential patient population is larger than the number of people any health system could treat at old brand-name prices - which is why prices, coverage and compounding have become such central parts of the story.</p>`,
+      },
+      {
+        heading: "How many Americans are eligible for a GLP-1?",
+        body: `<p><strong>About 136.8 million US adults - roughly half of all adults - meet the FDA label criteria for semaglutide, including about 129.2 million who qualify for weight management, according to a 2024 analysis in JAMA Cardiology. Yet in 2024, only 11.2% of commercially insured adults with an overweight or obesity diagnosis were prescribed a GLP-1, according to FAIR Health.</strong></p>
+<p>The weight-management labels for Wegovy and Zepbound cover adults with a BMI of 30 or higher, or 27 or higher with at least one weight-related condition such as high blood pressure, type 2 diabetes or high cholesterol. Because so many adults meet those thresholds, the eligible population is enormous.</p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>US adults eligible for semaglutide under its labels</td><td>About 136.8 million (about half of adults)</td><td>Shi et al., JAMA Cardiology, Nov 2024 (NHANES 2015-2020)</td></tr>
+<tr><td>Of those, eligible for weight management</td><td>About 129.2 million</td><td>Same analysis</td></tr>
+<tr><td>Commercially insured adults with an overweight/obesity diagnosis prescribed a GLP-1</td><td>11.2% (2024)</td><td>FAIR Health white paper, May 2025</td></tr>
+<tr><td>Medicare beneficiaries meeting the GLP-1 Bridge criteria</td><td>About 3.8 million (2023 data)</td><td>KFF analysis</td></tr>
+</tbody>
+</table>
+<p><strong>The treatment gap.</strong> The distance between "eligible" and "treated" is one of the most striking numbers in this field. Even among people with insurance and a recorded diagnosis, roughly nine in ten were not prescribed a GLP-1 in 2024. Cost, coverage restrictions, supply shortages, side-effect concerns and the fact that many people never discuss weight with a clinician all contribute.</p>
+<p><strong>Eligibility is not a recommendation.</strong> Meeting the label criteria means a clinician may consider a GLP-1; it does not mean everyone should take one. Some people have contraindications - such as a personal or family history of medullary thyroid cancer, or pregnancy - and others prefer to start with lifestyle changes. A licensed clinician makes the decision. Our <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers who qualifies in detail.</p>`,
+      },
+      {
+        heading: "How many Americans take GLP-1 drugs?",
+        body: `<p><strong>About 1 in 8 US adults (12%) said they were currently taking a GLP-1 drug in KFF's November 2025 poll, and 18% said they had ever taken one - up from 6% and 12% in May 2024. Gallup's 2026 survey found 11% of adults currently take a GLP-1 specifically for weight loss, up from 3% in 2024.</strong></p>
+<p>Different surveys ask slightly different questions - "ever" vs "currently," and "for any reason" vs "for weight loss" - so their numbers do not line up exactly. Read together, they tell the same story: GLP-1 use roughly doubled in about 18 months.</p>
+<table>
+<thead><tr><th>Survey</th><th>Date</th><th>Ever used</th><th>Currently using</th><th>Scope</th></tr></thead>
+<tbody>
+<tr><td>KFF Health Tracking Poll (n=1,479)</td><td>Apr-May 2024</td><td>12%</td><td>6%</td><td>Any reason</td></tr>
+<tr><td>Gallup</td><td>Feb 2024</td><td>-</td><td>5.8%</td><td>For weight loss</td></tr>
+<tr><td>RAND (n=8,793)</td><td>Apr-May 2025</td><td>11.8%</td><td>-</td><td>Weight loss or a chronic condition</td></tr>
+<tr><td>Gallup</td><td>2025</td><td>-</td><td>12.4%</td><td>For weight loss</td></tr>
+<tr><td>KFF Health Tracking Poll (n=1,350)</td><td>Oct-Nov 2025</td><td>18%</td><td>12%</td><td>Any reason</td></tr>
+<tr><td>Gallup (n=5,065)</td><td>May-June 2026</td><td>15%</td><td>11%</td><td>For weight loss</td></tr>
+</tbody>
+</table>
+<p><strong>A note on the Gallup numbers.</strong> Gallup's 2025 figure (12.4%) and its 2026 figure (11%) come from different surveys with different question wording, and the 2026 data were re-weighted. They should not be read as a decline. Gallup's own like-for-like comparison shows current use for weight loss rising from 3% in 2024 to 11% in 2026.</p>
+<p><strong>Households, not just individuals.</strong> Market researcher Circana estimated in November 2025 that about 23% of US households include at least one GLP-1 user - a useful reminder that these medications shape family grocery lists and meals, not just one person's diet.</p>
+<p><strong>In absolute terms,</strong> 12% of roughly 260 million US adults would be on the order of 30 million people currently taking a GLP-1 for some reason. Treat that as a rough scale estimate derived from poll data, not a precise count - no official registry tracks every prescription, and compounded medication is especially hard to measure.</p>`,
+      },
+      {
+        heading: "Who takes GLP-1 drugs?",
+        body: `<p><strong>Women and adults aged 50 to 64 are the most likely to take GLP-1s. In KFF's November 2025 poll, 15% of women were currently taking one vs 9% of men, and use peaked at 22% among adults aged 50-64. In Gallup's 2025 data, 17.0% of 50-64 year-olds were using a GLP-1 for weight loss.</strong></p>
+<table>
+<thead><tr><th>Group</th><th>Current GLP-1 use (any reason)</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Women</td><td>15%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Men</td><td>9%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Adults 50-64</td><td>22%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Adults 65+</td><td>9%</td><td>KFF, Nov 2025</td></tr>
+</tbody>
+</table>
+<table>
+<thead><tr><th>Group</th><th>Use for weight loss</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Women</td><td>15.2%</td><td>Gallup, 2025</td></tr>
+<tr><td>Men</td><td>9.7%</td><td>Gallup, 2025</td></tr>
+<tr><td>Adults 50-64</td><td>17.0%</td><td>Gallup, 2025</td></tr>
+<tr><td>Women 50-64 (ever used, weight loss or chronic condition)</td><td>20%</td><td>RAND, 2025</td></tr>
+</tbody>
+</table>
+<p><strong>Why middle-aged women lead.</strong> Several factors overlap: obesity rates are slightly higher in women, women are more likely to seek care for weight, and weight gain around menopause is common. Interest is also high in this group, and many online programs market heavily to it.</p>
+<p><strong>Why use drops after 65.</strong> Until July 2026, Medicare Part D could not cover drugs used for weight loss alone, so people aged 65 and older mostly had access only through diabetes or cardiovascular indications, or by paying cash. The Medicare GLP-1 Bridge, which began on July 1, 2026, offers eligible beneficiaries a $50 monthly copay - a change likely to raise use among older adults in future surveys.</p>
+<p><strong>Diabetes is still a big driver.</strong> In KFF's May 2024 poll, 43% of adults with diabetes said they had ever taken a GLP-1. Diabetes was the original use for these drugs, and many users still take them primarily for blood-sugar control - though, as the next section shows, that balance has shifted.</p>`,
+      },
+      {
+        heading: "What share of people take GLP-1s for weight loss vs diabetes?",
+        body: `<p><strong>Weight loss is now the main reason. In EY-Parthenon's October 2026 survey, 54% of US GLP-1 users said they take the drug primarily for weight management - the first time that share passed half. In 2024, KFF found only 38% of users took a GLP-1 solely for weight loss.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Users taking a GLP-1 only for weight loss</td><td>38% (vs 62% for a chronic condition)</td><td>KFF, May 2024</td></tr>
+<tr><td>Users taking a GLP-1 primarily for weight management</td><td>54%</td><td>EY-Parthenon, Oct 2026 (3,602 current or former users)</td></tr>
+<tr><td>GLP-1 patients with obesity but no type 2 diabetes (commercial claims)</td><td>3.7% (2019) to 16.5% (2024)</td><td>FAIR Health, May 2025</td></tr>
+<tr><td>Compounded GLP-1 market used for weight loss</td><td>About 83%</td><td>IQVIA, Oct 2025</td></tr>
+</tbody>
+</table>
+<p><strong>Reading the shift.</strong> In insurance claims, which mostly capture covered prescriptions, the share of GLP-1 patients with obesity and no diabetes rose more than fourfold in five years. In surveys, which also capture cash-pay and compounded use, weight management has become the majority reason. The difference between the two is itself informative: a large share of weight-loss use happens outside insurance, through self-pay brand-name medication and compounded programs.</p>
+<p><strong>The medications are the same.</strong> Semaglutide is sold as Ozempic for diabetes and Wegovy for weight management; tirzepatide as Mounjaro and Zepbound. Same molecules, different approved uses and, often, different insurance treatment. Our <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> guide explains the differences.</p>`,
+      },
+      {
+        heading: "How fast are GLP-1 prescriptions growing?",
+        body: `<p><strong>GLP-1 prescriptions per 100,000 patients more than quadrupled between Q2 2021 and Q1 2026, from about 1,900 to about 9,000, according to Epic Research's health-record data. Tirzepatide now leads semaglutide, at about 4,700 vs 3,900 prescriptions per 100,000 patients. In commercial claims, the share of adults prescribed a GLP-1 rose from 0.9% in 2019 to 4.0% in 2024.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>GLP-1 prescriptions per 100,000 patients</td><td>About 1,900 (Q2 2021) to about 9,000 (Q1 2026)</td><td>Epic Research, May 2026</td></tr>
+<tr><td>Tirzepatide prescriptions per 100,000 patients</td><td>About 4,700 (Q1 2026)</td><td>Epic Research</td></tr>
+<tr><td>Semaglutide prescriptions per 100,000 patients</td><td>About 3,900 (Q1 2026)</td><td>Epic Research</td></tr>
+<tr><td>Commercially insured adults prescribed a GLP-1</td><td>0.9% (2019) to 4.0% (2024)</td><td>FAIR Health</td></tr>
+<tr><td>First-time GLP-1 prescriptions as a share of all prescriptions</td><td>1.64% (March 2026)</td><td>Truveta (preliminary)</td></tr>
+<tr><td>Change in first-time GLP-1 prescriptions, March to June 2026</td><td>-4.2% overall; diabetes starts -16.5%; obesity starts -1.6%</td><td>Truveta (preliminary)</td></tr>
+</tbody>
+</table>
+<p><strong>Tirzepatide's rise.</strong> Tirzepatide (Mounjaro, Zepbound) was approved for diabetes in 2022 and for weight management in late 2023. Within a few years it overtook semaglutide in Epic's prescription data - consistent with the SURMOUNT-5 head-to-head trial, in which tirzepatide produced more weight loss (about 20.2% vs 13.7% at 72 weeks).</p>
+<p><strong>Is growth slowing?</strong> Truveta's preliminary 2026 data show new prescriptions leveling off in spring 2026, with diabetes starts falling and obesity starts roughly flat. Health-record and claims data do not capture every cash-pay or compounded prescription, though, and new options - two GLP-1 pills approved in December 2025 and April 2026, and much lower manufacturer cash prices - may shift where prescriptions are written rather than whether they are.</p>
+<p><strong>Telehealth's share.</strong> In KFF's November 2025 poll, 17% of GLP-1 users said they got their prescription from an online provider, while about 76% got it from a primary care doctor or specialist. Online programs are a significant minority channel - and a larger one for cash-pay and compounded medication.</p>`,
+      },
+      {
+        heading: "How many people use compounded GLP-1s?",
+        body: `<p><strong>In Gallup's 2026 survey, 18% of adults currently taking a GLP-1 for weight loss said they use a compounded version, while 66% use a brand-name drug. There is no official count of compounded GLP-1 users; compounding pharmacies claimed in 2024 that they supplied up to 2 million Americans, a figure without a published method.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Current weight-loss users taking a compounded GLP-1</td><td>18%</td><td>Gallup, 2026 (revised)</td></tr>
+<tr><td>Current weight-loss users taking a brand-name GLP-1</td><td>66%</td><td>Gallup, 2026 (revised)</td></tr>
+<tr><td>Compounded GLP-1 market used for weight loss</td><td>About 83%</td><td>IQVIA, Oct 2025</td></tr>
+<tr><td>Compounded patients switching to brand-name per month</td><td>About 2%</td><td>IQVIA, Oct 2025</td></tr>
+<tr><td>Americans supplied by compounders (industry claim)</td><td>"Up to 2 million"</td><td>Compounding industry, mid-2024 (unverified)</td></tr>
+</tbody>
+</table>
+<p><strong>Why the numbers are uncertain.</strong> Compounded medications are made by pharmacies for individual prescriptions, mostly paid in cash and often sold through telehealth programs. They do not show up consistently in the insurance claims and health-record data used to count branded prescriptions. Surveys capture them better, but people are not always sure which kind of medication they take.</p>
+<p><strong>What changed in 2025-2026.</strong> The FDA declared the tirzepatide shortage resolved on December 19, 2024 and the semaglutide shortage on February 21, 2025, ending the period in which pharmacies could make broad copies. Licensed 503A pharmacies can still compound for an individual patient's documented clinical need. In 2026 the FDA warned 30 telehealth companies about misleading marketing and proposed barring large outsourcing facilities from compounding semaglutide and tirzepatide. Meanwhile, manufacturer cash prices for brand-name medication fell sharply - narrowing the price gap that made compounded medication attractive.</p>
+<p><strong>Low switching.</strong> IQVIA's estimate that only about 2% of compounded patients move to brand-name medication each month suggests compounded users have been fairly loyal - largely, it is reasonable to assume, because of price. Compounded medications are not FDA-approved and are not reviewed by the FDA for safety, effectiveness or quality. Our <a href="/articles/compounded-vs-brand-name-glp1">compounded vs brand-name GLP-1s</a> guide weighs the trade-offs.</p>`,
+      },
+      {
+        heading: "How much weight do people lose on GLP-1s in clinical trials?",
+        body: `<p><strong>In the pivotal trials, average weight loss ranged from about 11% to 21% of body weight over 64 to 72 weeks, depending on the drug and dose: 14.9% on semaglutide 2.4 mg (STEP-1), 18.7% on semaglutide 7.2 mg (STEP UP), 20.9% on tirzepatide 15 mg (SURMOUNT-1), 13.6% on the Wegovy pill (OASIS 4) and 11.2% on Foundayo's top dose (ATTAIN-1). People on placebo lost 2% to 4%.</strong></p>
+<p>All figures below use the treatment-policy estimand, which counts everyone who was randomly assigned - including people who stopped the drug. It is the more conservative of the two results most trials publish; company headlines often quote the higher "efficacy" figure instead.</p>
+<table>
+<thead><tr><th>Drug and dose</th><th>Trial</th><th>Duration</th><th>Average weight loss</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>Tirzepatide 15 mg (Zepbound)</td><td>SURMOUNT-1</td><td>72 weeks</td><td>20.9%</td><td>3.1%</td></tr>
+<tr><td>Tirzepatide 10 mg</td><td>SURMOUNT-1</td><td>72 weeks</td><td>19.5%</td><td>3.1%</td></tr>
+<tr><td>Tirzepatide 5 mg</td><td>SURMOUNT-1</td><td>72 weeks</td><td>15.0%</td><td>3.1%</td></tr>
+<tr><td>Semaglutide 7.2 mg (Wegovy HD)</td><td>STEP UP</td><td>72 weeks</td><td>18.7%</td><td>3.9%</td></tr>
+<tr><td>Semaglutide 2.4 mg (Wegovy)</td><td>STEP-1</td><td>68 weeks</td><td>14.9%</td><td>2.4%</td></tr>
+<tr><td>Oral semaglutide 25 mg (Wegovy pill)</td><td>OASIS 4</td><td>64 weeks</td><td>13.6%</td><td>2.2%</td></tr>
+<tr><td>Orforglipron, top dose (Foundayo)</td><td>ATTAIN-1</td><td>72 weeks</td><td>11.2%</td><td>2.1%</td></tr>
+</tbody>
+</table>
+<p><strong>Head to head.</strong> In SURMOUNT-5, the only large trial comparing the two leading injectables directly, tirzepatide produced 20.2% average weight loss vs 13.7% for semaglutide at 72 weeks, and 48.4% of people on tirzepatide lost at least 20% of their weight vs 27.3% on semaglutide.</p>
+<p><strong>In pounds.</strong> For a 230 lb adult, the trial averages translate to roughly 34 lb on semaglutide 2.4 mg, 43 lb on semaglutide 7.2 mg and 48 lb on tirzepatide 15 mg over about 16 to 18 months. Those are illustrations of averages; individual results vary widely in both directions.</p>
+<p><strong>Context matters.</strong> These trials enrolled adults with obesity or overweight and no diabetes, and included lifestyle counseling. People with type 2 diabetes tend to lose less: in STEP-2, semaglutide 2.4 mg produced about 9.6% weight loss in people with diabetes. Our <a href="/articles/new-weight-loss-drugs-2026">guide to the new weight-loss drugs of 2026</a> explains the two estimands and the newer pills in detail.</p>`,
+      },
+      {
+        heading: "What share of people reach 5%, 10%, 15% or 20% weight loss on a GLP-1?",
+        body: `<p><strong>Most people in the trials reached at least 5% weight loss: 86.4% on semaglutide 2.4 mg in STEP-1 and 85% to 91% on tirzepatide in SURMOUNT-1. About a third of people on semaglutide (32.0%) and more than half on tirzepatide 15 mg (56.7%) lost at least 20% of their body weight.</strong></p>
+<p>Averages hide a wide spread. Threshold statistics - the share of people who reached a given amount of weight loss - are often more useful for setting expectations.</p>
+<table>
+<thead><tr><th>Weight loss reached</th><th>Semaglutide 2.4 mg (STEP-1)</th><th>Placebo (STEP-1)</th><th>Tirzepatide 15 mg (SURMOUNT-1)</th><th>Placebo (SURMOUNT-1)</th></tr></thead>
+<tbody>
+<tr><td>At least 5%</td><td>86.4%</td><td>31.5%</td><td>90.9%</td><td>34.5%</td></tr>
+<tr><td>At least 10%</td><td>69.1%</td><td>12.0%</td><td>-</td><td>-</td></tr>
+<tr><td>At least 15%</td><td>50.5%</td><td>4.9%</td><td>-</td><td>-</td></tr>
+<tr><td>At least 20%</td><td>32.0%</td><td>1.7%</td><td>56.7%</td><td>3.1%</td></tr>
+</tbody>
+</table>
+<table>
+<thead><tr><th>Tirzepatide dose (SURMOUNT-1)</th><th>At least 5%</th><th>At least 20%</th></tr></thead>
+<tbody>
+<tr><td>5 mg</td><td>85.1%</td><td>30.0%</td></tr>
+<tr><td>10 mg</td><td>88.9%</td><td>50.1%</td></tr>
+<tr><td>15 mg</td><td>90.9%</td><td>56.7%</td></tr>
+</tbody>
+</table>
+<p><strong>Higher doses push more people over high thresholds.</strong> In STEP UP, 33.2% of people on semaglutide 7.2 mg lost at least 25% of their body weight, compared with 16.7% on 2.4 mg.</p>
+<p><strong>Why 5% matters.</strong> Clinical guidelines generally treat a 5% loss as the point at which health benefits - lower blood pressure, better blood sugar, less joint strain - start to appear, with larger benefits at 10% and beyond. By that measure, the large majority of trial participants benefited.</p>
+<p><strong>And the flip side.</strong> Roughly 1 in 7 people on semaglutide 2.4 mg in STEP-1 and about 1 in 10 on tirzepatide 15 mg in SURMOUNT-1 did not reach 5%. Some people respond weakly to a given drug; switching molecules or adjusting the dose with a clinician is a common next step. Our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a> covers how dosing decisions are made.</p>`,
+      },
+      {
+        heading: "How much weight do people lose on GLP-1s in real life?",
+        body: `<p><strong>Less than in trials, mainly because many people stop early or stay on lower doses. In a Cleveland Clinic study of 7,881 patients published in 2025, average weight loss at one year was about 8.7%; people who stayed on treatment lost 11.9%, while those who stopped within three months lost only 3.6%.</strong></p>
+<table>
+<thead><tr><th>Real-world group</th><th>Average weight loss at 1 year</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>All patients (semaglutide or tirzepatide)</td><td>About 8.7%</td><td>Cleveland Clinic, Obesity 2025 (n=7,881)</td></tr>
+<tr><td>Stopped within 3 months</td><td>3.6%</td><td>Cleveland Clinic</td></tr>
+<tr><td>Stopped at 3-12 months</td><td>6.8%</td><td>Cleveland Clinic</td></tr>
+<tr><td>Still on treatment at 1 year</td><td>11.9%</td><td>Cleveland Clinic</td></tr>
+<tr><td>Tirzepatide, on treatment</td><td>15.3%</td><td>Truveta, JAMA Internal Medicine 2024</td></tr>
+<tr><td>Semaglutide, on treatment</td><td>8.3%</td><td>Truveta, JAMA Internal Medicine 2024</td></tr>
+</tbody>
+</table>
+<p><strong>Why real-world results are lower:</strong></p>
+<ul>
+<li><strong>Stopping early.</strong> The single biggest factor. Weight loss on GLP-1s builds over many months; people who stop in the first few months capture only a fraction of the effect.</li>
+<li><strong>Lower doses.</strong> Trial participants were escalated to full maintenance doses on a fixed schedule. In everyday care, cost, side effects and supply have kept many people on lower doses.</li>
+<li><strong>Less support.</strong> Trials included regular visits and lifestyle counseling that many patients do not get in practice.</li>
+<li><strong>Different populations.</strong> Real-world patients include more people with diabetes and other conditions that blunt weight loss.</li>
+</ul>
+<p><strong>The practical lesson.</strong> The gap between 8.7% and 11.9% in the Cleveland Clinic data is essentially the value of staying on treatment. Choosing a dose you can tolerate and a program you can afford for a full year matters as much as choosing the "strongest" drug. Our <a href="/articles/real-cost-of-glp1-weight-loss">real cost of GLP-1 weight loss</a> guide shows how to compare a year of treatment, not just the first month.</p>`,
+      },
+      {
+        heading: "How many people stay on GLP-1s, and how many stop?",
+        body: `<p><strong>Many people stop within a year, though persistence has improved. In Prime Therapeutics' claims data for people with obesity and no diabetes, 28.9% were still on a GLP-1 after one year, 14.8% after two years and 8% after three. A 2025 JAMA Network Open study found 64.8% of patients without type 2 diabetes stopped within a year. But Prime reported that about 63% of people who started Wegovy in 2024 were still on it at one year, up from about 40% of 2023 starters.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Still on a GLP-1 at 1 year (obesity, no diabetes)</td><td>28.9%</td><td>Prime Therapeutics/MRx, July 2024 (about 16M commercial lives)</td></tr>
+<tr><td>Still on a GLP-1 at 2 years</td><td>14.8%</td><td>Prime Therapeutics/MRx, July 2024</td></tr>
+<tr><td>Still on a GLP-1 at 3 years</td><td>8% (14% for higher-potency drugs)</td><td>Prime Therapeutics, June 2025 (n=5,780)</td></tr>
+<tr><td>Still on Wegovy at 1 year - 2024 starters</td><td>About 63%</td><td>Prime Therapeutics via Reuters, June 2025</td></tr>
+<tr><td>Still on Wegovy at 1 year - 2023 starters</td><td>About 40%</td><td>Prime Therapeutics via Reuters, June 2025</td></tr>
+<tr><td>Stopped within 1 year - no type 2 diabetes</td><td>64.8%</td><td>JAMA Network Open, Jan 2025 (n=125,474)</td></tr>
+<tr><td>Stopped within 1 year - with type 2 diabetes</td><td>46.5%</td><td>JAMA Network Open, Jan 2025</td></tr>
+<tr><td>Stopped before reaching a meaningful benefit</td><td>58%</td><td>Blue Health Intelligence, May 2024 (about 170,000 members)</td></tr>
+<tr><td>Stopped within the first month</td><td>30%</td><td>Blue Health Intelligence, May 2024</td></tr>
+</tbody>
+</table>
+<p><strong>Why persistence improved.</strong> Prime's newer data cover a period when supply shortages eased and patients could reliably fill prescriptions at their intended dose. Shortages in 2022-2024 forced many people to pause or switch, which shows up in older discontinuation figures.</p>
+<p><strong>What the data do not capture.</strong> Claims studies track insured, brand-name prescriptions. They exclude people who moved to cash-pay or compounded medication - who may still be on a GLP-1 but look like "stoppers" in the data. Real persistence is therefore probably somewhat higher than the claims figures suggest, though by how much is unknown.</p>
+<p><strong>Diabetes makes a difference.</strong> People with type 2 diabetes stopped less often (46.5% vs 64.8% within a year), likely because insurance coverage is more reliable for diabetes and the treatment is part of ongoing disease management.</p>`,
+      },
+      {
+        heading: "Why do people stop taking GLP-1s?",
+        body: `<p><strong>Cost and side effects are the top reasons. In KFF's November 2025 poll, 14% of people who had taken a GLP-1 said they stopped because of cost, 13% because of side effects and 5% because their condition improved. More than half of users (56%) said the drugs were difficult to afford, and 27% of insured users said they paid the full cost themselves.</strong></p>
+<table>
+<thead><tr><th>Reason or experience</th><th>Share of users</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Stopped because of cost</td><td>14%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Stopped because of side effects</td><td>13%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Stopped because their condition improved</td><td>5%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Said GLP-1s were difficult to afford</td><td>56%</td><td>KFF, Nov 2025</td></tr>
+<tr><td>Insured users who paid the full cost themselves</td><td>27%</td><td>KFF, Nov 2025</td></tr>
+</tbody>
+</table>
+<p><strong>Cost.</strong> Until late 2025, brand-name GLP-1s had list prices above $1,000 a month, and insurance coverage for weight loss was patchy. Manufacturer cash prices have since dropped to about $149-$449 a month at most doses, and compounded programs start lower still - so cost-driven stopping may decline in future surveys.</p>
+<p><strong>Side effects.</strong> Digestive side effects are common, especially during dose increases. In the trials, 4% to 7% stopped because of side effects (see the side-effects section below) - lower than the 13% in KFF's poll, which reflects everyday care with less structured support.</p>
+<p><strong>What helps people stay on treatment:</strong></p>
+<ul>
+<li><strong>Slower dose escalation</strong> when side effects are hard - four weeks per step is a minimum, not a deadline.</li>
+<li><strong>A price you can sustain for a year,</strong> including after any promotion ends.</li>
+<li><strong>Easy access to a clinician</strong> for dose questions and side-effect advice.</li>
+<li><strong>Reliable refills,</strong> ordered before you run out.</li>
+</ul>
+<p>Our <a href="/articles/glp1-side-effects-first-12-weeks">guide to GLP-1 side effects in the first 12 weeks</a> covers practical ways to manage the most common problems.</p>`,
+      },
+      {
+        heading: "What happens to weight after stopping a GLP-1?",
+        body: `<p><strong>Most people regain a large share of the weight. In the STEP-1 extension, people regained about two-thirds of their lost weight (11.6 of 17.3 percentage points) within a year of stopping semaglutide. In SURMOUNT-4, people switched to placebo after 36 weeks of tirzepatide regained 14.0% of their body weight, while those who continued lost another 5.5%. A 2026 BMJ meta-analysis estimated regain at about 0.8 kg (1.8 lb) a month after stopping.</strong></p>
+<table>
+<thead><tr><th>Study</th><th>What happened after stopping</th></tr></thead>
+<tbody>
+<tr><td>STEP-1 extension (semaglutide, n=327)</td><td>Regained 11.6 of 17.3 percentage points lost (about two-thirds) within a year; net loss at week 120 was 5.6%</td></tr>
+<tr><td>SURMOUNT-4 (tirzepatide)</td><td>Placebo group regained 14.0% from week 36 to 88; continued-treatment group lost a further 5.5% (25.3% total over 88 weeks)</td></tr>
+<tr><td>SURMOUNT-4, continued treatment</td><td>89.5% kept at least 80% of their weight loss</td></tr>
+<tr><td>BMJ meta-analysis, Jan 2026 (37 studies, 9,341 adults)</td><td>Regain of about 0.8 kg a month after stopping semaglutide or tirzepatide; projected return to baseline in about 1.5 years</td></tr>
+<tr><td>SURMOUNT-1, 3 years (prediabetes)</td><td>Diabetes risk reduction fell from 94% to 88% after 17 weeks off treatment</td></tr>
+</tbody>
+</table>
+<p><strong>Why it happens.</strong> GLP-1s work by changing appetite signals. When the drug leaves the body, appetite returns toward its previous level, while the body's metabolic adaptations to weight loss persist. That combination drives regain. It is the same biology that makes maintenance hard after any kind of weight loss - the medication just makes it more visible.</p>
+<p><strong>What it means.</strong> For most people, GLP-1s work more like blood-pressure medication than a short course of antibiotics: the benefit lasts while you take them. That is why the long-term price of treatment matters so much, and why options such as switching to a lower-cost pill for maintenance are getting attention - in the ATTAIN-MAINTAIN trial, people switched from injectable Wegovy to orforglipron kept off most of their weight loss over a year.</p>
+<p><strong>Regain is not inevitable for everyone.</strong> The averages include wide variation, and habits built during treatment - protein intake, resistance training, regular activity - help. Our article on <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1 and maintenance</a> covers the evidence and planning in detail.</p>`,
+      },
+      {
+        heading: "How common are GLP-1 side effects?",
+        body: `<p><strong>Digestive side effects are very common. In STEP-1, 44.1% of people on semaglutide 2.4 mg reported nausea, 31.5% diarrhea, 24.6% vomiting and 23.4% constipation at some point during the 68-week trial. In SURMOUNT-1, nausea affected 24.6% to 33.3% of people on tirzepatide vs 9.5% on placebo. Between 4% and 7% stopped treatment because of side effects.</strong></p>
+<table>
+<thead><tr><th>Side effect</th><th>Semaglutide 2.4 mg (STEP-1)</th><th>Tirzepatide 5 / 10 / 15 mg (SURMOUNT-1)</th><th>Placebo (SURMOUNT-1)</th></tr></thead>
+<tbody>
+<tr><td>Nausea</td><td>44.1%</td><td>24.6% / 33.3% / 31.0%</td><td>9.5%</td></tr>
+<tr><td>Diarrhea</td><td>31.5%</td><td>-</td><td>-</td></tr>
+<tr><td>Vomiting</td><td>24.6%</td><td>-</td><td>-</td></tr>
+<tr><td>Constipation</td><td>23.4%</td><td>-</td><td>-</td></tr>
+<tr><td>Stopped because of side effects</td><td>7.0% (placebo 3.1%)</td><td>4.3% / 7.1% / 6.2%</td><td>2.6%</td></tr>
+<tr><td>Gallbladder-related events</td><td>2.6% (placebo 1.2%)</td><td>-</td><td>-</td></tr>
+</tbody>
+</table>
+<p><strong>How to read these numbers.</strong> They are "ever" rates over more than a year: someone who felt nauseous for two days after one dose increase is counted the same as someone who felt sick for weeks. In both trial programs, digestive side effects were mostly mild to moderate and concentrated during dose escalation.</p>
+<p><strong>Serious side effects.</strong> In the large SELECT cardiovascular trial, serious adverse events were actually less common on semaglutide than placebo (33.4% vs 36.4%), but more people stopped semaglutide because of side effects (16.6% vs 8.2%) over a longer treatment period. Gallbladder problems, pancreatitis, dehydration-related kidney injury and allergic reactions are recognized but uncommon risks listed on every GLP-1 label.</p>
+<p><strong>Mental health.</strong> On January 13, 2026, the FDA said its review of 91 placebo-controlled trials involving 107,910 patients found no increased risk of suicidal thoughts or behavior, and asked manufacturers to remove that warning from Wegovy, Zepbound and Saxenda labels. Anyone with new mood changes on any medication should still contact a clinician.</p>
+<p><strong>Higher-dose drugs.</strong> Newer high-efficacy drugs have highlighted dysesthesia - unusual skin sensations - reported by about 22% of people on semaglutide 7.2 mg in STEP UP vs 6% on 2.4 mg. All GLP-1s carry a boxed warning about thyroid C-cell tumors seen in rodents.</p>`,
+      },
+      {
+        heading: "What health benefits do GLP-1s have beyond weight loss?",
+        body: `<p><strong>Large outcome trials show benefits beyond the scale: a 20% lower risk of major cardiovascular events in SELECT, a 94% lower risk of progressing from prediabetes to type 2 diabetes over three years in SURMOUNT-1, a 24% lower risk of serious kidney outcomes in FLOW, resolution of liver inflammation in 62.9% of people with MASH in ESSENCE, and large reductions in sleep apnea severity in SURMOUNT-OSA.</strong></p>
+<table>
+<thead><tr><th>Condition</th><th>Trial</th><th>Key result</th></tr></thead>
+<tbody>
+<tr><td>Heart attack, stroke, cardiovascular death</td><td>SELECT (semaglutide 2.4 mg, n=17,604, established heart disease, no diabetes)</td><td>Events in 6.5% vs 8.0% on placebo - a 20% relative reduction</td></tr>
+<tr><td>Progression to type 2 diabetes</td><td>SURMOUNT-1 3-year (tirzepatide, prediabetes, n=1,032)</td><td>94% lower risk (93% counting everyone randomized)</td></tr>
+<tr><td>Obstructive sleep apnea</td><td>SURMOUNT-OSA (tirzepatide, n=469)</td><td>Breathing events fell by 25.3 vs 5.3 per hour (trial 1) and 29.3 vs 5.5 per hour (trial 2)</td></tr>
+<tr><td>Kidney disease</td><td>FLOW (semaglutide 1 mg, type 2 diabetes and CKD, n=3,533)</td><td>24% lower risk of major kidney outcomes</td></tr>
+<tr><td>Heart failure with preserved ejection fraction</td><td>STEP-HFpEF (semaglutide 2.4 mg, n=529)</td><td>Symptom score improved 16.6 vs 8.7 points; weight -13.3% vs -2.6%</td></tr>
+<tr><td>MASH (fatty liver disease with inflammation)</td><td>ESSENCE (semaglutide 2.4 mg, 72 weeks)</td><td>Steatohepatitis resolved in 62.9% vs 34.3%; fibrosis improved in 36.8% vs 22.4%</td></tr>
+<tr><td>Knee osteoarthritis</td><td>STEP 9 (semaglutide 2.4 mg, n=407)</td><td>Pain score fell 41.7 vs 27.5 points; weight -13.7% vs -3.2%</td></tr>
+</tbody>
+</table>
+<p><strong>These benefits shape approvals and coverage.</strong> Wegovy is FDA-approved to reduce cardiovascular risk in adults with established heart disease and obesity or overweight, and received accelerated approval for MASH in August 2025. Zepbound is approved for moderate to severe obstructive sleep apnea in adults with obesity. Those indications can open insurance coverage that "weight loss" alone does not.</p>
+<p><strong>A caveat on populations.</strong> Each trial enrolled a specific group - SELECT, for example, included only people with existing heart disease. The results do not automatically apply to everyone taking a GLP-1 for weight loss, and longer-term outcome data for newer drugs are still coming. One more trial worth watching: SURMOUNT-MMO, testing tirzepatide's effect on cardiovascular outcomes in people with obesity, is expected to complete in 2027.</p>`,
+      },
+      {
+        heading: "How much of the weight lost on GLP-1s is muscle?",
+        body: `<p><strong>Roughly a quarter or more. In SURMOUNT-1's body-composition substudy, fat mass fell 33.9% and lean mass 10.9%, meaning about 75% of the weight lost was fat and about 25% lean mass. In STEP-1's substudy, fat mass fell 19.3% and lean mass 9.7%.</strong></p>
+<table>
+<thead><tr><th>Study</th><th>Fat mass change</th><th>Lean mass change</th><th>Share of loss that was lean mass</th></tr></thead>
+<tbody>
+<tr><td>SURMOUNT-1 DXA substudy (tirzepatide, n=160)</td><td>-33.9%</td><td>-10.9%</td><td>About 25%</td></tr>
+<tr><td>STEP-1 DXA substudy (semaglutide 2.4 mg)</td><td>-19.3%</td><td>-9.7%</td><td>Not officially reported; derived estimates are higher than for tirzepatide</td></tr>
+<tr><td>BELIEVE (bimagrumab + semaglutide, phase 2b)</td><td>-</td><td>About -3% on the combination vs -7% on semaglutide alone</td><td>About 7% (92.8% of loss was fat) vs about 28% on semaglutide alone</td></tr>
+</tbody>
+</table>
+<p><strong>Is that unusual?</strong> No - lean mass loss happens with any significant weight loss, whether from diet, surgery or medication, and "lean mass" includes water, organs and bone, not only muscle. The concern is that very large losses can reduce strength, especially in older adults and people who start with low muscle mass.</p>
+<p><strong>What protects muscle.</strong> The 2025 joint nutrition advisory from the American College of Lifestyle Medicine, the American Society for Nutrition, the Obesity Medicine Association and The Obesity Society recommends preserving muscle and bone through resistance training and an appropriate diet during GLP-1 treatment. In practice, that means prioritizing protein at every meal, doing resistance exercise regularly, and avoiding faster weight loss than necessary. Experimental muscle-preserving drugs such as bimagrumab are being tested but are not approved.</p>`,
+      },
+      {
+        heading: "How much do GLP-1 drugs cost in 2026?",
+        body: `<p><strong>Brand-name GLP-1s now cost about $149-$449 a month at most doses at manufacturer self-pay prices, down from list prices of about $1,349 for Wegovy and $1,060 for Zepbound at launch. Compounded GLP-1s from the online programs we track start at $49-$199 a month for semaglutide and $89-$299 for tirzepatide. Medicare will pay a negotiated $274 a month for semaglutide from 2027.</strong></p>
+<table>
+<thead><tr><th>Price point</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Wegovy list price (before 2027 cut)</td><td>About $1,349 a month</td><td>Novo Nordisk</td></tr>
+<tr><td>Ozempic list price (before 2027 cut)</td><td>About $1,028 a month</td><td>Novo Nordisk</td></tr>
+<tr><td>Zepbound list price at launch</td><td>About $1,060 a month</td><td>Eli Lilly</td></tr>
+<tr><td>Wegovy injection, self-pay</td><td>$349 a month ($199 for the first two fills of the lowest doses for new patients through Dec 31, 2026)</td><td>NovoCare Pharmacy</td></tr>
+<tr><td>Wegovy HD 7.2 mg, self-pay</td><td>About $399 a month</td><td>Novo Nordisk</td></tr>
+<tr><td>Wegovy pill, self-pay</td><td>$149-$299 a month by dose</td><td>NovoCare Pharmacy</td></tr>
+<tr><td>Zepbound vials or KwikPen, self-pay</td><td>$299 (2.5 mg), $399 (5 mg), $449 (higher doses with on-time refills)</td><td>LillyDirect</td></tr>
+<tr><td>Foundayo (orforglipron), self-pay</td><td>$149-$349 a month by dose</td><td>LillyDirect</td></tr>
+<tr><td>Medicare GLP-1 Bridge copay</td><td>$50 a month</td><td>CMS</td></tr>
+<tr><td>Medicare negotiated semaglutide price, from Jan 1, 2027</td><td>$274 per 30 days (71% below the 2024 list price of $959)</td><td>CMS</td></tr>
+<tr><td>Wegovy, Ozempic and Rybelsus list price from Jan 1, 2027</td><td>$675 a month</td><td>Novo Nordisk</td></tr>
+<tr><td>Compounded semaglutide, online programs we rank</td><td>$49-$199 a month</td><td>The Top Weight Loss price checks, fall 2026</td></tr>
+<tr><td>Compounded tirzepatide, online programs we rank</td><td>$89-$299 a month</td><td>The Top Weight Loss price checks, fall 2026</td></tr>
+</tbody>
+</table>
+<p><strong>What a year costs.</strong> At maintenance doses and manufacturer self-pay prices, a year of Wegovy costs about $4,188 (12 x $349), Zepbound about $5,388 with on-time refills (12 x $449), and either GLP-1 pill about $3,588 (12 x $299). Compounded semaglutide ranges from $588 a year (wellmedr's 12-month plan) to about $2,350 at the programs we track.</p>
+<p><strong>Why prices fell.</strong> Three forces converged: competition between Novo Nordisk and Eli Lilly, direct-to-consumer pharmacies that bypass insurers, and the November 2025 pricing agreements with the federal government, which led to TrumpRx and the Medicare $50 copay. Realized prices are falling even as volumes climb: in the third quarter of 2026, Lilly reported volume growth of 53% alongside a 15% decline in realized prices.</p>
+<p><strong>List price vs what you pay.</strong> List prices mainly affect insurance deductibles and coinsurance; very few people pay them in cash anymore. Before buying brand-name medication through any telehealth "brand shelf," compare its price with the manufacturer's own self-pay price. Our <a href="/articles/real-cost-of-glp1-weight-loss">real cost of GLP-1 weight loss</a> guide walks through the fine print, and our <a href="/">provider ranking</a> lists every program's current price.</p>`,
+      },
+      {
+        heading: "How many insurance plans cover GLP-1s for weight loss?",
+        body: `<p><strong>A minority. KFF's 2026 employer survey found 18% of firms with 200 or more workers cover GLP-1s for weight loss, and coverage among the largest employers fell from 43% to 33% in a year. Only 13 state Medicaid programs covered GLP-1s for obesity as of January 2026, down from 16. Medicare began covering them for eligible beneficiaries through the temporary GLP-1 Bridge on July 1, 2026.</strong></p>
+<table>
+<thead><tr><th>Payer</th><th>Coverage statistic</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Employers with 200+ workers</td><td>18% cover GLP-1s for weight loss (19% in 2025)</td><td>KFF Employer Health Benefits Survey, Oct 2026</td></tr>
+<tr><td>Employers with 5,000+ workers</td><td>33% (down from 43% in 2025)</td><td>KFF, Oct 2026</td></tr>
+<tr><td>Non-covering firms that dropped coverage in the past year</td><td>12%</td><td>KFF, Oct 2026</td></tr>
+<tr><td>Employers covering GLP-1s for weight loss (broader sample)</td><td>36% (flat)</td><td>IFEBP, July 2026</td></tr>
+<tr><td>GLP-1s as a share of employer drug claims</td><td>11.4% (up from 6.9% in 2023)</td><td>IFEBP, July 2026</td></tr>
+<tr><td>Large employers (500+) planning to drop coverage in 2027</td><td>5%</td><td>Mercer, June 2026</td></tr>
+<tr><td>State Medicaid programs covering GLP-1s for obesity</td><td>13 (down from 16)</td><td>KFF, Jan 2026</td></tr>
+<tr><td>Medicare beneficiaries meeting GLP-1 Bridge criteria</td><td>About 3.8 million</td><td>KFF analysis of 2023 data</td></tr>
+<tr><td>Medicare GLP-1 Bridge sign-ups, first two months</td><td>About 600,000 (administration figure)</td><td>CMS Administrator, reported Sept 2026</td></tr>
+</tbody>
+</table>
+<p><strong>Why the surveys differ.</strong> KFF surveys a representative sample of firms; IFEBP and Mercer survey their members, which skew toward larger employers. The direction is consistent across sources: employer coverage has stalled or slipped, as plans weigh rising GLP-1 claims against budgets.</p>
+<p><strong>The Medicare Bridge.</strong> From July 1, 2026 through December 31, 2027, eligible Part D enrollees can get Wegovy (injection or pill), Foundayo or the Zepbound KwikPen for a $50 monthly copay, with prior authorization. Eligibility depends on BMI and specific conditions. KFF estimated the program could cost $1.3 billion to $3.3 billion at 10% to 25% uptake. The Congressional Budget Office had earlier estimated that permanent Medicare coverage of obesity drugs would cost about $35 billion net over 2026-2034.</p>
+<p><strong>What to do.</strong> If you have insurance, check your formulary and prior-authorization rules first - a covered drug with a $25 copay beats any cash price. Telehealth services with insurance support, such as <a href="/reviews/ro">ro</a>, can check coverage for you. If coverage is denied, compare manufacturer self-pay prices with compounded programs.</p>`,
+      },
+      {
+        heading: "How much does the US spend on GLP-1 drugs?",
+        body: `<p><strong>A rapidly growing share of all drug spending. US spending on GLP-1s reached about $132 billion in 2025 - about 14% of the $915 billion spent on prescription drugs, according to an ASHP analysis (gross figures, before rebates). Medicare Part D spent $27.5 billion gross on GLP-1s in 2024, and IQVIA found GLP-1s drove 29% of US drug-spending growth that year.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>US GLP-1 spending, 2025 (gross)</td><td>About $132 billion (14% of $915 billion total prescription spending)</td><td>ASHP, April 2026</td></tr>
+<tr><td>Medicare Part D GLP-1 spending, 2024</td><td>$27.5 billion gross (about $14 billion net)</td><td>KFF</td></tr>
+<tr><td>Ozempic's share of Part D GLP-1 spending, 2024</td><td>47%</td><td>KFF</td></tr>
+<tr><td>Share of 2024 US drug-spending growth from GLP-1s</td><td>29%</td><td>IQVIA</td></tr>
+<tr><td>Projected Medicare cost per obesity-drug user, 2026</td><td>About $5,600</td><td>CBO, Oct 2024</td></tr>
+</tbody>
+</table>
+<p><strong>Gross vs net.</strong> Drug-spending figures are usually reported before manufacturer rebates. For Medicare Part D, the net figure for 2024 was roughly half the gross figure. Another analysis put 2025 GLP-1 spending at $122 billion rather than $132 billion; both are gross estimates using different methods.</p>
+<p><strong>Why it matters to patients.</strong> Spending on this scale is what drives insurers and employers to restrict coverage, require prior authorization or drop GLP-1s for weight loss. It is also why falling prices matter: Medicare's negotiated semaglutide price of $274 from 2027, and Novo Nordisk's list-price cut to $675, should reduce the pressure on payers over time.</p>`,
+      },
+      {
+        heading: "How big is the GLP-1 market?",
+        body: `<p><strong>It is one of the largest drug markets in the world. Eli Lilly reported 2025 revenue of $65.2 billion, including $23.0 billion from Mounjaro and $13.5 billion from Zepbound. Novo Nordisk reported 2025 Wegovy sales of DKK 79.1 billion (about $12 billion) and Ozempic sales of about DKK 130 billion. Morgan Stanley forecasts the obesity-drug market could reach $150 billion by 2035.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Eli Lilly total revenue, 2025</td><td>$65.18 billion (+45%)</td><td>Lilly 10-K</td></tr>
+<tr><td>Mounjaro revenue, 2025</td><td>$22.97 billion (+99%)</td><td>Lilly 10-K</td></tr>
+<tr><td>Zepbound revenue, 2025</td><td>$13.54 billion (+175%)</td><td>Lilly 10-K</td></tr>
+<tr><td>Lilly revenue, Q3 2026</td><td>$24.4 billion (+39%); volume +53%, realized price -15%</td><td>Lilly, Oct 29, 2026</td></tr>
+<tr><td>Mounjaro revenue, Q3 2026</td><td>$10.7 billion (+65%)</td><td>Lilly, Oct 29, 2026</td></tr>
+<tr><td>US Zepbound revenue, Q3 2026</td><td>$5.3 billion (+48%)</td><td>Lilly, Oct 29, 2026</td></tr>
+<tr><td>Novo Nordisk Wegovy sales, 2025</td><td>DKK 79.1 billion (about +36%)</td><td>Novo Nordisk annual results</td></tr>
+<tr><td>Novo Nordisk obesity care sales, 2025</td><td>DKK 82.35 billion (+26%)</td><td>Novo Nordisk annual results</td></tr>
+<tr><td>Wegovy pill prescriptions since Jan 5, 2026 launch</td><td>More than 5 million (by Q2 2026 report)</td><td>Novo Nordisk, Aug 2026</td></tr>
+<tr><td>Obesity-drug market forecast</td><td>$150 billion by 2035 (US about $80 billion)</td><td>Morgan Stanley, May 2025</td></tr>
+<tr><td>Obesity-drug market forecast, 2030</td><td>$95 billion (cut from $130 billion)</td><td>Goldman Sachs, April 2025</td></tr>
+</tbody>
+</table>
+<p><strong>The balance of power shifted.</strong> Lilly's tirzepatide franchise has grown much faster than Novo's semaglutide franchise in 2025-2026: Lilly's Mounjaro alone grew 99% in 2025, while Novo guided to flat-to-declining 2026 sales at constant exchange rates. That mirrors the prescription data, where tirzepatide overtook semaglutide.</p>
+<p><strong>Forecasts have come down.</strong> Analysts have trimmed long-term market forecasts as prices fall faster than expected, even though the number of patients keeps rising. For consumers, that combination - more patients, lower prices - is the good news buried in the financial results. DKK-to-dollar conversions are approximate.</p>`,
+      },
+      {
+        heading: "How do GLP-1s change what people eat and buy?",
+        body: `<p><strong>Substantially. A Cornell University and Numerator study of about 150,000 households found grocery spending fell 5.3% within six months of someone starting a GLP-1, with savory snack spending down about 10%. In EY-Parthenon's 2026 survey, 63% of users said they eat fewer sweets, 66% eat more fruit and vegetables, and 45% have cut back on alcohol.</strong></p>
+<table>
+<thead><tr><th>Behavior</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Change in household grocery spending within 6 months of starting</td><td>-5.3%</td><td>Cornell/Numerator, Journal of Marketing Research (about 150,000 households)</td></tr>
+<tr><td>Change in savory snack spending</td><td>About -10%</td><td>Cornell/Numerator</td></tr>
+<tr><td>Users eating fewer sweets</td><td>63%</td><td>EY-Parthenon, Oct 2026</td></tr>
+<tr><td>Users eating more fruit and vegetables</td><td>66%</td><td>EY-Parthenon, Oct 2026</td></tr>
+<tr><td>Users who cut back on alcohol</td><td>45%</td><td>EY-Parthenon, Oct 2026</td></tr>
+<tr><td>Users who changed clothing size</td><td>72%</td><td>EY-Parthenon, Oct 2026</td></tr>
+<tr><td>US households with a GLP-1 user</td><td>About 23%</td><td>Circana, Nov 2025</td></tr>
+</tbody>
+</table>
+<p><strong>Why it happens.</strong> GLP-1s reduce appetite and the reward people get from very sweet, fatty or salty foods - the quieting of "food noise" many users describe. Smaller portions and fewer snacks follow naturally.</p>
+<p><strong>What it means for your health.</strong> Eating less is the mechanism of weight loss, but eating too little protein and too few nutrients is a real risk when appetite falls sharply. The 2025 joint nutrition advisory from four US obesity and nutrition societies emphasizes managing side effects, preventing nutrient deficiencies and preserving muscle during treatment. Programs with dietitian access, such as <a href="/reviews/medvi">MEDVi</a>, or coaching, such as <a href="/reviews/shed">SHED</a>, can help with the nutrition side.</p>`,
+      },
+      {
+        heading: "Are obesity rates falling because of GLP-1s?",
+        body: `<p><strong>Possibly in part, but it is not proven. Gallup's self-reported US obesity rate fell from 39.9% in 2022 to 37.0% in 2025, and Epic Research's health-record data show adult obesity dropping from 42.3% to 40.7% between 2021 and early 2026 - the same period in which GLP-1 prescriptions more than quadrupled. The timing fits, but these studies cannot show cause and effect.</strong></p>
+<table>
+<thead><tr><th>Trend</th><th>From</th><th>To</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Self-reported adult obesity</td><td>39.9% (2022)</td><td>37.0% (2025)</td><td>Gallup</td></tr>
+<tr><td>Adult obesity in health records</td><td>42.3% (Q2 2021)</td><td>40.7% (Q1 2026)</td><td>Epic Research</td></tr>
+<tr><td>GLP-1 prescriptions per 100,000 patients</td><td>About 1,900 (Q2 2021)</td><td>About 9,000 (Q1 2026)</td><td>Epic Research</td></tr>
+<tr><td>Adults using a GLP-1 for weight loss</td><td>3% (2024)</td><td>11% (2026)</td><td>Gallup</td></tr>
+</tbody>
+</table>
+<p><strong>The case for a link.</strong> With roughly one in ten adults using a GLP-1 for weight loss and trial averages of 15% to 21% weight loss, it would be surprising if population obesity rates did not move. Gallup's own reporting presents the obesity decline alongside the rise in GLP-1 use.</p>
+<p><strong>The case for caution.</strong></p>
+<ul>
+<li><strong>Self-reported data</strong> can shift with changes in survey methods and how people report weight.</li>
+<li><strong>Health-record data</strong> reflect people who see doctors, not the whole population.</li>
+<li><strong>The CDC's measured data</strong> - the gold standard - end in 2023, before most of the GLP-1 expansion. The next NHANES cycle will be the real test.</li>
+<li><strong>Other factors,</strong> from post-pandemic behavior to food prices, could contribute.</li>
+</ul>
+<p><strong>Our read.</strong> The direction is encouraging and consistent across two independent data sources, but it is too early to credit GLP-1s with a national decline. Expect a clearer answer when the next round of measured CDC data is published.</p>`,
+      },
+      {
+        heading: "What do the statistics show for the next generation of weight-loss drugs?",
+        body: `<p><strong>The next drugs produce even larger average weight loss in trials. Retatrutide reached 28.3% at 80 weeks on its top dose in TRIUMPH-1 (Lilly's on-treatment estimate) and 30.3% at 104 weeks; CagriSema reached 20.4% at 68 weeks in REDEFINE 1 (everyone randomized). Retatrutide is not yet approved; CagriSema has an FDA decision expected by the end of 2026.</strong></p>
+<table>
+<thead><tr><th>Drug</th><th>Trial</th><th>Average weight loss</th><th>US status (Nov 2026)</th></tr></thead>
+<tbody>
+<tr><td>Retatrutide 12 mg</td><td>TRIUMPH-1, 80 weeks</td><td>28.3% (on treatment); 30.3% at 104 weeks</td><td>Filing planned Q1 2027</td></tr>
+<tr><td>Retatrutide 9 mg / 4 mg</td><td>TRIUMPH-1, 80 weeks</td><td>25.9% / 19.0% (on treatment)</td><td>Filing planned Q1 2027</td></tr>
+<tr><td>CagriSema</td><td>REDEFINE 1, 68 weeks</td><td>20.4% (everyone randomized); 22.7% (on treatment)</td><td>FDA decision expected Q4 2026</td></tr>
+<tr><td>Semaglutide 7.2 mg (Wegovy HD)</td><td>STEP UP, 72 weeks</td><td>18.7% (everyone randomized)</td><td>Approved March 2026</td></tr>
+<tr><td>Oral semaglutide 25 mg (Wegovy pill)</td><td>OASIS 4, 64 weeks</td><td>13.6% (everyone randomized)</td><td>Approved December 2025</td></tr>
+<tr><td>Orforglipron (Foundayo)</td><td>ATTAIN-1, 72 weeks</td><td>11.2% (everyone randomized)</td><td>Approved April 2026</td></tr>
+</tbody>
+</table>
+<p><strong>Bigger numbers, more questions.</strong> Larger average losses come with open questions - long-term safety, muscle preservation and side effects such as dysesthesia - that only longer studies and post-approval data will answer.</p>
+<p><strong>A warning about the gray market.</strong> Retatrutide's results have fueled sales of unapproved "research peptide" versions online. The FDA warns these products are of unknown quality, and a 2026 University of Pennsylvania analysis identified about 14,000 Reddit users describing their use of unapproved retatrutide, with increased appetite the most commonly reported symptom. Our <a href="/articles/new-weight-loss-drugs-2026">guide to the new weight-loss drugs of 2026</a> covers each drug, its side effects and expected timelines.</p>`,
+      },
+      {
+        heading: "How many Americans will use GLP-1s in the future?",
+        body: `<p><strong>Forecasters expect use to keep growing. EY-Parthenon projects that 35% to 40% of US adults will have used a GLP-1 by 2033, and Circana projects that households with GLP-1 users will account for about 35% of US food and beverage sales by 2030.</strong></p>
+<table>
+<thead><tr><th>Projection</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>US adults who will have used a GLP-1 by 2033</td><td>35%-40%</td><td>EY-Parthenon, Oct 2026</td></tr>
+<tr><td>Share of US food and beverage sales from GLP-1 households by 2030</td><td>About 35%</td><td>Circana, Nov 2025</td></tr>
+<tr><td>Global obesity-drug market by 2035</td><td>$150 billion</td><td>Morgan Stanley, May 2025</td></tr>
+<tr><td>Global obesity-drug market by 2030</td><td>$95 billion</td><td>Goldman Sachs, April 2025</td></tr>
+</tbody>
+</table>
+<p><strong>What could accelerate growth:</strong> lower prices, the arrival of more pills, Medicare coverage through the GLP-1 Bridge and beyond, new indications such as sleep apnea and liver disease, and next-generation drugs with larger effects.</p>
+<p><strong>What could slow it:</strong> employer and Medicaid coverage cuts, side effects and discontinuation, long-term safety questions, and the fact that most people regain weight when they stop - which makes these lifelong costs for many users.</p>
+<p><strong>Treat projections carefully.</strong> Forecasts from consultancies and market researchers are informed estimates, not data, and the same firms have revised their numbers as prices and coverage changed. They are useful for understanding direction, not for precise planning.</p>`,
+      },
+      {
+        heading: "What do these GLP-1 statistics mean for you?",
+        body: `<p><strong>The numbers point to five practical conclusions: most people who stay on treatment lose a meaningful amount of weight, staying on treatment matters as much as which drug you choose, most weight returns after stopping, side effects are common but usually manageable, and the cost of treatment has fallen dramatically in 2026.</strong></p>
+<ol>
+<li><strong>Expect meaningful but variable results.</strong> In the trials, 85% to 91% of people reached at least 5% weight loss. Your own result could be higher or lower than the averages.</li>
+<li><strong>Plan for a year, not a month.</strong> Real-world patients who stayed on treatment lost 11.9% at one year vs 3.6% for those who stopped within three months. Choose a dose, a price and a program you can sustain.</li>
+<li><strong>Think of it as long-term treatment.</strong> People regained about two-thirds of their weight within a year of stopping semaglutide in STEP-1. If you plan to stop, plan maintenance with your clinician.</li>
+<li><strong>Prepare for side effects.</strong> Nausea affected roughly a quarter to nearly half of trial participants, mostly during dose increases; 4% to 7% stopped because of side effects. Slower escalation helps.</li>
+<li><strong>Shop on total cost.</strong> Brand-name medication now costs $149-$449 a month at most doses at manufacturer self-pay prices, and compounded programs start at $49. Compare a full year at your maintenance dose.</li>
+</ol>
+<p><strong>Choosing a program.</strong> The online programs we rank range from brand-name-only care with insurance support (<a href="/reviews/ro">ro</a>) to low-cost compounded medication (<a href="/reviews/embody">embody</a> at $69 a month for semaglutide, month-to-month; <a href="/reviews/wellmedr">wellmedr</a> at $49 on a 12-month plan). Compounded GLP-1s are not FDA-approved. Our <a href="/">2026 ranking</a> compares all nine on price, medication options, clinical support and delivery, and our <a href="/articles/online-glp1-weight-loss-guide">complete guide</a> explains how online treatment works.</p>`,
+      },
+      {
+        heading: "How we compiled these statistics",
+        body: `<p><strong>Every statistic on this page comes from a named primary or independent source: federal agencies (CDC, FDA, CMS, CBO), peer-reviewed journals (NEJM, The Lancet, JAMA, BMJ, Obesity), independent health-policy research (KFF, RAND, FAIR Health), national polls (Gallup), health-data companies (Epic Research, Truveta, IQVIA, Prime Therapeutics), company financial filings, and consumer research firms (EY-Parthenon, Circana, Numerator).</strong></p>
+<p><strong>Our rules:</strong></p>
+<ul>
+<li><strong>Dates and samples are stated</strong> wherever they are available, because GLP-1 statistics change quickly.</li>
+<li><strong>Trial results use the treatment-policy estimand</strong> (everyone randomized) unless labeled "on treatment." Companies often headline the higher on-treatment figure.</li>
+<li><strong>Surveys are not mixed.</strong> Different polls ask different questions ("ever" vs "currently," "any reason" vs "weight loss"), so we compare each survey with itself over time rather than across surveys.</li>
+<li><strong>Industry claims are labeled</strong> as such - for example, the compounding industry's "up to 2 million" users estimate.</li>
+<li><strong>Prices are as of October-November 2026</strong> and change often; confirm before you buy.</li>
+<li><strong>Projections are labeled</strong> as forecasts, not data.</li>
+</ul>
+<p>We update this page as new data are published. If you spot a figure that has changed, our <a href="/how-we-rank">methodology page</a> explains how we handle corrections, and our <a href="/medical-review-policy">medical review policy</a> explains how clinical content is reviewed.</p>`,
+      },
+      {
+        heading: "Sources",
+        body: `<p><strong>These are the primary and independent sources behind the statistics on this page, grouped by topic.</strong></p>
+<p><strong>Obesity and eligibility</strong></p>
+<ul>
+<li>CDC National Center for Health Statistics, Data Brief 508: Obesity and Severe Obesity Prevalence in Adults, 2021-2023: <a href="https://www.cdc.gov/nchs/products/databriefs/db508.htm">cdc.gov</a></li>
+<li>Gallup, US obesity rate declining (Oct 2025): <a href="https://news.gallup.com/poll/696599/obesity-rate-declining.aspx">gallup.com</a></li>
+<li>Gallup, GLP-1 usage reaches new high (2026): <a href="https://news.gallup.com/poll/712157/glp-usage-reaches-new-high.aspx">gallup.com</a></li>
+<li>Epic Research, GLP-1 use has more than quadrupled since 2021 (May 2026): <a href="https://epicresearch.org/articles/glp-1-use-has-more-than-quadrupled-since-2021-as-obesity-rates-continue-to-show-signs-of-decline">epicresearch.org</a></li>
+<li>FAIR Health, white paper on obesity and GLP-1 drugs (May 2025): <a href="https://www.fairhealth.org/article/white-paper-on-obesity-and-glp-1-drugs-released-by-fair-health">fairhealth.org</a></li>
+</ul>
+<p><strong>Usage and persistence</strong></p>
+<ul>
+<li>KFF Health Tracking Poll, May 2024 - the public's use and views of GLP-1 drugs: <a href="https://www.kff.org/health-costs/kff-health-tracking-poll-may-2024-the-publics-use-and-views-of-glp-1-drugs/">kff.org</a></li>
+<li>KFF Health Tracking Poll, November 2025 - prescription drug costs and GLP-1 use: <a href="https://www.kff.org/public-opinion/kff-health-tracking-poll-prescription-drug-costs-views-on-trump-administration-actions-and-glp-1-use/">kff.org</a></li>
+<li>EY-Parthenon GLP-1 consumer impact report (Oct 2026): <a href="https://www.ey.com/en_us/newsroom/2026/10/glp-1-consumer-impact-report">ey.com</a></li>
+<li>Truveta, GLP-1 prescription trends through June 2026: <a href="https://www.truveta.com/blog/research/glp-1-ra-prescription-trends-january-2019-june-2026/">truveta.com</a></li>
+<li>IQVIA, the compounded GLP-1 market (Oct 2025): <a href="https://www.iqvia.com/locations/united-states/blogs/2025/10/non-traditional-channels-the-compounded-glp-1-market">iqvia.com</a></li>
+<li>Prime Therapeutics, most US patients now stay on Wegovy and Zepbound after a year: <a href="https://www.primetherapeutics.com/w/reuters-exclusive-new-data-show-most-us-patients-now-stay-on-wegovy-zepbound-after-a-year">primetherapeutics.com</a></li>
+<li>Blue Cross Blue Shield Association, most Americans stop weight-loss drugs before seeing meaningful benefit (May 2024): <a href="https://www.bcbs.com/about-us/association-news/most-americans-stop-weight-loss-drugs-before-seeing-meaningful-benefit">bcbs.com</a></li>
+<li>Circana, GLP-1 users and US food and beverage sales (Nov 2025): <a href="https://www.circana.com/post/glp-1-medication-users-to-represent-35-percent-of-u-s-food-and-beverage-sales-by-2030">circana.com</a></li>
+</ul>
+<p><strong>Clinical trials and outcomes</strong></p>
+<ul>
+<li>STEP-1 trial record (semaglutide 2.4 mg): <a href="https://clinicaltrials.gov/study/NCT03548935">ClinicalTrials.gov</a></li>
+<li>ACC summary of SURMOUNT-1 (tirzepatide): <a href="https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/08/04/15/32/SURMOUNT-1">acc.org</a></li>
+<li>ACC summary of SURMOUNT-5 (tirzepatide vs semaglutide): <a href="https://www.acc.org/latest-in-cardiology/journal-scans/2025/07/10/09/09/surmount-5">acc.org</a></li>
+<li>Novo Nordisk, STEP UP results (semaglutide 7.2 mg): <a href="https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916352">novonordisk.com</a></li>
+<li>ACC summary of OASIS 4 (oral semaglutide 25 mg): <a href="https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2025/09/24/16/40/OASIS-4">acc.org</a></li>
+<li>ACC summary of ATTAIN-1 (orforglipron): <a href="https://www.acc.org/latest-in-cardiology/journal-scans/2025/09/24/16/48/attain-1">acc.org</a></li>
+<li>Cleveland Clinic, real-world weight loss with injectable obesity medications (June 2025): <a href="https://newsroom.clevelandclinic.org/2025/06/10/cleveland-clinic-research-finds-injectable-medications-for-obesity-produce-smaller-weight-loss-in-a-real-world-setting-compared-to-randomized-clinical-trials">clevelandclinic.org</a></li>
+<li>Eli Lilly, tirzepatide reduced the risk of developing type 2 diabetes by 94%: <a href="https://investor.lilly.com/news-releases/news-release-details/tirzepatide-reduced-risk-developing-type-2-diabetes-94-adults">lilly.com</a></li>
+<li>SURMOUNT-OSA results (PMC): <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11598664">nih.gov</a></li>
+<li>SURMOUNT-1 body-composition analysis (PMC): <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11965027/">nih.gov</a></li>
+<li>University of Oxford, stopping weight-loss drugs linked to faster regain (BMJ, Jan 2026): <a href="https://www.ox.ac.uk/news/2026-01-08-new-study-finds-stopping-weight-loss-drugs-linked-faster-regain-ending-diet">ox.ac.uk</a></li>
+<li>FDA, removal of the suicidal behavior and ideation warning from GLP-1 labels (Jan 2026): <a href="https://www.fda.gov/drugs/drug-safety-communications/fda-requests-removal-suicidal-behavior-and-ideation-warning-glucagon-peptide-1-receptor-agonist-glp">fda.gov</a></li>
+<li>Nutritional priorities to support GLP-1 therapy for obesity, joint advisory (2025): <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12304835/">nih.gov</a></li>
+</ul>
+<p><strong>Cost, coverage and market</strong></p>
+<ul>
+<li>KFF 2026 Employer Health Benefits Survey: <a href="https://www.kff.org/health-costs/2026-employer-health-benefits-survey/">kff.org</a></li>
+<li>KFF, Medicaid coverage of and spending on GLP-1s: <a href="https://www.kff.org/medicaid/medicaid-coverage-of-and-spending-on-glp-1s/">kff.org</a></li>
+<li>KFF, nearly four million Medicare beneficiaries met the GLP-1 Bridge criteria: <a href="https://www.kff.org/medicare/nearly-four-million-medicare-beneficiaries-met-the-eligibility-criteria-in-2023-for-the-medicare-glp-1-bridge/">kff.org</a></li>
+<li>KFF, recent trends in GLP-1 use and spending in Medicare: <a href="https://www.kff.org/medicare/recent-trends-in-glp-1-use-and-spending-in-medicare/">kff.org</a></li>
+<li>CMS, Medicare GLP-1 Bridge: <a href="https://www.cms.gov/medicare/coverage/prescription-drug-coverage/medicare-glp-1-bridge">cms.gov</a></li>
+<li>IFEBP, GLP-1 coverage survey (2026): <a href="https://www.ifebp.org/GLP2026">ifebp.org</a></li>
+<li>Committee for a Responsible Federal Budget, CBO estimate of Medicare coverage of weight-loss drugs: <a href="https://www.crfb.org/blogs/cbo-estimates-medicare-coverage-weight-loss-drugs">crfb.org</a></li>
+<li>NovoCare, Wegovy self-pay pricing: <a href="https://www.novocare.com/obesity/products/wegovy.html">novocare.com</a></li>
+<li>LillyDirect, Zepbound self-pay pricing: <a href="https://www.lilly.com/lillydirect/zepbound">lilly.com</a></li>
+<li>Eli Lilly 2025 annual report (Form 10-K): <a href="https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm">sec.gov</a></li>
+<li>Eli Lilly third-quarter 2026 results: <a href="https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm">sec.gov</a></li>
+<li>Novo Nordisk 2025 annual results: <a href="https://www.sec.gov/Archives/edgar/data/353278/000035327826000006/caq42025.htm">sec.gov</a></li>
+<li>Morgan Stanley, weight-loss medication market outlook (May 2025): <a href="https://www.morganstanley.com/insights/articles/weight-loss-medication-market-unstoppable-growth">morganstanley.com</a></li>
+<li>Goldman Sachs, the anti-obesity drug market may prove smaller than expected: <a href="https://www.goldmansachs.com/insights/articles/the-anti-obesity-drug-market-may-prove-smaller-than-expected">goldmansachs.com</a></li>
+</ul>
+${DISCLAIMER}`,
+      },
+    ],
+  },
+  {
     slug: "new-weight-loss-drugs-2026",
     title: "New Weight-Loss Drugs in 2026: GLP-1 Pills, Wegovy HD, Retatrutide, CagriSema and What's Next",
     description:
@@ -69,7 +679,7 @@ export const weightLossArticles: ArticleData[] = [
 <tr><td>Oct 2026</td><td>A University of Pennsylvania study of Reddit posts documents side effects reported by people using unapproved retatrutide</td></tr>
 </tbody>
 </table>
-<p><strong>The big picture.</strong> Weight-loss medication is no longer a niche treatment. In EY-Parthenon's 2026 consumer survey of more than 3,600 current and former users, 54% said they take a GLP-1 primarily for weight management - the first time that share passed half. More options, lower cash prices and new coverage routes mean more people can get FDA-approved medication than a year ago. At the same time, employer coverage has not kept pace: KFF's 2026 survey found only 18% of firms with 200 or more workers cover GLP-1s for weight loss.</p>
+<p><strong>The big picture.</strong> Weight-loss medication is no longer a niche treatment. In EY-Parthenon's 2026 consumer survey of more than 3,600 current and former users, 54% said they take a GLP-1 primarily for weight management - the first time that share passed half. More options, lower cash prices and new coverage routes mean more people can get FDA-approved medication than a year ago. At the same time, employer coverage has not kept pace: KFF's 2026 survey found only 18% of firms with 200 or more workers cover GLP-1s for weight loss. For the full set of numbers, see our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page.</p>
 <p>For anyone shopping for treatment, the practical effect is that the gap between brand-name and compounded medication has narrowed sharply. We explain what that means for choosing a provider later in the guide.</p>`,
       },
       {
@@ -1750,7 +2360,7 @@ ${DISCLAIMER}`,
 <li><strong>If you want one price whichever you choose,</strong> <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either, so switching later does not change your bill.</li>
 <li><strong>If you stall or struggle with side effects on one,</strong> your clinician may suggest trying the other.</li>
 </ul>
-<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. We go deeper on tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>, and every dose step - in milligrams and syringe units - is in our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a>.</p>`,
+<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. Our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page collects the key numbers on usage, results, stopping rates and costs. We go deeper on tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>, and every dose step - in milligrams and syringe units - is in our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a>.</p>`,
       },
       {
         heading: "Oral vs injectable GLP-1s: which is better?",
