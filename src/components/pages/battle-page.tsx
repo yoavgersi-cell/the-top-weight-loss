@@ -1114,7 +1114,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               <p className="mb-3 text-[12px] font-bold uppercase tracking-[0.07em] text-[#1A5DB8]">
                 The quick answer
               </p>
-              <div className="grid gap-5 sm:grid-cols-2">
+              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 [&>*]:min-w-0">
                 <div>
                   <p className="mb-2 text-[14px] font-bold text-[#191919]">Go with {verdictWinner.name} if you want</p>
                   <ul className="space-y-2">

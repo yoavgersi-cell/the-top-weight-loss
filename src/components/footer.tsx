@@ -82,9 +82,9 @@ export async function Footer() {
           {columns.map((col) => (
             <div key={col.title}>
               <h4 className="mb-2.5 text-[12px] font-bold uppercase tracking-wider text-[#191919]">{col.title}</h4>
-              <nav className="space-y-1.5">
+              <nav className="space-y-0.5">
                 {col.links.map((l) => (
-                  <Link key={l.label} href={l.href} className="block text-[13px] text-gray-500 hover:text-[#1A5DB8]">
+                  <Link key={l.label} href={l.href} className="block py-1 text-[13px] text-gray-500 hover:text-[#1A5DB8]">
                     {l.label}
                   </Link>
                 ))}
@@ -103,7 +103,7 @@ export async function Footer() {
             <p className="text-[12px] text-gray-400">
               &copy; {new Date().getFullYear()} The Top Weight Loss. All rights reserved.
             </p>
-            <p className="text-[11px] text-gray-300">
+            <p className="text-[12px] text-gray-500">
               thetopweightloss.com is not a medical provider. Always consult a licensed clinician.
             </p>
           </div>

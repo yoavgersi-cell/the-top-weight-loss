@@ -174,10 +174,28 @@ html[data-hub] .hub-name {
   color: #191919;
 }
 @media (max-width: 640px) {
+  /* Phones: let cells wrap so 2-3 column tables fit the screen; wider tables
+     scroll sideways, with soft edge shadows hinting there is more to see. */
   .article-body table {
     display: block;
     overflow-x: auto;
-    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    font-size: 13.5px;
+    background:
+      linear-gradient(to right, #fff 30%, rgba(255, 255, 255, 0)),
+      linear-gradient(to right, rgba(255, 255, 255, 0), #fff 70%) 100% 0,
+      radial-gradient(farthest-side at 0 50%, rgba(16, 32, 54, 0.14), rgba(16, 32, 54, 0)),
+      radial-gradient(farthest-side at 100% 50%, rgba(16, 32, 54, 0.14), rgba(16, 32, 54, 0)) 100% 0;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+  .article-body table th,
+  .article-body table td {
+    padding: 8px 10px;
+    min-width: 7.5em;
+    white-space: normal;
   }
 }
 .article-body .qa {

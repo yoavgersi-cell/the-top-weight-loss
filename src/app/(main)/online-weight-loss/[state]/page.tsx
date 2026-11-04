@@ -147,7 +147,7 @@ export default async function StatePage({
       <HeroSection
         backgroundImageUrl=""
         imageAlt=""
-        updatedLabel="Last Updated: September 2026"
+        updatedLabel="Last Updated: October 2026"
         h1={`Online GLP-1 Weight Loss in ${s.name}`}
         h2={`Compare licensed telehealth weight loss providers serving ${s.name}`}
         description={`Clinician-guided GLP-1 treatment in ${s.name} - semaglutide and tirzepatide, brand-name or compounded, shipped to your door. Compare your options below.`}
@@ -160,9 +160,9 @@ export default async function StatePage({
       {/* Breadcrumb */}
       <section className="mx-auto max-w-[1200px] px-4 pt-4">
         <nav className="text-[13px] text-gray-500">
-          <Link href="/" className="hover:text-[#1A5DB8] hover:underline">Home</Link>
+          <Link href="/" className="inline-block py-1 hover:text-[#1A5DB8] hover:underline">Home</Link>
           <span className="px-1.5">/</span>
-          <Link href="/online-weight-loss" className="hover:text-[#1A5DB8] hover:underline">By State</Link>
+          <Link href="/online-weight-loss" className="inline-block py-1 hover:text-[#1A5DB8] hover:underline">By State</Link>
           <span className="px-1.5">/</span>
           <span className="text-[#191919]">{s.name}</span>
         </nav>

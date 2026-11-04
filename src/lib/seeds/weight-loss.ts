@@ -87,11 +87,11 @@ export const weightLossConfig: SiteConfig = {
   hero: {
     backgroundImageUrl: "",
     imageAlt: "GLP-1 weight loss injection pen",
-    updatedLabel: "Last Updated: September 2026",
+    updatedLabel: "Last Updated: October 2026",
     h1: "The Top GLP-1 Weight Loss Programs of 2026",
     h2: "Real prices. Fine print decoded. Zero hype.",
     description:
-      "We looked past the promo rates at 8 licensed telehealth programs - semaglutide from $49/mo, tirzepatide from $89/mo, or brand-name Wegovy and Zepbound with insurance help.",
+      "We looked past the promo rates at 9 licensed telehealth programs - semaglutide from $49/mo, tirzepatide from $89/mo, or brand-name Wegovy and Zepbound with insurance help.",
   },
 
   sidebar: {

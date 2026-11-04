@@ -174,10 +174,14 @@ export function TrustpilotCarousel({
                   key={i}
                   onClick={() => setPage(i)}
                   aria-label={`Go to reviews page ${i + 1}`}
-                  className={`h-1.5 rounded-full transition-all ${
-                    i === page ? "w-5 bg-[#2F80ED]" : "w-1.5 bg-gray-200 hover:bg-gray-300"
-                  }`}
-                />
+                  className="group -m-2 p-2"
+                >
+                  <span
+                    className={`block h-1.5 rounded-full transition-all ${
+                      i === page ? "w-5 bg-[#2F80ED]" : "w-1.5 bg-gray-200 group-hover:bg-gray-300"
+                    }`}
+                  />
+                </button>
               ))}
             </div>
             <button
@@ -213,10 +217,14 @@ export function TrustpilotCarousel({
                 key={i}
                 onClick={() => setCurrent(i)}
                 aria-label={`Go to review ${i + 1}`}
-                className={`h-1.5 rounded-full transition-all ${
-                  i === current ? "w-5 bg-[#2F80ED]" : "w-1.5 bg-gray-200"
-                }`}
-              />
+                className="-m-2 p-2"
+              >
+                <span
+                  className={`block h-1.5 rounded-full transition-all ${
+                    i === current ? "w-5 bg-[#2F80ED]" : "w-1.5 bg-gray-200"
+                  }`}
+                />
+              </button>
             ))}
           </div>
           <div className="flex gap-1.5">
