@@ -280,6 +280,8 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/reviews/medgm": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
   "/articles/glp1-dosage-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
   "/articles/new-weight-loss-drugs-2026": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
+  // 2026-11-04: GLP-1 weight loss statistics article.
+  "/articles/glp1-weight-loss-statistics": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-04" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {
