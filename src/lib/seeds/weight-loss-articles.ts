@@ -7,6 +7,509 @@ const DISCLAIMER = `<p><em>This article is general information, not medical advi
 
 export const weightLossArticles: ArticleData[] = [
   {
+    slug: "what-to-eat-on-glp1",
+    title: "What to Eat on a GLP-1: Protein, Fiber, Water and Nutrients (2026 Guide)",
+    description:
+      "What to eat on a GLP-1 like Wegovy or Zepbound: protein targets, best foods, fiber, water, nutrients most at risk, side-effect foods and a sample day of eating.",
+    category: "Guides",
+    readTime: "35 min read",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    heroColor: "#E8F1FD",
+    author: "The Top Weight Loss Editorial Team",
+    keyTakeaways: [
+      "GLP-1 users eat about 24% to 39% less energy in studies, but the share of protein in their diet stays about the same - in a 2026 study, 87.9% of users fell short of their protein target, and in a 2025 study of 461,382 adults, 22.4% had a new nutritional deficiency within a year.",
+      "The American Diabetes Association's 2026 guidance recommends at least 60 g of protein a day and 1.2-1.6 g per kg during weight loss; the 2025 joint nutrition advisory offers about 80-120 g a day as a practical range.",
+      "Aim for about 25 g (women) or 38 g (men) of fiber a day, added gradually; total water of about 2.7 L (women) or 3.7 L (men) from drinks and food; and strength training on at least two days a week.",
+      "Vitamin D, calcium, iron, B12 and thiamine are the nutrients most often flagged; small, protein-first meals and avoiding greasy food help with nausea.",
+    ],
+    sections: [
+      {
+        heading: "What should you eat on a GLP-1?",
+        body: `<p><strong>Eat less, but eat better: put protein first at every meal, add fiber gradually, drink steadily through the day, and keep greasy and very large meals to a minimum. There is no official "GLP-1 diet," but a 2025 joint advisory from four US nutrition and obesity societies, the American Diabetes Association's 2026 guidance and the federal Dietary Guidelines point in the same direction.</strong></p>
+<p>GLP-1 medications such as semaglutide (Wegovy, Ozempic) and tirzepatide (Zepbound, Mounjaro) do one thing extremely well: they make you want less food. In controlled studies, people on these drugs ate roughly a quarter to two-fifths less at meals than people on placebo. That is the point of the medication - and also the problem. When you eat a third less food, you also take in a third less protein, fiber, calcium and iron unless you change <em>what</em> you eat, not just how much.</p>
+<p>That is not a theoretical worry. In a 2025 study of more than 460,000 adults taking GLP-1s, 22.4% had a new nutritional deficiency diagnosed within a year of starting. In a 2026 study that tracked meals through an app, 87.9% of GLP-1 users fell short of their protein target.</p>
+<p>This guide is the practical version of what the evidence says. Here is the short form:</p>
+<table>
+<thead><tr><th>Priority</th><th>What it means day to day</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Protein first</td><td>Start each meal with the protein; aim for a protein food at every meal and snack</td><td>Protects muscle; most users fall short</td></tr>
+<tr><td>Smaller, more frequent meals</td><td>Three small meals plus one or two planned snacks, instead of two big meals</td><td>Large meals make nausea and vomiting more likely</td></tr>
+<tr><td>Go easy on fat-heavy meals</td><td>Grill, bake or roast instead of frying; limit rich sauces and fast food</td><td>Greasy food is a common nausea trigger</td></tr>
+<tr><td>Add fiber gradually</td><td>Build up vegetables, fruit, beans and whole grains over weeks</td><td>Helps constipation; too much too fast can worsen bloating</td></tr>
+<tr><td>Drink steadily</td><td>Sip water through the day, more if you have vomiting or diarrhea</td><td>Dehydration can harm the kidneys</td></tr>
+<tr><td>Watch key nutrients</td><td>Dairy or fortified alternatives, leafy greens, lean meat or legumes; ask about blood tests</td><td>Vitamin D, calcium, iron and B12 gaps are common</td></tr>
+<tr><td>Lift something</td><td>Strength training at least two days a week</td><td>Food alone does not protect muscle</td></tr>
+</tbody>
+</table>
+<p>The rest of this guide explains each point, with numbers and sources, and ends with a sample day of eating and a checklist. One rule first: if you have kidney disease, diabetes treated with insulin or a sulfonylurea, a history of an eating disorder, or you are pregnant or planning to be, your nutrition plan needs a clinician's input - general guidance is not enough.</p>`,
+      },
+      {
+        heading: "Why does nutrition matter more when you take a GLP-1?",
+        body: `<p><strong>Because GLP-1s cut how much you eat without changing what you choose to eat. Studies show users eat 24% to 39% less energy, but the share of protein in their diet stays about the same - so protein, fiber and micronutrient intake fall along with calories. Nutrient gaps are common as a result.</strong></p>
+<p>Here is what the research shows about how much less people eat:</p>
+<table>
+<thead><tr><th>Study</th><th>Who</th><th>Finding</th></tr></thead>
+<tbody>
+<tr><td>Friedrichsen et al., Diabetes, Obesity and Metabolism 2021</td><td>72 adults, semaglutide 2.4 mg for 20 weeks</td><td>35% less eaten at an all-you-can-eat lunch vs placebo</td></tr>
+<tr><td>Tirzepatide trial, Nature Medicine 2025</td><td>Adults with obesity</td><td>About 525 kcal less at an all-you-can-eat lunch vs placebo at week 3, with fewer cravings</td></tr>
+<tr><td>Spreckley et al., Obesity Reviews (scoping review)</td><td>Studies of incretin therapy</td><td>Energy intake fell by 24% to 39% across studies</td></tr>
+<tr><td>Vinelli et al., European Congress on Obesity 2026 (conference abstract)</td><td>116 GLP-1 users vs 216 non-users, app-tracked meals</td><td>Users ate about 1,102 vs 1,281 kcal and 53.8 vs 62 g protein a day; diet composition was similar</td></tr>
+</tbody>
+</table>
+<p>The last row is the important one. GLP-1 users in that study did not shift toward protein-rich food - they ate less of everything, and they skipped meals more often. Protein fell in step with calories.</p>
+<p><strong>What that leads to.</strong> When researchers looked for diagnosed nutritional problems, they found them:</p>
+<ul>
+<li><strong>22.4%</strong> of 461,382 adults on GLP-1s had a new nutritional deficiency or related complication recorded within 12 months, and 12.7% within six months (Butsch et al., Obesity Pillars, 2025). Vitamin D deficiency was the most common. Most people in that study (80.5%) had type 2 diabetes.</li>
+<li>In a 2026 review in Clinical Obesity covering 480,825 adults, more than 60% of GLP-1 users were below requirements for calcium and iron.</li>
+<li>In a small study of 69 users who kept three-day food records (Johnson et al., Frontiers in Nutrition, 2025), average intake was 14.5 g of fiber, 863 mg of calcium and 4 mcg of vitamin D a day - all well below recommended levels. That study was funded by a supplement retailer, which is worth knowing, but its food-record method is standard.</li>
+</ul>
+<p><strong>The other reason: muscle.</strong> Any large weight loss includes some lean mass. In SURMOUNT-1's body-composition study, about a quarter of the weight lost on tirzepatide was lean mass. Eating enough protein and doing strength training are the two tools we have to keep that share as low as possible.</p>
+<p>None of this means GLP-1s are dangerous to take. It means a medication that cuts your appetite this effectively deserves a deliberate eating plan - which is exactly what the professional societies now recommend.</p>`,
+      },
+      {
+        heading: "Is there an official GLP-1 diet?",
+        body: `<p><strong>No. There is no single prescribed "GLP-1 diet." The closest thing is a May 2025 joint advisory from the American College of Lifestyle Medicine, the American Society for Nutrition, the Obesity Medicine Association and The Obesity Society, which sets out eight nutrition priorities for people on GLP-1 therapy rather than a meal plan.</strong></p>
+<p>The advisory - "Nutritional priorities to support GLP-1 therapy for obesity," published simultaneously in four journals including the American Journal of Clinical Nutrition - is the most authoritative nutrition guidance specific to these drugs. Its eight priorities, as summarized in professional coverage, are:</p>
+<ol>
+<li><strong>Patient-centered start</strong> - setting goals for weight and health before treatment begins.</li>
+<li><strong>Baseline assessment</strong> - usual diet, emotional triggers, disordered eating and relevant medical conditions.</li>
+<li><strong>Managing digestive side effects</strong> through how and what you eat.</li>
+<li><strong>A personalized, nutrient-dense, minimally processed diet.</strong></li>
+<li><strong>Preventing nutrient deficiencies,</strong> with particular attention to iron, vitamin B12, vitamin D, calcium and thiamine.</li>
+<li><strong>Adequate protein plus strength training</strong> to preserve lean mass.</li>
+<li><strong>Using diet quality to support weight loss</strong> and long-term health.</li>
+<li><strong>Other lifestyle factors</strong> - physical activity, sleep, stress and substance use.</li>
+</ol>
+<p><strong>What it does not do</strong> is give a fixed calorie target, a list of banned foods, or a one-size meal plan. That is deliberate: people start GLP-1s at very different weights, ages, activity levels and health conditions.</p>
+<p><strong>Other guidance points the same way.</strong> The American Diabetes Association's 2026 obesity medication guidance recommends at least 60 g of protein a day, and 1.2 to 1.6 g per kilogram of body weight during active weight loss, alongside resistance training. The 2025-2030 Dietary Guidelines for Americans, released in January 2026, emphasize protein and minimally processed whole foods for the general population.</p>
+<p><strong>Be skeptical of anything sold as "the GLP-1 diet."</strong> Books, apps and packaged foods marketed with that label are not endorsed by these societies. A "GLP-1 friendly" badge on a frozen meal is a marketing claim, not a clinical one - more on that later in this guide.</p>`,
+      },
+      {
+        heading: "How much protein do you need on a GLP-1?",
+        body: `<p><strong>More than the basic RDA of 0.8 g per kilogram of body weight. The American Diabetes Association's 2026 guidance recommends at least 60 g of protein a day, and 1.2 to 1.6 g per kilogram a day during active weight loss. The 2025 joint nutrition advisory offers a practical range of about 80 to 120 g a day. Your clinician can tailor the number to you.</strong></p>
+<p>The targets come from different sources and are stated in different ways, which is why you will see conflicting numbers online. Here is how they line up:</p>
+<table>
+<thead><tr><th>Source</th><th>Protein guidance</th></tr></thead>
+<tbody>
+<tr><td>National Academies RDA (general adult population)</td><td>0.8 g per kg of body weight a day - a minimum to prevent deficiency, not a target for weight loss</td></tr>
+<tr><td>American Diabetes Association, 2026 obesity medication guidance</td><td>At least 60 g a day; 1.2-1.6 g per kg a day during weight loss</td></tr>
+<tr><td>Joint advisory (ACLM, ASN, OMA, TOS), 2025</td><td>About 80-120 g a day as a practical range; notes 1.2-1.6 g per kg a day has been proposed during active weight loss</td></tr>
+<tr><td>Dietary Guidelines for Americans, 2025-2030</td><td>Emphasizes higher protein intake; reported as 1.2-1.6 g per kg a day</td></tr>
+</tbody>
+</table>
+<p><strong>Which weight do you use?</strong> If you have a lot of weight to lose, multiplying 1.2-1.6 g by your current weight can give a very large number. Many clinicians calculate protein from a goal or "adjusted" body weight instead. The table below uses goal weight as an example:</p>
+<table>
+<thead><tr><th>Goal weight</th><th>In kilograms</th><th>Daily protein at 1.2-1.6 g/kg</th></tr></thead>
+<tbody>
+<tr><td>130 lb</td><td>59 kg</td><td>About 71-94 g</td></tr>
+<tr><td>150 lb</td><td>68 kg</td><td>About 82-109 g</td></tr>
+<tr><td>170 lb</td><td>77 kg</td><td>About 93-123 g</td></tr>
+<tr><td>190 lb</td><td>86 kg</td><td>About 103-138 g</td></tr>
+</tbody>
+</table>
+<p>For most adults, those numbers land within or near the 80-120 g range from the advisory, which is why it works well as a simple daily goal.</p>
+<p><strong>Split it across the day.</strong> Eating 25-30 g at each of three meals is easier on a reduced appetite than trying to catch up at dinner - and when appetite is low, a missed breakfast can mean a day that ends 30 g short.</p>
+<p><strong>Who should not simply increase protein:</strong> people with chronic kidney disease, who may need a lower protein intake, and anyone told by their doctor to limit protein. Ask before changing.</p>
+<p><strong>A realistic check.</strong> In the 2026 app study, GLP-1 users averaged about 54 g of protein a day - below even the ADA's 60 g floor. If you have never tracked protein, track it for three typical days. Most people are surprised how far short they are.</p>`,
+      },
+      {
+        heading: "What are the best protein foods when your appetite is low?",
+        body: `<p><strong>Choose foods that pack a lot of protein into a small, easy-to-eat portion: Greek yogurt, cottage cheese, eggs, fish, chicken, tofu, lentils and milk. A 6-ounce cup of plain nonfat Greek yogurt has about 17 g of protein, half a cup of cottage cheese about 14 g, and 3 ounces of cooked chicken breast about 26 g.</strong></p>
+<p>On a GLP-1, volume is your constraint. The best protein foods are the ones that deliver the most protein per bite and sit comfortably when you are already full quickly. Approximate values below are from USDA FoodData Central; brands vary, so check labels.</p>
+<table>
+<thead><tr><th>Food</th><th>Portion</th><th>Protein (approx.)</th><th>Notes for GLP-1 users</th></tr></thead>
+<tbody>
+<tr><td>Chicken breast, cooked</td><td>3 oz (85 g)</td><td>26 g</td><td>Lean; grilled or baked is easier on the stomach than fried</td></tr>
+<tr><td>Salmon, cooked</td><td>3 oz</td><td>22 g</td><td>Also provides vitamin D and omega-3 fats</td></tr>
+<tr><td>Lean ground beef (93% lean), cooked</td><td>3 oz</td><td>22 g</td><td>Good source of iron and B12</td></tr>
+<tr><td>Tuna, canned in water</td><td>3 oz drained</td><td>20 g</td><td>Cheap and fast</td></tr>
+<tr><td>Shrimp, cooked</td><td>3 oz</td><td>20 g</td><td>Very lean</td></tr>
+<tr><td>Greek yogurt, plain nonfat</td><td>6 oz (170 g)</td><td>17 g</td><td>Cold and soft - often tolerated when other food is not</td></tr>
+<tr><td>Cottage cheese, low-fat</td><td>1/2 cup</td><td>14 g</td><td>Easy snack</td></tr>
+<tr><td>Tofu, firm</td><td>1/2 cup</td><td>10-20 g</td><td>Varies widely by firmness and brand - check the label</td></tr>
+<tr><td>Lentils, cooked</td><td>1/2 cup</td><td>9 g</td><td>Also about 8 g of fiber</td></tr>
+<tr><td>Edamame, shelled</td><td>1/2 cup</td><td>9 g</td><td>Plant protein plus fiber</td></tr>
+<tr><td>Milk (dairy)</td><td>1 cup</td><td>8 g</td><td>Easy to sip; adds calcium and vitamin D (fortified)</td></tr>
+<tr><td>Cheddar cheese</td><td>1 oz</td><td>7 g</td><td>Higher in fat - keep portions small if fat triggers nausea</td></tr>
+<tr><td>Peanut butter</td><td>2 tbsp</td><td>7 g</td><td>Calorie-dense; useful when you can barely eat</td></tr>
+<tr><td>Egg, large</td><td>1 egg</td><td>6 g</td><td>Two eggs make a small, complete breakfast</td></tr>
+<tr><td>Protein shake</td><td>1 serving</td><td>Typically 20-30 g</td><td>Read the label; check sugar and serving size</td></tr>
+</tbody>
+</table>
+<p><strong>Tactics that work when you are never hungry:</strong></p>
+<ul>
+<li><strong>Eat the protein first.</strong> If you fill up halfway through a plate, make sure the half you ate was the chicken, not the rice.</li>
+<li><strong>Use "protein anchors."</strong> Pick two or three foods you can always face - yogurt, eggs, a shake - and build each meal around one.</li>
+<li><strong>Drink some of it.</strong> Milk, kefir or a protein shake can be easier than solid food on the days after a dose increase.</li>
+<li><strong>Do not skip meals.</strong> Skipping breakfast because you are not hungry is the fastest way to end the day short. A small portion counts.</li>
+<li><strong>Plan snacks.</strong> A cheese stick or a cup of yogurt between meals adds 7-17 g without a big meal.</li>
+</ul>
+<p><strong>Do you need protein shakes?</strong> Not necessarily. They are convenient, but whole foods also deliver fiber, calcium, iron and other nutrients that many GLP-1 users are short on. Use shakes to fill gaps, not to replace meals - and if you have kidney disease, ask your clinician before adding protein supplements.</p>`,
+      },
+      {
+        heading: "How do you protect muscle while losing weight on a GLP-1?",
+        body: `<p><strong>Combine enough protein with strength training. Federal physical activity guidelines recommend muscle-strengthening activity on at least two days a week plus 150 minutes of moderate aerobic activity. Meta-analyses show resistance training helps preserve lean mass during weight loss; protein on its own has more mixed evidence.</strong></p>
+<p><strong>How much lean mass do people lose?</strong></p>
+<table>
+<thead><tr><th>Study</th><th>Finding</th></tr></thead>
+<tbody>
+<tr><td>SURMOUNT-1 body-composition substudy (tirzepatide)</td><td>About 74% of weight lost was fat and 26% lean mass - a similar split to placebo (75/25)</td></tr>
+<tr><td>STEP-1 body-composition substudy (semaglutide 2.4 mg)</td><td>Lean mass fell about 5.8 kg vs 1.8 kg on placebo (about 9.7% of baseline lean mass)</td></tr>
+<tr><td>BELIEVE (experimental bimagrumab + semaglutide, phase 2b)</td><td>About 93% of weight lost was fat on the combination vs about 72% on semaglutide alone</td></tr>
+</tbody>
+</table>
+<p>Two points put this in perspective. First, lean mass includes water, organs and bone as well as muscle, and some lean-mass loss happens with any large weight loss - diet, surgery or medication. In SURMOUNT-1, the share was similar to placebo. Second, the concern is greatest for older adults and people who start with low muscle mass, for whom strength and balance matter most.</p>
+<p><strong>What actually protects muscle:</strong></p>
+<ul>
+<li><strong>Strength training, at least twice a week.</strong> Bodyweight squats, resistance bands, machines or free weights all count. Work the major muscle groups - legs, hips, back, chest, shoulders and arms - per the CDC guidelines.</li>
+<li><strong>Protein spread across meals,</strong> as described above. The American Diabetes Association's 2026 standards tell clinicians to optimize protein intake alongside resistance training during weight loss.</li>
+<li><strong>Not losing faster than necessary.</strong> Very rapid weight loss raises the share of lean mass lost and the risk of gallstones. A slower dose escalation that lets you keep eating properly is not a failure.</li>
+<li><strong>Staying active day to day.</strong> Walking does not build much muscle, but it supports the aerobic side of the guidelines and makes strength work easier.</li>
+</ul>
+<p><strong>A simple starting routine</strong> for someone new to strength training: two non-consecutive days a week, five or six exercises (squat to a chair, wall or knee push-ups, band rows, glute bridges, step-ups, a carry), two to three sets each. Increase resistance as it gets easy. If you have joint problems, heart disease or have been inactive for a long time, check with your clinician first; a physical therapist or trainer can set you up safely.</p>
+<p>Experimental drugs designed to protect muscle, such as bimagrumab, are being tested but are not approved. For now, food and training are the tools.</p>`,
+      },
+      {
+        heading: "How much fiber should you eat on a GLP-1?",
+        body: `<p><strong>The general adult target is 14 g of fiber per 1,000 calories - about 25 g a day for women and 38 g for men. Most GLP-1 users eat far less: one 2025 study found an average of 14.5 g a day. Add fiber gradually, especially in the first weeks, because a sudden jump can make bloating and discomfort worse.</strong></p>
+<p>Fiber matters more than usual on a GLP-1 for two reasons. Constipation is one of the most common side effects - reported by about 23% of people on semaglutide 2.4 mg in STEP-1 and by about 12% to 17% of people on tirzepatide in SURMOUNT-1, depending on dose. And when you are eating less food overall, there is simply less room for fiber unless you choose fiber-rich foods on purpose.</p>
+<p><strong>The timing nuance.</strong> The 2025 joint advisory suggests avoiding fatty or very high-fiber foods in the first few days after starting or increasing a dose, when nausea is most likely, and then building fiber up gradually to help with constipation. In practice: go gentle during the first days of each step, then add fiber back steadily.</p>
+<table>
+<thead><tr><th>Food</th><th>Portion</th><th>Fiber (approx.)</th></tr></thead>
+<tbody>
+<tr><td>Raspberries</td><td>1 cup</td><td>8 g</td></tr>
+<tr><td>Lentils, cooked</td><td>1/2 cup</td><td>8 g</td></tr>
+<tr><td>Black beans, cooked</td><td>1/2 cup</td><td>7.5 g</td></tr>
+<tr><td>Pear, with skin</td><td>1 medium</td><td>5.5 g</td></tr>
+<tr><td>Avocado</td><td>1/2 medium</td><td>5-7 g</td></tr>
+<tr><td>Apple, with skin</td><td>1 medium</td><td>4.4 g</td></tr>
+<tr><td>Chia seeds</td><td>1 tbsp</td><td>4 g</td></tr>
+<tr><td>Oats, dry</td><td>1/2 cup</td><td>4 g</td></tr>
+<tr><td>Almonds</td><td>1 oz</td><td>3.5 g</td></tr>
+<tr><td>Broccoli, cooked</td><td>1/2 cup</td><td>2.6 g</td></tr>
+<tr><td>Whole-wheat bread</td><td>1 slice</td><td>2-3 g</td></tr>
+</tbody>
+</table>
+<p><em>Approximate values from USDA FoodData Central.</em></p>
+<p><strong>How to add it without regret:</strong></p>
+<ul>
+<li><strong>Increase by a few grams a week,</strong> not 15 g overnight.</li>
+<li><strong>Drink more as you add fiber.</strong> Fiber without fluid can make constipation worse.</li>
+<li><strong>Spread it out.</strong> A little at every meal is better tolerated than a big bean salad at dinner.</li>
+<li><strong>Cooked is often easier than raw</strong> in the early weeks - roasted vegetables, stewed fruit, soups with lentils.</li>
+<li><strong>Consider a fiber supplement only with advice.</strong> Psyllium or similar products can help, but ask your clinician, particularly if you take other medications whose absorption could be affected.</li>
+</ul>
+<p>If constipation lasts more than a few days despite fluids and fiber, or comes with severe abdominal pain or vomiting, contact your clinician - do not just push through it.</p>`,
+      },
+      {
+        heading: "How much water should you drink on a GLP-1?",
+        body: `<p><strong>The National Academies set an adequate intake of about 2.7 liters of total water a day for women and 3.7 liters for men, counting water from both drinks and food. On a GLP-1, you eat less food - which also supplies water - and may lose fluid through vomiting or diarrhea, so drinking steadily matters. The Wegovy and Zepbound labels warn that dehydration from side effects can lead to kidney problems.</strong></p>
+<p>Two things work against hydration on these drugs. You feel full quickly, which can blunt thirst and make drinking feel like a chore. And digestive side effects - especially vomiting and diarrhea - can drain fluid fast. That is why both medication labels warn that dehydration can cause kidney problems, and why the Wegovy label advises monitoring kidney function in people with severe digestive side effects.</p>
+<table>
+<thead><tr><th>Reference</th><th>Women</th><th>Men</th></tr></thead>
+<tbody>
+<tr><td>Adequate intake, total water (drinks + food)</td><td>About 2.7 L a day</td><td>About 3.7 L a day</td></tr>
+<tr><td>Roughly from drinks alone (about 80% of total)</td><td>About 2.2 L (about 9 cups)</td><td>About 3 L (about 13 cups)</td></tr>
+</tbody>
+</table>
+<p><em>Needs rise with heat, exercise and illness. People with heart or kidney conditions that require fluid limits should follow their own clinician's advice.</em></p>
+<p><strong>Practical habits:</strong></p>
+<ul>
+<li><strong>Sip, do not gulp.</strong> Large volumes at once can worsen fullness and nausea. A bottle within reach all day works better than three big glasses.</li>
+<li><strong>Drink between meals</strong> if fluid with meals makes you feel too full.</li>
+<li><strong>Count the easy wins:</strong> milk, soups, yogurt, fruit and vegetables all contribute.</li>
+<li><strong>Use electrolyte drinks</strong> when you have vomiting or diarrhea - but watch the sugar content.</li>
+<li><strong>Go easy on carbonated drinks</strong> if they make you bloated.</li>
+</ul>
+<p><strong>Warning signs of dehydration:</strong> dark urine or urinating much less than usual, dizziness when standing, a dry mouth, headache, or unusual tiredness. If you cannot keep fluids down for several hours, contact your clinician or seek urgent care.</p>`,
+      },
+      {
+        heading: "Which nutrients are GLP-1 users most likely to lack?",
+        body: `<p><strong>Vitamin D, calcium, iron and fiber are the most consistently low in studies of GLP-1 users, and the 2025 joint advisory also flags vitamin B12 and thiamine. In a claims study of 461,382 adults, vitamin D deficiency was the most common new nutritional diagnosis within a year of starting a GLP-1.</strong></p>
+<table>
+<thead><tr><th>Nutrient</th><th>Adult target (RDA or AI)</th><th>What studies found in GLP-1 users</th><th>Good food sources</th></tr></thead>
+<tbody>
+<tr><td>Protein</td><td>0.8 g/kg (RDA); 1.2-1.6 g/kg during weight loss (ADA)</td><td>87.9% below target in a 2026 app study; average about 54 g a day</td><td>Fish, poultry, eggs, dairy, tofu, legumes</td></tr>
+<tr><td>Fiber</td><td>25 g (women), 38 g (men)</td><td>Average 14.5 g a day (n=69, 2025)</td><td>Beans, lentils, berries, vegetables, whole grains</td></tr>
+<tr><td>Vitamin D</td><td>600 IU (15 mcg); 800 IU (20 mcg) over 70</td><td>Average 4 mcg a day (n=69); most common new deficiency in a 461,382-person claims study</td><td>Fatty fish, fortified milk and alternatives, eggs</td></tr>
+<tr><td>Calcium</td><td>1,000 mg; 1,200 mg for women over 50 and men over 70</td><td>Average 863 mg (n=69); more than 60% below requirements (2026 review)</td><td>Dairy, fortified alternatives, canned salmon with bones, tofu set with calcium</td></tr>
+<tr><td>Iron</td><td>18 mg (women 19-50); 8 mg (men, women over 50)</td><td>More than 60% below requirements (2026 review)</td><td>Lean red meat, poultry, legumes, fortified cereals, leafy greens</td></tr>
+<tr><td>Vitamin B12</td><td>2.4 mcg</td><td>Flagged by the 2025 advisory; long-term metformin use also lowers B12</td><td>Meat, fish, eggs, dairy, fortified foods</td></tr>
+<tr><td>Thiamine (B1)</td><td>1.1 mg (women), 1.2 mg (men)</td><td>Flagged by the 2025 advisory; risk rises with prolonged vomiting or very low intake</td><td>Whole and enriched grains, pork, legumes</td></tr>
+</tbody>
+</table>
+<p><strong>Who is at higher risk:</strong></p>
+<ul>
+<li>People eating very little for long stretches, or regularly skipping meals.</li>
+<li>People with ongoing vomiting or diarrhea.</li>
+<li>Women of reproductive age (iron), older adults (vitamin D, calcium, B12) and people who avoid dairy (calcium, vitamin D).</li>
+<li>People on long-term metformin (B12) and those with a history of bariatric surgery.</li>
+<li>Vegetarians and vegans, for B12 and sometimes iron.</li>
+</ul>
+<p><strong>Ask about blood tests.</strong> The advisory recommends a baseline nutrition assessment, and monitoring where risk is higher. If you are losing weight quickly, eating very little, or feeling unusually tired, weak, numb or dizzy, ask your clinician whether checking vitamin D, iron, B12 or other levels makes sense. Online programs vary in whether they order labs; ask before you sign up.</p>`,
+      },
+      {
+        heading: "Should you take vitamins or supplements on a GLP-1?",
+        body: `<p><strong>Not automatically. No supplement is required for everyone on a GLP-1. A standard multivitamin is a reasonable safety net for people eating very little, and targeted supplements - such as vitamin D, iron or B12 - make sense when a blood test or your diet shows a gap. Decide with your clinician rather than buying a "GLP-1 support" product.</strong></p>
+<p>The joint advisory's emphasis is on food first: a nutrient-dense, minimally processed diet, with monitoring and supplementation where needed. That is a sensible order. Food delivers protein, fiber and dozens of nutrients together; a pill covers only what is in it.</p>
+<p><strong>When a supplement is worth discussing:</strong></p>
+<ul>
+<li><strong>Multivitamin:</strong> if your intake is consistently very low, or you cannot eat a varied diet for a while.</li>
+<li><strong>Vitamin D:</strong> if you rarely eat fatty fish or fortified foods, have little sun exposure, or a test shows low levels.</li>
+<li><strong>Calcium:</strong> if you do not eat dairy or fortified alternatives. Food sources are preferred where possible.</li>
+<li><strong>Iron:</strong> only if a blood test shows you need it - too much iron is harmful.</li>
+<li><strong>Vitamin B12:</strong> if you take metformin long-term, follow a vegan diet, or a test shows low levels.</li>
+<li><strong>Protein powder:</strong> to fill protein gaps on low-appetite days.</li>
+<li><strong>Fiber supplement:</strong> for persistent constipation, with advice on timing relative to other medications.</li>
+</ul>
+<p><strong>Be cautious about:</strong></p>
+<ul>
+<li><strong>Products marketed as "GLP-1 boosters" or "natural Ozempic."</strong> Supplements that claim to mimic or enhance GLP-1 drugs have not been shown to produce comparable effects.</li>
+<li><strong>Add-ins in compounded medication.</strong> Some compounded products add B12 or other ingredients. These were not part of the STEP or SURMOUNT trials; ask your provider what they add and why.</li>
+<li><strong>Megadoses.</strong> More is not better for fat-soluble vitamins or iron.</li>
+</ul>
+<p>Tell every clinician what supplements you take - including those prescribing your GLP-1 through an online program.</p>`,
+      },
+      {
+        heading: "Which foods make GLP-1 side effects worse, and what helps?",
+        body: `<p><strong>Large meals, greasy or fried food, and eating past the point of fullness are the most common triggers for nausea and vomiting on a GLP-1. The 2025 joint advisory recommends smaller, more frequent meals and avoiding fatty foods in the first days after starting or increasing a dose. Most digestive side effects peak after dose increases and ease over time.</strong></p>
+<p>Digestive side effects are common. In STEP-1, 44% of people on semaglutide 2.4 mg reported nausea at some point, and in SURMOUNT-1, 25% to 33% on tirzepatide did. Food choices will not eliminate them, but they make a real difference to how bad they get. Here is a symptom-by-symptom guide:</p>
+<table>
+<thead><tr><th>Symptom</th><th>What tends to make it worse</th><th>What tends to help</th></tr></thead>
+<tbody>
+<tr><td>Nausea</td><td>Large meals, greasy or fried food, rich sauces, eating fast, lying down after eating</td><td>Small portions, bland and cold foods (yogurt, crackers, fruit), eating slowly, stopping at the first sign of fullness, staying upright after meals</td></tr>
+<tr><td>Vomiting</td><td>Overeating, high-fat meals, alcohol</td><td>Very small, frequent meals; sipping fluids; electrolyte drinks; call your clinician if you cannot keep fluids down</td></tr>
+<tr><td>Constipation</td><td>Low fluid, low fiber, inactivity</td><td>More fluids, fiber added gradually, daily walking; ask about a stool softener or fiber supplement if it persists</td></tr>
+<tr><td>Diarrhea</td><td>Greasy food, sugar alcohols (common in "sugar-free" products), large amounts of caffeine</td><td>Fluids and electrolytes, plain foods, smaller meals</td></tr>
+<tr><td>Heartburn and reflux</td><td>Big or late meals, fatty or spicy food, alcohol, carbonated drinks</td><td>Smaller meals, finishing eating 2-3 hours before bed, raising the head of the bed</td></tr>
+<tr><td>Bloating and burping</td><td>Carbonated drinks, eating quickly, a sudden jump in fiber</td><td>Still drinks, slower eating, building fiber gradually</td></tr>
+<tr><td>Fatigue and dizziness</td><td>Eating and drinking too little</td><td>Regular small meals with protein, steady fluids; check with your clinician if it persists</td></tr>
+</tbody>
+</table>
+<p><strong>The fullness signal changes.</strong> GLP-1s slow how quickly your stomach empties. The fullness that used to arrive 20 minutes after a meal can now arrive mid-meal - and eating past it is what causes much of the nausea. Use a smaller plate, put your fork down between bites, and stop when you first feel satisfied, not stuffed.</p>
+<p><strong>When it is more than a food problem.</strong> Severe abdominal pain that will not go away, especially if it spreads to the back, can be a sign of pancreatitis; pain in the upper right abdomen with fever or yellowing of the skin or eyes can signal gallbladder disease. Both medication labels list these warnings. Stop eating, and seek medical care promptly. Our guide to <a href="/articles/glp1-side-effects-first-12-weeks">GLP-1 side effects in the first 12 weeks</a> covers the medical side in more detail, and our <a href="/articles/glp1-dosage-guide">dosage guide</a> explains how slower dose escalation helps.</p>`,
+      },
+      {
+        heading: "Can you drink alcohol on a GLP-1?",
+        body: `<p><strong>There is no blanket ban on alcohol in the Wegovy or Zepbound labels, but less is better. Alcohol can worsen nausea and dehydration, raises the risk of low blood sugar in people who also take insulin or a sulfonylurea, and heavy drinking is a known risk factor for pancreatitis. Many GLP-1 users find they want less anyway: 45% reported cutting back in a 2026 survey.</strong></p>
+<p><strong>What the guidance says.</strong> The 2025-2030 Dietary Guidelines for Americans, released in January 2026, replaced specific daily limits with the advice to "consume less alcohol for better health." The previous edition recommended no more than two drinks a day for men and one for women. Neither edition is specific to GLP-1s, and the 2025 joint advisory addresses substance use as part of overall lifestyle rather than setting a limit.</p>
+<p><strong>Why alcohol and GLP-1s do not mix well:</strong></p>
+<ul>
+<li><strong>Nausea and reflux.</strong> Alcohol irritates the stomach, which is already working more slowly.</li>
+<li><strong>Dehydration.</strong> Alcohol increases fluid loss - on top of any vomiting or diarrhea from the medication.</li>
+<li><strong>Low blood sugar.</strong> Both medication labels note that the risk of hypoglycemia is higher when GLP-1s are combined with insulin or a sulfonylurea; alcohol adds to that risk.</li>
+<li><strong>Pancreatitis.</strong> Both labels warn about pancreatitis, and heavy alcohol use is an independent risk factor for it.</li>
+<li><strong>Empty calories.</strong> When you eat less, the share of your intake taken up by alcohol rises, crowding out protein and nutrients.</li>
+</ul>
+<p><strong>What the research shows about drinking on GLP-1s.</strong> Early evidence suggests these drugs may reduce the urge to drink:</p>
+<ul>
+<li>In a small randomized trial in people with alcohol use disorder (Hendershot et al., JAMA Psychiatry, 2025; 48 participants), semaglutide reduced drinks per drinking day and alcohol craving, although it did not reduce the number of drinking days.</li>
+<li>In a Swedish registry study of 227,866 people with alcohol use disorder, semaglutide use was associated with a 36% lower risk of alcohol-related hospitalization. That is an association, not proof of cause.</li>
+<li>In EY-Parthenon's 2026 survey of 3,602 users, 45% said they had cut back on alcohol.</li>
+</ul>
+<p><strong>Our practical advice:</strong> if you drink, keep it occasional and modest, never on an empty stomach, alternate with water, and expect to feel the effects sooner than you used to. If you take insulin or a sulfonylurea, talk to your clinician about alcohol specifically.</p>`,
+      },
+      {
+        heading: "Do you need a low-carb or keto diet on a GLP-1?",
+        body: `<p><strong>No. No professional guidance requires a low-carb, keto or any other specific diet pattern on a GLP-1. The 2025 joint advisory recommends a personalized, nutrient-dense, minimally processed diet. Very low-carb eating can be risky for people who also take insulin or a sulfonylurea, because it can add to the risk of low blood sugar.</strong></p>
+<p>The weight loss on a GLP-1 comes mainly from eating less. The pattern of eating matters mostly for nutrition quality, side effects and sustainability - and different patterns can all work if they cover protein, fiber and key nutrients.</p>
+<table>
+<thead><tr><th>Approach</th><th>Works with a GLP-1?</th><th>Watch out for</th></tr></thead>
+<tbody>
+<tr><td>Mediterranean-style (vegetables, legumes, fish, olive oil, whole grains)</td><td>Yes - fits the advisory's emphasis on nutrient-dense, minimally processed food</td><td>Keep oil and portion sizes moderate if fat triggers nausea</td></tr>
+<tr><td>Higher-protein, moderate-carb</td><td>Yes - helps meet protein targets</td><td>Do not crowd out fiber-rich foods</td></tr>
+<tr><td>Low-carb / keto</td><td>Possible for some</td><td>Low fiber, constipation, higher-fat meals that can worsen nausea; hypoglycemia risk with insulin or sulfonylureas - discuss with your clinician</td></tr>
+<tr><td>Vegetarian / vegan</td><td>Yes, with planning</td><td>Protein per bite is lower; plan for B12, iron, calcium and vitamin D</td></tr>
+<tr><td>Intermittent fasting</td><td>Use caution</td><td>Long gaps on top of a suppressed appetite make protein targets very hard to reach</td></tr>
+</tbody>
+</table>
+<p><strong>Sugar and refined carbs.</strong> Many users notice sweets lose their appeal - in one 2025 survey of 411 users, about two-thirds reported fewer cravings. Use that. Sugary drinks and refined snacks add calories without protein or fiber, and very sweet or rich foods can trigger nausea for some people.</p>
+<p><strong>If you have type 2 diabetes,</strong> carbohydrate intake interacts with your other medications. Do not make big changes to carbohydrates, or skip meals, without talking to the clinician who manages your diabetes.</p>`,
+      },
+      {
+        heading: "How many calories should you eat on a GLP-1, and can you lose weight too fast?",
+        body: `<p><strong>There is no official minimum calorie number for GLP-1 users, and the joint advisory does not set one. The safer question is whether you are losing weight at a sustainable pace and still meeting protein and nutrient needs. The NIH notes that losing more than about 3 pounds a week may raise the risk of gallstones, and gallbladder problems are a listed risk on GLP-1 labels.</strong></p>
+<p>Calorie needs vary too much by size, age, sex and activity for one number to fit everyone. What matters on a GLP-1 is the pattern: if you are regularly eating very little - skipping meals, struggling to reach even 60 g of protein, feeling weak or dizzy - the dose may be ahead of your ability to eat well, and that is worth raising with your clinician.</p>
+<p><strong>Gallstones and rapid weight loss.</strong> According to the National Institute of Diabetes and Digestive and Kidney Diseases, rapid weight loss raises the risk of gallstones, and losing weight more gradually lowers it. The medication labels report gallbladder events in clinical trials:</p>
+<table>
+<thead><tr><th>Medication</th><th>Gallstones (cholelithiasis)</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>Wegovy injection (weight-management trials)</td><td>1.6%</td><td>0.7%</td></tr>
+<tr><td>Zepbound</td><td>1.1% (gallbladder inflammation 0.7%)</td><td>1.0% (0.2%)</td></tr>
+</tbody>
+</table>
+<p><strong>A sustainable pace.</strong> Many clinicians consider roughly 0.5% to 1% of body weight a week a reasonable rate during active weight loss. Faster loss is not automatically dangerous, but it raises the share of lean mass lost, the risk of gallstones and the chance that you are not eating enough to cover nutrient needs.</p>
+<p><strong>Signs you may be eating too little:</strong> persistent fatigue or weakness, dizziness, hair shedding, feeling cold, poor concentration, or regularly eating only one real meal a day. Do not respond by forcing large meals - talk to your clinician about slowing the dose escalation, and use the protein-dense, small-portion strategies in this guide.</p>
+<p><strong>If you have a history of an eating disorder,</strong> appetite suppression and food restriction carry particular risks. The joint advisory specifically recommends screening for disordered eating before starting. Make sure your prescriber knows.</p>`,
+      },
+      {
+        heading: "What does a day of eating on a GLP-1 look like?",
+        body: `<p><strong>A good day on a GLP-1 is three small, protein-led meals and one or two planned snacks that add up to roughly 100 g of protein and about 30 g of fiber - without any single large meal. The example below is one way to get there; adjust portions, foods and totals to your own targets and tolerance.</strong></p>
+<table>
+<thead><tr><th>When</th><th>What</th><th>Protein (approx.)</th><th>Fiber (approx.)</th></tr></thead>
+<tbody>
+<tr><td>Breakfast</td><td>6 oz plain nonfat Greek yogurt, 1 tbsp chia seeds, 1 cup raspberries</td><td>19 g</td><td>12 g</td></tr>
+<tr><td>Lunch</td><td>3 oz tuna (canned in water) with a little mayo or olive oil on 2 slices whole-wheat bread, cucumber on the side</td><td>27 g</td><td>5 g</td></tr>
+<tr><td>Snack</td><td>1/2 cup low-fat cottage cheese with a sliced pear</td><td>15 g</td><td>6 g</td></tr>
+<tr><td>Dinner</td><td>3 oz grilled chicken breast, 1/2 cup lentils, 1/2 cup roasted broccoli</td><td>37 g</td><td>11 g</td></tr>
+<tr><td>Evening (optional)</td><td>1 cup milk or a fortified soy drink</td><td>8 g</td><td>0 g</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>About 106 g</strong></td><td><strong>About 34 g</strong></td></tr>
+</tbody>
+</table>
+<p><em>Approximate values based on USDA FoodData Central. Brands and portions vary.</em></p>
+<p><strong>Why this day works:</strong></p>
+<ul>
+<li><strong>No big meals.</strong> The largest single plate is a normal-sized dinner, not a feast.</li>
+<li><strong>Protein at every eating occasion,</strong> so a skipped snack does not sink the day.</li>
+<li><strong>Fiber spread across the day,</strong> rather than one huge serving.</li>
+<li><strong>Calcium and vitamin D</strong> from yogurt, cottage cheese and fortified milk; iron from lentils and chicken.</li>
+<li><strong>Low in greasy food,</strong> which helps with nausea.</li>
+</ul>
+<p><strong>Swaps that keep the numbers similar:</strong> two eggs plus a slice of whole-wheat toast for the yogurt bowl; salmon or shrimp for the chicken; firm tofu and edamame for a plant-based dinner; a protein shake for the snack on a day you cannot face food.</p>
+<p><strong>On a bad day</strong> - the day after a dose increase, say - aim lower and simpler: yogurt, a shake, soup, crackers with cheese, and plenty of fluids. One rough day does not matter; a pattern of them is worth raising with your clinician.</p>
+<p><strong>Vegetarian version:</strong> Greek yogurt bowl at breakfast, a lentil soup with whole-grain bread at lunch, cottage cheese or edamame as a snack, and tofu with vegetables and quinoa at dinner. Vegans will need to plan carefully for protein density, B12, calcium and vitamin D - a dietitian is worth it here.</p>`,
+      },
+      {
+        heading: "How should you eat on a GLP-1 pill?",
+        body: `<p><strong>It depends on the pill. The Wegovy pill (oral semaglutide) must be taken on an empty stomach in the morning with no more than 4 ounces of plain water, followed by a 30-minute wait before eating, drinking anything else or taking other pills. Foundayo (orforglipron) has no food or water restrictions. The same nutrition priorities apply to both.</strong></p>
+<p>The rules for the Wegovy pill shape your breakfast. Because oral semaglutide is absorbed in the stomach with the help of an absorption enhancer, food, coffee and other drinks taken too soon reduce how much of the drug you absorb.</p>
+<table>
+<thead><tr><th></th><th>Wegovy pill</th><th>Foundayo</th><th>Weekly injections</th></tr></thead>
+<tbody>
+<tr><td>Food timing</td><td>Empty stomach; wait at least 30 minutes after the dose</td><td>Any time, with or without food</td><td>Any time, with or without food</td></tr>
+<tr><td>Water with the dose</td><td>No more than 4 oz of plain water</td><td>No restriction</td><td>Not applicable</td></tr>
+<tr><td>Coffee or tea in the morning</td><td>Only after the 30-minute wait</td><td>No restriction</td><td>No restriction</td></tr>
+<tr><td>Other morning pills</td><td>After the 30-minute wait</td><td>Follow your clinician's advice</td><td>No restriction</td></tr>
+</tbody>
+</table>
+<p><strong>Practical tips for the Wegovy pill:</strong></p>
+<ul>
+<li><strong>Keep it by the bed</strong> with a small glass of water, so the dose is the first thing you do.</li>
+<li><strong>Use the 30 minutes:</strong> shower, dress, walk the dog - then eat a protein-led breakfast.</li>
+<li><strong>Do not let the wait become a skipped breakfast.</strong> If mornings are rushed, prepare an easy option the night before, such as yogurt or overnight oats.</li>
+</ul>
+<p>Our <a href="/articles/new-weight-loss-drugs-2026">guide to the new weight-loss drugs of 2026</a> compares the two pills in detail, and our <a href="/articles/glp1-dosage-guide">dosage guide</a> covers their dose schedules.</p>`,
+      },
+      {
+        heading: "How do people's eating habits change on GLP-1s?",
+        body: `<p><strong>Substantially, and in a mostly healthier direction. A Cornell University study of about 150,000 households found grocery spending fell 5.3% within six months of someone starting a GLP-1, with savory snack spending down about 10%. In a 2026 EY-Parthenon survey, 63% of users said they eat fewer sweets and 66% more fresh produce.</strong></p>
+<table>
+<thead><tr><th>Change</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Household grocery spending within 6 months</td><td>-5.3%</td><td>Hristakeva, Liaukonyte and Feler, Journal of Marketing Research (Cornell/Numerator data)</td></tr>
+<tr><td>Savory snack spending</td><td>About -10%</td><td>Same study</td></tr>
+<tr><td>Fast-food and limited-service restaurant spending</td><td>About -8%</td><td>Same study</td></tr>
+<tr><td>Users eating fewer sweets</td><td>63%</td><td>EY-Parthenon, 2026 (3,602 users)</td></tr>
+<tr><td>Users eating more fresh produce</td><td>66%</td><td>EY-Parthenon, 2026</td></tr>
+<tr><td>Users eating fewer salty snacks</td><td>57%</td><td>EY-Parthenon, 2026</td></tr>
+<tr><td>Users drinking fewer soft drinks</td><td>51%</td><td>EY-Parthenon, 2026</td></tr>
+<tr><td>Users reporting fewer food cravings</td><td>About two-thirds</td><td>Moser et al., Diabetes, Obesity and Metabolism, 2025 (411 users)</td></tr>
+</tbody>
+</table>
+<p><strong>Why it happens.</strong> Beyond reducing hunger, GLP-1s appear to change food reward. In a 2025 tirzepatide trial published in Nature Medicine, participants had fewer cravings and smaller brain responses to images of high-fat, high-sugar food. Many users describe it as the "food noise" going quiet.</p>
+<p><strong>The catch.</strong> Wanting less junk food is not the same as eating enough of the right food. The same studies that show fewer snacks also show protein, fiber, calcium and iron falling short. The shift in cravings is an opportunity: it is the easiest time most people will ever have to build better habits, and those habits are what help once treatment changes or stops.</p>`,
+      },
+      {
+        heading: "Are \"GLP-1 friendly\" foods worth buying?",
+        body: `<p><strong>Sometimes, but the label is marketing, not a medical standard. There is no FDA definition of "GLP-1 friendly." Conagra added a GLP-1 Friendly badge to 26 Healthy Choice meals in January 2025 without changing the recipes, and Nestle launched its Vital Pursuit line for GLP-1 users in late 2024. Judge these products by their nutrition label, not the badge.</strong></p>
+<p>Food companies have noticed that GLP-1 users buy less food. Circana estimates that about 23% of US households include a GLP-1 user, and projects these households will account for about 35% of US food and beverage purchases by 2030. Expect more "GLP-1" marketing, not less.</p>
+<p><strong>What a useful product for GLP-1 users actually looks like:</strong></p>
+<ul>
+<li><strong>High protein for its size</strong> - roughly 15-25 g in a small portion.</li>
+<li><strong>Some fiber</strong> - several grams per serving.</li>
+<li><strong>Moderate fat,</strong> because very rich meals can trigger nausea.</li>
+<li><strong>Reasonable sodium and added sugar.</strong></li>
+<li><strong>A small portion size</strong> that matches a reduced appetite.</li>
+</ul>
+<p>Plenty of ordinary foods already meet that description - Greek yogurt, cottage cheese, canned fish, eggs, frozen edamame - usually for less money. A frozen meal with a badge can be a convenient option on a busy night; it is not a requirement, and it is not a substitute for checking the label.</p>`,
+      },
+      {
+        heading: "What should you eat when you stop or lower your GLP-1?",
+        body: `<p><strong>Keep the habits that made treatment work - protein at every meal, plenty of vegetables, fruit and fiber, regular strength training and steady portions - and expect appetite to return. Most people regain weight after stopping: a 2026 BMJ meta-analysis estimated regain at about 0.8 kg (1.8 lb) a month, and people in the STEP-1 extension regained about two-thirds of their lost weight within a year.</strong></p>
+<p>When the medication's appetite effect fades, hunger returns toward its old level while the body's adaptations to weight loss remain. The habits you built while appetite was low are your main defense.</p>
+<p><strong>A practical maintenance plan:</strong></p>
+<ul>
+<li><strong>Plan the transition with your clinician.</strong> Stopping abruptly, tapering, or switching to a lower dose or a pill are different strategies with different evidence.</li>
+<li><strong>Keep protein high.</strong> It is more filling than most foods and supports the muscle you worked to keep.</li>
+<li><strong>Keep strength training.</strong> Muscle helps maintain your energy needs and physical function.</li>
+<li><strong>Keep portions deliberate.</strong> The plate size, slower eating and "stop when satisfied" habits still work without the medication.</li>
+<li><strong>Weigh yourself regularly</strong> and agree in advance on what amount of regain would prompt a conversation about restarting or adjusting treatment.</li>
+</ul>
+<p>Our guide to <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1 and maintenance</a> covers the evidence on what happens after treatment, and our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page collects the numbers on stopping and regain.</p>`,
+      },
+      {
+        heading: "Who should get professional nutrition help on a GLP-1?",
+        body: `<p><strong>Anyone with kidney disease, diabetes treated with insulin or a sulfonylurea, a history of an eating disorder or bariatric surgery, pregnancy plans, ongoing vomiting or diarrhea, or rapid weight loss should have a clinician or registered dietitian involved in their nutrition plan. The 2025 joint advisory recommends a baseline nutrition assessment for everyone starting a GLP-1.</strong></p>
+<table>
+<thead><tr><th>Situation</th><th>Why it needs individual advice</th></tr></thead>
+<tbody>
+<tr><td>Chronic kidney disease</td><td>Protein and fluid needs may be different; high-protein advice may not apply</td></tr>
+<tr><td>Insulin or sulfonylurea use</td><td>Eating less raises the risk of low blood sugar; diabetes medication doses may need adjusting</td></tr>
+<tr><td>History of an eating disorder</td><td>Appetite suppression and restriction carry specific risks; the advisory recommends screening</td></tr>
+<tr><td>Previous bariatric surgery</td><td>Higher baseline risk of nutrient deficiencies</td></tr>
+<tr><td>Pregnancy or planning pregnancy</td><td>GLP-1s are not used in pregnancy; the Wegovy label advises stopping at least 2 months before a planned pregnancy</td></tr>
+<tr><td>Older age or low muscle mass</td><td>Greater risk from lean-mass loss; protein and strength work matter more</td></tr>
+<tr><td>Vegan diet</td><td>Planning needed for protein density, B12, iron, calcium and vitamin D</td></tr>
+<tr><td>Persistent vomiting, diarrhea or very low intake</td><td>Risk of dehydration, kidney injury and deficiencies</td></tr>
+</tbody>
+</table>
+<p><strong>Where to get help.</strong> Many insurance plans cover visits with a registered dietitian, particularly for diabetes. Among the online GLP-1 programs we rank, some build nutrition support into the price: <a href="/reviews/medvi">MEDVi</a> includes dietitian access and coaching, and <a href="/reviews/shed">SHED</a> includes coaching. Others focus on the prescription itself, so you may need to arrange nutrition support separately. Our <a href="/">2026 ranking</a> compares what each program includes.</p>`,
+      },
+      {
+        heading: "GLP-1 nutrition checklist",
+        body: `<p><strong>Use this checklist when you start a GLP-1 and again after each dose increase. It condenses the guidance from the 2025 joint advisory, the American Diabetes Association's 2026 guidance, the Dietary Guidelines and the CDC physical activity guidelines.</strong></p>
+<ol>
+<li><strong>Set a protein target</strong> with your clinician - commonly at least 60 g a day, often around 80-120 g - and track it for a few typical days.</li>
+<li><strong>Eat protein first</strong> at every meal, and include a protein food in snacks.</li>
+<li><strong>Eat three small meals</strong> and plan one or two snacks; do not skip meals because you are not hungry.</li>
+<li><strong>Stop at the first sign of fullness.</strong> Use a smaller plate and eat slowly.</li>
+<li><strong>Limit greasy, fried and very rich meals,</strong> especially in the first days after a dose increase.</li>
+<li><strong>Build fiber gradually</strong> toward about 25 g (women) or 38 g (men) a day.</li>
+<li><strong>Drink steadily</strong> through the day, more with vomiting, diarrhea, heat or exercise.</li>
+<li><strong>Cover key nutrients</strong> - vitamin D, calcium, iron, B12 - through food, and ask whether blood tests make sense for you.</li>
+<li><strong>Strength-train at least twice a week,</strong> plus 150 minutes of moderate activity.</li>
+<li><strong>Keep alcohol occasional and modest,</strong> or skip it - especially if you take insulin or a sulfonylurea.</li>
+<li><strong>Watch for red flags:</strong> severe abdominal pain, inability to keep fluids down, signs of dehydration, or persistent weakness or dizziness. Seek care promptly.</li>
+<li><strong>Plan for maintenance</strong> before you stop or lower your dose.</li>
+</ol>
+<p>The habits matter more than any single food. A medication that cuts your appetite gives you an unusual window to change how you eat; this checklist is how to use it well.</p>`,
+      },
+      {
+        heading: "Sources",
+        body: `<p><strong>The guidance and statistics in this article come from the following professional guidelines, government references and peer-reviewed studies.</strong></p>
+<p><strong>Guidelines and references</strong></p>
+<ul>
+<li>Mozaffarian et al. Nutritional priorities to support GLP-1 therapy for obesity: a joint advisory from the American College of Lifestyle Medicine, the American Society for Nutrition, the Obesity Medicine Association and The Obesity Society. American Journal of Clinical Nutrition, 2025: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12304835/">PMC</a></li>
+<li>American Diabetes Association, Standards of Care in Diabetes 2026, Section 8 (Obesity and weight management): <a href="https://diabetesjournals.org/care/article/49/Supplement_1/S166/163915/">diabetesjournals.org</a></li>
+<li>American Diabetes Association, 2026 guidance on obesity pharmacotherapy: <a href="https://diabetesjournals.org/docm-care/article/1/1/5/164233/">diabetesjournals.org</a></li>
+<li>Oklahoma State University Extension, summary of the Dietary Guidelines for Americans 2025-2030: <a href="https://extension.okstate.edu/fact-sheets/print-publications/fcs/the-new-dietary-guidelines-for-americans-2025-2030-fcs-3629-a.pdf">okstate.edu</a></li>
+<li>CDC, physical activity guidelines for adults: <a href="https://www.cdc.gov/physical-activity-basics/guidelines/adults.html">cdc.gov</a></li>
+<li>NIDDK, dieting and gallstones: <a href="https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/dieting">nih.gov</a></li>
+<li>Zepbound Medication Guide (Eli Lilly): <a href="https://pi.lilly.com/us/zepbound-us-mg.pdf">lilly.com</a></li>
+<li>Wegovy prescribing information: <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s029lbl.pdf">fda.gov</a></li>
+<li>NIH Office of Dietary Supplements, nutrient fact sheets (vitamin D, calcium, iron, vitamin B12, thiamine): <a href="https://ods.od.nih.gov/factsheets/list-all/">nih.gov</a></li>
+<li>USDA FoodData Central (food protein and fiber values): <a href="https://fdc.nal.usda.gov/">usda.gov</a></li>
+</ul>
+<p><strong>Studies</strong></p>
+<ul>
+<li>Friedrichsen et al. The effect of semaglutide 2.4 mg once weekly on energy intake, appetite, control of eating, and gastric emptying in adults with obesity. Diabetes, Obesity and Metabolism, 2021: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7898914/">PMC</a></li>
+<li>Tirzepatide, energy intake and food reward, Nature Medicine, 2025: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12443625/">PMC</a></li>
+<li>Butsch et al., Obesity Pillars, 2025 - new nutritional deficiencies after starting GLP-1 receptor agonists (461,382 adults): <a href="https://pubmed.ncbi.nlm.nih.gov/40584822/">PubMed</a></li>
+<li>Review of nutrient intake in GLP-1 receptor agonist users, Clinical Obesity, 2026: <a href="https://pubmed.ncbi.nlm.nih.gov/41549912/">PubMed</a></li>
+<li>Johnson et al., Frontiers in Nutrition, 2025 - three-day food records of 69 GLP-1 users (doi:10.3389/fnut.2025.1566498)</li>
+<li>SURMOUNT-1 body-composition analysis, Diabetes, Obesity and Metabolism, 2025: <a href="https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.16275">Wiley</a></li>
+<li>STEP-1 trial record (semaglutide 2.4 mg): <a href="https://clinicaltrials.gov/study/NCT03548935">ClinicalTrials.gov</a></li>
+<li>Resistance training and lean mass during weight loss, meta-analysis: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946208/">PMC</a></li>
+<li>Hristakeva, Liaukonyte and Feler, Journal of Marketing Research - GLP-1 use and household grocery spending (Cornell release): <a href="https://www.eurekalert.org/news-releases/1110869">EurekAlert</a></li>
+<li>EY-Parthenon GLP-1 consumer impact report, 2026: <a href="https://www.ey.com/en_us/newsroom/2026/10/glp-1-consumer-impact-report">ey.com</a></li>
+<li>Circana, GLP-1 users and US food and beverage sales, 2025: <a href="https://www.circana.com/post/glp-1-medication-users-to-represent-35-percent-of-u-s-food-and-beverage-sales-by-2030">circana.com</a></li>
+</ul>
+${DISCLAIMER}`,
+      },
+    ],
+  },
+  {
     slug: "glp1-weight-loss-statistics",
     title: "GLP-1 Weight Loss Statistics 2026: Usage, Results, Side Effects, Costs and Coverage",
     description:
@@ -304,7 +807,7 @@ export const weightLossArticles: ArticleData[] = [
 <li><strong>Easy access to a clinician</strong> for dose questions and side-effect advice.</li>
 <li><strong>Reliable refills,</strong> ordered before you run out.</li>
 </ul>
-<p>Our <a href="/articles/glp1-side-effects-first-12-weeks">guide to GLP-1 side effects in the first 12 weeks</a> covers practical ways to manage the most common problems.</p>`,
+<p>Our <a href="/articles/glp1-side-effects-first-12-weeks">guide to GLP-1 side effects in the first 12 weeks</a> covers practical ways to manage the most common problems. For food-specific advice, see <a href="/articles/what-to-eat-on-glp1">what to eat on a GLP-1</a>.</p>`,
       },
       {
         heading: "What happens to weight after stopping a GLP-1?",
@@ -2632,7 +3135,7 @@ ${DISCLAIMER}`,
       },
       {
         heading: "How should I eat and exercise while taking a GLP-1?",
-        body: `<p><strong>Prioritize protein at every meal, drink enough fluids, and add resistance training two to three times a week. These habits help preserve lean muscle during weight loss, ease common side effects and make results easier to maintain.</strong></p>
+        body: `<p><strong>Prioritize protein at every meal, drink enough fluids, and add resistance training two to three times a week. These habits help preserve lean muscle during weight loss, ease common side effects and make results easier to maintain.</strong> Our <a href="/articles/what-to-eat-on-glp1">guide to what to eat on a GLP-1</a> covers protein targets, the best foods, fiber, hydration and a sample day of eating.</p>
 <p>A GLP-1 makes eating less easier, but it does not choose what you eat. With a smaller appetite, every meal carries more nutritional weight. The habits with the best support are simple:</p>
 <ul>
 <li><strong>Protein first.</strong> Weight loss includes some lean mass, not only fat. Eating enough protein helps preserve muscle. Start meals with the protein portion - eggs, fish, poultry, Greek yogurt, beans, tofu - before the appetite runs out. Ask your clinician or a dietitian for a daily target that fits you.</li>
