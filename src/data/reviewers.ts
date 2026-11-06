@@ -282,6 +282,8 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/new-weight-loss-drugs-2026": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
   // 2026-11-04: GLP-1 weight loss statistics article.
   "/articles/glp1-weight-loss-statistics": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-04" },
+  // 2026-11-06: what to eat on a GLP-1.
+  "/articles/what-to-eat-on-glp1": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-06" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {
