@@ -7,6 +7,867 @@ const DISCLAIMER = `<p><em>This article is general information, not medical advi
 
 export const weightLossArticles: ArticleData[] = [
   {
+    slug: "tirzepatide-online",
+    title: "Tirzepatide Online (2026): Cost, Compounded vs Zepbound, Safety and the Best Providers",
+    description:
+      "How to get tirzepatide online in 2026: Zepbound vs compounded, real costs from $89 to $449 a month, legality, safety, dosing and the top online providers.",
+    category: "Guides",
+    readTime: "55 min read",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    heroColor: "#E8F1FD",
+    author: "The Top Weight Loss Editorial Team",
+    keyTakeaways: [
+      "You can get tirzepatide online only with a prescription from a licensed clinician: as brand-name Zepbound ($299-$449 a month self-pay through LillyDirect with on-time refills, as little as $25 with covered insurance, or $50 through the Medicare GLP-1 Bridge for eligible beneficiaries) or as compounded tirzepatide (about $89-$299 a month at the programs we rank), which is not FDA-approved.",
+      "In SURMOUNT-1, tirzepatide produced 15.0%, 19.5% and 20.9% average weight loss at 5, 10 and 15 mg over 72 weeks, and it beat semaglutide head to head in SURMOUNT-5 (20.2% vs 13.7%).",
+      "Broad compounding ended when the FDA declared the tirzepatide shortage resolved on December 19, 2024; 503A pharmacies may still compound it for documented patient-specific needs, the FDA has proposed barring 503B facilities, and it had received more than 730 adverse event reports for compounded tirzepatide by May 31, 2026.",
+      "Our top three online providers for tirzepatide are embody ($119/mo compounded, month-to-month), ro (brand-name Zepbound with insurance support) and altRx ($149/mo promo, flat at every dose); wellmedr has the lowest compounded price at $89/mo.",
+    ],
+    sections: [
+      {
+        heading: "Can you get tirzepatide online?",
+        body: `<p><strong>Yes. You can get tirzepatide online through a telehealth program, but only with a prescription from a licensed clinician who has reviewed your health history. You will receive either brand-name Zepbound (FDA-approved for weight management), sometimes Mounjaro (approved for type 2 diabetes), or compounded tirzepatide made by a pharmacy, which is not FDA-approved. Prices range from about $89 to $449 a month depending on the route.</strong></p>
+<p>Tirzepatide has become the GLP-1 most people ask us about. It produced more weight loss than semaglutide in a head-to-head trial, and by early 2026 it had overtaken semaglutide in prescription data from Epic Research. That popularity has also produced a lot of confusing advice online - much of it from companies selling the drug. This guide is our attempt to cut through it.</p>
+<p>There are three legitimate ways to get tirzepatide online in 2026, and they differ sharply in price, regulation and convenience:</p>
+<table>
+<thead><tr><th>Route</th><th>What you get</th><th>FDA-approved?</th><th>Typical monthly cost</th></tr></thead>
+<tbody>
+<tr><td>Brand-name Zepbound, self-pay</td><td>Lilly's product as vials or a multi-dose KwikPen, bought through LillyDirect or a pharmacy</td><td>Yes</td><td>$299-$449 with on-time refills</td></tr>
+<tr><td>Brand-name Zepbound with insurance or Medicare</td><td>The same product, billed to your plan</td><td>Yes</td><td>As little as $25 with a savings card (commercial) or $50 (Medicare GLP-1 Bridge, if eligible)</td></tr>
+<tr><td>Compounded tirzepatide</td><td>A pharmacy-made version, usually in multi-dose vials, prescribed through a telehealth program</td><td>No</td><td>About $89-$299 among the programs we rank</td></tr>
+</tbody>
+</table>
+<p>What you should <strong>not</strong> do is buy tirzepatide without a prescription. Websites selling "research peptides" or "tirzepatide for research use only" are not pharmacies, and the FDA warns that these products are of unknown quality. We cover the warning signs later in this guide.</p>
+<p><strong>What this guide covers:</strong> what tirzepatide is and how well it works; exactly what it costs through each route; whether compounded tirzepatide is still legal and how safe it is; how to tell Zepbound, Mounjaro and compounded products apart; how the online process works; side effects, dosing and stopping; and how the nine online programs we rank compare for tirzepatide specifically. Every figure is sourced, and the full source list is at the end.</p>
+<p>One ground rule throughout: a licensed clinician - not a website, and not this guide - decides whether tirzepatide is appropriate for you.</p>`,
+      },
+      {
+        heading: "What is tirzepatide?",
+        body: `<p><strong>Tirzepatide is a once-weekly injectable medication that activates two gut-hormone receptors, GIP and GLP-1. Eli Lilly sells it as Zepbound, FDA-approved in November 2023 for chronic weight management, and as Mounjaro, approved in 2022 for type 2 diabetes. Pharmacies also make compounded versions, which are not FDA-approved.</strong></p>
+<table>
+<thead><tr><th></th><th>Zepbound</th><th>Mounjaro</th><th>Compounded tirzepatide</th></tr></thead>
+<tbody>
+<tr><td>Maker</td><td>Eli Lilly</td><td>Eli Lilly</td><td>Licensed compounding pharmacies</td></tr>
+<tr><td>FDA-approved use</td><td>Chronic weight management; moderate to severe obstructive sleep apnea in adults with obesity</td><td>Type 2 diabetes</td><td>None - not FDA-approved</td></tr>
+<tr><td>Forms</td><td>Single-dose pens, single-dose vials, multi-dose KwikPen</td><td>Pens</td><td>Usually multi-dose vials; sometimes other formats</td></tr>
+<tr><td>Doses</td><td>2.5 to 15 mg weekly</td><td>2.5 to 15 mg weekly</td><td>Prescribed in milligrams; volume depends on the vial's concentration</td></tr>
+<tr><td>Reviewed by FDA for safety, effectiveness and quality</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+</tbody>
+</table>
+<p><strong>Zepbound vs Mounjaro.</strong> They contain the same molecule at the same strengths. The difference is the approved use - and, in practice, insurance coverage. Plans that cover Mounjaro for diabetes usually will not cover it for weight loss alone, which is why weight-management patients are generally prescribed Zepbound. Prescribing Mounjaro for weight loss is legal off-label use, but it is uncommon in online weight programs.</p>
+<p><strong>Compounded tirzepatide.</strong> Compounding pharmacies prepare medications for individual patients. During the 2022-2024 tirzepatide shortage, pharmacies were allowed to make broad copies; since the FDA declared the shortage over, that room has narrowed sharply. The active ingredient may be the same molecule, but the finished product is made by a different process, may contain additives, and has not been through FDA review. The legal section below explains where things stand in 2026.</p>
+<p><strong>How it is taken.</strong> One injection under the skin, once a week, on the same day each week - in the abdomen, thigh or upper arm. Tirzepatide has a half-life of about five days, which is why weekly dosing works.</p>`,
+      },
+      {
+        heading: "How does tirzepatide work for weight loss?",
+        body: `<p><strong>Tirzepatide mimics two hormones your gut releases after eating - GIP and GLP-1. Together they reduce appetite, increase fullness, slow stomach emptying and improve blood-sugar control. Most of the weight loss comes from eating less, with less of the hunger that usually fights back during a diet.</strong></p>
+<p>The older drugs in this class, such as semaglutide, act only on the GLP-1 receptor. Tirzepatide is a "dual agonist": it also activates the receptor for GIP (glucose-dependent insulinotropic polypeptide), another gut hormone involved in appetite and metabolism. That second mechanism is the leading explanation for why tirzepatide produced more weight loss than semaglutide in the SURMOUNT-5 head-to-head trial.</p>
+<p><strong>What people notice:</strong></p>
+<ul>
+<li><strong>Less hunger and smaller portions.</strong> In a 2025 trial published in Nature Medicine, people on tirzepatide ate about 525 fewer calories than placebo at an all-you-can-eat lunch by week three.</li>
+<li><strong>Fewer cravings.</strong> The same trial found fewer cravings and smaller brain responses to images of high-fat, high-sugar food. Many users describe "food noise" going quiet.</li>
+<li><strong>Feeling full sooner.</strong> Slower stomach emptying means a smaller meal feels like enough - and eating past fullness is a common cause of nausea.</li>
+<li><strong>Better blood sugar.</strong> The same mechanism is why Mounjaro treats type 2 diabetes, and why tirzepatide sharply reduced progression from prediabetes to diabetes in trials.</li>
+</ul>
+<p><strong>What it does not do.</strong> It does not "melt fat" or work without eating less. And because appetite signals return when the drug leaves your system, most people regain weight after stopping - a point we come back to in the section on stopping tirzepatide.</p>`,
+      },
+      {
+        heading: "How popular is tirzepatide in 2026?",
+        body: `<p><strong>Tirzepatide is now the most-prescribed GLP-1 for many patients. In Epic Research's health-record data, tirzepatide prescriptions reached about 4,700 per 100,000 patients in early 2026, ahead of semaglutide at about 3,900. Eli Lilly reported 2025 Zepbound revenue of $13.5 billion, up 175%, and US Zepbound revenue of $5.3 billion in the third quarter of 2026 alone.</strong></p>
+<table>
+<thead><tr><th>Measure</th><th>Figure</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Tirzepatide prescriptions per 100,000 patients</td><td>About 4,700 (Q1 2026)</td><td>Epic Research, May 2026</td></tr>
+<tr><td>Semaglutide prescriptions per 100,000 patients</td><td>About 3,900 (Q1 2026)</td><td>Epic Research, May 2026</td></tr>
+<tr><td>Zepbound revenue, 2025</td><td>$13.54 billion (+175%)</td><td>Eli Lilly 2025 annual report</td></tr>
+<tr><td>Mounjaro revenue, 2025</td><td>$22.97 billion (+99%)</td><td>Eli Lilly 2025 annual report</td></tr>
+<tr><td>US Zepbound revenue, Q3 2026</td><td>$5.3 billion (+48%)</td><td>Eli Lilly, October 2026</td></tr>
+<tr><td>Lilly volume vs price, Q3 2026</td><td>Volume +53%; realized price -15%</td><td>Eli Lilly, October 2026</td></tr>
+<tr><td>US adults currently taking a GLP-1 (any reason)</td><td>12%</td><td>KFF poll, November 2025</td></tr>
+</tbody>
+</table>
+<p><strong>Why it took off.</strong> Three things: stronger average results than semaglutide in head-to-head data, the end of the 2022-2024 supply shortage, and sharply lower cash prices through LillyDirect. The last line in Lilly's results tells the consumer story - many more people buying, at lower prices per prescription.</p>
+<p><strong>What popularity means for you.</strong> More competition and lower prices, but also more aggressive marketing - including compounded and gray-market products sold on the back of Zepbound's name. The rest of this guide is about telling those apart. Our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page has the wider numbers on usage, results and costs.</p>`,
+      },
+      {
+        heading: "How much weight can you lose on tirzepatide?",
+        body: `<p><strong>In the SURMOUNT-1 trial, adults without diabetes lost an average of 15.0% of their body weight on 5 mg, 19.5% on 10 mg and 20.9% on 15 mg over 72 weeks, compared with 3.1% on placebo. More than half of people on the 15 mg dose (56.7%) lost at least 20%. In real-world care, results are smaller, mainly because many people stop early.</strong></p>
+<table>
+<thead><tr><th>Dose (SURMOUNT-1, 72 weeks)</th><th>Average weight loss</th><th>Lost at least 5%</th><th>Lost at least 20%</th></tr></thead>
+<tbody>
+<tr><td>5 mg</td><td>15.0%</td><td>85.1%</td><td>30.0%</td></tr>
+<tr><td>10 mg</td><td>19.5%</td><td>88.9%</td><td>50.1%</td></tr>
+<tr><td>15 mg</td><td>20.9%</td><td>90.9%</td><td>56.7%</td></tr>
+<tr><td>Placebo</td><td>3.1%</td><td>34.5%</td><td>3.1%</td></tr>
+</tbody>
+</table>
+<p><em>Treatment-policy results, which count everyone randomized. Lilly's headline "up to 22.5%" is the higher on-treatment estimate.</em></p>
+<p><strong>In pounds.</strong> For a 230 lb adult, those averages translate to roughly 35 lb at 5 mg, 45 lb at 10 mg and 48 lb at 15 mg over about 17 months. Individual results range widely in both directions.</p>
+<p><strong>Other trials.</strong></p>
+<ul>
+<li><strong>SURMOUNT-5 (NEJM, 2025):</strong> in a direct comparison, tirzepatide produced 20.2% average weight loss vs 13.7% for semaglutide at 72 weeks, and 48.4% vs 27.3% lost at least 20%.</li>
+<li><strong>SURMOUNT-4:</strong> people who stayed on tirzepatide after 36 weeks went on to lose a total of 25.3% over 88 weeks.</li>
+<li><strong>People with type 2 diabetes</strong> tend to lose less weight on GLP-1 drugs than people without diabetes.</li>
+</ul>
+<p><strong>Real-world results.</strong> In a Truveta study published in JAMA Internal Medicine in 2024, people who stayed on tirzepatide lost an average of 15.3% at 12 months, compared with 8.3% on semaglutide. In a 2025 Cleveland Clinic study of semaglutide and tirzepatide users, people who stayed on treatment for a year lost 11.9%, while those who stopped within three months lost just 3.6%. The single biggest predictor of results is staying on treatment.</p>`,
+      },
+      {
+        heading: "How long does it take tirzepatide to work?",
+        body: `<p><strong>Many people notice reduced appetite within the first few weeks, but weight loss builds slowly over months. The first four weeks at 2.5 mg are mainly for tolerability, the dose usually rises every four weeks or more, and in SURMOUNT-1 weight continued to fall until roughly the end of the 72-week trial.</strong></p>
+<table>
+<thead><tr><th>Period</th><th>What typically happens</th></tr></thead>
+<tbody>
+<tr><td>Weeks 1-4 (2.5 mg)</td><td>A starting dose to let your gut adjust. Some appetite reduction; modest weight change. Little effect is normal.</td></tr>
+<tr><td>Weeks 5-12 (5 mg and possibly 7.5 mg)</td><td>Appetite effects become clearer. Digestive side effects are most common in the days after each increase.</td></tr>
+<tr><td>Months 3-6</td><td>Steady weight loss for most people as doses reach maintenance levels.</td></tr>
+<tr><td>Months 6-18</td><td>Weight loss continues more slowly, then levels off. In SURMOUNT-1, the curve flattened toward the end of 72 weeks.</td></tr>
+</tbody>
+</table>
+<p><strong>Why it is slow.</strong> Tirzepatide's half-life is about five days, so each dose change takes several weeks to settle. Doses are also raised gradually - in 2.5 mg steps, at least four weeks apart - to reduce nausea and other side effects. The four-week interval is a minimum, not a deadline; many clinicians hold a step longer if side effects are still bothersome or weight is already falling steadily.</p>
+<p><strong>A useful benchmark.</strong> If you have been on a maintenance dose for several months, taking it consistently, and have lost less than 5% of your starting weight, talk to your clinician. Options include a dose adjustment, looking at diet and activity, or switching medication.</p>
+<p>Our <a href="/articles/glp1-side-effects-first-12-weeks">guide to the first 12 weeks</a> walks through what most people feel at each dose step.</p>`,
+      },
+      {
+        heading: "How much does tirzepatide cost without insurance?",
+        body: `<p><strong>Without insurance, brand-name Zepbound costs $299 a month for 2.5 mg, $399 for 5 mg and $449 for 7.5 mg to 15 mg through LillyDirect when you refill within 45 days; late refills on higher doses cost $499 to $699. Compounded tirzepatide from the online programs we rank costs about $89 to $299 a month. A year at a maintenance dose runs from about $1,068 to $5,388.</strong></p>
+<p><strong>Brand-name Zepbound, self-pay (LillyDirect, October-November 2026).</strong> Lilly says vials and the KwikPen are priced the same:</p>
+<table>
+<thead><tr><th>Dose</th><th>Refill within 45 days</th><th>Refill later than 45 days</th></tr></thead>
+<tbody>
+<tr><td>2.5 mg</td><td>$299/month</td><td>$299/month</td></tr>
+<tr><td>5 mg</td><td>$399/month</td><td>$399/month</td></tr>
+<tr><td>7.5 mg</td><td>$449/month</td><td>$499/month</td></tr>
+<tr><td>10 mg, 12.5 mg, 15 mg</td><td>$449/month</td><td>$699/month</td></tr>
+</tbody>
+</table>
+<p><strong>Compounded tirzepatide at the online programs we rank (provider-published prices, fall 2026):</strong></p>
+<table>
+<thead><tr><th>Provider</th><th>Compounded tirzepatide</th><th>Same price at every dose?</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td><a href="/reviews/wellmedr">wellmedr</a></td><td>$89/mo</td><td>Yes</td><td>Shipped every 4 weeks</td></tr>
+<tr><td><a href="/reviews/embody">embody</a></td><td>$119/mo (regular $129)</td><td>Yes</td><td>Month-to-month; ships in 1-2 days</td></tr>
+<tr><td><a href="/reviews/directmeds">DirectMeds</a></td><td>$147/mo</td><td>Yes</td><td>Injection or sublingual drops</td></tr>
+<tr><td><a href="/reviews/altrx">altRx</a></td><td>$149/mo promo (regular $299)</td><td>Yes</td><td>Parent company received an FDA warning letter in June 2026</td></tr>
+<tr><td><a href="/reviews/medvi">MEDVi</a></td><td>$166/mo promo (regular $299)</td><td>Not stated - ask</td><td>Dietitian and coaching included</td></tr>
+<tr><td><a href="/reviews/trimrx">trimrx</a></td><td>$259/mo</td><td>Confirm with provider</td><td>Custom dosing, unlimited check-ins</td></tr>
+<tr><td><a href="/reviews/shed">SHED</a></td><td>From $299/mo (20% off month one)</td><td>Starting price</td><td>Coaching and a 5%-in-120-days guarantee</td></tr>
+</tbody>
+</table>
+<p><em><a href="/reviews/ro">ro</a> prescribes brand-name Zepbound only, with a membership ($39 the first month, then $149 a month, or about $74 a month on an annual plan) plus the medication cost. <a href="/reviews/medgm">MEDGm</a> offers Zepbound for a $99 membership plus medication, and compounded GLP-1 injections from $169 a month without naming the molecule in its public pricing.</em></p>
+<p><strong>What a year costs at a maintenance dose:</strong></p>
+<table>
+<thead><tr><th>Route</th><th>Approximate cost for 12 months</th></tr></thead>
+<tbody>
+<tr><td>Compounded, lowest price on our list (wellmedr)</td><td>$1,068 (12 x $89); $1,157 if billed every 4 weeks (13 x $89)</td></tr>
+<tr><td>Compounded, embody</td><td>$1,428 (12 x $119)</td></tr>
+<tr><td>Compounded, altRx or MEDVi after promos end</td><td>About $3,438-$3,455</td></tr>
+<tr><td>Zepbound self-pay, on-time refills</td><td>$5,388 (12 x $449)</td></tr>
+<tr><td>Zepbound through ro, self-pay (membership + medication)</td><td>About $6,276 with the annual membership (12 x $74 + 12 x $449)</td></tr>
+</tbody>
+</table>
+<p>Prices change often; confirm at checkout. The gap between compounded and brand-name tirzepatide is now hundreds of dollars a month, not more than a thousand as it was before Lilly's 2025-2026 price cuts.</p>`,
+      },
+      {
+        heading: "What is the cheapest way to get tirzepatide?",
+        body: `<p><strong>If your insurance covers Zepbound, a manufacturer savings card can bring the cost to as little as $25 a month; eligible Medicare beneficiaries pay $50 through the GLP-1 Bridge. Without coverage, compounded tirzepatide is cheapest - from $89 a month among the programs we rank - while brand-name Zepbound costs $299-$449 a month self-pay with on-time refills.</strong></p>
+<p>Here is the order we would check, from cheapest to most expensive:</p>
+<ol>
+<li><strong>Your insurance.</strong> Ask whether Zepbound is on your formulary for weight management and what prior authorization requires. If it is covered, Lilly's savings card can reduce the copay for commercially insured patients to as little as $25 a month. Telehealth services with insurance support, such as <a href="/reviews/ro">ro</a>, check coverage and handle prior authorizations for you.</li>
+<li><strong>Medicare GLP-1 Bridge</strong> (if you are on Medicare Part D). From July 1, 2026 through December 31, 2027, eligible beneficiaries can get the Zepbound KwikPen for a $50 copay. Note that the Bridge covers the KwikPen only - not Zepbound vials or single-dose pens.</li>
+<li><strong>Sleep apnea coverage.</strong> Zepbound is FDA-approved for moderate to severe obstructive sleep apnea in adults with obesity. That indication can open coverage on plans that exclude weight-loss drugs; ask your clinician whether it applies.</li>
+<li><strong>Compounded tirzepatide.</strong> From $89 a month (<a href="/reviews/wellmedr">wellmedr</a>) to $299 at the programs we rank. Not FDA-approved; see the legal and safety sections below.</li>
+<li><strong>Zepbound self-pay.</strong> $299 at 2.5 mg rising to $449 at higher doses with refills within 45 days.</li>
+</ol>
+<p><strong>Ways to keep the price down on any route:</strong></p>
+<ul>
+<li><strong>Choose flat pricing.</strong> Several compounded programs charge the same at every dose, so your bill does not rise as you titrate up. LillyDirect and most dose-tiered programs do not.</li>
+<li><strong>Refill on time.</strong> On LillyDirect, a late refill on higher doses can cost $250 more a month.</li>
+<li><strong>Know when promos end.</strong> altRx's $149 and MEDVi's $166 tirzepatide prices are promotional; regular prices are $299.</li>
+<li><strong>Check billing cadence.</strong> A plan that bills every four weeks has 13 billing cycles a year, not 12.</li>
+<li><strong>Stay at the lowest dose that works.</strong> In SURMOUNT-1, 5 mg already produced about 15% average weight loss; there is no rule that everyone must reach 15 mg.</li>
+</ul>
+<p>Our <a href="/articles/real-cost-of-glp1-weight-loss">real cost of GLP-1 weight loss</a> guide covers the fine print line by line.</p>`,
+      },
+      {
+        heading: "Tirzepatide vs semaglutide: which costs less per year?",
+        body: `<p><strong>Semaglutide usually costs less, but the gap depends on the route. At manufacturer self-pay prices, a year of Wegovy at a maintenance dose costs about $4,188 vs about $5,388 for Zepbound with on-time refills. Among the compounded programs we rank, semaglutide starts at $49 a month and tirzepatide at $89 - so the cheapest compounded tirzepatide still costs less than many programs' semaglutide.</strong></p>
+<table>
+<thead><tr><th>Route</th><th>Semaglutide, 12 months</th><th>Tirzepatide, 12 months</th></tr></thead>
+<tbody>
+<tr><td>Brand-name, manufacturer self-pay (maintenance dose)</td><td>About $4,188 (Wegovy, 12 x $349)</td><td>About $5,388 (Zepbound, 12 x $449, on-time refills)</td></tr>
+<tr><td>Brand-name, higher-dose option</td><td>About $4,788 (Wegovy HD 7.2 mg, 12 x $399)</td><td>-</td></tr>
+<tr><td>Compounded, lowest on our list</td><td>$588 (wellmedr, 12 x $49 on a 12-month plan)</td><td>$1,068 (wellmedr, 12 x $89)</td></tr>
+<tr><td>Compounded, embody (month-to-month)</td><td>$828 (12 x $69)</td><td>$1,428 (12 x $119)</td></tr>
+<tr><td>Compounded, DirectMeds</td><td>$1,764 (12 x $147)</td><td>$1,764 (12 x $147)</td></tr>
+<tr><td>With insurance coverage</td><td colspan="2">Depends on your plan; manufacturer savings cards can bring copays as low as $25 a month</td></tr>
+<tr><td>Medicare GLP-1 Bridge (eligible beneficiaries)</td><td>$600 ($50 a month, Wegovy pens or pill)</td><td>$600 ($50 a month, Zepbound KwikPen)</td></tr>
+</tbody>
+</table>
+<p><strong>Cost per pound lost.</strong> A rough way to think about value: tirzepatide costs more, but in SURMOUNT-5 it produced about 1.5 times the average weight loss of semaglutide (20.2% vs 13.7%). For someone whose main goal is the largest possible weight loss, the extra cost may buy meaningfully more result. For someone who reaches their goal comfortably on semaglutide, it may not.</p>
+<p><strong>The cheapest option overall</strong> is whichever drug your insurance covers. If neither is covered, compare a full year at the dose you expect to stay on, including any membership fees and the price after promotions end.</p>`,
+      },
+      {
+        heading: "Does insurance cover Zepbound?",
+        body: `<p><strong>Sometimes. Coverage for weight management depends entirely on your plan, and most employer plans do not cover GLP-1s for weight loss - only 18% of firms with 200 or more workers did in KFF's 2026 survey. CVS Caremark, one of the largest pharmacy benefit managers, dropped Zepbound from its main formulary in July 2025 and restored it as a preferred option from October 1, 2026. With coverage, Lilly's savings card can cut the copay to as little as $25 a month.</strong></p>
+<table>
+<thead><tr><th>Coverage route</th><th>What to know</th></tr></thead>
+<tbody>
+<tr><td>Commercial insurance</td><td>Check whether Zepbound is on your formulary for weight management and what prior authorization requires; savings card can bring copays as low as $25 a month when covered</td></tr>
+<tr><td>CVS Caremark plans</td><td>Zepbound excluded from the standard formulary from July 1, 2025 in favor of Wegovy; restored as a preferred option from October 1, 2026</td></tr>
+<tr><td>Medicare GLP-1 Bridge</td><td>$50 a month for eligible Part D enrollees, July 1, 2026 to December 31, 2027 - Zepbound KwikPen only</td></tr>
+<tr><td>Medicare Part D, sleep apnea</td><td>Plans may cover Zepbound for obstructive sleep apnea, plan by plan</td></tr>
+<tr><td>Medicaid</td><td>Only 13 state programs covered GLP-1s for obesity as of January 2026 (KFF)</td></tr>
+<tr><td>Mounjaro</td><td>Usually covered only with a type 2 diabetes diagnosis</td></tr>
+</tbody>
+</table>
+<p><strong>The Medicare GLP-1 Bridge in brief.</strong> Eligibility depends on BMI and specific conditions - for example, a BMI of 35 or higher, or lower BMI thresholds combined with conditions such as heart failure with preserved ejection fraction, uncontrolled high blood pressure, kidney disease, prediabetes, or a previous heart attack or stroke, according to KFF's summary of the CMS criteria. People with type 2 diabetes, moderate to severe sleep apnea or MASH are handled through regular Part D instead. Your prescriber requests prior authorization; enrollment is not automatic.</p>
+<p><strong>How to improve your chances:</strong></p>
+<ul>
+<li>Ask your plan for its exact criteria (BMI, documented conditions, prior attempts at weight loss) before your clinician submits a request.</li>
+<li>If you have diagnosed obstructive sleep apnea, ask whether that indication changes coverage.</li>
+<li>Use a provider that handles prior authorizations - <a href="/reviews/ro">ro</a>'s insurance concierge does this.</li>
+<li>If coverage is denied, compare Zepbound self-pay ($299-$449) with compounded programs before deciding.</li>
+</ul>`,
+      },
+      {
+        heading: "Is compounded tirzepatide legal in 2026?",
+        body: `<p><strong>Compounded tirzepatide is still legal in limited circumstances, but far narrower ones than during the shortage. The FDA removed tirzepatide from its drug shortage list on December 19, 2024, ending broad compounding of copies. State-licensed 503A pharmacies may still compound it for an individual patient when the prescriber documents a significant clinical difference, such as a dose not available commercially. The FDA has proposed barring larger 503B outsourcing facilities from compounding it altogether.</strong></p>
+<p>The rules changed in stages, and much of the online confusion comes from out-of-date information. Here is the timeline from FDA documents:</p>
+<table>
+<thead><tr><th>Date</th><th>What happened</th></tr></thead>
+<tbody>
+<tr><td>Dec 15, 2022</td><td>Tirzepatide added to the FDA drug shortage list - compounded copies allowed</td></tr>
+<tr><td>Oct 2, 2024</td><td>FDA says the shortage is resolved</td></tr>
+<tr><td>Oct 22, 2024</td><td>Decision sent back for reevaluation after a legal challenge by compounders</td></tr>
+<tr><td>Dec 19, 2024</td><td>FDA issues a final order: the shortage is resolved</td></tr>
+<tr><td>Feb 18, 2025</td><td>End of the grace period for 503A pharmacies (FDA later said the period effectively ended on March 5, 2025, when a court denied the compounders' request for an injunction)</td></tr>
+<tr><td>Mar 19, 2025</td><td>End of the grace period for 503B outsourcing facilities</td></tr>
+<tr><td>Mar 3, 2026</td><td>FDA warns 30 telehealth companies over illegal marketing of compounded GLP-1s</td></tr>
+<tr><td>Apr 30, 2026</td><td>FDA proposes excluding tirzepatide, semaglutide and liraglutide from the 503B bulks list; the comment period was extended to July 30, 2026</td></tr>
+<tr><td>Sept 18, 2026</td><td>FDA warning letter to Empower Pharmacy, a large compounder, over tirzepatide and semaglutide products</td></tr>
+</tbody>
+</table>
+<p><strong>The rule that matters now: "essentially a copy."</strong> Outside a shortage, a 503A pharmacy may not regularly compound a drug that is essentially a copy of a commercially available FDA-approved product. A compounded product is not considered a copy if the prescriber documents that a change produces a significant difference for the specific patient - for example, a dose strength that Zepbound does not come in. Pharmacies that fill four or fewer such prescriptions a month are exempt from this limit.</p>
+<p><strong>What FDA found at Empower.</strong> In its September 2026 warning letter, the FDA said it found "significant difference" notes copied word for word across many patients' records, and described the stated differences as pretextual. In plain terms: writing a generic justification on every prescription does not make mass compounding legal.</p>
+<p><strong>503B facilities.</strong> Larger outsourcing facilities can only compound from substances on an FDA "bulks list" or drugs in shortage. As of April 2026, tirzepatide was on neither list, and the FDA has proposed formally excluding it. We found no final decision as of early November 2026.</p>
+<p><strong>What this means for you.</strong> Compounded tirzepatide from a licensed 503A pharmacy, prescribed for your individual clinical needs, can be lawful. But the legal ground is narrow and still shifting, enforcement has increased, and a program's supply could change. Ask your provider which pharmacy fills your prescription, what clinical difference is documented, and what their plan is if the rules tighten further. We are not giving legal advice, and the details can change quickly.</p>`,
+      },
+      {
+        heading: "Is compounded tirzepatide safe?",
+        body: `<p><strong>Compounded tirzepatide is not FDA-approved, which means the FDA has not reviewed its safety, effectiveness or quality. As of May 31, 2026, the FDA had received more than 730 adverse event reports linked to compounded tirzepatide. Many people use it without problems, but the risks are higher than with Zepbound - especially dosing errors and quality issues - so where you get it matters.</strong></p>
+<table>
+<thead><tr><th>Risk</th><th>What the FDA and evidence say</th><th>How to reduce it</th></tr></thead>
+<tbody>
+<tr><td>No FDA review of the product</td><td>Compounded drugs are not reviewed for safety, effectiveness or quality before reaching patients</td><td>Use a state-licensed pharmacy you can identify; ask which one fills your prescription</td></tr>
+<tr><td>Adverse event reports</td><td>More than 730 reports for compounded tirzepatide and 990 for compounded semaglutide as of May 31, 2026 (FDA)</td><td>Report side effects to your provider; know the warning signs below</td></tr>
+<tr><td>Dosing errors</td><td>FDA has warned about patients drawing up the wrong volume from multi-dose vials, sometimes several times the intended dose</td><td>Get the concentration and unit count in writing; use the right syringe; recalculate when the vial changes</td></tr>
+<tr><td>Quality and sterility</td><td>Compounded injectables have been recalled for lack of assurance of sterility</td><td>Avoid unusually cheap sources; check the label, beyond-use date and appearance</td></tr>
+<tr><td>Additives and salt forms</td><td>Some compounded GLP-1 products contain added ingredients or different salt forms; the FDA has raised concerns about semaglutide salts specifically</td><td>Ask exactly what is in your vial and why</td></tr>
+<tr><td>Gray-market "research" products</td><td>FDA warns these are of unknown quality and has sent warning letters to sellers</td><td>Never buy without a prescription from a licensed program</td></tr>
+</tbody>
+</table>
+<p><strong>Putting the numbers in context.</strong> Adverse event reports are submitted voluntarily, do not prove the drug caused the problem, and cannot be turned into a rate because no one knows exactly how many people use compounded tirzepatide. They do show that problems are being reported in meaningful numbers, which is one reason the FDA keeps a dedicated warning page on unapproved GLP-1s.</p>
+<p><strong>The same drug risks apply.</strong> Compounded or not, tirzepatide carries the same class risks as Zepbound: digestive side effects, pancreatitis, gallbladder disease, dehydration and kidney problems, low blood sugar with insulin or sulfonylureas, and the thyroid C-cell tumor warning from rodent studies.</p>
+<p><strong>Our view.</strong> If you choose compounded tirzepatide, choose a program that names its pharmacy, states the concentration and unit count, gives you access to a clinician, and never calls its product FDA-approved. If you can afford Zepbound or have coverage, the FDA-approved product removes most of these uncertainties.</p>`,
+      },
+      {
+        heading: "Compounded tirzepatide vs Zepbound: what is the difference?",
+        body: `<p><strong>Zepbound is Eli Lilly's FDA-approved tirzepatide, made under FDA-inspected manufacturing and sold in fixed-dose pens or vials for $299-$449 a month self-pay. Compounded tirzepatide is prepared by a pharmacy, is not FDA-approved, usually comes in multi-dose vials you measure yourself, and costs about $89-$299 a month at the programs we rank.</strong></p>
+<table>
+<thead><tr><th>Factor</th><th>Zepbound</th><th>Compounded tirzepatide</th></tr></thead>
+<tbody>
+<tr><td>FDA-approved</td><td>Yes - weight management and obstructive sleep apnea</td><td>No</td></tr>
+<tr><td>Who makes it</td><td>Eli Lilly, in FDA-inspected facilities</td><td>A compounding pharmacy (503A) or outsourcing facility (503B)</td></tr>
+<tr><td>Evidence</td><td>The product tested in the SURMOUNT trials</td><td>Same molecule, but the finished product has not been tested in trials</td></tr>
+<tr><td>Format</td><td>Single-dose pens, single-dose vials, multi-dose KwikPen</td><td>Usually multi-dose vials with syringes</td></tr>
+<tr><td>Dosing</td><td>Fixed strengths: 2.5-15 mg</td><td>Any prescribed dose; units depend on vial concentration</td></tr>
+<tr><td>Additives</td><td>None beyond the approved formulation</td><td>Sometimes - ask</td></tr>
+<tr><td>Price (self-pay)</td><td>$299-$449/mo with on-time refills</td><td>$89-$299/mo at the programs we rank</td></tr>
+<tr><td>Insurance</td><td>May be covered; savings card from $25 with coverage</td><td>Almost always cash-pay</td></tr>
+<tr><td>Medicare GLP-1 Bridge</td><td>KwikPen covered ($50)</td><td>Not covered</td></tr>
+<tr><td>Legal status</td><td>Fully approved</td><td>Allowed only in limited, patient-specific circumstances</td></tr>
+</tbody>
+</table>
+<p><strong>Will compounded tirzepatide work as well?</strong> The molecule is the same, and many patients report similar effects. But no large trial has tested compounded products, potency and quality can vary between pharmacies, and measuring errors are more likely with multi-dose vials. The honest answer is that it can work, with more uncertainty than the approved product.</p>
+<p>Our <a href="/articles/compounded-vs-brand-name-glp1">compounded vs brand-name GLP-1s</a> guide covers the trade-offs for both semaglutide and tirzepatide.</p>`,
+      },
+      {
+        heading: "Should you choose compounded tirzepatide or Zepbound?",
+        body: `<p><strong>Choose Zepbound if your insurance covers it, if you want only FDA-approved medication, or if you qualify for the Medicare GLP-1 Bridge. Compounded tirzepatide can make sense for people paying cash who need the lowest price and accept that it is not FDA-approved - from a program that is transparent about its pharmacy and dosing.</strong></p>
+<table>
+<thead><tr><th>Your situation</th><th>Our suggestion</th></tr></thead>
+<tbody>
+<tr><td>Insurance covers Zepbound for weight or sleep apnea</td><td>Zepbound with a manufacturer savings card - often the cheapest route of all</td></tr>
+<tr><td>On Medicare Part D and meet Bridge criteria</td><td>Zepbound KwikPen through the GLP-1 Bridge ($50)</td></tr>
+<tr><td>Want only FDA-approved medication, paying cash</td><td>Zepbound through LillyDirect ($299-$449), or a program such as ro with insurance and prescribing support</td></tr>
+<tr><td>Paying cash, price is the deciding factor</td><td>Compounded tirzepatide from a transparent program - $89-$149/mo at the lower end of our list</td></tr>
+<tr><td>Need a dose between the standard steps</td><td>Compounded tirzepatide is the only way to get an intermediate dose; this is also where patient-specific compounding is most defensible</td></tr>
+<tr><td>Nervous about injections and measuring</td><td>Zepbound single-dose pens - no measuring at all</td></tr>
+</tbody>
+</table>
+<p><strong>The price gap has narrowed.</strong> At maintenance doses, Zepbound self-pay costs $449 a month with on-time refills; compounded tirzepatide at the programs we rank costs $89 to $299. For someone at the top of that compounded range, paying $150 more a month for the FDA-approved product is now a realistic choice that it was not two years ago.</p>
+<p><strong>Whichever you choose,</strong> stay with it long enough to see results. Switching back and forth between products, concentrations and doses is where many problems - and dosing errors - happen.</p>`,
+      },
+      {
+        heading: "Who can get a tirzepatide prescription?",
+        body: `<p><strong>Under the Zepbound label, adults qualify with a BMI of 30 or higher, or 27 or higher with at least one weight-related condition such as high blood pressure, type 2 diabetes or high cholesterol. Tirzepatide is not for people with a personal or family history of medullary thyroid carcinoma or MEN 2, and it should not be used in pregnancy. A licensed clinician makes the final decision.</strong></p>
+<p><strong>Who generally qualifies:</strong></p>
+<table>
+<thead><tr><th>BMI</th><th>Example (5 ft 6 in)</th><th>Qualifies under the Zepbound label?</th></tr></thead>
+<tbody>
+<tr><td>30 or higher</td><td>186 lb or more</td><td>Yes</td></tr>
+<tr><td>27-29.9</td><td>168-185 lb</td><td>Yes, with at least one weight-related condition</td></tr>
+<tr><td>Under 27</td><td>Under 168 lb</td><td>No - an online program prescribing tirzepatide here is a red flag</td></tr>
+</tbody>
+</table>
+<p><strong>Who should not take it, or needs extra caution:</strong></p>
+<ul>
+<li><strong>Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia type 2 (MEN 2)</strong> - Zepbound carries a boxed warning about thyroid C-cell tumors seen in rodents.</li>
+<li><strong>Pregnancy, planning pregnancy or breastfeeding</strong> - tirzepatide is not used in pregnancy.</li>
+<li><strong>History of pancreatitis, gallbladder disease or severe stomach problems</strong> such as gastroparesis - needs a careful clinical discussion.</li>
+<li><strong>Type 2 diabetes treated with insulin or a sulfonylurea</strong> - the risk of low blood sugar rises, and diabetes medication may need adjusting.</li>
+<li><strong>Diabetic eye disease (retinopathy)</strong> - should be monitored.</li>
+<li><strong>History of an eating disorder</strong> - appetite suppression carries particular risks.</li>
+<li><strong>Kidney problems</strong> - dehydration from vomiting or diarrhea can worsen kidney function.</li>
+</ul>
+<p><strong>Birth control pills.</strong> The Zepbound label advises people using oral hormonal contraceptives to switch to a non-oral method, or add a barrier method, for four weeks after starting tirzepatide and for four weeks after each dose increase, because slower stomach emptying can reduce how well the pill is absorbed. This is one of the most overlooked points in online care, and a good program will raise it with you.</p>
+<p>Online intake forms ask about all of these. Answer honestly - the questions exist to keep you safe, and a program that never asks about them is not one to trust.</p>`,
+      },
+      {
+        heading: "Can you take tirzepatide if you have type 2 diabetes?",
+        body: `<p><strong>Yes. Tirzepatide is FDA-approved for type 2 diabetes as Mounjaro, and Zepbound can be used for weight management in people with diabetes. Two cautions: the risk of low blood sugar rises if you also take insulin or a sulfonylurea, so those doses may need adjusting, and people with diabetes tend to lose somewhat less weight on GLP-1 drugs than people without it.</strong></p>
+<p><strong>Mounjaro or Zepbound?</strong> They are the same drug. If you have type 2 diabetes, your insurance is more likely to cover Mounjaro for blood-sugar control than Zepbound for weight. Your diabetes care team and the prescriber of your weight treatment should be the same person or talking to each other.</p>
+<p><strong>What to manage carefully:</strong></p>
+<ul>
+<li><strong>Low blood sugar.</strong> Both the Zepbound and Wegovy labels note a higher risk when GLP-1 drugs are combined with insulin or a sulfonylurea (such as glipizide or glimepiride). Know the symptoms - shakiness, sweating, confusion, fast heartbeat - and how to treat them.</li>
+<li><strong>Eating less, suddenly.</strong> Skipping meals or cutting carbohydrates sharply on top of diabetes medication raises hypoglycemia risk further. Do not make big diet changes without your diabetes clinician.</li>
+<li><strong>Diabetic eye disease.</strong> People with diabetic retinopathy should be monitored, because rapid improvements in blood sugar have been linked to temporary worsening of retinopathy with some diabetes drugs.</li>
+<li><strong>Online programs.</strong> Many cash-pay weight programs are designed for people without diabetes. If you have diabetes, choose a program that asks detailed questions about your medications and coordinates with your existing care.</li>
+</ul>
+<p><strong>Medicare note.</strong> People with type 2 diabetes are not part of the Medicare GLP-1 Bridge; they generally access GLP-1s through regular Part D coverage for diabetes.</p>`,
+      },
+      {
+        heading: "What should women know about tirzepatide?",
+        body: `<p><strong>Three things: tirzepatide can make birth control pills less reliable for four weeks after starting and after each dose increase, it should not be used in pregnancy, and women are the largest group of GLP-1 users - 15% of US women were taking one in KFF's November 2025 poll, compared with 9% of men.</strong></p>
+<table>
+<thead><tr><th>Topic</th><th>What to know</th></tr></thead>
+<tbody>
+<tr><td>Birth control pills</td><td>Zepbound label: switch to a non-oral method, or add a barrier method, for 4 weeks after starting and 4 weeks after each dose increase</td></tr>
+<tr><td>Pregnancy</td><td>Not used in pregnancy; tell your prescriber promptly if you become pregnant or plan to</td></tr>
+<tr><td>Fertility</td><td>Weight loss can improve fertility for some women, which makes reliable contraception especially important</td></tr>
+<tr><td>Breastfeeding</td><td>Discuss with your clinician before starting</td></tr>
+<tr><td>Menopause</td><td>Preliminary research presented in October 2026 suggested women using menopause hormone therapy lost more weight on GLP-1s; this has not been confirmed in trials</td></tr>
+<tr><td>Bone health</td><td>Large weight loss can affect bone; calcium, vitamin D, protein and strength training matter</td></tr>
+</tbody>
+</table>
+<p><strong>Why the birth-control point matters so much.</strong> Tirzepatide slows stomach emptying, which can reduce how well an oral contraceptive is absorbed, particularly in the weeks after a dose change. Because doses rise every four weeks or so during the first months, this window can recur several times. It is one of the clearest examples of a medication interaction that online intake forms should flag - and that patients often miss.</p>
+<p><strong>Who uses tirzepatide.</strong> Use of GLP-1 drugs is highest among women aged 50 to 64: in RAND's 2025 survey, 20% of women in that age group had used a GLP-1. Our <a href="/articles/glp1-weight-loss-statistics">GLP-1 statistics</a> page has more on who uses these medications.</p>`,
+      },
+      {
+        heading: "How does getting tirzepatide online work?",
+        body: `<p><strong>You complete an online health questionnaire, a licensed clinician reviews it (sometimes with a video visit or lab work), and if tirzepatide is appropriate they send a prescription to a pharmacy that ships it to you. Brand-name Zepbound is filled by a regular or manufacturer pharmacy; compounded tirzepatide by a compounding pharmacy. The process usually takes a few days to two weeks.</strong></p>
+<ol>
+<li><strong>Choose a program.</strong> Decide first whether you want brand-name Zepbound (often with insurance help) or compounded tirzepatide (lower cash price, not FDA-approved). That choice narrows the field.</li>
+<li><strong>Complete the intake.</strong> Expect questions about height, weight, medical history, current medications, family history of thyroid cancer, pregnancy plans and past weight-loss treatment. Some programs ask for a photo or ID verification.</li>
+<li><strong>Clinician review.</strong> A licensed clinician - a physician, nurse practitioner or physician assistant - reviews your answers. Some programs add a video or phone visit; some order labs if clinically indicated.</li>
+<li><strong>Prescription and pharmacy.</strong> If approved, the prescription goes to a pharmacy. For Zepbound, that may be LillyDirect, a retail pharmacy or a mail-order pharmacy. For compounded tirzepatide, it is a compounding pharmacy chosen by the program.</li>
+<li><strong>Delivery.</strong> Injectable tirzepatide needs refrigeration, so expect cold-chain packaging. Among the programs we rank, published delivery times range from 1-2 days to 5-7 days.</li>
+<li><strong>Check-ins and dose changes.</strong> Most programs ask for a short check-in before each dose increase - weight, side effects and appetite - and adjust from there.</li>
+</ol>
+<p><strong>What a legitimate program always does:</strong> requires a clinical review before prescribing, tells you which pharmacy fills your medication, states clearly whether a product is brand-name or compounded, gives you a way to reach a clinician about side effects, and never describes compounded tirzepatide as "FDA-approved" or "generic Zepbound."</p>
+<p>Our <a href="/articles/online-glp1-weight-loss-guide">complete guide to online GLP-1 weight loss</a> covers the process, eligibility and state availability in more depth.</p>`,
+      },
+      {
+        heading: "What are the best online providers for tirzepatide in 2026?",
+        body: `<p><strong>For tirzepatide specifically, our picks are embody for the best overall value (compounded tirzepatide at $119 a month, month-to-month, shipped in 1-2 days), ro for brand-name Zepbound with insurance support, and wellmedr for the lowest compounded price at $89 a month. All nine programs we rank are compared below.</strong></p>
+<p>Our overall ranking weighs clinical oversight, total price and transparency, flexibility, delivery, support and customer feedback. For tirzepatide buyers, here is how each program fits:</p>
+<table>
+<thead><tr><th>Provider (overall score)</th><th>Tirzepatide offering</th><th>Price</th><th>Best for</th></tr></thead>
+<tbody>
+<tr><td><a href="/reviews/embody">embody</a> (9.8)</td><td>Compounded, flat at every dose; also a daily oral option</td><td>$119/mo (regular $129)</td><td>Best overall value without a contract</td></tr>
+<tr><td><a href="/reviews/ro">ro</a> (9.6)</td><td>Brand-name Zepbound only; insurance concierge</td><td>Membership $39 then $149/mo (about $74/mo annual) + medication</td><td>Insured patients and FDA-approved medication only</td></tr>
+<tr><td><a href="/reviews/altrx">altRx</a> (9.3)</td><td>Compounded, flat at every dose; brand-name shelf</td><td>$149/mo promo (regular $299)</td><td>Flat pricing plus a brand option in one account - note the June 2026 FDA warning letter</td></tr>
+<tr><td><a href="/reviews/trimrx">trimrx</a> (9.1)</td><td>Compounded with custom dosing</td><td>$259/mo</td><td>Frequent provider check-ins and individualized dosing</td></tr>
+<tr><td><a href="/reviews/wellmedr">wellmedr</a> (8.9)</td><td>Compounded, flat at every dose</td><td>$89/mo, shipped every 4 weeks</td><td>Lowest compounded tirzepatide price on our list</td></tr>
+<tr><td><a href="/reviews/medvi">MEDVi</a> (8.7)</td><td>Compounded, with dietitian and coaching</td><td>$166/mo promo (regular $299)</td><td>Nutrition support included</td></tr>
+<tr><td><a href="/reviews/directmeds">DirectMeds</a> (8.6)</td><td>Compounded injection or sublingual drops</td><td>$147/mo, same as semaglutide</td><td>One price for either drug - easy to switch</td></tr>
+<tr><td><a href="/reviews/shed">SHED</a> (8.4)</td><td>Compounded, with coaching and a guarantee</td><td>From $299/mo (20% off month one)</td><td>Coaching and a 5%-in-120-days money-back guarantee</td></tr>
+<tr><td><a href="/reviews/medgm">MEDGm</a> (8.2)</td><td>Brand-name Zepbound with a membership; compounded GLP-1 injections or tablets (molecule not named in public pricing)</td><td>Zepbound: $99 membership + medication</td><td>A brand-name route alongside compounded options</td></tr>
+</tbody>
+</table>
+<p><strong>How to choose, in one line each:</strong></p>
+<ul>
+<li><strong>Lowest price you can sustain for a year:</strong> wellmedr ($89) or embody ($119, no commitment).</li>
+<li><strong>Insurance or Medicare coverage:</strong> ro - its concierge checks coverage and handles prior authorizations for Zepbound.</li>
+<li><strong>FDA-approved medication only, cash pay:</strong> Zepbound through LillyDirect, ro or MEDGm; compare the membership cost against buying direct.</li>
+<li><strong>Possibly switching between semaglutide and tirzepatide:</strong> DirectMeds charges $147 for either.</li>
+<li><strong>Want help with food and habits:</strong> MEDVi (dietitian and coaching) or SHED (coaching).</li>
+<li><strong>Want frequent dose adjustments:</strong> trimrx.</li>
+</ul>
+<p>Compounded tirzepatide is not FDA-approved at any of these programs. Full pros, cons and fine print are in each linked review, and the full ranking is on our <a href="/">homepage</a>.</p>`,
+      },
+      {
+        heading: "How can you check that an online tirzepatide provider is legitimate?",
+        body: `<p><strong>Check four things: that a licensed clinician reviews your history before prescribing, that the dispensing pharmacy is named and licensed in your state, that the program describes compounded products honestly, and whether it has a record of regulatory action. You can verify pharmacy and clinician licenses through state licensing boards.</strong></p>
+<table>
+<thead><tr><th>What to check</th><th>How</th></tr></thead>
+<tbody>
+<tr><td>Clinician license</td><td>Ask for the prescriber's name and state; look them up on the state medical or nursing board's license search</td></tr>
+<tr><td>Pharmacy license</td><td>Ask which pharmacy fills your prescription; check it with your state board of pharmacy</td></tr>
+<tr><td>Third-party certification</td><td>Some telehealth companies hold LegitScript certification; it is not required, but it is a useful signal</td></tr>
+<tr><td>Regulatory history</td><td>Search the FDA warning letters database for the company and its parent company</td></tr>
+<tr><td>Honest product claims</td><td>No "FDA-approved compounded tirzepatide," "generic Zepbound" or "same as Zepbound" language</td></tr>
+<tr><td>Customer feedback</td><td>Read recent reviews for patterns - shipping, billing, responsiveness - not just the star rating</td></tr>
+</tbody>
+</table>
+<p><strong>How we do it.</strong> For every program we rank, we look at clinical oversight, named pharmacies, pricing transparency, flexibility, delivery, support, customer feedback and regulatory records, and we disclose problems prominently. For example, <a href="/reviews/embody">embody</a> is LegitScript-certified and uses state-licensed 503A pharmacies, while <a href="/reviews/altrx">altRx</a>'s parent company received an FDA warning letter in June 2026 over how it marketed compounded semaglutide and tirzepatide. Our <a href="/how-we-rank">methodology page</a> explains the full process.</p>`,
+      },
+      {
+        heading: "What is the tirzepatide dosage schedule?",
+        body: `<p><strong>Tirzepatide starts at 2.5 mg once a week for four weeks, then 5 mg. After that, the dose can rise in 2.5 mg steps - 7.5, 10, 12.5 and 15 mg - with at least four weeks at each step. The Zepbound label lists 5 mg, 10 mg or 15 mg as maintenance doses; 15 mg is the maximum.</strong></p>
+<table>
+<thead><tr><th>Weeks (earliest)</th><th>Weekly dose</th><th>Units at 10 mg/mL (compounded vial, U-100 syringe)</th></tr></thead>
+<tbody>
+<tr><td>1-4</td><td>2.5 mg (starting dose)</td><td>25 units</td></tr>
+<tr><td>5-8</td><td>5 mg (possible maintenance)</td><td>50 units</td></tr>
+<tr><td>9-12</td><td>7.5 mg</td><td>75 units</td></tr>
+<tr><td>13-16</td><td>10 mg (possible maintenance)</td><td>100 units</td></tr>
+<tr><td>17-20</td><td>12.5 mg</td><td>125 units (more than one 1 mL syringe - usually a more concentrated vial is used)</td></tr>
+<tr><td>21 onward</td><td>15 mg (maximum; possible maintenance)</td><td>150 units (usually a more concentrated vial)</td></tr>
+</tbody>
+</table>
+<p><strong>The unit column only applies to a 10 mg/mL vial.</strong> Compounded vials come in different concentrations, and the same dose in milligrams can be a very different number of units. The formula is: units = dose in mg divided by concentration in mg/mL, times 100. Recalculate every time your vial changes. Brand-name Zepbound pens deliver a fixed dose; the KwikPen and vials have their own instructions.</p>
+<p><strong>You do not have to reach 15 mg.</strong> In SURMOUNT-1, 5 mg produced about 15% average weight loss, 10 mg about 19.5% and 15 mg about 20.9%. Many people stop climbing when they are losing steadily with tolerable side effects.</p>
+<p><strong>Missed a dose?</strong> The Zepbound label says to take it within four days (96 hours) of the missed day; if more than four days have passed, skip it and take the next dose on your usual day. Doses should be at least three days apart if you change your injection day.</p>
+<p>Our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a> has full unit charts for 5, 10 and 20 mg/mL vials, syringe advice and the most common dosing mistakes.</p>`,
+      },
+      {
+        heading: "How do you inject tirzepatide?",
+        body: `<p><strong>Tirzepatide is injected just under the skin once a week, in the abdomen (at least 2 inches from the belly button), the front of the thigh or the back of the upper arm. Zepbound single-dose pens inject automatically when pressed against the skin. Vials are drawn up with an insulin syringe to the prescribed volume. Rotate sites each week.</strong></p>
+<p>Follow your pharmacy's and prescriber's instructions first; this is a general overview.</p>
+<p><strong>Zepbound single-dose pen:</strong> remove the base cap, place the pen flat against clean skin, unlock it, press and hold the button until the injection finishes (you will hear clicks), then dispose of the pen in a sharps container.</p>
+<p><strong>Zepbound KwikPen:</strong> attach a new pen needle each week, prime if instructed, dial the dose, inject and hold, then remove and dispose of the needle. Pen needles are sold separately.</p>
+<p><strong>Vials (Zepbound single-dose or compounded multi-dose):</strong></p>
+<ol>
+<li>Wash your hands; check the drug name, strength or concentration, and date.</li>
+<li>Wipe the stopper with alcohol and let it dry.</li>
+<li>Draw the prescribed amount into a U-100 insulin syringe - the whole vial for a Zepbound single-dose vial, or the specific number of units for a compounded multi-dose vial.</li>
+<li>Pinch the skin, insert the needle, inject steadily, withdraw, and dispose of the syringe in a sharps container.</li>
+<li>Write down the date, dose and site.</li>
+</ol>
+<p><strong>Common concerns.</strong> Most people describe the injection as a brief pinch. A small red bump that fades in a day or two is common. Seek medical advice for a site that becomes increasingly painful, hot or swollen, and emergency care for signs of an allergic reaction such as swelling of the face or throat or difficulty breathing.</p>`,
+      },
+      {
+        heading: "How long does a vial of tirzepatide last?",
+        body: `<p><strong>It depends on the vial's total milligrams and your dose. A 2 mL compounded vial at 10 mg/mL holds 20 mg - eight doses at 2.5 mg, four at 5 mg or two at 10 mg. A Zepbound single-dose vial holds exactly one weekly dose. Compounded vials also have a pharmacy beyond-use date, and you should not use them past it.</strong></p>
+<table>
+<thead><tr><th>Vial</th><th>Total tirzepatide</th><th>Doses at 2.5 mg</th><th>Doses at 5 mg</th><th>Doses at 10 mg</th><th>Doses at 15 mg</th></tr></thead>
+<tbody>
+<tr><td>Compounded, 10 mg/mL, 2 mL</td><td>20 mg</td><td>8</td><td>4</td><td>2</td><td>1 (with 5 mg left)</td></tr>
+<tr><td>Compounded, 20 mg/mL, 2 mL</td><td>40 mg</td><td>16</td><td>8</td><td>4</td><td>2 (with 10 mg left)</td></tr>
+<tr><td>Zepbound single-dose vial</td><td>One dose</td><td colspan="4">One weekly dose per vial, at the strength printed on the vial</td></tr>
+<tr><td>Zepbound KwikPen</td><td>Four doses</td><td colspan="4">Four weekly doses (one month) per pen</td></tr>
+</tbody>
+</table>
+<p><em>Illustrative compounded vials; pharmacies use different volumes and concentrations.</em></p>
+<p><strong>Two limits apply to compounded vials:</strong></p>
+<ul>
+<li><strong>The amount inside.</strong> Total milligrams = concentration x volume; divide by your weekly dose. A little liquid always stays in the needle and vial, so do not plan to use every last drop.</li>
+<li><strong>The beyond-use date.</strong> The pharmacy's date for safe use, based on sterility and stability. If you are on a low dose and the vial technically holds months of medication, the beyond-use date will usually end its life first. Discard what is left after that date.</li>
+</ul>
+<p><strong>Plan refills early.</strong> Know your vial size and dose, count the weeks to your next order, and reorder at least a week before you run out. Missing doses while waiting for a shipment is one of the most common avoidable interruptions in online treatment.</p>`,
+      },
+      {
+        heading: "How should you store and travel with tirzepatide?",
+        body: `<p><strong>Keep tirzepatide refrigerated at 36-46°F (2-8°C) and never freeze it. The Zepbound label allows pens to be kept unrefrigerated, up to 86°F (30°C), for up to 21 days. Compounded vials follow the pharmacy's storage instructions and beyond-use date, which can be stricter. When traveling, keep it in your carry-on with a cool pack.</strong></p>
+<table>
+<thead><tr><th>Situation</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>At home</td><td>Refrigerate in the original carton, away from the freezer compartment and light</td></tr>
+<tr><td>Delivery</td><td>Check that cold packs are still cold when the package arrives; contact the pharmacy if it arrived warm or frozen</td></tr>
+<tr><td>Zepbound out of the fridge</td><td>Up to 21 days at up to 86°F, per the label</td></tr>
+<tr><td>Compounded vials</td><td>Follow the pharmacy label exactly; do not use after the beyond-use date</td></tr>
+<tr><td>Frozen by accident</td><td>Do not use it; ask for a replacement</td></tr>
+<tr><td>Flying</td><td>Carry it in hand luggage, not checked bags, which can get too hot or freeze; bring syringes or pen needles and your pharmacy label</td></tr>
+<tr><td>Changing time zones</td><td>Take it on the same calendar day at local time; for Zepbound, keep at least 3 days between doses if you need to shift your day</td></tr>
+</tbody>
+</table>
+<p><strong>Signs a dose should not be used:</strong> the liquid looks different from usual (cloudy, discolored or with particles), the product was frozen or left in heat, or it is past its expiration or beyond-use date. When in doubt, skip that vial or pen and contact your pharmacy - a missed dose is less risky than an injection of a compromised product.</p>`,
+      },
+      {
+        heading: "What are the side effects of tirzepatide?",
+        body: `<p><strong>The most common side effects are digestive: nausea, diarrhea, vomiting and constipation, mostly mild to moderate and most common after dose increases. In SURMOUNT-1, nausea affected 24.6% to 33.3% of people on tirzepatide vs 9.5% on placebo, and 4.3% to 7.1% stopped because of side effects vs 2.6% on placebo.</strong></p>
+<table>
+<thead><tr><th>SURMOUNT-1 (72 weeks)</th><th>5 mg</th><th>10 mg</th><th>15 mg</th><th>Placebo</th></tr></thead>
+<tbody>
+<tr><td>Nausea</td><td>24.6%</td><td>33.3%</td><td>31.0%</td><td>9.5%</td></tr>
+<tr><td>Constipation</td><td>16.8%</td><td>17.1%</td><td>11.7%</td><td>-</td></tr>
+<tr><td>Stopped because of side effects</td><td>4.3%</td><td>7.1%</td><td>6.2%</td><td>2.6%</td></tr>
+</tbody>
+</table>
+<p><strong>Serious but less common risks</strong> listed on the Zepbound label:</p>
+<ul>
+<li><strong>Pancreatitis</strong> - severe stomach pain that will not go away, sometimes spreading to the back. Stop the medication and seek care.</li>
+<li><strong>Gallbladder problems</strong> - gallstones were reported in 1.1% on Zepbound vs 1.0% on placebo, and gallbladder inflammation in 0.7% vs 0.2%.</li>
+<li><strong>Dehydration and kidney problems</strong> - from vomiting or diarrhea.</li>
+<li><strong>Low blood sugar</strong> - mainly when combined with insulin or a sulfonylurea.</li>
+<li><strong>Serious allergic reactions.</strong></li>
+<li><strong>Thyroid C-cell tumors</strong> - a boxed warning based on rodent studies; the drug is not used by people with a personal or family history of MTC or MEN 2.</li>
+</ul>
+<p><strong>Mental health.</strong> In January 2026, the FDA asked Lilly and Novo Nordisk to remove the suicidal behavior and ideation warning from Zepbound and Wegovy labels after a review of 91 placebo-controlled trials with 107,910 patients found no increased risk. Anyone with new mood changes on any medication should still talk to a clinician.</p>
+<p><strong>Reducing side effects.</strong> Slower dose escalation is the most effective tool. Smaller meals, stopping at the first sign of fullness, avoiding greasy food and drinking steadily also help. Our guides to <a href="/articles/glp1-side-effects-first-12-weeks">side effects in the first 12 weeks</a> and <a href="/articles/what-to-eat-on-glp1">what to eat on a GLP-1</a> go into detail.</p>`,
+      },
+      {
+        heading: "How should you track your progress on tirzepatide?",
+        body: `<p><strong>Track four things weekly: your weight trend, your dose and injection day, side effects, and what you are eating - especially protein and fluids. Bring that log to every check-in. It lets your clinician decide whether to increase, hold or reduce your dose based on your actual response rather than a fixed calendar.</strong></p>
+<table>
+<thead><tr><th>What to track</th><th>Why it matters</th><th>How</th></tr></thead>
+<tbody>
+<tr><td>Weight trend</td><td>Shows whether the current dose is working; single readings are noisy</td><td>Weigh at the same time of day once or twice a week; look at the 2-4 week trend</td></tr>
+<tr><td>Dose and injection day</td><td>Prevents missed or double doses</td><td>A note on your phone or the carton after every injection</td></tr>
+<tr><td>Units drawn (compounded)</td><td>Catches measuring errors</td><td>Record the units and the vial concentration</td></tr>
+<tr><td>Side effects</td><td>Guides dose escalation</td><td>Note what, how bad and how many days after the injection</td></tr>
+<tr><td>Protein and fluids</td><td>Low intake is common and causes fatigue and muscle loss</td><td>Track a few typical days each month</td></tr>
+<tr><td>Waist measurement or how clothes fit</td><td>Captures changes the scale misses</td><td>Monthly</td></tr>
+</tbody>
+</table>
+<p><strong>Questions to raise at each check-in:</strong> Am I losing at a steady pace? Are side effects settling or getting worse? Am I eating enough protein? Should I go up, stay or go down?</p>
+<p><strong>When to call between check-ins:</strong> vomiting that stops you keeping fluids down, severe or persistent abdominal pain, signs of dehydration, symptoms of low blood sugar if you take diabetes medication, or any sign of an allergic reaction. Programs differ a lot in how easy it is to reach a clinician - one reason we look at support when we rank providers.</p>`,
+      },
+      {
+        heading: "Does tirzepatide cause muscle loss?",
+        body: `<p><strong>Some of the weight lost on tirzepatide is lean mass, as with any large weight loss. In SURMOUNT-1's body-composition study, about 74% of the weight lost was fat and 26% lean mass - a similar split to people on placebo. Strength training and adequate protein are the proven ways to keep lean-mass loss as low as possible.</strong></p>
+<p>Lean mass includes muscle, but also water, organs and bone, so "26% lean" does not mean a quarter of the loss was muscle. The concern is greatest for older adults and people who start with low muscle mass, for whom strength and balance matter most.</p>
+<p><strong>What helps:</strong></p>
+<ul>
+<li><strong>Strength training on at least two days a week,</strong> as the CDC's physical activity guidelines recommend, alongside 150 minutes of moderate activity.</li>
+<li><strong>Enough protein.</strong> The American Diabetes Association's 2026 guidance recommends at least 60 g a day and 1.2-1.6 g per kilogram during active weight loss.</li>
+<li><strong>Not losing faster than necessary.</strong> Slower dose escalation that lets you keep eating properly is not a setback.</li>
+</ul>
+<p>Experimental drugs designed to preserve muscle during GLP-1 treatment are being tested but are not approved. Our <a href="/articles/what-to-eat-on-glp1">guide to what to eat on a GLP-1</a> covers protein targets, the best foods and a sample day.</p>`,
+      },
+      {
+        heading: "What should you eat on tirzepatide?",
+        body: `<p><strong>Put protein first, eat smaller and more frequent meals, add fiber gradually, drink steadily and limit greasy food. Studies show GLP-1 users eat 24% to 39% less, and nutrient shortfalls are common: in a 2025 study of 461,382 adults on GLP-1s, 22.4% had a new nutritional deficiency diagnosed within a year.</strong></p>
+<table>
+<thead><tr><th>Priority</th><th>Practical target</th></tr></thead>
+<tbody>
+<tr><td>Protein</td><td>At least 60 g a day; 1.2-1.6 g/kg during weight loss (ADA 2026) - often about 80-120 g</td></tr>
+<tr><td>Fiber</td><td>About 25 g (women) or 38 g (men), built up gradually</td></tr>
+<tr><td>Fluids</td><td>About 2.7 L (women) or 3.7 L (men) total water from drinks and food</td></tr>
+<tr><td>Meal pattern</td><td>Three small meals plus planned snacks; stop at the first sign of fullness</td></tr>
+<tr><td>Nutrients to watch</td><td>Vitamin D, calcium, iron, B12, thiamine</td></tr>
+</tbody>
+</table>
+<p>The tirzepatide-specific angle is the dose schedule: digestive side effects cluster in the days after each 2.5 mg step. Plan lighter, blander meals for those days - yogurt, soup, eggs, crackers - and avoid big or greasy meals until things settle.</p>
+<p>Our full <a href="/articles/what-to-eat-on-glp1">what to eat on a GLP-1</a> guide has food tables, a sample day with about 106 g of protein, and advice on alcohol, supplements and side-effect foods.</p>`,
+      },
+      {
+        heading: "Can you drink alcohol on tirzepatide?",
+        body: `<p><strong>The Zepbound label does not ban alcohol, but less is better. Alcohol can worsen nausea and dehydration, adds to the risk of low blood sugar for people on insulin or a sulfonylurea, and heavy drinking is an independent risk factor for pancreatitis - a listed risk of tirzepatide. Many users find they want less alcohol anyway.</strong></p>
+<p><strong>Why alcohol and tirzepatide do not mix well:</strong></p>
+<ul>
+<li><strong>Stomach effects.</strong> Alcohol irritates a stomach that is already emptying more slowly, making nausea and reflux more likely.</li>
+<li><strong>Dehydration.</strong> Alcohol increases fluid loss, on top of any vomiting or diarrhea; the Zepbound label warns that dehydration can lead to kidney problems.</li>
+<li><strong>Low blood sugar.</strong> A concern mainly for people who also take insulin or a sulfonylurea.</li>
+<li><strong>Pancreatitis.</strong> Heavy alcohol use raises pancreatitis risk independently of any medication.</li>
+<li><strong>Nutrition.</strong> When you eat far less, alcohol calories crowd out the protein and nutrients you need.</li>
+</ul>
+<p><strong>What people report.</strong> In EY-Parthenon's 2026 survey of 3,602 GLP-1 users, 45% said they had cut back on alcohol. Early research also suggests GLP-1 drugs may reduce the urge to drink, though most of that evidence comes from semaglutide and from small or observational studies.</p>
+<p><strong>Practical advice:</strong> keep drinking occasional and modest, never on an empty stomach, alternate with water, and expect to feel the effects sooner. If you take diabetes medication, ask your clinician specifically about alcohol. The 2025-2030 Dietary Guidelines simply advise Americans to "consume less alcohol for better health."</p>`,
+      },
+      {
+        heading: "What other health benefits does tirzepatide have?",
+        body: `<p><strong>Beyond weight loss, tirzepatide reduced the risk of progressing from prediabetes to type 2 diabetes by 94% over three years in SURMOUNT-1, and sharply reduced sleep apnea severity in SURMOUNT-OSA, which led to Zepbound's approval for obstructive sleep apnea in December 2024. A cardiovascular outcomes trial in people with obesity is still running.</strong></p>
+<table>
+<thead><tr><th>Condition</th><th>Trial</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>Prediabetes</td><td>SURMOUNT-1, 3-year analysis (1,032 adults)</td><td>94% lower risk of progressing to type 2 diabetes (93% counting everyone randomized)</td></tr>
+<tr><td>Obstructive sleep apnea</td><td>SURMOUNT-OSA (469 adults)</td><td>Breathing interruptions fell by 25.3 vs 5.3 events per hour (trial 1) and 29.3 vs 5.5 (trial 2)</td></tr>
+<tr><td>Type 2 diabetes</td><td>SURPASS program (Mounjaro)</td><td>Led to Mounjaro's 2022 approval for blood-sugar control</td></tr>
+<tr><td>Cardiovascular outcomes in obesity</td><td>SURMOUNT-MMO</td><td>Results not yet available; completion expected in 2027</td></tr>
+</tbody>
+</table>
+<p><strong>Why the sleep apnea approval matters.</strong> Some insurance plans and Medicare can cover a drug for a medical condition such as sleep apnea even when they exclude weight-loss drugs. If you have been diagnosed with moderate to severe obstructive sleep apnea and have obesity, ask your clinician whether that indication applies to you.</p>
+<p><strong>Keep expectations grounded.</strong> Each trial enrolled a specific group, and benefits fade when treatment stops - in SURMOUNT-1, the diabetes-prevention benefit fell from 94% to 88% after 17 weeks off the drug.</p>`,
+      },
+      {
+        heading: "Tirzepatide vs semaglutide: which is better?",
+        body: `<p><strong>On average, tirzepatide produces more weight loss. In the SURMOUNT-5 head-to-head trial, tirzepatide averaged 20.2% weight loss vs 13.7% for semaglutide at 72 weeks. Semaglutide has the longer track record and a proven cardiovascular benefit in people with heart disease, and compounded semaglutide usually costs less.</strong></p>
+<table>
+<thead><tr><th>Factor</th><th>Tirzepatide (Zepbound)</th><th>Semaglutide (Wegovy)</th></tr></thead>
+<tbody>
+<tr><td>How it works</td><td>GIP + GLP-1 receptor agonist</td><td>GLP-1 receptor agonist</td></tr>
+<tr><td>Head-to-head weight loss (SURMOUNT-5)</td><td>20.2%</td><td>13.7%</td></tr>
+<tr><td>Key solo trial</td><td>20.9% at 72 weeks on 15 mg (SURMOUNT-1)</td><td>14.9% at 68 weeks on 2.4 mg (STEP-1)</td></tr>
+<tr><td>Cardiovascular outcome data</td><td>Outcome trial in obesity (SURMOUNT-MMO) still running</td><td>20% lower risk of major cardiovascular events in people with heart disease (SELECT)</td></tr>
+<tr><td>Other approved uses</td><td>Obstructive sleep apnea (Zepbound)</td><td>Cardiovascular risk reduction; MASH liver disease (Wegovy)</td></tr>
+<tr><td>Pill version</td><td>No (orforglipron/Foundayo is a different molecule)</td><td>Yes - the Wegovy pill</td></tr>
+<tr><td>Brand self-pay price</td><td>$299-$449/mo</td><td>$199-$349/mo (Wegovy injection)</td></tr>
+<tr><td>Compounded price range (our list)</td><td>$89-$299/mo</td><td>$49-$199/mo</td></tr>
+</tbody>
+</table>
+<p><strong>Decision rules we find useful:</strong></p>
+<ul>
+<li><strong>If you want the strongest average result,</strong> tirzepatide has the better head-to-head evidence.</li>
+<li><strong>If you have established heart disease,</strong> semaglutide's SELECT data are a strong point in its favor - discuss with your clinician.</li>
+<li><strong>If budget is the deciding factor,</strong> compounded semaglutide is usually cheaper at the same program - though wellmedr's $89 tirzepatide is cheaper than several programs' semaglutide.</li>
+<li><strong>If you want a pill,</strong> the semaglutide-based Wegovy pill or Foundayo are the options; there is no tirzepatide pill.</li>
+<li><strong>If one did not work or was not tolerated,</strong> switching to the other is common.</li>
+</ul>
+<p>Our full <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> comparison covers dosing, tolerability and cost in more detail.</p>`,
+      },
+      {
+        heading: "Can you switch from semaglutide to tirzepatide?",
+        body: `<p><strong>Yes - switching from semaglutide (Wegovy, Ozempic or compounded semaglutide) to tirzepatide is common, usually because of a plateau, side effects, coverage or price. There is no official dose-conversion chart. Most clinicians start tirzepatide at 2.5 mg or 5 mg on the day the next semaglutide dose would have been due, then titrate as usual.</strong></p>
+<p>The two drugs act on different receptors - tirzepatide on both GIP and GLP-1, semaglutide on GLP-1 only - and no trial has established milligram-for-milligram equivalents. Tables online that claim "1 mg semaglutide equals X mg tirzepatide" are rules of thumb at best.</p>
+<table>
+<thead><tr><th>Question</th><th>Typical approach (your clinician decides)</th></tr></thead>
+<tbody>
+<tr><td>When to start</td><td>On the day your next weekly semaglutide dose would have been due; no long washout, and never both together</td></tr>
+<tr><td>Starting dose</td><td>2.5 mg follows the label and is the most cautious; some clinicians start at 5 mg for people who tolerated higher semaglutide doses well</td></tr>
+<tr><td>What to expect</td><td>Possibly some returning appetite for a few weeks if you restart low; side effects may reappear after each new step</td></tr>
+<tr><td>Compounded vials</td><td>Your unit count changes completely - recalculate from the new label</td></tr>
+<tr><td>Cost</td><td>Tirzepatide usually costs more than semaglutide at the same program; DirectMeds charges $147 for either</td></tr>
+</tbody>
+</table>
+<p><strong>Is switching worth it?</strong> The SURMOUNT-5 trial suggests tirzepatide produces more weight loss on average - 20.2% vs 13.7% at 72 weeks. For someone who has plateaued on semaglutide well short of their goal, that is a reasonable reason to discuss a switch. For someone doing well on semaglutide, there is less reason to change.</p>
+<p>Our <a href="/articles/glp1-dosage-guide">dosage guide</a> covers switching in both directions, including from pens to vials.</p>`,
+      },
+      {
+        heading: "Should you choose tirzepatide or a GLP-1 pill?",
+        body: `<p><strong>If you are comfortable with a weekly injection, tirzepatide produces considerably more weight loss on average than the two GLP-1 pills approved for weight management. In their pivotal trials, the Wegovy pill averaged 13.6% at 64 weeks and Foundayo 11.2% at 72 weeks on its top dose, compared with 20.9% for tirzepatide 15 mg at 72 weeks. Pills suit people who will not inject.</strong></p>
+<table>
+<thead><tr><th></th><th>Tirzepatide (Zepbound)</th><th>Wegovy pill</th><th>Foundayo (orforglipron)</th></tr></thead>
+<tbody>
+<tr><td>How often</td><td>Weekly injection</td><td>Daily pill</td><td>Daily pill</td></tr>
+<tr><td>Food and water rules</td><td>None</td><td>Empty stomach, up to 4 oz water, 30-minute wait</td><td>None</td></tr>
+<tr><td>Average weight loss (pivotal trial, everyone randomized)</td><td>20.9% at 72 weeks (15 mg)</td><td>13.6% at 64 weeks</td><td>11.2% at 72 weeks (top dose)</td></tr>
+<tr><td>Self-pay price</td><td>$299-$449/mo</td><td>$149-$299/mo</td><td>$149-$349/mo</td></tr>
+<tr><td>Refrigeration</td><td>Yes</td><td>No special cold chain for tablets</td><td>No special cold chain for tablets</td></tr>
+</tbody>
+</table>
+<p><em>Cross-trial comparisons are approximate; no trial has compared tirzepatide directly with either pill.</em></p>
+<p><strong>A practical middle path.</strong> In the ATTAIN-MAINTAIN trial (Nature Medicine, 2026), people who had lost weight on Zepbound and switched to orforglipron kept off about three-quarters of their weight loss over a year - much better than switching to placebo, though some weight came back. For people who want to stop injecting once they reach a goal, that is worth discussing with a clinician.</p>
+<p>Our <a href="/articles/new-weight-loss-drugs-2026">guide to the new weight-loss drugs of 2026</a> covers both pills in detail.</p>`,
+      },
+      {
+        heading: "Zepbound vials, KwikPen or single-dose pens: what is the difference?",
+        body: `<p><strong>All three contain the same tirzepatide at the same doses. Single-dose pens are the simplest - one auto-injector per week. Single-dose vials are drawn up with a syringe. The KwikPen holds four weekly doses in one pen, with a new needle each week. LillyDirect prices vials and the KwikPen the same, and the Medicare GLP-1 Bridge covers only the KwikPen.</strong></p>
+<table>
+<thead><tr><th>Format</th><th>How it works</th><th>Good for</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Single-dose pen (autoinjector)</td><td>Place on skin, press, wait for the click; hidden needle</td><td>First-time injectors</td><td>The original Zepbound format</td></tr>
+<tr><td>Single-dose vial</td><td>One vial per week, drawn up with a syringe</td><td>Self-pay buyers comfortable with syringes</td><td>Sold through LillyDirect; Walmart pickup available</td></tr>
+<tr><td>KwikPen (multi-dose)</td><td>Four doses per pen; attach a new pen needle each week</td><td>Self-pay at retail pharmacies; Medicare GLP-1 Bridge</td><td>Pen needles sold separately; self-pay price available at major pharmacies since March 2026</td></tr>
+</tbody>
+</table>
+<p><strong>Do not mix up vial instructions.</strong> A Zepbound single-dose vial holds one dose - you draw up the whole vial. Compounded tirzepatide vials are usually multi-dose, so you measure a specific number of units. Using one set of instructions for the other is a recipe for a dosing error.</p>
+<p><strong>Storage.</strong> Keep tirzepatide refrigerated and never frozen; the label allows Zepbound pens to be kept unrefrigerated (up to 86°F) for up to 21 days. Compounded vials follow the pharmacy's beyond-use date and storage instructions, which can be stricter.</p>`,
+      },
+      {
+        heading: "What happens when you stop taking tirzepatide?",
+        body: `<p><strong>Most people regain weight. In SURMOUNT-4, people who switched from tirzepatide to placebo after 36 weeks regained 14% of their body weight over the following year, while those who stayed on tirzepatide lost a further 5.5%. A 2026 BMJ meta-analysis estimated regain at about 0.8 kg (1.8 lb) a month after stopping GLP-1 drugs.</strong></p>
+<table>
+<thead><tr><th>Study</th><th>Finding</th></tr></thead>
+<tbody>
+<tr><td>SURMOUNT-4 (tirzepatide withdrawal)</td><td>Placebo group regained 14.0% from week 36 to 88; continued group lost a further 5.5% (25.3% total)</td></tr>
+<tr><td>SURMOUNT-4, continued treatment</td><td>89.5% kept at least 80% of their weight loss</td></tr>
+<tr><td>SURMOUNT-1, 3-year prediabetes analysis</td><td>94% lower risk of progressing to type 2 diabetes on tirzepatide; the benefit fell to 88% after 17 weeks off treatment</td></tr>
+<tr><td>BMJ meta-analysis, January 2026</td><td>Regain of about 0.8 kg a month after stopping semaglutide or tirzepatide</td></tr>
+</tbody>
+</table>
+<p><strong>What that means in practice.</strong> For most people, tirzepatide works more like blood-pressure medication than a short course of treatment: the benefit lasts while you take it. That makes long-term price and access just as important as the first month's offer.</p>
+<p><strong>Options if you need to stop or cut back:</strong></p>
+<ul>
+<li><strong>Stay at a lower maintenance dose</strong> - 5 mg is an approved maintenance dose.</li>
+<li><strong>Switch to a lower-cost option</strong> such as compounded tirzepatide, compounded semaglutide or a GLP-1 pill - discuss the trade-offs with your clinician.</li>
+<li><strong>If you stop,</strong> keep protein intake and strength training high, weigh yourself regularly, and agree in advance on how much regain would prompt restarting.</li>
+</ul>
+<p>Our article on <a href="/articles/stopping-glp1-maintenance">stopping a GLP-1</a> covers maintenance in detail.</p>`,
+      },
+      {
+        heading: "Is microdosing tirzepatide worth it?",
+        body: `<p><strong>There is little evidence for "microdosing" tirzepatide - taking doses below the standard 2.5 mg starting dose or staying indefinitely below established steps. The weight-loss results in SURMOUNT-1 came from 5, 10 and 15 mg maintenance doses. Staying at an established lower dose, such as 5 mg, is a recognized strategy; very low "microdoses" are not.</strong></p>
+<p>"Microdosing" has become a popular marketing term, often for compounded products. It can mean several different things, and they are not equally supported:</p>
+<table>
+<thead><tr><th>What people mean</th><th>Evidence</th></tr></thead>
+<tbody>
+<tr><td>Staying at 5 mg instead of climbing to 15 mg</td><td>Supported - 5 mg is a labeled maintenance dose and averaged about 15% weight loss in SURMOUNT-1</td></tr>
+<tr><td>Escalating more slowly than every four weeks</td><td>Reasonable and common; four weeks is a minimum, not a requirement</td></tr>
+<tr><td>Using intermediate compounded doses (for example 3.75 mg)</td><td>Possible with compounded medication; based on clinical judgment, not trials</td></tr>
+<tr><td>Taking tiny doses well below 2.5 mg long-term</td><td>Little evidence on what it achieves</td></tr>
+<tr><td>Taking doses every 10-14 days instead of weekly</td><td>Not how the drug was tested; discuss only with a clinician</td></tr>
+</tbody>
+</table>
+<p>If cost or side effects are what push you toward microdosing, a better first step is to ask your clinician about staying at an established lower dose, slowing escalation, or a provider with flat pricing at every dose.</p>`,
+      },
+      {
+        heading: "Is it safe to buy tirzepatide without a prescription?",
+        body: `<p><strong>No. Tirzepatide sold online without a prescription - often labeled "for research use only" or "not for human consumption" - is not a legitimate medication. The FDA warns these products may be counterfeit, contaminated or mislabeled, and has issued warning letters to sellers. Legitimate tirzepatide always requires a prescription and a licensed pharmacy.</strong></p>
+<p>Gray-market sellers offer freeze-dried "peptide" vials that buyers mix and dose themselves. The FDA's page on unapproved GLP-1 drugs warns consumers against products sold for "research purposes," noting they do not go through FDA review for safety, effectiveness or quality. The agency has sent multiple rounds of warning letters to peptide sellers, and has said a "research use only" label does not protect a seller when the product is clearly intended for people.</p>
+<p><strong>Why it is risky:</strong></p>
+<ul>
+<li><strong>Unknown contents.</strong> The vial may contain the wrong amount of drug, a different drug, or impurities.</li>
+<li><strong>Contamination.</strong> Injectable products must be sterile; there is no assurance these are.</li>
+<li><strong>Dosing errors.</strong> You have to mix and measure yourself, often from a "peptide calculator."</li>
+<li><strong>No medical screening.</strong> Nobody checks for thyroid cancer history, pregnancy, pancreatitis or interactions.</li>
+<li><strong>No recourse</strong> if something goes wrong.</li>
+</ul>
+<p><strong>How to spot a non-pharmacy seller:</strong> no prescription required; "research use only" disclaimers; payment through cryptocurrency or apps only; prices far below any licensed program; no named US pharmacy; and offers of "tirzepatide" alongside unapproved investigational drugs such as retatrutide.</p>`,
+      },
+      {
+        heading: "What are the red flags in an online tirzepatide offer?",
+        body: `<p><strong>The biggest red flags are calling compounded tirzepatide "FDA-approved" or "generic Zepbound," prescribing without a real clinical review, refusing to name the pharmacy, and prices that hide large post-promo increases or long commitments. The FDA has warned dozens of telehealth companies about misleading GLP-1 marketing since 2025.</strong></p>
+<table>
+<thead><tr><th>Red flag</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td>"FDA-approved compounded tirzepatide"</td><td>Compounded drugs are not FDA-approved; this is exactly the kind of claim the FDA has challenged</td></tr>
+<tr><td>"Generic Zepbound" or "same as Zepbound"</td><td>There is no generic tirzepatide in the US; compounded products are not the FDA-approved product</td></tr>
+<tr><td>No questions about thyroid cancer, pregnancy or medications</td><td>Suggests no meaningful clinical screening</td></tr>
+<tr><td>Prescribing to someone with a BMI under 27</td><td>Outside the label; signals a sales-first operation</td></tr>
+<tr><td>Will not name the dispensing pharmacy</td><td>You cannot check its license or record</td></tr>
+<tr><td>No way to reach a clinician about side effects</td><td>Dose changes and side effects need clinical input</td></tr>
+<tr><td>Promo price with no regular price shown</td><td>Your month-two bill may double</td></tr>
+<tr><td>Non-refundable long prepay plans buried at checkout</td><td>Locks you in before you know how you tolerate the drug</td></tr>
+<tr><td>Vial concentration and unit count not stated</td><td>A leading cause of dosing errors with compounded GLP-1s</td></tr>
+</tbody>
+</table>
+<p>We check for these in every review, and disclose regulatory actions prominently - for example, the June 2026 FDA warning letter to <a href="/reviews/altrx">altRx</a>'s parent company over how it marketed compounded semaglutide and tirzepatide.</p>`,
+      },
+      {
+        heading: "What should you ask an online provider before starting tirzepatide?",
+        body: `<p><strong>Ask whether the medication is brand-name Zepbound or compounded tirzepatide, which pharmacy fills it, what you will pay at every dose and after any promotion, how dose changes and side effects are handled, and how cancellation and refunds work. Clear answers to these five questions separate good programs from risky ones.</strong></p>
+<p><strong>About the medication:</strong></p>
+<ol>
+<li>"Is this brand-name Zepbound or compounded tirzepatide?"</li>
+<li>"Which pharmacy fills the prescription, and is it a licensed 503A pharmacy or a 503B outsourcing facility?"</li>
+<li>"What concentration will my vial be, and how many units is each dose?" (compounded only)</li>
+<li>"Does the product contain anything besides tirzepatide?"</li>
+</ol>
+<p><strong>About the price:</strong></p>
+<ol start="5">
+<li>"What will I pay per month at 5 mg, 10 mg and 15 mg?"</li>
+<li>"Is this a promotional price? What is the regular price, and when does it start?"</li>
+<li>"Am I billed monthly or every four weeks? Is any plan prepaid or non-refundable?"</li>
+</ol>
+<p><strong>About care:</strong></p>
+<ol start="8">
+<li>"How do I reach a clinician if I have side effects, and how fast do you reply?"</li>
+<li>"How are dose increases decided - automatically, or after a check-in?"</li>
+<li>"Can you help with insurance or prior authorization for Zepbound?"</li>
+<li>"What happens if your compounded supply changes because of regulation?"</li>
+</ol>
+<p>A trustworthy program answers all of these in writing. If you get vague answers, that tells you what you need to know.</p>`,
+      },
+      {
+        heading: "What comes after tirzepatide?",
+        body: `<p><strong>The next generation is in late-stage trials. Retatrutide, Lilly's investigational GIP/GLP-1/glucagon "triple agonist," produced 28.3% average weight loss at 80 weeks on its top dose in TRIUMPH-1 (Lilly's on-treatment estimate), and Lilly plans to file it with the FDA in early 2027. It is not approved and should not be bought online.</strong></p>
+<table>
+<thead><tr><th>Drug</th><th>Mechanism</th><th>Best trial result</th><th>US status (Nov 2026)</th></tr></thead>
+<tbody>
+<tr><td>Tirzepatide (Zepbound)</td><td>GIP + GLP-1</td><td>20.9% at 72 weeks (SURMOUNT-1)</td><td>Approved</td></tr>
+<tr><td>Retatrutide</td><td>GIP + GLP-1 + glucagon</td><td>28.3% at 80 weeks, on treatment (TRIUMPH-1)</td><td>Filing planned Q1 2027</td></tr>
+<tr><td>CagriSema</td><td>Amylin + GLP-1</td><td>20.4% at 68 weeks (REDEFINE 1); lost head-to-head vs tirzepatide (REDEFINE 4)</td><td>FDA decision expected Q4 2026</td></tr>
+<tr><td>MariTide</td><td>GLP-1 activator, GIP blocker, monthly</td><td>Up to about 20% at 52 weeks, on treatment (phase 2)</td><td>Phase 3</td></tr>
+</tbody>
+</table>
+<p><strong>Should you wait?</strong> For most people, no. Tirzepatide is the most effective approved option, and in the only head-to-head trial against a next-generation drug - CagriSema in REDEFINE 4 - tirzepatide came out ahead. Starting now does not lock you in; switching later is routine. Our <a href="/articles/new-weight-loss-drugs-2026">new weight-loss drugs of 2026</a> guide covers every pipeline drug in detail.</p>`,
+      },
+      {
+        heading: "Is tirzepatide worth it?",
+        body: `<p><strong>For many adults with obesity, yes. Tirzepatide is the most effective approved weight-loss medication on average - about 21% weight loss at the top dose in SURMOUNT-1 - with added benefits such as a 94% lower risk of progressing from prediabetes to diabetes. The trade-offs are cost, common digestive side effects and the likelihood of regain if you stop.</strong></p>
+<table>
+<thead><tr><th>In favor</th><th>Against</th></tr></thead>
+<tbody>
+<tr><td>Largest average weight loss of any approved option (20.9% at 15 mg)</td><td>Ongoing cost: about $1,068-$5,388 a year without coverage</td></tr>
+<tr><td>Beat semaglutide head to head (20.2% vs 13.7%)</td><td>Digestive side effects are common, especially early</td></tr>
+<tr><td>Approved for sleep apnea; strong diabetes-prevention data</td><td>Most people regain weight after stopping</td></tr>
+<tr><td>Once-weekly dosing; brand-name prices have fallen sharply</td><td>Compounded versions are not FDA-approved and face tightening rules</td></tr>
+<tr><td>Medicare coverage available for some through the GLP-1 Bridge</td><td>Employer coverage remains limited</td></tr>
+</tbody>
+</table>
+<p><strong>It is most likely to be worth it if</strong> you meet the label criteria, have weight-related health conditions, have struggled to lose weight with lifestyle changes alone, can tolerate the side effects with slow escalation, and can afford to stay on treatment - or have a realistic plan for maintenance.</p>
+<p><strong>It may be less suitable if</strong> you have a contraindication, are planning pregnancy soon, cannot sustain the cost for long enough to benefit, or would be better served by another option, such as a GLP-1 pill if needles are the barrier.</p>
+<p>The decision belongs to you and a licensed clinician. If you are ready to compare programs, the top three are at the start of this guide and all nine are in our <a href="/">2026 ranking</a>.</p>`,
+      },
+      {
+        heading: "Tirzepatide FAQ: quick answers",
+        body: `<p><strong>Short, sourced answers to the questions we hear most about tirzepatide. Each links to the section of this guide with the detail.</strong></p>
+<p><strong>Is tirzepatide the same as Zepbound?</strong> Tirzepatide is the active ingredient; Zepbound (weight management and sleep apnea) and Mounjaro (type 2 diabetes) are Eli Lilly's brand names for it. Compounded tirzepatide is a pharmacy-made version that is not FDA-approved.</p>
+<p><strong>Is tirzepatide stronger than semaglutide?</strong> On average, yes. In SURMOUNT-5, tirzepatide produced 20.2% weight loss vs 13.7% for semaglutide at 72 weeks.</p>
+<p><strong>How much does Zepbound cost without insurance?</strong> $299 (2.5 mg), $399 (5 mg) and $449 (7.5-15 mg) a month through LillyDirect with refills within 45 days.</p>
+<p><strong>What is the cheapest compounded tirzepatide?</strong> Among the programs we rank, wellmedr at $89 a month, shipped every four weeks, followed by embody at $119 month-to-month.</p>
+<p><strong>Is compounded tirzepatide legal?</strong> Pharmacies may still compound it for an individual patient's documented clinical need, but broad copying ended when the FDA declared the shortage over in December 2024, and the rules have tightened since. See the legal section above.</p>
+<p><strong>How fast does tirzepatide work?</strong> Appetite changes often start within weeks; weight loss builds over months as the dose rises, and in SURMOUNT-1 continued until roughly the end of the 72-week trial.</p>
+<p><strong>What is the maximum dose?</strong> 15 mg once a week.</p>
+<p><strong>Do I have to reach 15 mg?</strong> No. 5 mg and 10 mg are labeled maintenance doses; 5 mg averaged about 15% weight loss in SURMOUNT-1.</p>
+<p><strong>Can I take tirzepatide with birth control pills?</strong> The Zepbound label advises switching to a non-oral method, or adding a barrier method, for four weeks after starting and after each dose increase.</p>
+<p><strong>Will I regain weight if I stop?</strong> Most people do. In SURMOUNT-4, people switched to placebo regained 14% of their body weight over a year.</p>
+<p><strong>Does Medicare cover Zepbound?</strong> Through the GLP-1 Bridge, eligible Part D enrollees can get the Zepbound KwikPen for $50 a month from July 2026 through December 2027.</p>
+<p><strong>Is there a tirzepatide pill?</strong> No. The GLP-1 pills approved for weight management are the Wegovy pill (semaglutide) and Foundayo (orforglipron).</p>`,
+      },
+      {
+        heading: "Tirzepatide terms explained",
+        body: `<p><strong>The terms you will see on labels, prescriptions and provider websites, in plain English.</strong></p>
+<ul>
+<li><strong>Tirzepatide:</strong> the active ingredient in Zepbound and Mounjaro; a GIP and GLP-1 receptor agonist.</li>
+<li><strong>Zepbound:</strong> Lilly's brand of tirzepatide for chronic weight management and obstructive sleep apnea.</li>
+<li><strong>Mounjaro:</strong> Lilly's brand of tirzepatide for type 2 diabetes.</li>
+<li><strong>Compounded tirzepatide:</strong> a version prepared by a compounding pharmacy; not FDA-approved.</li>
+<li><strong>503A pharmacy:</strong> a state-licensed compounding pharmacy that prepares medication for individual patients' prescriptions.</li>
+<li><strong>503B outsourcing facility:</strong> an FDA-registered facility that can compound larger batches under stricter manufacturing standards.</li>
+<li><strong>Essentially a copy:</strong> FDA's term for a compounded drug that duplicates a commercially available approved drug without a clinical difference for the patient - restricted outside of shortages.</li>
+<li><strong>Drug shortage list:</strong> FDA's list of drugs in short supply; tirzepatide was on it from 2022 until December 19, 2024.</li>
+<li><strong>Titration:</strong> raising the dose gradually - for tirzepatide, 2.5 mg steps at least four weeks apart.</li>
+<li><strong>Maintenance dose:</strong> the dose you stay on long term - 5, 10 or 15 mg for Zepbound.</li>
+<li><strong>KwikPen:</strong> Lilly's multi-dose pen holding four weekly doses.</li>
+<li><strong>Beyond-use date:</strong> the date after which a compounded medication should not be used.</li>
+<li><strong>Prior authorization:</strong> an insurer's requirement to approve a drug before covering it.</li>
+<li><strong>Treatment-policy estimand:</strong> a trial result that counts everyone randomized, including people who stopped - the conservative figure we use throughout.</li>
+</ul>`,
+      },
+      {
+        heading: "Sources",
+        body: `<p><strong>The facts and figures in this guide come from FDA documents, prescribing information, peer-reviewed trials, government programs, company filings and independent health-policy research. Provider prices are provider-published figures we checked in fall 2026 and can change.</strong></p>
+<p><strong>FDA and regulation</strong></p>
+<ul>
+<li>FDA declaratory order on the resolution of the tirzepatide shortage (December 2024): <a href="https://www.fda.gov/media/184606/download">fda.gov</a></li>
+<li>FDA, clarification of policies for compounders as national GLP-1 supply stabilizes: <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize">fda.gov</a></li>
+<li>FDA, concerns with unapproved GLP-1 drugs used for weight loss (adverse event counts): <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss">fda.gov</a></li>
+<li>FDA proposes to exclude semaglutide, tirzepatide and liraglutide from the 503B bulks list (April 2026): <a href="https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list">fda.gov</a></li>
+<li>FDA warns 30 telehealth companies against illegal marketing of compounded GLP-1s (March 2026): <a href="https://www.fda.gov/news-events/press-announcements/fda-warns-30-telehealth-companies-against-illegal-marketing-compounded-glp-1s">fda.gov</a></li>
+<li>FDA warning letter to Empower Pharmacy (September 2026): <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/empower-clinic-services-llc-dba-empower-pharmacy-738238-09182026">fda.gov</a></li>
+<li>FDA, removal of the suicidal behavior and ideation warning from GLP-1 labels (January 2026): <a href="https://www.fda.gov/drugs/drug-safety-communications/fda-requests-removal-suicidal-behavior-and-ideation-warning-glucagon-peptide-1-receptor-agonist-glp">fda.gov</a></li>
+<li>Zepbound Medication Guide (Eli Lilly): <a href="https://pi.lilly.com/us/zepbound-us-mg.pdf">lilly.com</a></li>
+</ul>
+<p><strong>Clinical trials</strong></p>
+<ul>
+<li>ACC summary of SURMOUNT-1: <a href="https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2022/08/04/15/32/SURMOUNT-1">acc.org</a></li>
+<li>ACC summary of SURMOUNT-5 (tirzepatide vs semaglutide): <a href="https://www.acc.org/latest-in-cardiology/journal-scans/2025/07/10/09/09/surmount-5">acc.org</a></li>
+<li>Eli Lilly, tirzepatide reduced the risk of developing type 2 diabetes by 94%: <a href="https://investor.lilly.com/news-releases/news-release-details/tirzepatide-reduced-risk-developing-type-2-diabetes-94-adults">lilly.com</a></li>
+<li>SURMOUNT-OSA results: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11598664">nih.gov</a></li>
+<li>SURMOUNT-1 body-composition analysis: <a href="https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.16275">Wiley</a></li>
+<li>Tirzepatide, energy intake and food reward (Nature Medicine, 2025): <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12443625/">nih.gov</a></li>
+<li>Cleveland Clinic, real-world weight loss with injectable obesity medications (2025): <a href="https://newsroom.clevelandclinic.org/2025/06/10/cleveland-clinic-research-finds-injectable-medications-for-obesity-produce-smaller-weight-loss-in-a-real-world-setting-compared-to-randomized-clinical-trials">clevelandclinic.org</a></li>
+<li>University of Oxford, stopping weight-loss drugs linked to faster regain (BMJ, 2026): <a href="https://www.ox.ac.uk/news/2026-01-08-new-study-finds-stopping-weight-loss-drugs-linked-faster-regain-ending-diet">ox.ac.uk</a></li>
+</ul>
+<p><strong>Prices, coverage and market</strong></p>
+<ul>
+<li>LillyDirect, Zepbound self-pay pricing: <a href="https://www.lilly.com/lillydirect/zepbound">lilly.com</a></li>
+<li>CMS, Medicare GLP-1 Bridge: <a href="https://www.cms.gov/medicare/coverage/prescription-drug-coverage/medicare-glp-1-bridge">cms.gov</a></li>
+<li>KFF, what Medicare's temporary GLP-1 program means for beneficiaries: <a href="https://www.kff.org/quick-insights/what-medicares-temporary-program-covering-glp-1s-for-obesity-means-for-beneficiaries/">kff.org</a></li>
+<li>KFF 2026 Employer Health Benefits Survey: <a href="https://www.kff.org/health-costs/2026-employer-health-benefits-survey/">kff.org</a></li>
+<li>Managed Healthcare Executive, CVS Caremark to put Zepbound back on its formulary (2026): <a href="https://www.managedhealthcareexecutive.com/view/cvs-caremark-to-put-zepbound-back-on-formulary-and-add-foundayo">managedhealthcareexecutive.com</a></li>
+<li>Epic Research, GLP-1 use has more than quadrupled since 2021 (May 2026): <a href="https://epicresearch.org/articles/glp-1-use-has-more-than-quadrupled-since-2021-as-obesity-rates-continue-to-show-signs-of-decline">epicresearch.org</a></li>
+<li>Eli Lilly 2025 annual report (Form 10-K): <a href="https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm">sec.gov</a></li>
+<li>Eli Lilly third-quarter 2026 results: <a href="https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm">sec.gov</a></li>
+</ul>
+${DISCLAIMER}`,
+      },
+    ],
+  },
+  {
     slug: "what-to-eat-on-glp1",
     title: "What to Eat on a GLP-1: Protein, Fiber, Water and Nutrients (2026 Guide)",
     description:
@@ -2478,7 +3339,7 @@ ${DISCLAIMER}`,
 <li><strong>Expect a transition period.</strong> If you step down to a starting dose, appetite may return somewhat for a few weeks. That does not mean the switch failed.</li>
 <li><strong>New math.</strong> If you use compounded vials, your unit count will change completely. A semaglutide habit of "20 units" says nothing about tirzepatide. Recalculate from the new label.</li>
 </ul>
-<p><strong>Price is part of the decision.</strong> At most programs tirzepatide costs more than semaglutide: among the providers we rank, compounded semaglutide starts between $49 and $199 a month and compounded tirzepatide between $89 and $299. Two exceptions make switching cheaper: <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either drug, and several programs, including <a href="/reviews/embody">embody</a> and <a href="/reviews/altrx">altRx</a>, charge one price at every dose of each drug, so a switch changes the bill only once. Our <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> comparison covers who tends to do better on each.</p>`,
+<p><strong>Price is part of the decision.</strong> At most programs tirzepatide costs more than semaglutide: among the providers we rank, compounded semaglutide starts between $49 and $199 a month and compounded tirzepatide between $89 and $299. Two exceptions make switching cheaper: <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either drug, and several programs, including <a href="/reviews/embody">embody</a> and <a href="/reviews/altrx">altRx</a>, charge one price at every dose of each drug, so a switch changes the bill only once. Our <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a> comparison covers who tends to do better on each. If you are leaning toward tirzepatide, our <a href="/articles/tirzepatide-online">guide to getting tirzepatide online</a> compares every route and price.</p>`,
       },
       {
         heading: "How do I switch from a brand-name pen to compounded vials, or back?",
@@ -2863,7 +3724,7 @@ ${DISCLAIMER}`,
 <li><strong>If you want one price whichever you choose,</strong> <a href="/reviews/directmeds">DirectMeds</a> charges $147 a month for either, so switching later does not change your bill.</li>
 <li><strong>If you stall or struggle with side effects on one,</strong> your clinician may suggest trying the other.</li>
 </ul>
-<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. Our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page collects the key numbers on usage, results, stopping rates and costs. We go deeper on tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>, and every dose step - in milligrams and syringe units - is in our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a>.</p>`,
+<p>Remember that trial averages hide wide individual variation, and the trials used brand-name medication alongside diet and activity support. Our <a href="/articles/glp1-weight-loss-statistics">GLP-1 weight loss statistics</a> page collects the key numbers on usage, results, stopping rates and costs. We go deeper on tolerability and cost in <a href="/articles/semaglutide-vs-tirzepatide">semaglutide vs tirzepatide</a>, and every dose step - in milligrams and syringe units - is in our <a href="/articles/glp1-dosage-guide">GLP-1 dosage guide</a>. For prices, legality and providers specific to tirzepatide, see <a href="/articles/tirzepatide-online">tirzepatide online</a>.</p>`,
       },
       {
         heading: "Oral vs injectable GLP-1s: which is better?",
@@ -2984,7 +3845,7 @@ ${DISCLAIMER}`,
 <li><strong>trimrx's $149 semaglutide price includes a $140 discount</strong> applied at signup; check what applies on later refills.</li>
 <li><strong>SHED's prices are starting prices</strong> and may vary by plan.</li>
 </ul>
-<p><strong>Brand-name, no insurance.</strong> At manufacturer self-pay prices (October 2026), 12 months of Wegovy at a maintenance dose is $4,188 (12 x $349), Wegovy HD about $4,788 (12 x $399), Zepbound $5,388 with on-time refills (12 x $449) and either GLP-1 pill about $3,588 (12 x $299). Telehealth brand shelves can charge more, so compare against NovoCare and LillyDirect first.</p>
+<p><strong>Brand-name, no insurance.</strong> At manufacturer self-pay prices (October 2026), 12 months of Wegovy at a maintenance dose is $4,188 (12 x $349), Wegovy HD about $4,788 (12 x $399), Zepbound $5,388 with on-time refills (12 x $449) and either GLP-1 pill about $3,588 (12 x $299). Telehealth brand shelves can charge more, so compare against NovoCare and LillyDirect first. Our <a href="/articles/tirzepatide-online">tirzepatide online</a> guide breaks down Zepbound and compounded tirzepatide costs in detail.</p>
 <p><strong>Brand-name through ro.</strong> ro's membership alone costs $1,678 in year one month-to-month ($39 + 11 x $149), or about $888 on the annual plan (12 x about $74), before medication. If your insurance covers Wegovy or Zepbound with a low copay, the total can still come out below many cash-pay programs; if coverage is denied, you pay the manufacturer's self-pay price on top of the membership.</p>
 <p>The practical takeaway: the cheapest program in month one is not always the cheapest program in month twelve. Decide how long you realistically expect to stay on treatment, then compare the year, not the month.</p>`,
       },

@@ -25,6 +25,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 // Search titles that fit Google's ~60-char display (shown without the
 // " | The Top Weight Loss" suffix). Descriptions stay the article's own.
 const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description?: string }> = {
+  "tirzepatide-online": { title: "Tirzepatide Online (2026): Cost, Compounded vs Zepbound, Top Picks" },
   "what-to-eat-on-glp1": { title: "What to Eat on a GLP-1 (2026): Protein, Fiber & Nutrient Guide" },
   "glp1-weight-loss-statistics": { title: "GLP-1 Weight Loss Statistics 2026: Usage, Results & Costs" },
   "new-weight-loss-drugs-2026": { title: "New Weight-Loss Drugs 2026: GLP-1 Pills, Retatrutide, CagriSema" },
