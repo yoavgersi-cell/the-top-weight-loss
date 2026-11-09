@@ -157,6 +157,15 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
   // alternatives, etc.) gets a CRO block featuring our three GLP-1 partners
   // (embody, altRx, trimrx) with the same comparison-page cards.
   const showPartnerCro = isWeightLoss && slug.endsWith("-alternatives");
+  // This site's buyer guides that carry the ranked top-3 provider cards right
+  // after the intro (same cards and order as the homepage ranking).
+  const TOP3_BUYER_GUIDES: Record<string, { title: string; subtitle: string }> = {
+    "tirzepatide-online": {
+      title: "Our top 3 online GLP-1 providers for tirzepatide",
+      subtitle: "Ranked by verified price, medication options, clinical support and delivery - the same cards as our full comparison.",
+    },
+  };
+  const top3Guide = TOP3_BUYER_GUIDES[slug];
 
   // Byline author: match the article's author to a team member, else the lead
   const author = experts.find((e) => e.name === article.author) ?? experts[0];
@@ -439,6 +448,16 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                     limit={3}
                     title="Our top 3 tirzepatide providers"
                     subtitle="Ranked by price, plans and verified reviews - the same cards from our full comparison."
+                  />
+                )}
+
+                {i === 0 && top3Guide && (
+                  <TopProvidersBlock
+                    config={config}
+                    linkPrefix={ctx.prefix}
+                    limit={3}
+                    title={top3Guide.title}
+                    subtitle={top3Guide.subtitle}
                   />
                 )}
 
